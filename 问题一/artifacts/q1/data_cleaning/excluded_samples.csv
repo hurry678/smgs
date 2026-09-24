@@ -1,0 +1,1 @@
+﻿sample_id,video_id,clip_id,text,text_chars,label,annotation,source_video_path,file_exists,file_size_bytes,ffprobe_ok,video_stream_count,audio_stream_count,video_codec,width,height,frame_rate,audio_codec,sample_rate,channels,duration_sec,full_decode_ok,text_nonempty,label_valid,annotation_valid,annotation_consistent,quality_status,exclusion_reasons,probe_error,decode_error

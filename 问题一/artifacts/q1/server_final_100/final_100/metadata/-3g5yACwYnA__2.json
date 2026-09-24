@@ -1,0 +1,617 @@
+{
+  "sample_id": "-3g5yACwYnA$_$2",
+  "video_id": "-3g5yACwYnA",
+  "clip_id": "2",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/2.mp4",
+  "source_sha256": "0619c01f137d017c15c058176f18a575919189c7e81ebd2bfb993afdb86f3de7",
+  "word_tokens": [
+    "Key",
+    "Polymer",
+    "brings",
+    "a",
+    "technical",
+    "aspect",
+    "to",
+    "our",
+    "operation",
+    "that",
+    "we",
+    "don't",
+    "have",
+    "internally"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-3g5yACwYnA__2.npz",
+    "sample_id": "-3g5yACwYnA$_$2",
+    "raw_text": "Key Polymer brings a technical aspect to our operation that we don't have internally.",
+    "word_tokens": [
+      "Key",
+      "Polymer",
+      "brings",
+      "a",
+      "technical",
+      "aspect",
+      "to",
+      "our",
+      "operation",
+      "that",
+      "we",
+      "don't",
+      "have",
+      "internally"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 19
+    },
+    "feature_dim": 768,
+    "word_count": 14
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 147701,
+    "duration_sec": 9.2313125,
+    "frame_count": 921,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 373,
+    "runs": 50
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 278,
+    "sampled_frames": 47,
+    "detected_frames": 47,
+    "detection_rate": 1.0,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        471,
+        105,
+        314,
+        314
+      ],
+      [
+        477,
+        110,
+        303,
+        303
+      ],
+      [
+        477,
+        111,
+        301,
+        301
+      ],
+      [
+        481,
+        113,
+        300,
+        300
+      ],
+      [
+        448,
+        114,
+        312,
+        312
+      ],
+      [
+        448,
+        114,
+        312,
+        312
+      ],
+      [
+        448,
+        116,
+        310,
+        310
+      ],
+      [
+        452,
+        119,
+        305,
+        305
+      ],
+      [
+        449,
+        117,
+        313,
+        313
+      ],
+      [
+        464,
+        119,
+        300,
+        300
+      ],
+      [
+        467,
+        116,
+        305,
+        305
+      ],
+      [
+        468,
+        117,
+        298,
+        298
+      ],
+      [
+        460,
+        115,
+        308,
+        308
+      ],
+      [
+        464,
+        109,
+        306,
+        306
+      ],
+      [
+        461,
+        110,
+        305,
+        305
+      ],
+      [
+        453,
+        113,
+        310,
+        310
+      ],
+      [
+        442,
+        115,
+        310,
+        310
+      ],
+      [
+        442,
+        114,
+        305,
+        305
+      ],
+      [
+        448,
+        116,
+        302,
+        302
+      ],
+      [
+        457,
+        112,
+        305,
+        305
+      ],
+      [
+        464,
+        116,
+        300,
+        300
+      ],
+      [
+        461,
+        111,
+        306,
+        306
+      ],
+      [
+        467,
+        113,
+        309,
+        309
+      ],
+      [
+        468,
+        117,
+        305,
+        305
+      ],
+      [
+        468,
+        120,
+        302,
+        302
+      ],
+      [
+        463,
+        116,
+        302,
+        302
+      ],
+      [
+        453,
+        115,
+        306,
+        306
+      ],
+      [
+        450,
+        114,
+        306,
+        306
+      ],
+      [
+        449,
+        113,
+        308,
+        308
+      ],
+      [
+        447,
+        114,
+        309,
+        309
+      ],
+      [
+        448,
+        110,
+        315,
+        315
+      ],
+      [
+        451,
+        114,
+        311,
+        311
+      ],
+      [
+        449,
+        119,
+        304,
+        304
+      ],
+      [
+        452,
+        123,
+        293,
+        293
+      ],
+      [
+        446,
+        115,
+        302,
+        302
+      ],
+      [
+        449,
+        116,
+        303,
+        303
+      ],
+      [
+        449,
+        115,
+        306,
+        306
+      ],
+      [
+        453,
+        112,
+        311,
+        311
+      ],
+      [
+        461,
+        120,
+        301,
+        301
+      ],
+      [
+        464,
+        120,
+        301,
+        301
+      ],
+      [
+        462,
+        118,
+        311,
+        311
+      ],
+      [
+        463,
+        119,
+        310,
+        310
+      ],
+      [
+        460,
+        116,
+        311,
+        311
+      ],
+      [
+        462,
+        120,
+        304,
+        304
+      ],
+      [
+        463,
+        121,
+        299,
+        299
+      ],
+      [
+        458,
+        118,
+        306,
+        306
+      ],
+      [
+        454,
+        120,
+        302,
+        302
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 47,
+    "runs": 1
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 185,
+    "group_size_audio_frames": 5,
+    "word_count": 14,
+    "assigned_word_count": 14,
+    "coverage": 1.0,
+    "mean_confidence": 0.7391787171363831,
+    "min_confidence": 0.5296503305435181,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.7243398904800415,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

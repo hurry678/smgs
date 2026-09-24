@@ -1,0 +1,492 @@
+{
+  "sample_id": "-tANM6ETl_M$_$3",
+  "video_id": "-tANM6ETl_M",
+  "clip_id": "3",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-tANM6ETl_M/3.mp4",
+  "source_sha256": "6d3af064c060dad3816a9e1dfa00101faebd8b7da7d8ceea85b0bc0fca70abd6",
+  "word_tokens": [
+    "The",
+    "first",
+    "place",
+    "is",
+    "either",
+    "you",
+    "have",
+    "a",
+    "prospect",
+    "or",
+    "a",
+    "customer",
+    "who's",
+    "never",
+    "done",
+    "it",
+    "before",
+    "or",
+    "they've",
+    "never",
+    "tried",
+    "it"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-tANM6ETl_M__3.npz",
+    "sample_id": "-tANM6ETl_M$_$3",
+    "raw_text": "The first place is either you have a prospect, or a customer who's never done it before, or they've never tried it.",
+    "word_tokens": [
+      "The",
+      "first",
+      "place",
+      "is",
+      "either",
+      "you",
+      "have",
+      "a",
+      "prospect",
+      "or",
+      "a",
+      "customer",
+      "who's",
+      "never",
+      "done",
+      "it",
+      "before",
+      "or",
+      "they've",
+      "never",
+      "tried",
+      "it"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 31
+    },
+    "feature_dim": 768,
+    "word_count": 22
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 105658,
+    "duration_sec": 6.603625,
+    "frame_count": 658,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 371,
+    "runs": 25
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 200,
+    "sampled_frames": 34,
+    "detected_frames": 32,
+    "detection_rate": 0.9411764705882353,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        559,
+        45,
+        215,
+        215
+      ],
+      [
+        545,
+        40,
+        221,
+        221
+      ],
+      [
+        537,
+        40,
+        217,
+        217
+      ],
+      [
+        525,
+        32,
+        209,
+        209
+      ],
+      [
+        529,
+        38,
+        216,
+        216
+      ],
+      [
+        526,
+        36,
+        227,
+        227
+      ],
+      [
+        527,
+        38,
+        218,
+        218
+      ],
+      [
+        514,
+        38,
+        227,
+        227
+      ],
+      [
+        515,
+        34,
+        236,
+        236
+      ],
+      [
+        521,
+        36,
+        232,
+        232
+      ],
+      [
+        511,
+        52,
+        211,
+        211
+      ],
+      [
+        512,
+        64,
+        185,
+        185
+      ],
+      [
+        508,
+        51,
+        235,
+        235
+      ],
+      [
+        525,
+        49,
+        225,
+        225
+      ],
+      [
+        510,
+        53,
+        210,
+        210
+      ],
+      [
+        511,
+        52,
+        211,
+        211
+      ],
+      [
+        515,
+        39,
+        223,
+        223
+      ],
+      [
+        520,
+        42,
+        201,
+        201
+      ],
+      [
+        516,
+        50,
+        221,
+        221
+      ],
+      [
+        518,
+        38,
+        230,
+        230
+      ],
+      [
+        519,
+        39,
+        223,
+        223
+      ],
+      [
+        519,
+        35,
+        236,
+        236
+      ],
+      [
+        525,
+        29,
+        225,
+        225
+      ],
+      [
+        533,
+        24,
+        227,
+        227
+      ],
+      [
+        539,
+        23,
+        218,
+        218
+      ],
+      [],
+      [
+        743,
+        413,
+        70,
+        70
+      ],
+      [
+        507,
+        51,
+        223,
+        223
+      ],
+      [
+        544,
+        28,
+        254,
+        254
+      ],
+      [
+        552,
+        28,
+        243,
+        243
+      ],
+      [
+        550,
+        32,
+        238,
+        238
+      ],
+      [
+        543,
+        29,
+        243,
+        243
+      ],
+      [
+        516,
+        33,
+        210,
+        210
+      ],
+      []
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 32,
+    "runs": 2
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 132,
+    "group_size_audio_frames": 5,
+    "word_count": 22,
+    "assigned_word_count": 22,
+    "coverage": 1.0,
+    "mean_confidence": 0.7364963889122009,
+    "min_confidence": 0.5732966661453247,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.8039528727531433,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.5,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

@@ -1,0 +1,763 @@
+{
+  "sample_id": "-tPCytz4rww$_$12",
+  "video_id": "-tPCytz4rww",
+  "clip_id": "12",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-tPCytz4rww/12.mp4",
+  "source_sha256": "e3c7f9cd67ad2d20fef997696dc278361f97f027db58762e22104e5720d509d5",
+  "word_tokens": [
+    "No",
+    "less",
+    "than",
+    "eight",
+    "hundred",
+    "squire",
+    "feet",
+    "and",
+    "going",
+    "to",
+    "similar",
+    "in",
+    "similar",
+    "with",
+    "bedrooms",
+    "and",
+    "bathrooms",
+    "as",
+    "well",
+    "and",
+    "hopefully",
+    "the",
+    "complexes",
+    "have",
+    "similar",
+    "amenities"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-tPCytz4rww__12.npz",
+    "sample_id": "-tPCytz4rww$_$12",
+    "raw_text": "No less than eight hundred squire feet and going to similar in, similar with bedrooms and bathrooms as well and hopefully the complexes have similar amenities.",
+    "word_tokens": [
+      "No",
+      "less",
+      "than",
+      "eight",
+      "hundred",
+      "squire",
+      "feet",
+      "and",
+      "going",
+      "to",
+      "similar",
+      "in",
+      "similar",
+      "with",
+      "bedrooms",
+      "and",
+      "bathrooms",
+      "as",
+      "well",
+      "and",
+      "hopefully",
+      "the",
+      "complexes",
+      "have",
+      "similar",
+      "amenities"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 30
+    },
+    "feature_dim": 768,
+    "word_count": 26
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 187779,
+    "duration_sec": 11.7361875,
+    "frame_count": 1172,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 218,
+    "runs": 40
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 353,
+    "sampled_frames": 59,
+    "detected_frames": 59,
+    "detection_rate": 1.0,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        224,
+        33,
+        71,
+        71
+      ],
+      [
+        223,
+        32,
+        74,
+        74
+      ],
+      [
+        222,
+        33,
+        73,
+        73
+      ],
+      [
+        223,
+        33,
+        73,
+        73
+      ],
+      [
+        224,
+        34,
+        72,
+        72
+      ],
+      [
+        224,
+        33,
+        72,
+        72
+      ],
+      [
+        223,
+        32,
+        73,
+        73
+      ],
+      [
+        225,
+        33,
+        73,
+        73
+      ],
+      [
+        228,
+        32,
+        71,
+        71
+      ],
+      [
+        230,
+        33,
+        72,
+        72
+      ],
+      [
+        230,
+        32,
+        72,
+        72
+      ],
+      [
+        230,
+        32,
+        72,
+        72
+      ],
+      [
+        227,
+        32,
+        74,
+        74
+      ],
+      [
+        225,
+        36,
+        72,
+        72
+      ],
+      [
+        221,
+        39,
+        70,
+        70
+      ],
+      [
+        222,
+        38,
+        69,
+        69
+      ],
+      [
+        222,
+        37,
+        70,
+        70
+      ],
+      [
+        224,
+        36,
+        71,
+        71
+      ],
+      [
+        225,
+        35,
+        72,
+        72
+      ],
+      [
+        226,
+        35,
+        72,
+        72
+      ],
+      [
+        227,
+        35,
+        72,
+        72
+      ],
+      [
+        228,
+        34,
+        71,
+        71
+      ],
+      [
+        227,
+        35,
+        72,
+        72
+      ],
+      [
+        227,
+        36,
+        70,
+        70
+      ],
+      [
+        226,
+        35,
+        72,
+        72
+      ],
+      [
+        227,
+        36,
+        71,
+        71
+      ],
+      [
+        228,
+        33,
+        73,
+        73
+      ],
+      [
+        229,
+        33,
+        74,
+        74
+      ],
+      [
+        230,
+        33,
+        73,
+        73
+      ],
+      [
+        230,
+        34,
+        72,
+        72
+      ],
+      [
+        227,
+        33,
+        73,
+        73
+      ],
+      [
+        228,
+        30,
+        72,
+        72
+      ],
+      [
+        226,
+        32,
+        74,
+        74
+      ],
+      [
+        227,
+        32,
+        73,
+        73
+      ],
+      [
+        229,
+        32,
+        71,
+        71
+      ],
+      [
+        229,
+        31,
+        73,
+        73
+      ],
+      [
+        228,
+        30,
+        73,
+        73
+      ],
+      [
+        228,
+        29,
+        74,
+        74
+      ],
+      [
+        228,
+        29,
+        74,
+        74
+      ],
+      [
+        227,
+        30,
+        76,
+        76
+      ],
+      [
+        229,
+        31,
+        74,
+        74
+      ],
+      [
+        229,
+        32,
+        73,
+        73
+      ],
+      [
+        229,
+        31,
+        74,
+        74
+      ],
+      [
+        227,
+        33,
+        73,
+        73
+      ],
+      [
+        226,
+        34,
+        72,
+        72
+      ],
+      [
+        226,
+        35,
+        72,
+        72
+      ],
+      [
+        226,
+        37,
+        72,
+        72
+      ],
+      [
+        226,
+        37,
+        73,
+        73
+      ],
+      [
+        225,
+        38,
+        73,
+        73
+      ],
+      [
+        227,
+        38,
+        73,
+        73
+      ],
+      [
+        230,
+        38,
+        72,
+        72
+      ],
+      [
+        232,
+        36,
+        74,
+        74
+      ],
+      [
+        238,
+        33,
+        76,
+        76
+      ],
+      [
+        250,
+        34,
+        75,
+        75
+      ],
+      [
+        223,
+        120,
+        102,
+        102
+      ],
+      [
+        252,
+        34,
+        74,
+        74
+      ],
+      [
+        252,
+        33,
+        76,
+        76
+      ],
+      [
+        252,
+        32,
+        75,
+        75
+      ],
+      [
+        253,
+        33,
+        75,
+        75
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 59,
+    "runs": 1
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 235,
+    "group_size_audio_frames": 5,
+    "word_count": 26,
+    "assigned_word_count": 26,
+    "coverage": 1.0,
+    "mean_confidence": 0.7730162739753723,
+    "min_confidence": 0.5099905729293823,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.7852390736341476,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.5,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

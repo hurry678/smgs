@@ -1,0 +1,309 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$5",
+  "video_id": "-ri04Z7vwnc",
+  "clip_id": "5",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-ri04Z7vwnc/5.mp4",
+  "source_sha256": "2a5e4319bf592a18c8eb5117f7c7ec30c6c79528f9eac9fe4fb85bf70f277736",
+  "word_tokens": [
+    "So",
+    "I",
+    "think",
+    "it's",
+    "important",
+    "to",
+    "discuss",
+    "finances"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-ri04Z7vwnc__5.npz",
+    "sample_id": "-ri04Z7vwnc$_$5",
+    "raw_text": "\" So I think it's important to discuss finances",
+    "word_tokens": [
+      "So",
+      "I",
+      "think",
+      "it's",
+      "important",
+      "to",
+      "discuss",
+      "finances"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 13
+    },
+    "feature_dim": 768,
+    "word_count": 8
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 55036,
+    "duration_sec": 3.43975,
+    "frame_count": 342,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 248,
+    "runs": 16
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 23.976046466253432,
+    "target_fps": 5.0,
+    "sample_step_frames": 5,
+    "decoded_frames": 83,
+    "sampled_frames": 17,
+    "detected_frames": 17,
+    "detection_rate": 1.0,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        337,
+        121,
+        223,
+        223
+      ],
+      [
+        334,
+        116,
+        228,
+        228
+      ],
+      [
+        338,
+        118,
+        223,
+        223
+      ],
+      [
+        342,
+        121,
+        223,
+        223
+      ],
+      [
+        347,
+        124,
+        217,
+        217
+      ],
+      [
+        348,
+        124,
+        220,
+        220
+      ],
+      [
+        351,
+        128,
+        222,
+        222
+      ],
+      [
+        358,
+        128,
+        217,
+        217
+      ],
+      [
+        354,
+        124,
+        221,
+        221
+      ],
+      [
+        350,
+        121,
+        223,
+        223
+      ],
+      [
+        346,
+        126,
+        209,
+        209
+      ],
+      [
+        328,
+        120,
+        221,
+        221
+      ],
+      [
+        322,
+        120,
+        230,
+        230
+      ],
+      [
+        335,
+        119,
+        225,
+        225
+      ],
+      [
+        345,
+        121,
+        220,
+        220
+      ],
+      [
+        346,
+        121,
+        224,
+        224
+      ],
+      [
+        343,
+        119,
+        224,
+        224
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 17,
+    "runs": 1
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 69,
+    "group_size_audio_frames": 5,
+    "word_count": 8,
+    "assigned_word_count": 8,
+    "coverage": 1.0,
+    "mean_confidence": 0.6759285926818848,
+    "min_confidence": 0.5498353242874146,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.5031725168228148,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

@@ -1,0 +1,462 @@
+{
+  "sample_id": "-egA8-b7-3M$_$6",
+  "video_id": "-egA8-b7-3M",
+  "clip_id": "6",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/6.mp4",
+  "source_sha256": "2e88a00d5e55863aa956b4b0949fc0e4f2975ccfd83b3194957f6fca86ecfce0",
+  "word_tokens": [
+    "First",
+    "exhibiting",
+    "is",
+    "a",
+    "wonderful",
+    "opportunity",
+    "to",
+    "network",
+    "with",
+    "other",
+    "legal",
+    "vendors"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-egA8-b7-3M__6.npz",
+    "sample_id": "-egA8-b7-3M$_$6",
+    "raw_text": "First exhibiting is a wonderful opportunity to network with other legal vendors.",
+    "word_tokens": [
+      "First",
+      "exhibiting",
+      "is",
+      "a",
+      "wonderful",
+      "opportunity",
+      "to",
+      "network",
+      "with",
+      "other",
+      "legal",
+      "vendors"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 15
+    },
+    "feature_dim": 768,
+    "word_count": 12
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 98930,
+    "duration_sec": 6.183125,
+    "frame_count": 616,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 407,
+    "runs": 12
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 187,
+    "sampled_frames": 32,
+    "detected_frames": 32,
+    "detection_rate": 1.0,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        320,
+        73,
+        123,
+        123
+      ],
+      [
+        320,
+        76,
+        119,
+        119
+      ],
+      [
+        317,
+        83,
+        117,
+        117
+      ],
+      [
+        317,
+        84,
+        119,
+        119
+      ],
+      [
+        316,
+        81,
+        120,
+        120
+      ],
+      [
+        323,
+        76,
+        120,
+        120
+      ],
+      [
+        327,
+        71,
+        125,
+        125
+      ],
+      [
+        331,
+        73,
+        118,
+        118
+      ],
+      [
+        328,
+        71,
+        120,
+        120
+      ],
+      [
+        327,
+        71,
+        118,
+        118
+      ],
+      [
+        326,
+        71,
+        121,
+        121
+      ],
+      [
+        322,
+        71,
+        123,
+        123
+      ],
+      [
+        314,
+        72,
+        123,
+        123
+      ],
+      [
+        313,
+        73,
+        124,
+        124
+      ],
+      [
+        316,
+        74,
+        123,
+        123
+      ],
+      [
+        318,
+        74,
+        123,
+        123
+      ],
+      [
+        314,
+        71,
+        127,
+        127
+      ],
+      [
+        309,
+        75,
+        123,
+        123
+      ],
+      [
+        311,
+        76,
+        114,
+        114
+      ],
+      [
+        312,
+        73,
+        120,
+        120
+      ],
+      [
+        314,
+        75,
+        120,
+        120
+      ],
+      [
+        313,
+        79,
+        115,
+        115
+      ],
+      [
+        316,
+        78,
+        119,
+        119
+      ],
+      [
+        317,
+        78,
+        120,
+        120
+      ],
+      [
+        322,
+        76,
+        123,
+        123
+      ],
+      [
+        326,
+        79,
+        117,
+        117
+      ],
+      [
+        324,
+        78,
+        118,
+        118
+      ],
+      [
+        324,
+        78,
+        119,
+        119
+      ],
+      [
+        325,
+        77,
+        121,
+        121
+      ],
+      [
+        325,
+        75,
+        120,
+        120
+      ],
+      [
+        326,
+        75,
+        113,
+        113
+      ],
+      [
+        320,
+        74,
+        120,
+        120
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 32,
+    "runs": 1
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 124,
+    "group_size_audio_frames": 5,
+    "word_count": 12,
+    "assigned_word_count": 12,
+    "coverage": 1.0,
+    "mean_confidence": 0.7078647613525391,
+    "min_confidence": 0.6207869052886963,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.7756952315568924,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

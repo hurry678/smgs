@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-09-24T09:54:23.689512+08:00",
+  "scope": "问题1附件1原始样本基础数据清洗；不做特征提取、不做训练",
+  "inputs": {
+    "excel": "C:\\work\\数模\\中文题目\\E题\\E题数据\\附件1-数据集原始多模态样本\\MOSEI数据集部分原始视频-100条\\label-100.xlsx",
+    "video_root": "C:\\work\\数模\\中文题目\\E题\\E题数据\\附件1-数据集原始多模态样本\\MOSEI数据集部分原始视频-100条"
+  },
+  "tools": {
+    "ffprobe": "ffprobe version 8.0-full_build-www.gyan.dev Copyright (c) 2007-2025 the FFmpeg developers",
+    "ffmpeg": "ffmpeg version 8.0-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+    "openpyxl": "3.1.5"
+  },
+  "rules": {
+    "required_columns": [
+      "video_id",
+      "clip_id",
+      "text",
+      "label",
+      "annotation"
+    ],
+    "allowed_annotations": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ],
+    "text": "去除首尾空白后必须非空",
+    "media": "视频文件必须存在且非空；至少一条视频流和一条音频流；时长必须为正；默认执行完整解码",
+    "label": "数值必须在[-3,3]且annotation必须与符号一致",
+    "duplicates": "重复sample_id全部标记为不合格",
+    "source_data_policy": "只生成清单和报告，不复制、不删除、不修改原始样本"
+  },
+  "counts": {
+    "excel_rows": 100,
+    "audited": 100,
+    "qualified": 100,
+    "excluded": 0,
+    "duplicate_sample_ids": 0,
+    "full_decode_checked": 100
+  },
+  "exclusion_reason_counts": {},
+  "outputs": {
+    "all_samples_quality": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q1\\data_cleaning\\all_samples_quality.csv",
+    "qualified_samples": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q1\\data_cleaning\\qualified_samples.csv",
+    "excluded_samples": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q1\\data_cleaning\\excluded_samples.csv"
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$5",
+  "video_id": "-s9qJ7ATP7w",
+  "clip_id": "5",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/5.mp4",
+  "source_sha256": "bd35eb8de64ce1f8b27921294598f7cf5bb971255738f51d06458c7096c58eae",
+  "word_tokens": [
+    "I",
+    "have",
+    "been",
+    "beat",
+    "up",
+    "and",
+    "put",
+    "down",
+    "and",
+    "everything",
+    "that",
+    "can",
+    "go",
+    "wrong",
+    "has",
+    "gone",
+    "wrong",
+    "for",
+    "me"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-s9qJ7ATP7w__5.npz",
+    "sample_id": "-s9qJ7ATP7w$_$5",
+    "raw_text": "I have been beat up and put down and everything that can go wrong, has gone wrong for me",
+    "word_tokens": [
+      "I",
+      "have",
+      "been",
+      "beat",
+      "up",
+      "and",
+      "put",
+      "down",
+      "and",
+      "everything",
+      "that",
+      "can",
+      "go",
+      "wrong",
+      "has",
+      "gone",
+      "wrong",
+      "for",
+      "me"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 22
+    },
+    "feature_dim": 768,
+    "word_count": 19
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 134366,
+    "duration_sec": 8.397875,
+    "frame_count": 838,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 307,
+    "runs": 22
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 253,
+    "sampled_frames": 43,
+    "detected_frames": 41,
+    "detection_rate": 0.9534883720930233,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        790,
+        233,
+        165,
+        165
+      ],
+      [
+        784,
+        215,
+        184,
+        184
+      ],
+      [
+        775,
+        209,
+        184,
+        184
+      ],
+      [
+        779,
+        208,
+        172,
+        172
+      ],
+      [
+        779,
+        206,
+        177,
+        177
+      ],
+      [
+        781,
+        206,
+        180,
+        180
+      ],
+      [
+        787,
+        214,
+        169,
+        169
+      ],
+      [
+        787,
+        213,
+        166,
+        166
+      ],
+      [
+        789,
+        219,
+        164,
+        164
+      ],
+      [
+        785,
+        217,
+        171,
+        171
+      ],
+      [
+        784,
+        206,
+        170,
+        170
+      ],
+      [
+        781,
+        198,
+        170,
+        170
+      ],
+      [
+        784,
+        197,
+        169,
+        169
+      ],
+      [
+        790,
+        207,
+        162,
+        162
+      ],
+      [
+        794,
+        220,
+        169,
+        169
+      ],
+      [
+        798,
+        215,
+        182,
+        182
+      ],
+      [
+        794,
+        215,
+        174,
+        174
+      ],
+      [
+        792,
+        215,
+        162,
+        162
+      ],
+      [
+        791,
+        218,
+        168,
+        168
+      ],
+      [
+        784,
+        216,
+        176,
+        176
+      ],
+      [
+        789,
+        220,
+        171,
+        171
+      ],
+      [
+        786,
+        224,
+        166,
+        166
+      ],
+      [
+        778,
+        353,
+        176,
+        176
+      ],
+      [
+        781,
+        360,
+        164,
+        164
+      ],
+      [
+        780,
+        227,
+        169,
+        169
+      ],
+      [
+        780,
+        218,
+        168,
+        168
+      ],
+      [
+        780,
+        207,
+        174,
+        174
+      ],
+      [
+        774,
+        202,
+        163,
+        163
+      ],
+      [
+        782,
+        173,
+        195,
+        195
+      ],
+      [
+        500,
+        195,
+        62,
+        62
+      ],
+      [],
+      [],
+      [
+        773,
+        166,
+        181,
+        181
+      ],
+      [
+        772,
+        173,
+        170,
+        170
+      ],
+      [
+        782,
+        172,
+        192,
+        192
+      ],
+      [
+        786,
+        187,
+        132,
+        132
+      ],
+      [
+        758,
+        179,
+        188,
+        188
+      ],
+      [
+        496,
+        202,
+        58,
+        58
+      ],
+      [
+        757,
+        196,
+        186,
+        186
+      ],
+      [
+        764,
+        199,
+        188,
+        188
+      ],
+      [
+        761,
+        198,
+        182,
+        182
+      ],
+      [
+        760,
+        202,
+        170,
+        170
+      ],
+      [
+        767,
+        210,
+        173,
+        173
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 41,
+    "runs": 2
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 168,
+    "group_size_audio_frames": 5,
+    "word_count": 19,
+    "assigned_word_count": 19,
+    "coverage": 1.0,
+    "mean_confidence": 0.7271749377250671,
+    "min_confidence": 0.5594329237937927,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.7694498419761657,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

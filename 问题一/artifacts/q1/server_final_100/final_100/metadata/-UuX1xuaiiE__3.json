@@ -1,0 +1,347 @@
+{
+  "sample_id": "-UuX1xuaiiE$_$3",
+  "video_id": "-UuX1xuaiiE",
+  "clip_id": "3",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-UuX1xuaiiE/3.mp4",
+  "source_sha256": "eddb408f25bdc13e6de2fb74caeed709cb7a8f00640e7897135330437f66a2aa",
+  "word_tokens": [
+    "My",
+    "goal",
+    "is",
+    "to",
+    "become",
+    "a",
+    "human",
+    "rights",
+    "lawyer"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-UuX1xuaiiE__3.npz",
+    "sample_id": "-UuX1xuaiiE$_$3",
+    "raw_text": "My goal is to become a human rights lawyer",
+    "word_tokens": [
+      "My",
+      "goal",
+      "is",
+      "to",
+      "become",
+      "a",
+      "human",
+      "rights",
+      "lawyer"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 11
+    },
+    "feature_dim": 768,
+    "word_count": 9
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 64614,
+    "duration_sec": 4.038375,
+    "frame_count": 402,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 217,
+    "runs": 14
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 123,
+    "sampled_frames": 21,
+    "detected_frames": 21,
+    "detection_rate": 1.0,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        485,
+        65,
+        200,
+        200
+      ],
+      [
+        482,
+        62,
+        206,
+        206
+      ],
+      [
+        482,
+        63,
+        203,
+        203
+      ],
+      [
+        470,
+        89,
+        263,
+        263
+      ],
+      [
+        469,
+        92,
+        257,
+        257
+      ],
+      [
+        461,
+        93,
+        258,
+        258
+      ],
+      [
+        460,
+        93,
+        261,
+        261
+      ],
+      [
+        461,
+        93,
+        264,
+        264
+      ],
+      [
+        464,
+        95,
+        259,
+        259
+      ],
+      [
+        464,
+        94,
+        260,
+        260
+      ],
+      [
+        464,
+        96,
+        256,
+        256
+      ],
+      [
+        462,
+        90,
+        263,
+        263
+      ],
+      [
+        464,
+        93,
+        262,
+        262
+      ],
+      [
+        471,
+        98,
+        258,
+        258
+      ],
+      [
+        469,
+        96,
+        257,
+        257
+      ],
+      [
+        461,
+        92,
+        257,
+        257
+      ],
+      [
+        453,
+        86,
+        262,
+        262
+      ],
+      [
+        453,
+        82,
+        258,
+        258
+      ],
+      [
+        458,
+        81,
+        250,
+        250
+      ],
+      [
+        392,
+        92,
+        173,
+        173
+      ],
+      [
+        414,
+        94,
+        156,
+        156
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 21,
+    "runs": 1
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 81,
+    "group_size_audio_frames": 5,
+    "word_count": 9,
+    "assigned_word_count": 9,
+    "coverage": 1.0,
+    "mean_confidence": 0.742430567741394,
+    "min_confidence": 0.6845147013664246,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.7464635640382766,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.75,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.5
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

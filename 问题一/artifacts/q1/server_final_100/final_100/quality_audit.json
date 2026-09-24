@@ -1,0 +1,32 @@
+{
+  "total_input_samples": 100,
+  "processed_samples": 100,
+  "ok_samples": 100,
+  "error_samples": 0,
+  "coverage": 1.0,
+  "all_samples_covered": true,
+  "all_word_intervals_valid": true,
+  "all_arrays_finite": true,
+  "audio_observed_word_ratio_mean": 0.9720862304517768,
+  "vision_observed_word_ratio_mean": 0.9096911384873103,
+  "alignment_confidence_mean": 0.7223560708761215,
+  "smoothing": {
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_valid_runs_only"
+  },
+  "tool_versions": {
+    "python": "3.10.20",
+    "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+    "ffmpeg": "ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "opencv-python": "4.13.0",
+    "Pillow": "9.0.1",
+    "torch": "2.3.0",
+    "transformers": "4.41.2",
+    "opencv_cv2_runtime": "4.13.0"
+  },
+  "generated_at": "2026-09-24T12:42:09.958196+08:00",
+  "pipeline_environment_file": "pipeline_environment.json",
+  "provenance_updated_at": "2026-09-24T12:45:41.500030+08:00"
+}

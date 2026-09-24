@@ -1,0 +1,489 @@
+{
+  "sample_id": "-egA8-b7-3M$_$20",
+  "video_id": "-egA8-b7-3M",
+  "clip_id": "20",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/20.mp4",
+  "source_sha256": "719ef133920e74b3ea33925d2bca0270b062199116867568f88ac83cadcd74e8",
+  "word_tokens": [
+    "Now",
+    "you've",
+    "got",
+    "a",
+    "face",
+    "that",
+    "you",
+    "can",
+    "connect",
+    "with",
+    "a",
+    "voice",
+    "and",
+    "that",
+    "makes",
+    "you",
+    "closer",
+    "to",
+    "that",
+    "client"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-egA8-b7-3M__20.npz",
+    "sample_id": "-egA8-b7-3M$_$20",
+    "raw_text": "Now you've got a face that you can connect with a voice, and that makes you closer to that client.",
+    "word_tokens": [
+      "Now",
+      "you've",
+      "got",
+      "a",
+      "face",
+      "that",
+      "you",
+      "can",
+      "connect",
+      "with",
+      "a",
+      "voice",
+      "and",
+      "that",
+      "makes",
+      "you",
+      "closer",
+      "to",
+      "that",
+      "client"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 26
+    },
+    "feature_dim": 768,
+    "word_count": 20
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 103591,
+    "duration_sec": 6.4744375,
+    "frame_count": 645,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 360,
+    "runs": 17
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 196,
+    "sampled_frames": 33,
+    "detected_frames": 33,
+    "detection_rate": 1.0,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        331,
+        81,
+        120,
+        120
+      ],
+      [
+        331,
+        77,
+        124,
+        124
+      ],
+      [
+        339,
+        72,
+        121,
+        121
+      ],
+      [
+        344,
+        70,
+        123,
+        123
+      ],
+      [
+        349,
+        69,
+        125,
+        125
+      ],
+      [
+        350,
+        69,
+        130,
+        130
+      ],
+      [
+        350,
+        71,
+        130,
+        130
+      ],
+      [
+        350,
+        73,
+        125,
+        125
+      ],
+      [
+        347,
+        70,
+        127,
+        127
+      ],
+      [
+        349,
+        69,
+        127,
+        127
+      ],
+      [
+        349,
+        74,
+        120,
+        120
+      ],
+      [
+        344,
+        69,
+        129,
+        129
+      ],
+      [
+        344,
+        68,
+        125,
+        125
+      ],
+      [
+        343,
+        71,
+        128,
+        128
+      ],
+      [
+        344,
+        78,
+        122,
+        122
+      ],
+      [
+        344,
+        78,
+        122,
+        122
+      ],
+      [
+        344,
+        79,
+        120,
+        120
+      ],
+      [
+        346,
+        79,
+        118,
+        118
+      ],
+      [
+        348,
+        74,
+        120,
+        120
+      ],
+      [
+        346,
+        70,
+        124,
+        124
+      ],
+      [
+        344,
+        73,
+        121,
+        121
+      ],
+      [
+        343,
+        74,
+        114,
+        114
+      ],
+      [
+        339,
+        70,
+        122,
+        122
+      ],
+      [
+        340,
+        72,
+        127,
+        127
+      ],
+      [
+        345,
+        80,
+        119,
+        119
+      ],
+      [
+        352,
+        80,
+        117,
+        117
+      ],
+      [
+        350,
+        77,
+        122,
+        122
+      ],
+      [
+        348,
+        84,
+        115,
+        115
+      ],
+      [
+        347,
+        86,
+        117,
+        117
+      ],
+      [
+        346,
+        84,
+        120,
+        120
+      ],
+      [
+        346,
+        84,
+        119,
+        119
+      ],
+      [
+        347,
+        85,
+        118,
+        118
+      ],
+      [
+        347,
+        80,
+        120,
+        120
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 33,
+    "runs": 1
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 129,
+    "group_size_audio_frames": 5,
+    "word_count": 20,
+    "assigned_word_count": 20,
+    "coverage": 1.0,
+    "mean_confidence": 0.7045899033546448,
+    "min_confidence": 0.4589451551437378,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.7564869284629822,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

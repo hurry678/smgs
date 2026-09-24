@@ -1,0 +1,578 @@
+{
+  "sample_id": "-wny0OAz3g8$_$7",
+  "video_id": "-wny0OAz3g8",
+  "clip_id": "7",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/7.mp4",
+  "source_sha256": "cbf9cac1048ce191aef781d0c4563eb97f9f3ddd52eb1f9551fa78d31d70e7cd",
+  "word_tokens": [
+    "Omi",
+    "and",
+    "Winant",
+    "argue",
+    "that",
+    "the",
+    "concept",
+    "of",
+    "race",
+    "came",
+    "about",
+    "as",
+    "a",
+    "tool",
+    "to",
+    "justify",
+    "and",
+    "maintain",
+    "the",
+    "economic",
+    "and",
+    "political",
+    "power",
+    "held",
+    "by",
+    "those",
+    "of",
+    "European",
+    "descent"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-wny0OAz3g8__7.npz",
+    "sample_id": "-wny0OAz3g8$_$7",
+    "raw_text": "Omi and Winant argue that the concept of race came about as a tool to justify and maintain the economic and political power held by those of European descent",
+    "word_tokens": [
+      "Omi",
+      "and",
+      "Winant",
+      "argue",
+      "that",
+      "the",
+      "concept",
+      "of",
+      "race",
+      "came",
+      "about",
+      "as",
+      "a",
+      "tool",
+      "to",
+      "justify",
+      "and",
+      "maintain",
+      "the",
+      "economic",
+      "and",
+      "political",
+      "power",
+      "held",
+      "by",
+      "those",
+      "of",
+      "European",
+      "descent"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 33
+    },
+    "feature_dim": 768,
+    "word_count": 29
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 126568,
+    "duration_sec": 7.9105,
+    "frame_count": 789,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 599,
+    "runs": 38
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 240,
+    "sampled_frames": 40,
+    "detected_frames": 40,
+    "detection_rate": 1.0,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        525,
+        67,
+        254,
+        254
+      ],
+      [
+        535,
+        89,
+        243,
+        243
+      ],
+      [
+        539,
+        93,
+        236,
+        236
+      ],
+      [
+        563,
+        186,
+        171,
+        171
+      ],
+      [
+        567,
+        180,
+        170,
+        170
+      ],
+      [
+        563,
+        177,
+        174,
+        174
+      ],
+      [
+        558,
+        171,
+        181,
+        181
+      ],
+      [
+        563,
+        179,
+        171,
+        171
+      ],
+      [
+        564,
+        180,
+        168,
+        168
+      ],
+      [
+        568,
+        198,
+        150,
+        150
+      ],
+      [
+        565,
+        193,
+        160,
+        160
+      ],
+      [
+        568,
+        186,
+        165,
+        165
+      ],
+      [
+        568,
+        183,
+        170,
+        170
+      ],
+      [
+        569,
+        178,
+        175,
+        175
+      ],
+      [
+        569,
+        179,
+        174,
+        174
+      ],
+      [
+        567,
+        181,
+        180,
+        180
+      ],
+      [
+        566,
+        181,
+        182,
+        182
+      ],
+      [
+        576,
+        196,
+        160,
+        160
+      ],
+      [
+        572,
+        188,
+        169,
+        169
+      ],
+      [
+        572,
+        178,
+        175,
+        175
+      ],
+      [
+        582,
+        176,
+        180,
+        180
+      ],
+      [
+        585,
+        184,
+        185,
+        185
+      ],
+      [
+        590,
+        183,
+        172,
+        172
+      ],
+      [
+        574,
+        174,
+        180,
+        180
+      ],
+      [
+        563,
+        170,
+        182,
+        182
+      ],
+      [
+        568,
+        177,
+        170,
+        170
+      ],
+      [
+        566,
+        182,
+        168,
+        168
+      ],
+      [
+        564,
+        184,
+        172,
+        172
+      ],
+      [
+        558,
+        179,
+        174,
+        174
+      ],
+      [
+        560,
+        188,
+        168,
+        168
+      ],
+      [
+        558,
+        180,
+        169,
+        169
+      ],
+      [
+        547,
+        171,
+        192,
+        192
+      ],
+      [
+        557,
+        172,
+        189,
+        189
+      ],
+      [
+        562,
+        175,
+        190,
+        190
+      ],
+      [
+        575,
+        173,
+        189,
+        189
+      ],
+      [
+        581,
+        176,
+        180,
+        180
+      ],
+      [
+        580,
+        186,
+        170,
+        170
+      ],
+      [
+        577,
+        191,
+        173,
+        173
+      ],
+      [
+        508,
+        68,
+        347,
+        347
+      ],
+      [
+        498,
+        98,
+        340,
+        340
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 40,
+    "runs": 1
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 158,
+    "group_size_audio_frames": 5,
+    "word_count": 29,
+    "assigned_word_count": 29,
+    "coverage": 1.0,
+    "mean_confidence": 0.690535843372345,
+    "min_confidence": 0.5751161575317383,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.6171794533729553,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.75
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

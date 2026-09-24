@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-24T12:45:41.500030+08:00",
+  "pipeline": "q1_feature_extraction_and_alignment_v1",
+  "text_feature_backend": {
+    "role": "bert-base-uncased word-level text embeddings; CPU inference; offline cache",
+    "python": "3.13.5",
+    "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+    "numpy": "2.2.4",
+    "scipy": "1.15.2",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.3.0",
+    "huggingface_hub": "1.7.2"
+  },
+  "media_alignment_backend": {
+    "role": "FFmpeg audio decode, OpenCV visual features, word-level dynamic-programming alignment and merge",
+    "python": "3.10.20",
+    "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "opencv-python": "4.13.0",
+    "Pillow": "9.0.1",
+    "torch": "2.3.0",
+    "transformers": "4.41.2",
+    "ffmpeg": "4.4.2-0ubuntu0.22.04.1"
+  },
+  "offline_execution": true,
+  "new_dependencies_installed": false
+}

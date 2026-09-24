@@ -1,0 +1,490 @@
+{
+  "sample_id": "-hnBHBN8p5A$_$7",
+  "video_id": "-hnBHBN8p5A",
+  "clip_id": "7",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-hnBHBN8p5A/7.mp4",
+  "source_sha256": "0ec6fb76226315d3fafbb483e3500e60cc8a6729617b10e4b4b76163595080fb",
+  "word_tokens": [
+    "Picture",
+    "this",
+    "before",
+    "we",
+    "actually",
+    "start",
+    "hacking",
+    "we’re",
+    "in",
+    "a",
+    "room",
+    "formal",
+    "setting"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-hnBHBN8p5A__7.npz",
+    "sample_id": "-hnBHBN8p5A$_$7",
+    "raw_text": "Picture this, before we actually start hacking, we’re in a room formal setting",
+    "word_tokens": [
+      "Picture",
+      "this",
+      "before",
+      "we",
+      "actually",
+      "start",
+      "hacking",
+      "we’re",
+      "in",
+      "a",
+      "room",
+      "formal",
+      "setting"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 19
+    },
+    "feature_dim": 768,
+    "word_count": 13
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 116937,
+    "duration_sec": 7.3085625,
+    "frame_count": 729,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 331,
+    "runs": 18
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 23.976023976023978,
+    "target_fps": 5.0,
+    "sample_step_frames": 5,
+    "decoded_frames": 176,
+    "sampled_frames": 36,
+    "detected_frames": 32,
+    "detection_rate": 0.8888888888888888,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [],
+      [],
+      [],
+      [
+        612,
+        268,
+        46,
+        46
+      ],
+      [
+        611,
+        265,
+        48,
+        48
+      ],
+      [
+        61,
+        406,
+        54,
+        54
+      ],
+      [
+        432,
+        359,
+        75,
+        75
+      ],
+      [
+        61,
+        405,
+        55,
+        55
+      ],
+      [
+        59,
+        405,
+        56,
+        56
+      ],
+      [
+        60,
+        405,
+        55,
+        55
+      ],
+      [
+        430,
+        360,
+        73,
+        73
+      ],
+      [
+        430,
+        358,
+        76,
+        76
+      ],
+      [
+        434,
+        358,
+        72,
+        72
+      ],
+      [
+        433,
+        359,
+        72,
+        72
+      ],
+      [],
+      [
+        432,
+        360,
+        72,
+        72
+      ],
+      [
+        428,
+        357,
+        80,
+        80
+      ],
+      [
+        615,
+        156,
+        116,
+        116
+      ],
+      [
+        634,
+        160,
+        112,
+        112
+      ],
+      [
+        660,
+        164,
+        114,
+        114
+      ],
+      [
+        689,
+        154,
+        114,
+        114
+      ],
+      [
+        695,
+        153,
+        116,
+        116
+      ],
+      [
+        682,
+        160,
+        118,
+        118
+      ],
+      [
+        655,
+        149,
+        121,
+        121
+      ],
+      [
+        601,
+        168,
+        120,
+        120
+      ],
+      [
+        515,
+        160,
+        122,
+        122
+      ],
+      [
+        416,
+        158,
+        123,
+        123
+      ],
+      [
+        370,
+        155,
+        124,
+        124
+      ],
+      [
+        335,
+        150,
+        125,
+        125
+      ],
+      [
+        342,
+        145,
+        125,
+        125
+      ],
+      [
+        356,
+        144,
+        122,
+        122
+      ],
+      [
+        365,
+        146,
+        120,
+        120
+      ],
+      [
+        378,
+        148,
+        114,
+        114
+      ],
+      [
+        389,
+        151,
+        119,
+        119
+      ],
+      [
+        396,
+        152,
+        121,
+        121
+      ],
+      [
+        407,
+        153,
+        114,
+        114
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 32,
+    "runs": 2
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 146,
+    "group_size_audio_frames": 5,
+    "word_count": 13,
+    "assigned_word_count": 13,
+    "coverage": 1.0,
+    "mean_confidence": 0.7341498732566833,
+    "min_confidence": 0.4950019419193268,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.7808110117912292,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.800000011920929,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

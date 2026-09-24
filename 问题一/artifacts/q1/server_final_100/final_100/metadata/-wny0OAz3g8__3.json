@@ -1,0 +1,470 @@
+{
+  "sample_id": "-wny0OAz3g8$_$3",
+  "video_id": "-wny0OAz3g8",
+  "clip_id": "3",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/3.mp4",
+  "source_sha256": "ea917c506bc9fa39460f2b722f7c416f646312bb17cd74baa618905b54837bce",
+  "word_tokens": [
+    "Which",
+    "then",
+    "allowed",
+    "the",
+    "white",
+    "workers",
+    "and",
+    "unions",
+    "to",
+    "justify",
+    "their",
+    "decision",
+    "to",
+    "not",
+    "allow",
+    "black",
+    "workers",
+    "into",
+    "their",
+    "union"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-wny0OAz3g8__3.npz",
+    "sample_id": "-wny0OAz3g8$_$3",
+    "raw_text": "Which then allowed the white workers and unions to justify their decision to not allow black workers into their union",
+    "word_tokens": [
+      "Which",
+      "then",
+      "allowed",
+      "the",
+      "white",
+      "workers",
+      "and",
+      "unions",
+      "to",
+      "justify",
+      "their",
+      "decision",
+      "to",
+      "not",
+      "allow",
+      "black",
+      "workers",
+      "into",
+      "their",
+      "union"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 22
+    },
+    "feature_dim": 768,
+    "word_count": 20
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 97598,
+    "duration_sec": 6.099875,
+    "frame_count": 608,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 523,
+    "runs": 27
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 184,
+    "sampled_frames": 31,
+    "detected_frames": 31,
+    "detection_rate": 1.0,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        530,
+        62,
+        262,
+        262
+      ],
+      [
+        531,
+        61,
+        256,
+        256
+      ],
+      [
+        527,
+        56,
+        270,
+        270
+      ],
+      [
+        563,
+        183,
+        160,
+        160
+      ],
+      [
+        554,
+        188,
+        166,
+        166
+      ],
+      [
+        555,
+        194,
+        161,
+        161
+      ],
+      [
+        551,
+        187,
+        176,
+        176
+      ],
+      [
+        554,
+        184,
+        171,
+        171
+      ],
+      [
+        553,
+        176,
+        166,
+        166
+      ],
+      [
+        547,
+        170,
+        180,
+        180
+      ],
+      [
+        554,
+        174,
+        173,
+        173
+      ],
+      [
+        558,
+        177,
+        169,
+        169
+      ],
+      [
+        562,
+        188,
+        171,
+        171
+      ],
+      [
+        568,
+        194,
+        164,
+        164
+      ],
+      [
+        573,
+        193,
+        164,
+        164
+      ],
+      [
+        573,
+        190,
+        168,
+        168
+      ],
+      [
+        561,
+        180,
+        187,
+        187
+      ],
+      [
+        571,
+        185,
+        172,
+        172
+      ],
+      [
+        566,
+        175,
+        183,
+        183
+      ],
+      [
+        580,
+        184,
+        174,
+        174
+      ],
+      [
+        583,
+        183,
+        168,
+        168
+      ],
+      [
+        580,
+        183,
+        171,
+        171
+      ],
+      [
+        575,
+        181,
+        177,
+        177
+      ],
+      [
+        567,
+        186,
+        163,
+        163
+      ],
+      [
+        561,
+        205,
+        152,
+        152
+      ],
+      [
+        551,
+        194,
+        165,
+        165
+      ],
+      [
+        554,
+        195,
+        158,
+        158
+      ],
+      [
+        554,
+        191,
+        166,
+        166
+      ],
+      [
+        461,
+        54,
+        332,
+        332
+      ],
+      [
+        465,
+        60,
+        321,
+        321
+      ],
+      [
+        463,
+        75,
+        297,
+        297
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 31,
+    "runs": 1
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 122,
+    "group_size_audio_frames": 5,
+    "word_count": 20,
+    "assigned_word_count": 20,
+    "coverage": 1.0,
+    "mean_confidence": 0.6938014626502991,
+    "min_confidence": 0.6017398834228516,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.617315024137497,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.75,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.6666666865348816
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}
