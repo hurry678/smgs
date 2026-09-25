@@ -1,0 +1,21 @@
+test_batch_order_independence (test_protocol.MasksTest) ... ok
+test_gap_features_invariant_to_padding_extension (test_protocol.MasksTest) ... ok
+test_interior_text_hole_does_not_shorten_domain (test_protocol.MasksTest) ... ok
+test_normalization_excludes_unobserved (test_protocol.MasksTest) ... ok
+test_physical_window_and_preserve_natural_missing (test_protocol.MasksTest) ... ok
+test_preencoding_text_sanitization (test_protocol.MasksTest) ... ok
+test_publication_signs_and_clipping (test_protocol.MasksTest) ... ok
+test_reject_nonfinite_and_ambiguous_separator (test_protocol.MasksTest) ... ok
+test_singleton_and_empty_are_not_erased (test_protocol.MasksTest) ... ok
+test_synchronized_windows_match (test_protocol.MasksTest) ... ok
+test_unknown_and_legitimate_zero_dimension (test_protocol.MasksTest) ... ok
+test_identical_predictions_zero_paired_interval (test_protocol.StatisticsTest) ... ok
+test_known_error_reduction_direction (test_protocol.StatisticsTest) ... ok
+test_mask_mismatch_and_duplicate_rejected (test_protocol.StatisticsTest) ... ok
+test_missing_class_fixed_macro_and_constant_pearson (test_protocol.StatisticsTest) ... ok
+test_repeated_conditions_do_not_invent_independent_videos (test_protocol.StatisticsTest) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.016s
+
+OK

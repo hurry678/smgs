@@ -1,0 +1,133 @@
+{
+  "schema": "q2-legacy-reference-1",
+  "source_commit": "aacd3ee8e1e227229468872e86c9046b082e2ea2",
+  "role": "historical_only_not_new_experiments",
+  "validation_family_summary": [
+    {
+      "kind": "B2",
+      "n_seeds": "3",
+      "r_mae_mean": "0.6434949581585233",
+      "worst_condition_mae_mean": "0.6807467778523764",
+      "mean_macro_f1": "0.5526766903725658",
+      "full_macro_f1_mean": "0.5799859490571265",
+      "full_mae_mean": "0.6247351368268331",
+      "full_pearson_mean": "0.6155853929911324"
+    },
+    {
+      "kind": "B3",
+      "n_seeds": "3",
+      "r_mae_mean": "0.6371115222809807",
+      "worst_condition_mae_mean": "0.6644052982330323",
+      "mean_macro_f1": "0.555683109252263",
+      "full_macro_f1_mean": "0.5754515715599092",
+      "full_mae_mean": "0.6275142629941305",
+      "full_pearson_mean": "0.6186429606570901"
+    },
+    {
+      "kind": "B4",
+      "n_seeds": "3",
+      "r_mae_mean": "0.6263766723965841",
+      "worst_condition_mae_mean": "0.6787128607432047",
+      "mean_macro_f1": "0.556759036923461",
+      "full_macro_f1_mean": "0.5827585625487915",
+      "full_mae_mean": "0.6008259654045105",
+      "full_pearson_mean": "0.642376165404419"
+    },
+    {
+      "kind": "B5",
+      "n_seeds": "3",
+      "r_mae_mean": "0.6360024756855435",
+      "worst_condition_mae_mean": "0.6684723695119222",
+      "mean_macro_f1": "0.5549878477213165",
+      "full_macro_f1_mean": "0.5752579757302253",
+      "full_mae_mean": "0.6233140826225281",
+      "full_pearson_mean": "0.6187757635696592"
+    },
+    {
+      "kind": "M0",
+      "n_seeds": "3",
+      "r_mae_mean": "0.6247645796291412",
+      "worst_condition_mae_mean": "0.667373549938202",
+      "mean_macro_f1": "0.5535460040621389",
+      "full_macro_f1_mean": "0.5735950810947413",
+      "full_mae_mean": "0.6043689648310343",
+      "full_pearson_mean": "0.636528126798344"
+    }
+  ],
+  "ensemble_validation": {
+    "3": {
+      "R_MAE": 0.6075552753039768,
+      "mean_macro_f1": 0.558801147161389,
+      "worst_condition_MAE": 0.6533644676208497,
+      "full_c2": {
+        "accuracy": 0.5947802197802198,
+        "macro_f1": 0.57549820541747,
+        "mae": 0.5852798819541931,
+        "pearson": 0.6561533389710079,
+        "n": 728
+      },
+      "evaluation_json": "artifacts/q2/v2_m0_ensemble3_eval/valid_valid_evaluation.json",
+      "evaluation_json_sha256": "bacb3fd5d93093d6e244faa620fcd8db53ddd781b8980e385523c39f7d3d29d5"
+    },
+    "6": {
+      "R_MAE": 0.6041309078534445,
+      "mean_macro_f1": 0.5714364776921654,
+      "worst_condition_MAE": 0.6512249708175659,
+      "full_c2": {
+        "accuracy": 0.614010989010989,
+        "macro_f1": 0.5949544897891635,
+        "mae": 0.5806464552879333,
+        "pearson": 0.6610496704782907,
+        "n": 728
+      },
+      "evaluation_json": "artifacts/q2/v2_m0_ensemble6_eval/valid_valid_evaluation.json",
+      "evaluation_json_sha256": "3802b2a8348e5207029ae532b99651470f6731e7e2fa9387ee3682a8ab30a5bc"
+    },
+    "9": {
+      "R_MAE": 0.6045225739479066,
+      "mean_macro_f1": 0.572749119845546,
+      "worst_condition_MAE": 0.6504661917686463,
+      "full_c2": {
+        "accuracy": 0.6208791208791209,
+        "macro_f1": 0.5997068114591327,
+        "mae": 0.5799670219421387,
+        "pearson": 0.663537037304278,
+        "n": 728
+      },
+      "evaluation_json": "artifacts/q2/v2_m0_ensemble9_eval/valid_valid_evaluation.json",
+      "evaluation_json_sha256": "b86b6a061002155e233e484cc90cffb8f18df5d6898369cdf3183d90531228f2"
+    },
+    "12": {
+      "R_MAE": 0.6063083296730405,
+      "mean_macro_f1": 0.5712189359366416,
+      "worst_condition_MAE": 0.652026891708374,
+      "full_c2": {
+        "accuracy": 0.6112637362637363,
+        "macro_f1": 0.5863681481559034,
+        "mae": 0.5854079723358154,
+        "pearson": 0.6628396538559254,
+        "n": 728
+      },
+      "evaluation_json": "artifacts/q2/v2_m0_ensemble12_eval/valid_valid_evaluation.json",
+      "evaluation_json_sha256": "ac7c190f7bacc9eada6c1d337a114e5b4c4780fe6a1fdee0cf9d5a56aca95861"
+    }
+  },
+  "rejected_experiments": {
+    "M1-balanced": {
+      "validation_R_MAE_seed_mean": 0.631626,
+      "reason": "worse than old M0 mean 0.624765"
+    },
+    "M2-cross-time": {
+      "validation_R_MAE_seed42": 0.620249,
+      "reason": "worse than old M0 seed42 0.610839"
+    },
+    "M3-ensemble12": {
+      "validation_R_MAE": 0.6063083296730405,
+      "reason": "regressed versus 9-model ensemble"
+    }
+  },
+  "source_manifest": "ds/artifacts/q2/v3_m3_ensemble9/version_manifest.json",
+  "source_manifest_sha256": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+  "legacy_test_previously_exposed": true,
+  "legacy_weights_in_ds": false
+}

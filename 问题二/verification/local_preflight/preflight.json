@@ -1,0 +1,158 @@
+{
+  "schema": "q2-preflight-1",
+  "passed": true,
+  "scope": "input_and_protocol_only",
+  "model_training_status": "not_run",
+  "checks": [
+    "no_id_or_video_overlap_train_valid",
+    "no_id_or_video_overlap_train_test",
+    "no_id_or_video_overlap_valid_test",
+    "attachment3_interface_30",
+    "train_valid_masks_labels_finite",
+    "frozen_bert_files_and_special_ids"
+  ],
+  "splits": {
+    "train": {
+      "count": 3395,
+      "video_groups": 1528,
+      "class_counts": {
+        "0": 967,
+        "1": 758,
+        "2": 1670
+      },
+      "semantic_lengths": {
+        "min": 1,
+        "max": 48
+      },
+      "original_empty_modalities": [
+        0,
+        0,
+        110
+      ],
+      "out_of_domain_nonzero_audio_rows": 0,
+      "out_of_domain_nonzero_vision_rows": 0,
+      "mask_smoke_status": {
+        "applied": 10006,
+        "skipped_lt2_observed": 179
+      },
+      "mask_smoke_sha256": "0ccd0c99e93c6f4b0bdcfc0b3869e0a6f62446b06866e627f13485276a8cdcef",
+      "original_observation_sha256": "97799e0a4826576fac05bbf7c9f4da71cdfb89a772f7c0aca046892d2a3be298"
+    },
+    "valid": {
+      "count": 728,
+      "video_groups": 239,
+      "class_counts": {
+        "0": 206,
+        "1": 184,
+        "2": 338
+      },
+      "semantic_lengths": {
+        "min": 1,
+        "max": 48
+      },
+      "original_empty_modalities": [
+        0,
+        0,
+        15
+      ],
+      "out_of_domain_nonzero_audio_rows": 0,
+      "out_of_domain_nonzero_vision_rows": 0,
+      "mask_smoke_status": {
+        "applied": 2151,
+        "skipped_lt2_observed": 33
+      },
+      "mask_smoke_sha256": "33cfb672cee00a536522417ed87e87e63ef31e99afa0b2b6c99f6c5a43d139d1",
+      "original_observation_sha256": "ecf0abd2f369ee86b0fa09e81147644399df1535aebcfbac172b82eb2ec16099"
+    },
+    "test": {
+      "count": 727,
+      "video_groups": 381,
+      "scope": "shape_and_identity_only_no_labels_or_metrics"
+    }
+  },
+  "attachment3": {
+    "count": 30,
+    "ids": [
+      "附件3_01",
+      "附件3_02",
+      "附件3_03",
+      "附件3_04",
+      "附件3_05",
+      "附件3_06",
+      "附件3_07",
+      "附件3_08",
+      "附件3_09",
+      "附件3_10",
+      "附件3_11",
+      "附件3_12",
+      "附件3_13",
+      "附件3_14",
+      "附件3_15",
+      "附件3_16",
+      "附件3_17",
+      "附件3_18",
+      "附件3_19",
+      "附件3_20",
+      "附件3_21",
+      "附件3_22",
+      "附件3_23",
+      "附件3_24",
+      "附件3_25",
+      "附件3_26",
+      "附件3_27",
+      "附件3_28",
+      "附件3_29",
+      "附件3_30"
+    ],
+    "scope": "schema_only_not_used_to_choose_training_distribution",
+    "has_precomputed_text": false
+  },
+  "source_sha256": {
+    "aligned_50.pkl": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+    "attachment3/附件3_01.pkl": "b45b89a7eea55278abb130d44a6ee21128df5aa3239e68c968f9ac7743cfa0ea",
+    "attachment3/附件3_02.pkl": "6a628897c4b8c5e94e37f23bce680aad500fa8545414234f3564a58577c1023b",
+    "attachment3/附件3_03.pkl": "52bb6e11f4bba301e1bd90916dc9ad3a0d2d0885fec4598e3e737e2c4d100b6f",
+    "attachment3/附件3_04.pkl": "ee1f4781ee7b7bc37e71a13e4bc53eedc8327d96a69c246964d0e84a8aa99f72",
+    "attachment3/附件3_05.pkl": "9f8e5bae8488d8ee1576b1686864b7d8fc9970cfa720758fb040b9293b7e3619",
+    "attachment3/附件3_06.pkl": "9e973621f141b1af24fc3686ac329a10b66ba2b84d18c21918e86bf0429f790d",
+    "attachment3/附件3_07.pkl": "62dd394e23c80af2898e039d7eb6f47556d747887331fa2853dad72e13bb223b",
+    "attachment3/附件3_08.pkl": "e668faea97f9a338051c19ee66383df799b2e461d6d079df8c5f92b32bd6437e",
+    "attachment3/附件3_09.pkl": "ef57769eaa05f53a7d588948d565876356898658d9945202058ca763e53748b2",
+    "attachment3/附件3_10.pkl": "7c87d84d69e0e68b9252c9839747558d07a91fd2d079a9a0850683d0d197241e",
+    "attachment3/附件3_11.pkl": "10e9d5443cecf2de9170deaa56995de0cf9c52580a74cd334de8fea0e4a735f2",
+    "attachment3/附件3_12.pkl": "d0342f4931a05e40fb0a3220010f1ac801a2f06d123bc4d9a7dc5355794347ba",
+    "attachment3/附件3_13.pkl": "9e2144ab4385636b259d9e358c7e511be5242c89340f894473317b7757f218b7",
+    "attachment3/附件3_14.pkl": "f6d45e8fa882062f70fd48ee1f7584b0a75ea0ed1c85a9eb218684e954dc1b82",
+    "attachment3/附件3_15.pkl": "263b960d4d66b25a3db447fb7a16aee7b7d735e8bee3fe55c7869ad3103bf9d4",
+    "attachment3/附件3_16.pkl": "df8b4c881e3fc971d532988bbd161d8d9bf8c5d16c3e7a559bb7a4045e96547f",
+    "attachment3/附件3_17.pkl": "b6c64a55fb8050cb9fda15b0245df8f16b20d2a25d9368485dd1229e213fdba5",
+    "attachment3/附件3_18.pkl": "dc8eb37586b93bdd4debe895041275fdabb94c3392bde667b4e0ccdc6429fab1",
+    "attachment3/附件3_19.pkl": "d3a912bc3c70b60c1021babc521f28a6a34f9e916c164ad0191182e587c2385a",
+    "attachment3/附件3_20.pkl": "bf24c7189bba3904e911dd452266078d8ff15768438a9069e6596ff73a4b925e",
+    "attachment3/附件3_21.pkl": "c0605bd5757ff0c5dea345c96236ed7168ff976d37843572143efe11d6454600",
+    "attachment3/附件3_22.pkl": "6f9dc33f9d3e5680ee3a3b2b0c53b1bac51fb98f1d75375a2cb1224cd7bd4d43",
+    "attachment3/附件3_23.pkl": "5200bd05e2611777875eb1d88826bb56bb71dee4c708fec9d9f851222d243aae",
+    "attachment3/附件3_24.pkl": "76b1c126e2043f90afd5af00d51299bc8f5bf1bee8148f5ff904ccbeb931a5e5",
+    "attachment3/附件3_25.pkl": "88d52e2d0b0229ad6ec638e6e7463f6852f127ae9308fbee1cbc2405d8ebc4c8",
+    "attachment3/附件3_26.pkl": "e483daa1391987552f9ee7f21bffec918dd61267af36885a9ae3073813193234",
+    "attachment3/附件3_27.pkl": "27f16bbd4541196bb33f4caa36e038b2ff66fa72649f1b22f2328a5630de37ad",
+    "attachment3/附件3_28.pkl": "81def781fa8fa5aebb555631b59ce48ee71a10c9e4226f1a5b6d91a2078f8f32",
+    "attachment3/附件3_29.pkl": "8caf12e71117bd7334be12aba5af6322fb02a2397f8e2402e75391f4f9ef3686",
+    "attachment3/附件3_30.pkl": "a6b272abb5d083804b6902054d4180d55d3c1d5822c483967e70e6a9657546d3"
+  },
+  "protocol_sha256": "8cc7c0444993df4f1e7528afef98c5dabc457eda34ded7a3587087346bb10973",
+  "environment": {
+    "python": "3.11.16",
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "packages": {
+      "numpy": "1.26.4",
+      "torch": "2.8.0",
+      "transformers": "4.57.6",
+      "safetensors": "0.8.0",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1"
+    }
+  },
+  "training_dependencies_ready": true,
+  "note": "Preflight passed does not certify completed training, performance or final submission."
+}

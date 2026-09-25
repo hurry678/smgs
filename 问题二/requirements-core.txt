@@ -1,0 +1,7 @@
+# Reference Python: 3.11. CUDA wheel may require the official PyTorch index.
+# Freeze the exact resolved server environment before any model comparisons.
+numpy==1.26.4
+torch==2.8.0
+transformers==4.57.6
+tokenizers==0.22.2
+safetensors==0.8.0
