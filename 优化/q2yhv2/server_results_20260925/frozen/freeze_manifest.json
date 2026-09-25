@@ -1,0 +1,127 @@
+{
+  "schema": "q2-ds-hc-freeze-v1",
+  "status": "baseline_retained_without_new_test",
+  "model_version": "M3-ensemble9-retained",
+  "selected_from": "train-only CV plus validation selector, then independent validation confirmation",
+  "confirmation_status": "candidate_rejected_baseline_retained",
+  "publish_strategy": "C2",
+  "ensemble_rule": "weighted arithmetic mean of probabilities and raw intensity",
+  "members": [
+    {
+      "id": "ds_seed42",
+      "weight": 0.1111111111111111,
+      "source": "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed42.pt",
+      "source_sha256": "57aebf736398ab1f4a7a5cded627fb10dfb9b6d514bffa7d95f48ec1b2bd49b7",
+      "compact": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/frozen/members/ds_seed42.pt",
+      "compact_sha256": "9a6f9f068dcae974084a57c84eceb21fe1d52c28339a26467a50bbbf2fb91035",
+      "bytes": 1412028
+    },
+    {
+      "id": "ds_seed43",
+      "weight": 0.1111111111111111,
+      "source": "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed43.pt",
+      "source_sha256": "8036d8f3d4023eb774d50c88c8170c57d59b87a1dd8b86c2a8548c341c915f89",
+      "compact": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/frozen/members/ds_seed43.pt",
+      "compact_sha256": "a46370b90939077839d311ac54d05330aee3f3299ed52431690c649078531fe1",
+      "bytes": 1412092
+    },
+    {
+      "id": "ds_seed44",
+      "weight": 0.1111111111111111,
+      "source": "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed44.pt",
+      "source_sha256": "70701bf103314b3505927f040664d7422f6e08a43ce319610deac0619afbfa42",
+      "compact": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/frozen/members/ds_seed44.pt",
+      "compact_sha256": "dd3dca23f6dcfa36a3e4cee36363e4c7811979dc1481b9f38534f73beb478b82",
+      "bytes": 1412476
+    },
+    {
+      "id": "ds_seed45",
+      "weight": 0.1111111111111111,
+      "source": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed45.pt",
+      "source_sha256": "5908d207e5453ba7f0f8b293dfac307134c31f0dcd7e70bf09d12b2730e59cd7",
+      "compact": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/frozen/members/ds_seed45.pt",
+      "compact_sha256": "a2342a3344a1d796f3d33e5e91c7cba39a88f2f157480f6a1e81100b9dfacae5",
+      "bytes": 1411964
+    },
+    {
+      "id": "ds_seed46",
+      "weight": 0.1111111111111111,
+      "source": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed46.pt",
+      "source_sha256": "e1b7c504f952cc543259c03d83f24b28eb356924f671c898c4bced4ce35693a6",
+      "compact": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/frozen/members/ds_seed46.pt",
+      "compact_sha256": "e03a0d3afba59cc2371e9710b9bcf1eb11105237d43165bb224e9eef8d4065ab",
+      "bytes": 1412092
+    },
+    {
+      "id": "ds_seed47",
+      "weight": 0.1111111111111111,
+      "source": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed47.pt",
+      "source_sha256": "af70760dc8e84d347345c855c629574a2dd531ba4479ce70126044ea6211eb73",
+      "compact": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/frozen/members/ds_seed47.pt",
+      "compact_sha256": "bd314aad867f471997ac6fc4d12dc996eb2d0579cdaf7246a41d1ce7c2d88328",
+      "bytes": 1412220
+    },
+    {
+      "id": "ds_seed48",
+      "weight": 0.1111111111111111,
+      "source": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed48.pt",
+      "source_sha256": "35e1712d260e5e53def76dffb1f0092f2b811d03b22e2109e593cf9a1cdc5145",
+      "compact": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/frozen/members/ds_seed48.pt",
+      "compact_sha256": "6fd81f0a29534e7ed0eac5fd6e9cac22f09abcdec209700443af0cc4f767d02b",
+      "bytes": 1411964
+    },
+    {
+      "id": "ds_seed49",
+      "weight": 0.1111111111111111,
+      "source": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed49.pt",
+      "source_sha256": "02e1697affb1478d4e910136bf093cdda99899da3598d662bb45d6eae57165e3",
+      "compact": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/frozen/members/ds_seed49.pt",
+      "compact_sha256": "176d9f77f2f099dc7e1505b780e08c33764c07d5cd4ff7c9f300bd9c20f2f9dc",
+      "bytes": 1412028
+    },
+    {
+      "id": "ds_seed50",
+      "weight": 0.1111111111111111,
+      "source": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed50.pt",
+      "source_sha256": "85ef923221c11684fa52ae3b3bc3ac6147c9b13a969cecd0dd30b1291270fdb0",
+      "compact": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/frozen/members/ds_seed50.pt",
+      "compact_sha256": "44b7e569ca6c46429cc48ae8a59a3f94a9e17bbd5b4e6f50c97161b8751bcb89",
+      "bytes": 1412220
+    }
+  ],
+  "compact_checkpoint_bytes": 12709084,
+  "projected_combined_bytes": 41724828,
+  "combined_submission_byte_limit": 50000000,
+  "shared_encoder": {
+    "path_at_freeze": "/data2/hy/cts/e_problem/models/all-MiniLM-L6-v2",
+    "weight_filename": "pytorch_model.bin",
+    "weight_sha256": "c3a85f238711653950f6a79ece63eb0ea93d76f6a6284be04019c53733baf256",
+    "stored_once": true
+  },
+  "inputs": {
+    "q2_data": "/data2/hy/cts/e_problem/data/q2/q2_data.npz",
+    "q2_data_sha256": "2bad10a2913ec3a0a03e3999d36e59117e0efbcc480f379dc61c8bcd4de36c38",
+    "attachment3": "/data2/hy/cts/e_problem/data/q2/attachment3_aligned.npz",
+    "attachment3_sha256": "5b964459772343542bb2017d433680af812cfd6bbf860dc482e8a86076513f36"
+  },
+  "evidence": {
+    "baseline_replay": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/baseline_replay/verification.json",
+    "arm_selection": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/arm_selection.json",
+    "ensemble_selection": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/selection.json",
+    "confirmation": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/confirmation.json"
+  },
+  "code_sha256": {
+    "问题二/q2_ds_optimization_v2_20260925/configs/protocol.json": "e50eace6662a14b632b09057f71905357e09e0d805df3fba01d27a357a232b48",
+    "问题二/q2_ds_optimization_v2_20260925/scripts/run_q2hc.py": "a44d705cc4a8ba56ef106a1247015d1794e5da53b6e82b02db38ee1b34196d9e",
+    "问题二/q2_ds_optimization_v2_20260925/scripts/q2hc_core.py": "3780933c2b14f66e5eff260d9cb2a6e6e6cc64950751390427471caf2d41f008",
+    "问题二/q2_ds_optimization_v2_20260925/scripts/q2hc_select.py": "b4210892e6bda329b297d89f48873f9b13c0a282715ee4efb5575601da36622e",
+    "ds/scripts/q2_models.py": "659cac7d0cc5b4c39c0f4b71d736dbc59fc54d48b2565b06a10fef356d367700",
+    "ds/scripts/q2_train.py": "ee5383dee5378d9ecad21779cc3926aae4635ae5c2d9d486299728da93aef8d6"
+  },
+  "test_policy": {
+    "status_at_freeze": "not_run_for_this_version",
+    "role": "post_freeze_descriptive_only_previously_exposed",
+    "requires_explicit_allow_flag": true,
+    "may_change_frozen_choice": false
+  }
+}

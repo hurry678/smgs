@@ -1,0 +1,25 @@
+{
+  "schema": "q2-ds-hc-publication-v1",
+  "status": "completed_after_freeze",
+  "test": {
+    "metrics_C2": {
+      "accuracy": 0.6354883081155434,
+      "macro_f1": 0.5963369211523178,
+      "mae": 0.6433492302894592,
+      "pearson": 0.6575168127258513,
+      "n": 727
+    },
+    "path": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/publication/test_evaluation.json"
+  },
+  "attachment3": {
+    "n": 30,
+    "polarity_counts": {
+      "Negative": 6,
+      "Neutral": 9,
+      "Positive": 15
+    },
+    "csv": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/publication/attachment3_predictions.csv",
+    "csv_sha256": "aa25e119480aabd278d3249e1388522c20528520595e9e6985777e80b77470a4"
+  },
+  "selection_unchanged_after_test": true
+}

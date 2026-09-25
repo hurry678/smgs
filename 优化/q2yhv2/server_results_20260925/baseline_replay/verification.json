@@ -1,0 +1,56 @@
+{
+  "schema": "q2-ds-hc-baseline-replay-v1",
+  "status": "passed",
+  "expected": {
+    "R_MAE": 0.6045225739479066,
+    "R_F1": 0.572749119845546,
+    "worst_condition_MAE": 0.6504661917686463,
+    "clean_accuracy": 0.6208791208791209,
+    "clean_macro_f1": 0.5997068114591327,
+    "clean_MAE": 0.5799670219421387
+  },
+  "observed": {
+    "R_MAE": 0.6045225739479066,
+    "R_F1": 0.572749119845546,
+    "worst_condition_MAE": 0.6504661917686463,
+    "clean_accuracy": 0.6208791208791209,
+    "clean_macro_f1": 0.5997068114591327,
+    "clean_MAE": 0.5799670219421387
+  },
+  "differences": {
+    "R_MAE": 0.0,
+    "R_F1": 0.0,
+    "worst_condition_MAE": 0.0,
+    "clean_accuracy": 0.0,
+    "clean_macro_f1": 0.0,
+    "clean_MAE": 0.0
+  },
+  "tolerance": 1e-06,
+  "evaluation": "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/baseline_replay/valid_valid_evaluation.json",
+  "command": [
+    "/data2/hy/anaconda3/envs/secgpt-vllm/bin/python",
+    "/data2/hy/smgs/ds/scripts/q2_eval_ensemble.py",
+    "--data",
+    "/data2/hy/cts/e_problem/data/q2/q2_data.npz",
+    "--checkpoints",
+    "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed42.pt",
+    "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed43.pt",
+    "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed44.pt",
+    "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed45.pt",
+    "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed46.pt",
+    "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed47.pt",
+    "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed48.pt",
+    "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed49.pt",
+    "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed50.pt",
+    "--model-dir",
+    "/data2/hy/cts/e_problem/models/all-MiniLM-L6-v2",
+    "--out-dir",
+    "/data2/hy/q2_runs/q2_ds_hc_v2_20260925/baseline_replay",
+    "--mask-seed",
+    "2026",
+    "--replicas",
+    "5",
+    "--device",
+    "cuda:0"
+  ]
+}
