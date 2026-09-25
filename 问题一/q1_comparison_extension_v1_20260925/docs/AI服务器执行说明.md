@@ -17,7 +17,8 @@
 最低依赖：
 
 ```bash
-python -m pip install -r "$REPO/问题一/requirements-comparison.txt"
+export PROTOCOL_ROOT="$REPO/问题一/q1_comparison_extension_v1_20260925"
+python -m pip install -r "$PROTOCOL_ROOT/requirements-comparison.txt"
 ffmpeg -version
 ffprobe -version
 ```
@@ -38,6 +39,7 @@ export TOKENIZERS_PARALLELISM=false
 
 ```bash
 export REPO="/path/to/smgs"
+export PROTOCOL_ROOT="$REPO/问题一/q1_comparison_extension_v1_20260925"
 export E_ROOT="/path/to/E题"
 export CURRENT_Q1="/path/to/当前第一问"
 export RUN_ID="q1_compare_$(date +%Y%m%d_%H%M%S)"
@@ -58,7 +60,7 @@ reports/validation.json
 ### 4.1 预检和计划
 
 ```bash
-python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
+python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR" \
   --current-q1-dir "$CURRENT_Q1" \
@@ -75,7 +77,7 @@ python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
 ### 4.2 六条冒烟
 
 ```bash
-python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
+python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/smoke" \
   --current-q1-dir "$CURRENT_Q1" \
@@ -88,7 +90,7 @@ python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
 ### 4.3 Git组件全量筛选
 
 ```bash
-python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
+python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
   --current-q1-dir "$CURRENT_Q1" \
@@ -112,7 +114,7 @@ python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
 ### 4.4 当前版与Git版共享边界比较
 
 ```bash
-python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
+python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
   --current-q1-dir "$CURRENT_Q1" \
@@ -127,7 +129,7 @@ python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
 先构建A/B/C统一样本级向量并运行嵌套分组探针：
 
 ```bash
-python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
+python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
   --current-q1-dir "$CURRENT_Q1" \
@@ -140,7 +142,7 @@ python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
 随后执行结果验证：
 
 ```bash
-python "$REPO/问题一/scripts/run_q1_comparison_protocol.py" \
+python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
   --current-q1-dir "$CURRENT_Q1" \

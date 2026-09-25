@@ -1,0 +1,22 @@
+{
+  "schema": "q1-file-management-audit-1",
+  "audit_date": "2026-09-25",
+  "repository": "hurry678/smgs",
+  "baseline_commit": "576795a0f60eccc4bae6a17ceb67ffbfe45b4963",
+  "previous_extension_commit": "254e3e370e910e8e4876020d1c67e6595d74769c",
+  "baseline_tracked_files": 241,
+  "baseline_files_byte_identical_in_current_tree": 241,
+  "baseline_files_modified": 0,
+  "baseline_files_missing": 0,
+  "baseline_files_deleted": 0,
+  "dedicated_directory": "问题一/q1_comparison_extension_v1_20260925",
+  "extension_files_excluding_manifest": 14,
+  "original_files_restored": [
+    "README.md",
+    "问题一/README.md",
+    "问题一/MANIFEST_SHA256.txt"
+  ],
+  "audit_method": "For every blob in `git ls-tree -r 576795a`, compare its baseline Git blob ID with `git hash-object` of the current working-tree file.",
+  "result": "passed",
+  "history_policy": "No force-push or history rewrite; the corrective commit restores the current tree while preserving an auditable record."
+}

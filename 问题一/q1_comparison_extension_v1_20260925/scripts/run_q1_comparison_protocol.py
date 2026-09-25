@@ -22,8 +22,10 @@ from typing import Any
 
 
 HERE = Path(__file__).resolve().parent
-Q1_ROOT = HERE.parent
-DEFAULT_SPEC = Q1_ROOT / "configs/q1_comparison_protocol.json"
+EXTENSION_ROOT = HERE.parent
+Q1_ROOT = EXTENSION_ROOT.parent
+ORIGINAL_SCRIPTS = Q1_ROOT / "scripts"
+DEFAULT_SPEC = EXTENSION_ROOT / "configs/q1_comparison_protocol.json"
 FORMAL = Q1_ROOT / "artifacts/q1/server_final_100/final_100"
 
 
@@ -160,7 +162,7 @@ def commands(spec: dict[str, Any], args: argparse.Namespace) -> dict[str, list[s
     a1 = resolve_data(spec, args.e_root)["attachment_1"]
     work = args.work_dir.resolve()
     compare = [
-        sys.executable, str(HERE / "compare_q1_methods.py"),
+        sys.executable, str(ORIGINAL_SCRIPTS / "compare_q1_methods.py"),
         "--csv", str(Q1_ROOT / "artifacts/q1/data_cleaning/qualified_samples.csv"),
         "--raw-root", str(a1),
         "--text-feature-dir", str(FORMAL),
@@ -175,7 +177,7 @@ def commands(spec: dict[str, Any], args: argparse.Namespace) -> dict[str, list[s
     result = {
         "git_screening": compare,
         "git_paired_statistics": [
-            sys.executable, str(HERE / "analyze_q1_comparison.py"),
+            sys.executable, str(ORIGINAL_SCRIPTS / "analyze_q1_comparison.py"),
             "--metrics", str(work / "git_screening/comparison_metrics.csv"),
             "--output-dir", str(work / "git_screening"),
         ],
