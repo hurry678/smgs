@@ -1,0 +1,19 @@
+{
+  "schema": "q1-supplementary-pairwise-run-1",
+  "generated_at": "2026-09-25T04:54:19.948686+00:00",
+  "script_sha256": "f85aa478d5e4105597289d9f9b22887d0f43cf7d1155289cca734302a5cf41ef",
+  "input": {
+    "file": "probe_predictions.csv",
+    "sha256": "3b31be1a841701ffd4c001f39174a6d0db8c20a9854a6aa83abefed234962ec7",
+    "rows": 6000
+  },
+  "resamples": 10000,
+  "base_seed": 20260925,
+  "environment": {
+    "python": "3.10.20",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35"
+  },
+  "note": "附加分析：不属于冻结的 170 文件运行清单，不修改任何冻结产物"
+}

@@ -1,0 +1,12 @@
+{
+  "path": "resources/audit_models/base.en.pt",
+  "url": "https://openaipublic.azureedge.net/main/whisper/models/25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead/base.en.pt",
+  "bytes": 145261783,
+  "sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "expected_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "verified_against": "resources/resource_lock.json",
+  "model": "OpenAI Whisper base.en",
+  "license": "MIT",
+  "use": "Audio-only independent-model audit; not used to fit or replace final boundaries.",
+  "package_version": "20250625"
+}

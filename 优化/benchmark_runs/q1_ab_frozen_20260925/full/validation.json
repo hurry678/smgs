@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-09-25T04:47:21.694610+00:00",
+  "profile": "full",
+  "checks": [
+    {
+      "name": "version_comparison_json",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_ab_frozen_20260925/full/version_comparison/version_comparison.json"
+    },
+    {
+      "name": "version_source_match",
+      "passed": true,
+      "detail": 100
+    },
+    {
+      "name": "version_text_match",
+      "passed": true,
+      "detail": 100
+    },
+    {
+      "name": "version_shared_endpoint_count",
+      "passed": true,
+      "detail": 546
+    },
+    {
+      "name": "representation_probe_probe_predictions.csv",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_ab_frozen_20260925/full/representation_probe/probe_predictions.csv"
+    },
+    {
+      "name": "representation_probe_probe_metrics.csv",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_ab_frozen_20260925/full/representation_probe/probe_metrics.csv"
+    },
+    {
+      "name": "representation_probe_probe_summary.json",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_ab_frozen_20260925/full/representation_probe/probe_summary.json"
+    }
+  ],
+  "passed": true
+}

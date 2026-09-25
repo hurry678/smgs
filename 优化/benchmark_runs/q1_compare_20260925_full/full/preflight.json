@@ -1,0 +1,126 @@
+{
+  "protocol_version": "q1-comparison-1.0",
+  "generated_at": "2026-09-25T03:04:44.822850+00:00",
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+  "executable": "/data2/hy/anaconda3/envs/secgpt-vllm/bin/python",
+  "e_root": "/data2/hy/test_5/E题/E题数据",
+  "resolved_data": {
+    "attachment_1": "/data2/hy/test_5/E题/E题数据/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条",
+    "attachment_2": "/data2/hy/test_5/E题/E题数据/E题数据/附件2-数据集特征文件",
+    "attachment_3": "/data2/hy/test_5/E题/E题数据/E题数据/附件3-模态缺失特征样本",
+    "attachment_4": "/data2/hy/test_5/E题/E题数据/E题数据/附件4-可解释专项视频样本与特征文件"
+  },
+  "current_q1_dir": null,
+  "checks": [
+    {
+      "name": "attachment_1_directory",
+      "passed": true,
+      "observed": "/data2/hy/test_5/E题/E题数据/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条",
+      "expected": "existing directory"
+    },
+    {
+      "name": "attachment_1_videos",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "attachment_1_label",
+      "passed": true,
+      "observed": "/data2/hy/test_5/E题/E题数据/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/label-100.xlsx",
+      "expected": "existing file"
+    },
+    {
+      "name": "attachment_2_aligned_50.pkl",
+      "passed": true,
+      "observed": "/data2/hy/test_5/E题/E题数据/E题数据/附件2-数据集特征文件/aligned_50.pkl",
+      "expected": "existing file"
+    },
+    {
+      "name": "attachment_2_unaligned_50.pkl",
+      "passed": true,
+      "observed": "/data2/hy/test_5/E题/E题数据/E题数据/附件2-数据集特征文件/unaligned_50.pkl",
+      "expected": "existing file"
+    },
+    {
+      "name": "attachment_2_label.xlsx",
+      "passed": true,
+      "observed": "/data2/hy/test_5/E题/E题数据/E题数据/附件2-数据集特征文件/label.xlsx",
+      "expected": "existing file"
+    },
+    {
+      "name": "attachment_3_aligned_count",
+      "passed": true,
+      "observed": 30,
+      "expected": 30
+    },
+    {
+      "name": "attachment_3_unaligned_count",
+      "passed": true,
+      "observed": 30,
+      "expected": 30
+    },
+    {
+      "name": "attachment_4_directory",
+      "passed": true,
+      "observed": "/data2/hy/test_5/E题/E题数据/E题数据/附件4-可解释专项视频样本与特征文件",
+      "expected": "existing directory"
+    },
+    {
+      "name": "git_formal_features",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "git_formal_metadata",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "git_formal_alignment",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "tool_ffmpeg",
+      "passed": true,
+      "observed": "/usr/bin/ffmpeg",
+      "expected": "available"
+    },
+    {
+      "name": "tool_ffprobe",
+      "passed": true,
+      "observed": "/usr/bin/ffprobe",
+      "expected": "available"
+    },
+    {
+      "name": "python_module_numpy",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "python_module_scipy",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "python_module_sklearn",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "python_module_cv2",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    }
+  ],
+  "passed": true
+}

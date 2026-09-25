@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-09-25T03:04:45.051079+00:00",
+  "profile": "full",
+  "checks": [
+    {
+      "name": "git_screening_comparison_metrics.csv",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_compare_20260925_full/full/git_screening/comparison_metrics.csv"
+    },
+    {
+      "name": "git_screening_comparison_summary.json",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_compare_20260925_full/full/git_screening/comparison_summary.json"
+    },
+    {
+      "name": "git_screening_comparison_report.md",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_compare_20260925_full/full/git_screening/comparison_report.md"
+    },
+    {
+      "name": "git_screening_pairwise_statistics.csv",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_compare_20260925_full/full/git_screening/pairwise_statistics.csv"
+    },
+    {
+      "name": "git_screening_pairwise_statistics.json",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_compare_20260925_full/full/git_screening/pairwise_statistics.json"
+    },
+    {
+      "name": "git_screening_pairwise_statistics.md",
+      "passed": true,
+      "detail": "/data2/hy/cts/e_problem/benchmark_runs/q1_compare_20260925_full/full/git_screening/pairwise_statistics.md"
+    },
+    {
+      "name": "git_screening_candidate_rows",
+      "passed": true,
+      "detail": 23
+    },
+    {
+      "name": "git_screening_metric_columns",
+      "passed": true,
+      "detail": [
+        "audio_peak_retention",
+        "audio_rmse_ratio",
+        "audio_roughness",
+        "elapsed_sec",
+        "error",
+        "family",
+        "feature_dim_audio",
+        "feature_dim_fused",
+        "feature_dim_probe",
+        "feature_dim_text",
+        "feature_dim_vision",
+        "finite_ratio",
+        "interval_valid_ratio",
+        "mean_active_fraction",
+        "mean_audio_observed_ratio",
+        "mean_duration_fit",
+        "mean_pause_quality",
+        "mean_vision_observed_ratio",
+        "method",
+        "n_samples",
+        "probe_accuracy",
+        "probe_accuracy_std",
+        "probe_component",
+        "probe_macro_f1",
+        "probe_macro_f1_std",
+        "probe_mae",
+        "probe_mae_std",
+        "probe_pearson",
+        "probe_pearson_std",
+        "probe_repeat_macro_f1",
+        "probe_repeat_pearson",
+        "probe_repeats",
+        "status",
+        "vision_fps",
+        "vision_peak_retention",
+        "vision_rmse_ratio",
+        "vision_roughness"
+      ]
+    },
+    {
+      "name": "git_screening_all_ok",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "passed": true
+}

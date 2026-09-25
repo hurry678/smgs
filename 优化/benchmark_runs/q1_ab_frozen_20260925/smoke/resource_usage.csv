@@ -1,0 +1,4 @@
+run_id,candidate,stage,device,cold_or_warm,wall_s,cpu_s,peak_rss_mb,peak_vram_mb,output_bytes,status
+smoke,A_vs_B,version_comparison,cpu,cache-dependent,0.595719,0.872103,56.605,,,completed
+smoke,A_B_C,build_candidate_vectors,cpu,cache-dependent,0.819734,1.160809,56.605,,,completed
+smoke,A_B_C,nested_representation_probe,cpu,cache-dependent,10.212137,62.114846,145.430,,,completed

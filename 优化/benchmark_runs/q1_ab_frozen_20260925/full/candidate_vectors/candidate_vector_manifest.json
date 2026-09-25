@@ -1,0 +1,32 @@
+{
+  "schema": "q1-probe-vectors-1",
+  "candidates": {
+    "A_current_audited": {
+      "file": "A_current_audited.npz",
+      "samples": 100,
+      "dimensions": {
+        "text": 257,
+        "audio": 33,
+        "vision": 13
+      }
+    },
+    "B_git_frozen": {
+      "file": "B_git_frozen.npz",
+      "samples": 100,
+      "dimensions": {
+        "text": 1537,
+        "audio": 81,
+        "vision": 181
+      }
+    },
+    "C_hybrid_capacity": {
+      "file": "C_hybrid_capacity.npz",
+      "samples": 100,
+      "dimensions": {
+        "text": 1537,
+        "audio": 33,
+        "vision": 13
+      }
+    }
+  }
+}

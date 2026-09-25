@@ -1,0 +1,24 @@
+{
+  "schema": "q1-result-analysis-fill-1",
+  "file": "result_analysis.md",
+  "placeholder_sha256": "39f4950e9738d4e8ed75b8485e9f422a99278c13d0e906425b06c9935cb80c18",
+  "filled_sha256": "7d5953371ccfdc91914b3d6f69fb6439e3c6137aed7bd953b959bc813d54ba8f",
+  "filled_at": "2026-09-25T12:56:00+08:00",
+  "template": "ds/q1_comparison_extension/templates/问题一_对比实验结果分析模板.md",
+  "reason": "模板要求的占位文本在冻结时保留；全量运行通过声明门槛后按实测产物填写",
+  "manifest_impact": {
+    "manifest_file": "run_manifest_sha256.txt",
+    "entries": 170,
+    "verified_ok_excluding_this_file": 169,
+    "changed_entries": [
+      "result_analysis.md"
+    ],
+    "note": "其余 169 条哈希与冻结时一致；本文件为协议指定的可填写输出位，非冻结数值产物"
+  },
+  "supplementary": {
+    "dir": "supplementary_pairwise/",
+    "script_sha256": "f85aa478d5e4105597289d9f9b22887d0f43cf7d1155289cca734302a5cf41ef",
+    "input_sha256": "3b31be1a841701ffd4c001f39174a6d0db8c20a9854a6aa83abefed234962ec7",
+    "note": "附加分析，不属于冻结的 170 文件清单，不修改任何冻结产物"
+  }
+}

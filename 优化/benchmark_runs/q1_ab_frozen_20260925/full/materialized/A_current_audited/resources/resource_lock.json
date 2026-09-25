@@ -1,0 +1,19 @@
+{
+  "schema": "q1-resource-lock-1",
+  "basis": "Existing official-source assets audited on 2026-09-24; Whisper hashes additionally match the official model URL. This is a reproducibility baseline, not a publisher signature. Update only by an explicit version change; download never writes this file.",
+  "sha256": {
+    "resources/models/bert/config.json": "508e1f01aae55d73355cbdd82609be2f43ba5a0d3428837adbe56cf8391f8b39",
+    "resources/models/bert/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "resources/models/bert/model.safetensors": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+    "resources/models/bert/README.md": "d13a54d652a2a54fbbc50e063b465fb273295870867821e1b06baba1d49d68a9",
+    "resources/models/face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+    "resources/models/whisper/tiny.en.pt": "d3dd57d32accea0b295c96e26691aa14d8822fac7d9d27d5dc00b4ca2826dd03",
+    "resources/models/mfa/english_mfa_acoustic_v3.1.0.zip": "2c08bd4f82c3943dd57ac09aeac99dbce17a1e1bfe9fd932c8d95cd13d971068",
+    "resources/models/mfa/english_mfa_dictionary_v3.1.0.dict": "975bf9c7791535c5aec57995e0bd2b77eb7ca364d1d974c2134e07bb0f16b079",
+    "resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip": "9923b38d59a8b3e3e322f225c52523c2a6248e5ffc9fd89be151ade2dc97cb02",
+    "resources/reference/stable-ts-README.md": "18daa39d22a5f3d4978eb6c3aa28e3aec35fac670b592289dbb7c84d230b7f90",
+    "resources/reference/whisper-LICENSE": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d",
+    "resources/reference/mediapipe-LICENSE": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8",
+    "resources/audit_models/base.en.pt": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead"
+  }
+}
