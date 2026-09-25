@@ -1,0 +1,128 @@
+{
+  "schema": "q2-ds-hc-preflight-v1",
+  "status": "passed",
+  "repo_root": "/data2/hy/smgs",
+  "extension_root": "/data2/hy/smgs/问题二/q2_ds_optimization_v2_1_20260925",
+  "legacy_root": "/data2/hy/cts/e_problem",
+  "protocol": "/data2/hy/smgs/问题二/q2_ds_optimization_v2_1_20260925/configs/protocol.json",
+  "protocol_sha256": "42be34766d75e24a9e4f40c0904e9a54c3d6aff741c0950baf934810617c36a0",
+  "data": "/data2/hy/cts/e_problem/data/q2/q2_data.npz",
+  "data_sha256": "2bad10a2913ec3a0a03e3999d36e59117e0efbcc480f379dc61c8bcd4de36c38",
+  "attachment3": "/data2/hy/cts/e_problem/data/q2/attachment3_aligned.npz",
+  "attachment3_sha256": "5b964459772343542bb2017d433680af812cfd6bbf860dc482e8a86076513f36",
+  "model_dir": "/data2/hy/cts/e_problem/models/all-MiniLM-L6-v2",
+  "model_weight_sha256": "c3a85f238711653950f6a79ece63eb0ea93d76f6a6284be04019c53733baf256",
+  "baseline_checkpoints": [
+    {
+      "id": "ds_seed42",
+      "path": "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed42.pt",
+      "sha256": "57aebf736398ab1f4a7a5cded627fb10dfb9b6d514bffa7d95f48ec1b2bd49b7"
+    },
+    {
+      "id": "ds_seed43",
+      "path": "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed43.pt",
+      "sha256": "8036d8f3d4023eb774d50c88c8170c57d59b87a1dd8b86c2a8548c341c915f89"
+    },
+    {
+      "id": "ds_seed44",
+      "path": "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed44.pt",
+      "sha256": "70701bf103314b3505927f040664d7422f6e08a43ce319610deac0619afbfa42"
+    },
+    {
+      "id": "ds_seed45",
+      "path": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed45.pt",
+      "sha256": "5908d207e5453ba7f0f8b293dfac307134c31f0dcd7e70bf09d12b2730e59cd7"
+    },
+    {
+      "id": "ds_seed46",
+      "path": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed46.pt",
+      "sha256": "e1b7c504f952cc543259c03d83f24b28eb356924f671c898c4bced4ce35693a6"
+    },
+    {
+      "id": "ds_seed47",
+      "path": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed47.pt",
+      "sha256": "af70760dc8e84d347345c855c629574a2dd531ba4479ce70126044ea6211eb73"
+    },
+    {
+      "id": "ds_seed48",
+      "path": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed48.pt",
+      "sha256": "35e1712d260e5e53def76dffb1f0092f2b811d03b22e2109e593cf9a1cdc5145"
+    },
+    {
+      "id": "ds_seed49",
+      "path": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed49.pt",
+      "sha256": "02e1697affb1478d4e910136bf093cdda99899da3598d662bb45d6eae57165e3"
+    },
+    {
+      "id": "ds_seed50",
+      "path": "/data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed50.pt",
+      "sha256": "85ef923221c11684fa52ae3b3bc3ac6147c9b13a969cecd0dd30b1291270fdb0"
+    }
+  ],
+  "script_checks": {
+    "ds/scripts/q2_models.py": {
+      "path": "/data2/hy/smgs/ds/scripts/q2_models.py",
+      "expected": "659cac7d0cc5b4c39c0f4b71d736dbc59fc54d48b2565b06a10fef356d367700",
+      "actual": "659cac7d0cc5b4c39c0f4b71d736dbc59fc54d48b2565b06a10fef356d367700"
+    },
+    "ds/scripts/q2_train.py": {
+      "path": "/data2/hy/smgs/ds/scripts/q2_train.py",
+      "expected": "ee5383dee5378d9ecad21779cc3926aae4635ae5c2d9d486299728da93aef8d6",
+      "actual": "ee5383dee5378d9ecad21779cc3926aae4635ae5c2d9d486299728da93aef8d6"
+    },
+    "ds/scripts/q2_eval.py": {
+      "path": "/data2/hy/smgs/ds/scripts/q2_eval.py",
+      "expected": "35611c5882c7c52db100d135499c2604ebf4ffa3f3bb6627baeb88a5d53e0dea",
+      "actual": "35611c5882c7c52db100d135499c2604ebf4ffa3f3bb6627baeb88a5d53e0dea"
+    },
+    "ds/scripts/q2_eval_ensemble.py": {
+      "path": "/data2/hy/smgs/ds/scripts/q2_eval_ensemble.py",
+      "expected": "1fb6ad03e68ddb5001f6fc716abc070da2b118e230a0e7c313555eef03a515f3",
+      "actual": "1fb6ad03e68ddb5001f6fc716abc070da2b118e230a0e7c313555eef03a515f3"
+    },
+    "ds/scripts/q2_eval_robustness.py": {
+      "path": "/data2/hy/smgs/ds/scripts/q2_eval_robustness.py",
+      "expected": "56cbcba6afab666cb7f7102625af1d12353d1fc7af4557b6fc6afb43f887d53f",
+      "actual": "56cbcba6afab666cb7f7102625af1d12353d1fc7af4557b6fc6afb43f887d53f"
+    }
+  },
+  "splits": {
+    "train": {
+      "n": 3395,
+      "text_bert_shape": [
+        3395,
+        3,
+        50
+      ],
+      "audio_shape": [
+        3395,
+        50,
+        74
+      ],
+      "vision_shape": [
+        3395,
+        50,
+        35
+      ]
+    },
+    "valid": {
+      "n": 728,
+      "text_bert_shape": [
+        728,
+        3,
+        50
+      ],
+      "audio_shape": [
+        728,
+        50,
+        74
+      ],
+      "vision_shape": [
+        728,
+        50,
+        35
+      ]
+    }
+  },
+  "failures": []
+}

@@ -1,0 +1,8 @@
+START_UTC=2026-09-25T13:22:06Z
+START_CST=2026-09-25 21:22:06 CST
+COMMAND=/data2/hy/anaconda3/envs/secgpt-vllm/bin/python /data2/hy/smgs/问题二/q2_ds_optimization_v2_1_20260925/scripts/run_q2hc.py all --legacy-root /data2/hy/cts/e_problem --work-dir /data2/hy/q2_runs/q2_ds_hc_v2_1_20260925 --devices cuda:0,cuda:1,cuda:2,cuda:3
+{'numpy': '1.26.4', 'sklearn': '1.7.2', 'torch': '2.3.0+cu121', 'cuda': True, 'gpu_count': 4}
+{"status": "frozen", "freeze_manifest": "/data2/hy/q2_runs/q2_ds_hc_v2_1_20260925/frozen/freeze_manifest.json", "next": "review freeze manifest, then run publish with --allow-post-freeze"}
+EXIT_CODE=0
+END_UTC=2026-09-25T13:52:00Z
+END_CST=2026-09-25 21:52:00 CST
