@@ -1,0 +1,40 @@
+{
+  "schema": "q1-server-execution-status-1",
+  "status_date": "2026-09-25",
+  "server_reported_status": {
+    "candidate_a_present": false,
+    "version_comparison_executed": false,
+    "representation_probe_executed": false,
+    "mfa_3_4_1_present": false,
+    "assessment": "blocked_missing_candidate_a"
+  },
+  "remediation_in_repository": {
+    "candidate_a_bundle_added": true,
+    "automatic_materialization_added": true,
+    "frozen_comparison_requires_mfa": false,
+    "full_candidate_a_re_extraction_requires_mfa": true
+  },
+  "local_portability_test": {
+    "scope": "Fresh work directory; no --current-q1-dir argument; candidate A materialized only from the repository bundle",
+    "profile": "smoke",
+    "preflight_passed": true,
+    "validation_passed": true,
+    "candidate_a_features_verified": 100,
+    "version_comparison_shared_endpoints": 546,
+    "representation_probe_candidates": [
+      "A_current_audited",
+      "B_git_frozen",
+      "C_hybrid_capacity"
+    ],
+    "interpretation": "This verifies portability on the local machine, not completion on the target server and not a paper result."
+  },
+  "target_server_status": "rerun_required_after_git_pull",
+  "paper_claim_allowed": false,
+  "paper_claim_gate": [
+    "target-server preflight.json has passed=true",
+    "target-server validation.json has passed=true",
+    "target-server version_comparison/version_comparison.json exists",
+    "target-server representation_probe/probe_summary.json covers A, B and C",
+    "target-server environment.json, resource_usage.csv and run_manifest_sha256.txt are retained"
+  ]
+}

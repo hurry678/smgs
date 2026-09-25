@@ -1,0 +1,36 @@
+{
+  "schema": "q1-candidate-a-portable-bundle-1",
+  "candidate_id": "A_current_audited",
+  "candidate_schema_version": "q1-2.1",
+  "acceptance_policy": "q1-acceptance-4",
+  "archive": "A_current_audited_q1_2_1.zip",
+  "archive_bytes": 1073211,
+  "archive_sha256": "653dc1e5e5fe6b1b67720f6afdad705331a996d5f0f284f473a750d0b2935058",
+  "archive_entries": 147,
+  "feature_files": 100,
+  "alignment_records": 100,
+  "boundary_audit_samples": 100,
+  "validation_checked_samples": 100,
+  "strict_release_passed": true,
+  "source_full_delivery_sha256": "37091d6e957c704afcf56703f8050025951b8881eef2a3e2aaccf7a6b1295d5c",
+  "contains": [
+    "100 final P x 150 feature NPZ files",
+    "alignment.jsonl, acceptance.jsonl and q1_summary.csv",
+    "independent audio-only boundary audit and strict validation",
+    "Q1 source code, tests, configuration, dependency locks and resource provenance",
+    "MFA execution record and regression-test log"
+  ],
+  "excludes": [
+    "original E-problem videos",
+    "MFA environment and MFA model archives",
+    "Whisper audit weights",
+    "BERT model weights",
+    "rebuild-only native caches"
+  ],
+  "execution_scope": {
+    "frozen_version_comparison": "supported without MFA",
+    "A_B_C_representation_probe": "supported without MFA",
+    "candidate_A_full_re_extraction": "requires the original videos, model resources and MFA 3.4.1"
+  },
+  "claim_boundary": "Presence of the bundle enables execution but is not evidence that the server comparison has run. A/B/C completion may be claimed only after server-side preflight.json and validation.json both pass and the result files are retained."
+}

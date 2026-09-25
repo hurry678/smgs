@@ -9,8 +9,8 @@
   "baseline_files_modified": 0,
   "baseline_files_missing": 0,
   "baseline_files_deleted": 0,
-  "dedicated_directory": "问题一/q1_comparison_extension_v1_20260925",
-  "extension_files_excluding_manifest": 14,
+  "dedicated_directory": "ds/q1_comparison_extension",
+  "extension_files_excluding_manifest": 18,
   "original_files_restored": [
     "README.md",
     "问题一/README.md",

@@ -27,6 +27,7 @@ Q1_ROOT = EXTENSION_ROOT.parent
 ORIGINAL_SCRIPTS = Q1_ROOT / "scripts"
 DEFAULT_SPEC = EXTENSION_ROOT / "configs/q1_comparison_protocol.json"
 FORMAL = Q1_ROOT / "artifacts/q1/server_final_100/final_100"
+DEFAULT_CANDIDATE_A_METADATA = EXTENSION_ROOT / "candidates/A_current_audited_q1_2_1.json"
 
 
 def parse_args() -> argparse.Namespace:
@@ -37,7 +38,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--profile", choices=("smoke", "full"), default="smoke")
     parser.add_argument("--stage", choices=("preflight", "plan", "git-screening", "version-comparison",
                                            "representation-probe", "validate", "all"), default="preflight")
-    parser.add_argument("--current-q1-dir", type=Path, help="Current audited 第一问 directory for A-vs-B comparison")
+    parser.add_argument("--current-q1-dir", type=Path,
+                        help="Already materialized candidate A; otherwise the bundled frozen candidate is used")
+    parser.add_argument("--current-q1-metadata", type=Path, default=DEFAULT_CANDIDATE_A_METADATA,
+                        help="Metadata for the bundled frozen candidate A")
+    parser.add_argument("--force-materialize", action="store_true")
     parser.add_argument("--overwrite-cache", action="store_true")
     return parser.parse_args()
 
@@ -82,6 +87,30 @@ def run(command: list[str], log_path: Path, resource_csv: Path, candidate: str, 
         writer.writerow(row)
     if process.returncode:
         raise RuntimeError(f"Command failed ({process.returncode}); see {log_path}: {' '.join(command)}")
+
+
+def ensure_candidate_a(args: argparse.Namespace) -> None:
+    if args.current_q1_dir is not None:
+        args.current_q1_dir = args.current_q1_dir.resolve()
+        return
+    target = (args.work_dir / "materialized/A_current_audited").resolve()
+    command = [
+        sys.executable,
+        str(HERE / "materialize_candidate_a.py"),
+        "--metadata",
+        str(args.current_q1_metadata.resolve()),
+        "--output-dir",
+        str(target),
+    ]
+    if args.force_materialize:
+        command.append("--force")
+    log_path = args.work_dir / "logs/materialize_candidate_a.log"
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with log_path.open("w", encoding="utf-8") as log:
+        process = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, text=True, check=False)
+    if process.returncode:
+        raise RuntimeError(f"Candidate A materialization failed; see {log_path}")
+    args.current_q1_dir = target
 
 
 def resolve_data(spec: dict[str, Any], e_root: Path) -> dict[str, Path]:
@@ -314,6 +343,7 @@ def main() -> int:
     args.e_root = args.e_root.resolve()
     args.work_dir = args.work_dir.resolve()
     args.work_dir.mkdir(parents=True, exist_ok=True)
+    ensure_candidate_a(args)
     spec = json.loads(args.spec.read_text(encoding="utf-8"))
     report = preflight(spec, args.e_root, args.current_q1_dir)
     dump(args.work_dir / "preflight.json", report)

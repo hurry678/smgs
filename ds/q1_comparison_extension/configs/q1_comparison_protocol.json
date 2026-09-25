@@ -44,7 +44,11 @@
       "audio": "13维标准MFCC + log-RMS + ZCR + pYIN F0，共16维，逐维掩码",
       "vision": "MediaPipe Face Landmarker眼口几何，共6维",
       "alignment": "MFA 3.4.1主词边界，确定性短语分组；stable-ts、Silero VAD和无提示Whisper仅作独立证据",
-      "expected_granularity": "phrase_or_clip_context"
+      "expected_granularity": "phrase_or_clip_context",
+      "portable_bundle": "candidates/A_current_audited_q1_2_1.zip",
+      "portable_bundle_metadata": "candidates/A_current_audited_q1_2_1.json",
+      "frozen_comparison_requires_mfa": false,
+      "full_re_extraction_requires_mfa": true
     },
     {
       "id": "B_git_frozen",
@@ -142,6 +146,7 @@
     ]
   },
   "required_outputs": [
+    "materialized/A_current_audited/.candidate_a_materialization.json",
     "preflight.json",
     "resolved_execution_plan.json",
     "environment.json",
@@ -160,5 +165,6 @@
     "result_analysis.md",
     "validation.json",
     "run_manifest_sha256.txt"
-  ]
+  ],
+  "claim_gate": "A/B/C系统比较只有在服务器端preflight.json.passed与validation.json.passed均为true，且version_comparison和representation_probe结果存在时才算完成。"
 }

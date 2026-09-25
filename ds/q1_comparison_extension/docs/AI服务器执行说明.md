@@ -2,6 +2,12 @@
 
 本说明供自动化代理在Linux/CPU或GPU服务器上执行。机器协议为[配置JSON](../configs/q1_comparison_protocol.json)，统一入口为[run_q1_comparison_protocol.py](../scripts/run_q1_comparison_protocol.py)。
 
+## 0. 服务器反馈修正
+
+此前服务器只有候选B，缺少候选A的`alignment.jsonl`、100个NPZ、`boundary_audit.json`和`validation.json`，因此此前没有执行A/B/C跨版本比较。候选B不能冒充A，Git历史中的B内部组件筛选也不能替代A/B/C同条件比较。
+
+本目录现提供候选A冻结比较包和自动校验/解包脚本。它解决的是“服务器缺少A输入”，不自动把历史运行变成已完成实验。必须重新执行本说明的`preflight`、`version-comparison`、`representation-probe`和`validate`；在服务器结果被保留前，论文不得宣称“已完成A/B/C三方案系统比较”。
+
 ## 1. 执行约束
 
 1. 不修改题给数据、当前正式输出或Git历史产物。
@@ -17,13 +23,13 @@
 最低依赖：
 
 ```bash
-export PROTOCOL_ROOT="$REPO/问题一/q1_comparison_extension_v1_20260925"
+export PROTOCOL_ROOT="$REPO/ds/q1_comparison_extension"
 python -m pip install -r "$PROTOCOL_ROOT/requirements-comparison.txt"
 ffmpeg -version
 ffprobe -version
 ```
 
-该文件限制兼容版本区间；每次运行仍须把实际精确版本写入`environment.json`。Git版BERT特征已在正式NPZ中，因此重跑现有候选筛选不需要重新下载BERT。若从原文重新提取BERT-base，还需PyTorch、Transformers和固定模型缓存。当前审计版另需其自身`requirements.lock.txt`及MFA 3.4.1环境。
+该文件限制兼容版本区间；每次运行仍须把实际精确版本写入`environment.json`。候选A和B的冻结比较特征已随仓库提供，因此执行`version-comparison`和`representation-probe`不需要下载BERT、Whisper或安装MFA。只有重新提取候选A才需要其完整依赖、模型资源和MFA 3.4.1。
 
 建议环境变量：
 
@@ -39,14 +45,14 @@ export TOKENIZERS_PARALLELISM=false
 
 ```bash
 export REPO="/path/to/smgs"
-export PROTOCOL_ROOT="$REPO/问题一/q1_comparison_extension_v1_20260925"
+export PROTOCOL_ROOT="$REPO/ds/q1_comparison_extension"
 export E_ROOT="/path/to/E题"
-export CURRENT_Q1="/path/to/当前第一问"
 export RUN_ID="q1_compare_$(date +%Y%m%d_%H%M%S)"
 export RUN_DIR="/path/to/benchmark_runs/${RUN_ID}"
 ```
 
-`${E_ROOT}`必须是包含`E题数据/`的目录。`${CURRENT_Q1}`可选；执行A/B跨版本对比时必须提供，且需包含：
+`${E_ROOT}`必须是包含`E题数据/`的目录。脚本默认校验
+`candidates/A_current_audited_q1_2_1.zip`，并解包到`${RUN_DIR}/materialized/A_current_audited/`。该冻结包包含：
 
 ```text
 outputs/alignment.jsonl
@@ -54,6 +60,8 @@ outputs/features/*.npz
 reports/boundary_audit.json
 reports/validation.json
 ```
+
+若服务器已有另一份经过校验的候选A，可显式传入`--current-q1-dir`覆盖默认包；不得把候选B目录传入该参数。
 
 ## 4. 阶段命令
 
@@ -63,12 +71,11 @@ reports/validation.json
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR" \
-  --current-q1-dir "$CURRENT_Q1" \
   --profile smoke \
   --stage preflight
 ```
 
-成功标准：返回码0，`preflight.json.passed=true`。脚本同时生成：
+成功标准：返回码0，`preflight.json.passed=true`。预检前会验证候选A压缩包的字节数、SHA-256、ZIP路径安全、100条ID覆盖、验收绑定的100个NPZ摘要及严格发布状态。脚本同时生成：
 
 - `resolved_execution_plan.json`：结构化命令；
 - `run_resolved_plan.sh`：可审阅命令，不自动执行；
@@ -80,7 +87,6 @@ python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/smoke" \
-  --current-q1-dir "$CURRENT_Q1" \
   --profile smoke \
   --stage all
 ```
@@ -93,7 +99,6 @@ python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
-  --current-q1-dir "$CURRENT_Q1" \
   --profile full \
   --stage git-screening
 ```
@@ -117,7 +122,6 @@ python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
-  --current-q1-dir "$CURRENT_Q1" \
   --profile full \
   --stage version-comparison
 ```
@@ -132,7 +136,6 @@ python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
-  --current-q1-dir "$CURRENT_Q1" \
   --profile full \
   --stage representation-probe
 ```
@@ -145,7 +148,6 @@ python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
   --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
-  --current-q1-dir "$CURRENT_Q1" \
   --profile full \
   --stage validate
 ```
