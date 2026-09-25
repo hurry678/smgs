@@ -1,0 +1,7 @@
+﻿dimension,value,count
+polarity,Negative,7
+polarity,Neutral,3
+polarity,Positive,10
+primary_modality,text,12
+primary_modality,audio,5
+primary_modality,vision,3

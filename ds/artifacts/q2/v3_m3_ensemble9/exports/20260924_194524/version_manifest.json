@@ -1,0 +1,166 @@
+{
+  "manifest_version": 1,
+  "question": "问题二",
+  "model_version": "M3-ensemble9",
+  "status": "frozen_before_official_test_and_attachment3",
+  "frozen_at": "2026-09-24T18:12:54+08:00",
+  "selected_model": {
+    "kind": "M0",
+    "ensemble_size": 9,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "checkpoints": [
+      "artifacts/q2/final/M0_seed42.pt",
+      "artifacts/q2/final/M0_seed43.pt",
+      "artifacts/q2/final/M0_seed44.pt",
+      "artifacts/q2/v2_m0_ensemble_add/M0_seed45.pt",
+      "artifacts/q2/v2_m0_ensemble_add/M0_seed46.pt",
+      "artifacts/q2/v2_m0_ensemble_add/M0_seed47.pt",
+      "artifacts/q2/v2_m0_ensemble_add2/M0_seed48.pt",
+      "artifacts/q2/v2_m0_ensemble_add2/M0_seed49.pt",
+      "artifacts/q2/v2_m0_ensemble_add2/M0_seed50.pt"
+    ],
+    "checkpoint_sha256": [
+      "57aebf736398ab1f4a7a5cded627fb10dfb9b6d514bffa7d95f48ec1b2bd49b7",
+      "8036d8f3d4023eb774d50c88c8170c57d59b87a1dd8b86c2a8548c341c915f89",
+      "70701bf103314b3505927f040664d7422f6e08a43ce319610deac0619afbfa42",
+      "5908d207e5453ba7f0f8b293dfac307134c31f0dcd7e70bf09d12b2730e59cd7",
+      "e1b7c504f952cc543259c03d83f24b28eb356924f671c898c4bced4ce35693a6",
+      "af70760dc8e84d347345c855c629574a2dd531ba4479ce70126044ea6211eb73",
+      "35e1712d260e5e53def76dffb1f0092f2b811d03b22e2109e593cf9a1cdc5145",
+      "02e1697affb1478d4e910136bf093cdda99899da3598d662bb45d6eae57165e3",
+      "85ef923221c11684fa52ae3b3bc3ac6147c9b13a969cecd0dd30b1291270fdb0"
+    ],
+    "ensemble_rule": "mean softmax probabilities and mean raw intensity",
+    "publish_strategy": "C2"
+  },
+  "selection_evidence": {
+    "protocol": "valid only; 7 non-empty modality subsets x 3 missing ratios; 5 fixed replicas; equal-weight R_MAE primary",
+    "ensemble_scale_comparison": {
+      "3": {
+        "R_MAE": 0.6075552753039768,
+        "mean_macro_f1": 0.558801147161389,
+        "worst_condition_MAE": 0.6533644676208497,
+        "full_c2": {
+          "accuracy": 0.5947802197802198,
+          "macro_f1": 0.57549820541747,
+          "mae": 0.5852798819541931,
+          "pearson": 0.6561533389710079,
+          "n": 728
+        },
+        "evaluation_json": "artifacts/q2/v2_m0_ensemble3_eval/valid_valid_evaluation.json",
+        "evaluation_json_sha256": "bacb3fd5d93093d6e244faa620fcd8db53ddd781b8980e385523c39f7d3d29d5"
+      },
+      "6": {
+        "R_MAE": 0.6041309078534445,
+        "mean_macro_f1": 0.5714364776921654,
+        "worst_condition_MAE": 0.6512249708175659,
+        "full_c2": {
+          "accuracy": 0.614010989010989,
+          "macro_f1": 0.5949544897891635,
+          "mae": 0.5806464552879333,
+          "pearson": 0.6610496704782907,
+          "n": 728
+        },
+        "evaluation_json": "artifacts/q2/v2_m0_ensemble6_eval/valid_valid_evaluation.json",
+        "evaluation_json_sha256": "3802b2a8348e5207029ae532b99651470f6731e7e2fa9387ee3682a8ab30a5bc"
+      },
+      "9": {
+        "R_MAE": 0.6045225739479066,
+        "mean_macro_f1": 0.572749119845546,
+        "worst_condition_MAE": 0.6504661917686463,
+        "full_c2": {
+          "accuracy": 0.6208791208791209,
+          "macro_f1": 0.5997068114591327,
+          "mae": 0.5799670219421387,
+          "pearson": 0.663537037304278,
+          "n": 728
+        },
+        "evaluation_json": "artifacts/q2/v2_m0_ensemble9_eval/valid_valid_evaluation.json",
+        "evaluation_json_sha256": "b86b6a061002155e233e484cc90cffb8f18df5d6898369cdf3183d90531228f2"
+      },
+      "12": {
+        "R_MAE": 0.6063083296730405,
+        "mean_macro_f1": 0.5712189359366416,
+        "worst_condition_MAE": 0.652026891708374,
+        "full_c2": {
+          "accuracy": 0.6112637362637363,
+          "macro_f1": 0.5863681481559034,
+          "mae": 0.5854079723358154,
+          "pearson": 0.6628396538559254,
+          "n": 728
+        },
+        "evaluation_json": "artifacts/q2/v2_m0_ensemble12_eval/valid_valid_evaluation.json",
+        "evaluation_json_sha256": "ac7c190f7bacc9eada6c1d337a114e5b4c4780fe6a1fdee0cf9d5a56aca95861"
+      }
+    },
+    "selected_scale": "9",
+    "selection_reason": "6 models had marginally lower R_MAE, but 9 models improved missing-condition Macro-F1, worst-condition MAE, full-input Macro-F1 and full-input MAE; 12 models regressed.",
+    "paired_vs_old_M0": {
+      "comparison": "M3-ensemble9 vs old M0_seed42",
+      "protocol": "identical 21 fixed validation conditions; C2; lower MAE is better",
+      "mean_MAE_reduction": 0.006316514242263046,
+      "difference_std": 0.0034815717878719835,
+      "bootstrap_95_CI": [
+        0.004875128978774653,
+        0.007757995894977008
+      ],
+      "wins": 20,
+      "losses": 1,
+      "ties": 0,
+      "two_sided_sign_p": 2.09808349609375e-05,
+      "note": "Validation-set paired evidence only; not a claim of universal real-world significance."
+    },
+    "validation_evaluation_json": "artifacts/q2/v2_m0_ensemble9_eval/valid_valid_evaluation.json",
+    "validation_evaluation_json_sha256": "b86b6a061002155e233e484cc90cffb8f18df5d6898369cdf3183d90531228f2"
+  },
+  "rejected_experiments": {
+    "M1-balanced": {
+      "validation_R_MAE_seed_mean": 0.631626,
+      "reason": "worse than old M0 mean 0.624765"
+    },
+    "M2-cross-time": {
+      "validation_R_MAE_seed42": 0.620249,
+      "reason": "worse than old M0 seed42 0.610839"
+    },
+    "M3-ensemble12": {
+      "validation_R_MAE": 0.6063083296730405,
+      "reason": "regressed versus 9-model ensemble"
+    }
+  },
+  "inputs": {
+    "data": "data/q2/q2_data.npz",
+    "data_sha256": "2bad10a2913ec3a0a03e3999d36e59117e0efbcc480f379dc61c8bcd4de36c38",
+    "attachment3": "data/q2/attachment3_aligned.npz",
+    "attachment3_sha256": "5b964459772343542bb2017d433680af812cfd6bbf860dc482e8a86076513f36"
+  },
+  "scripts_sha256": {
+    "scripts/q2_models.py": "659cac7d0cc5b4c39c0f4b71d736dbc59fc54d48b2565b06a10fef356d367700",
+    "scripts/q2_train.py": "ee5383dee5378d9ecad21779cc3926aae4635ae5c2d9d486299728da93aef8d6",
+    "scripts/q2_eval.py": "35611c5882c7c52db100d135499c2604ebf4ffa3f3bb6627baeb88a5d53e0dea",
+    "scripts/q2_eval_robustness.py": "56cbcba6afab666cb7f7102625af1d12353d1fc7af4557b6fc6afb43f887d53f",
+    "scripts/q2_eval_ensemble.py": "1fb6ad03e68ddb5001f6fc716abc070da2b118e230a0e7c313555eef03a515f3",
+    "scripts/q2_ensemble_publish.py": "8c99326ac82dfce1186012683b18b2a3623405a6f257b00328ac58bd645333c3"
+  },
+  "test_policy": {
+    "official_test_status": "not_run_at_freeze",
+    "official_test_run_limit": 1,
+    "attachment3_usage": "frozen inference only; no tuning or model selection",
+    "existing_old_version_unchanged": true
+  },
+  "server": {
+    "host": "192.168.182.155",
+    "workdir": "/data2/hy/cts/e_problem",
+    "python": "/data2/hy/anaconda3/envs/secgpt-vllm/bin/python",
+    "gpu": "NVIDIA GeForce RTX 4090"
+  }
+}

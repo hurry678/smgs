@@ -1,0 +1,655 @@
+{
+  "n_samples": 100,
+  "families": {
+    "alignment": [
+      {
+        "family": "alignment",
+        "method": "uniform",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 1.463533,
+        "error": "",
+        "mean_active_fraction": 0.42568348385692545,
+        "mean_pause_quality": 0.5803776410886843,
+        "mean_duration_fit": 0.7634201878038077,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9678646281278634,
+        "mean_vision_observed_ratio": 0.931137974168934,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.5,
+        "probe_macro_f1": 0.42599067599067597,
+        "probe_mae": 0.6008900623032267,
+        "probe_pearson": 0.22288491469061913,
+        "feature_dim_fused": 1799
+      },
+      {
+        "family": "alignment",
+        "method": "length_weighted",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 0.65997,
+        "error": "",
+        "mean_active_fraction": 0.4279959876838522,
+        "mean_pause_quality": 0.5872288443733034,
+        "mean_duration_fit": 0.9701554284741439,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.962250351612435,
+        "mean_vision_observed_ratio": 0.926807240621019,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.52,
+        "probe_macro_f1": 0.44931216931216933,
+        "probe_mae": 0.600115047834397,
+        "probe_pearson": 0.22612418833638226,
+        "feature_dim_fused": 1799
+      },
+      {
+        "family": "alignment",
+        "method": "energy_dp_20",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.621051,
+        "error": "",
+        "mean_active_fraction": 0.48802068016446215,
+        "mean_pause_quality": 0.6394482101871458,
+        "mean_duration_fit": 0.8395948555554585,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9662045215061142,
+        "mean_vision_observed_ratio": 0.901330106405075,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.51,
+        "probe_macro_f1": 0.4434894091415831,
+        "probe_mae": 0.6012845555958491,
+        "probe_pearson": 0.21670670144776777,
+        "feature_dim_fused": 1799
+      },
+      {
+        "family": "alignment",
+        "method": "full_dp_10",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 1.650295,
+        "error": "",
+        "mean_active_fraction": 0.47376437069586763,
+        "mean_pause_quality": 0.5837596862719621,
+        "mean_duration_fit": 0.8461361833012621,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9740058922558923,
+        "mean_vision_observed_ratio": 0.9091323405472973,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.4092353821401649,
+        "probe_mae": 0.5959425640583771,
+        "probe_pearson": 0.229563006549389,
+        "feature_dim_fused": 1799
+      },
+      {
+        "family": "alignment",
+        "method": "full_dp_20",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.783284,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.4103565421572382,
+        "probe_mae": 0.598965090765596,
+        "probe_pearson": 0.21816667068192977,
+        "feature_dim_fused": 1799
+      },
+      {
+        "family": "alignment",
+        "method": "full_dp_40",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 8.26792,
+        "error": "",
+        "mean_active_fraction": 0.4815663038702009,
+        "mean_pause_quality": 0.7277474750963572,
+        "mean_duration_fit": 0.8534214829191029,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9717824981160678,
+        "mean_vision_observed_ratio": 0.9061791460057131,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.51,
+        "probe_macro_f1": 0.4329683388506918,
+        "probe_mae": 0.6011144610586168,
+        "probe_pearson": 0.2192659805362383,
+        "feature_dim_fused": 1799
+      }
+    ],
+    "smoothing": [
+      {
+        "family": "smoothing",
+        "method": "sigma_0p0",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 0.370915,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.40885131387125817,
+        "probe_mae": 0.5997004830142609,
+        "probe_pearson": 0.21868813177045032,
+        "feature_dim_fused": 1799,
+        "audio_roughness": 0.5600201246204033,
+        "vision_roughness": 0.9609769759206873,
+        "audio_rmse_ratio": 0.0,
+        "vision_rmse_ratio": 0.0,
+        "audio_peak_retention": 1.0,
+        "vision_peak_retention": 1.0
+      },
+      {
+        "family": "smoothing",
+        "method": "sigma_0p5",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 0.63614,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.40885131387125817,
+        "probe_mae": 0.5992539922561074,
+        "probe_pearson": 0.2187080003742716,
+        "feature_dim_fused": 1799,
+        "audio_roughness": 0.4893748325385762,
+        "vision_roughness": 0.7517079447324291,
+        "audio_rmse_ratio": 0.018942350511853688,
+        "vision_rmse_ratio": 0.015341765141792812,
+        "audio_peak_retention": 0.9862297932416492,
+        "vision_peak_retention": 0.9856372979048369
+      },
+      {
+        "family": "smoothing",
+        "method": "sigma_0p75",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 0.63612,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.4103565421572382,
+        "probe_mae": 0.598965090765596,
+        "probe_pearson": 0.21816667068192977,
+        "feature_dim_fused": 1799,
+        "audio_roughness": 0.41408433753271434,
+        "vision_roughness": 0.48973585564762456,
+        "audio_rmse_ratio": 0.04241658664496697,
+        "vision_rmse_ratio": 0.033606549007777466,
+        "audio_peak_retention": 0.972760869159337,
+        "vision_peak_retention": 0.9710887145891234
+      },
+      {
+        "family": "smoothing",
+        "method": "sigma_1p0",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 0.638638,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.5,
+        "probe_macro_f1": 0.4156456385504213,
+        "probe_mae": 0.5988229642211267,
+        "probe_pearson": 0.21743209820532478,
+        "feature_dim_fused": 1799,
+        "audio_roughness": 0.38039448691978256,
+        "vision_roughness": 0.37351812255556716,
+        "audio_rmse_ratio": 0.05738545679444385,
+        "vision_rmse_ratio": 0.04344263539032496,
+        "audio_peak_retention": 0.9647292787171762,
+        "vision_peak_retention": 0.9624128891082026
+      }
+    ],
+    "text": [
+      {
+        "family": "text",
+        "method": "bert",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.769869,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.4103565421572382,
+        "probe_mae": 0.598965090765596,
+        "probe_pearson": 0.21816667068192977,
+        "feature_dim_fused": 1799,
+        "feature_dim_text": 768
+      },
+      {
+        "family": "text",
+        "method": "hash",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.785617,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.46,
+        "probe_macro_f1": 0.42264550264550266,
+        "probe_mae": 0.7416608169982993,
+        "probe_pearson": -0.035736148344859824,
+        "feature_dim_fused": 1799,
+        "feature_dim_text": 768
+      }
+    ],
+    "audio_features": [
+      {
+        "family": "audio_features",
+        "method": "full_40",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.768798,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.4103565421572382,
+        "probe_mae": 0.598965090765596,
+        "probe_pearson": 0.21816667068192977,
+        "feature_dim_fused": 1799,
+        "feature_dim_audio": 40
+      },
+      {
+        "family": "audio_features",
+        "method": "mfcc_delta_23",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.762632,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.47,
+        "probe_macro_f1": 0.3931121166415284,
+        "probe_mae": 0.5979947085930801,
+        "probe_pearson": 0.21929290150863032,
+        "feature_dim_fused": 1765,
+        "feature_dim_audio": 23
+      },
+      {
+        "family": "audio_features",
+        "method": "spectral_mel_31",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.77238,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.48,
+        "probe_macro_f1": 0.39839572192513373,
+        "probe_mae": 0.6025190057300254,
+        "probe_pearson": 0.21092376107833996,
+        "feature_dim_fused": 1781,
+        "feature_dim_audio": 31
+      },
+      {
+        "family": "audio_features",
+        "method": "core_prosody_9",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.767566,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.5,
+        "probe_macro_f1": 0.4251666996765036,
+        "probe_mae": 0.5953840503308521,
+        "probe_pearson": 0.23045060717804358,
+        "feature_dim_fused": 1737,
+        "feature_dim_audio": 9
+      },
+      {
+        "family": "audio_features",
+        "method": "energy_voiced_f0_3",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.742087,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.5,
+        "probe_macro_f1": 0.4263822090681136,
+        "probe_mae": 0.5918397657166956,
+        "probe_pearson": 0.2411943391933831,
+        "feature_dim_fused": 1725,
+        "feature_dim_audio": 3
+      }
+    ],
+    "vision_features": [
+      {
+        "family": "vision_features",
+        "method": "full_90",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.740369,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.4103565421572382,
+        "probe_mae": 0.598965090765596,
+        "probe_pearson": 0.21816667068192977,
+        "feature_dim_fused": 1799,
+        "feature_dim_vision": 90
+      },
+      {
+        "family": "vision_features",
+        "method": "no_hog_54",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.738876,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.40885131387125817,
+        "probe_mae": 0.5991039879822719,
+        "probe_pearson": 0.2391130408541716,
+        "feature_dim_fused": 1727,
+        "feature_dim_vision": 54
+      },
+      {
+        "family": "vision_features",
+        "method": "compact_38",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.749342,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.51,
+        "probe_macro_f1": 0.4416369319281941,
+        "probe_mae": 0.5991484911247462,
+        "probe_pearson": 0.2389643397733219,
+        "feature_dim_fused": 1695,
+        "feature_dim_vision": 38
+      }
+    ],
+    "vision_fps": [
+      {
+        "family": "vision_fps",
+        "method": "fps_2p5",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.745453,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.7179613315668584,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.5,
+        "probe_macro_f1": 0.41419074752408086,
+        "probe_mae": 0.5987449979208451,
+        "probe_pearson": 0.22106280727639682,
+        "feature_dim_fused": 1799,
+        "vision_fps": 2.5
+      },
+      {
+        "family": "vision_fps",
+        "method": "fps_5p0",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.74123,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9096911384873103,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.4103565421572382,
+        "probe_mae": 0.598965090765596,
+        "probe_pearson": 0.21816667068192977,
+        "feature_dim_fused": 1799,
+        "vision_fps": 5.0
+      },
+      {
+        "family": "vision_fps",
+        "method": "fps_10p0",
+        "status": "ok",
+        "n_samples": 100,
+        "elapsed_sec": 2.752315,
+        "error": "",
+        "mean_active_fraction": 0.47350730049899353,
+        "mean_pause_quality": 0.6659943525982662,
+        "mean_duration_fit": 0.8569250134175996,
+        "interval_valid_ratio": 1.0,
+        "mean_audio_observed_ratio": 0.9720862304517768,
+        "mean_vision_observed_ratio": 0.9360297578238754,
+        "finite_ratio": 1.0,
+        "probe_accuracy": 0.49,
+        "probe_macro_f1": 0.4103565421572382,
+        "probe_mae": 0.5997020150912435,
+        "probe_pearson": 0.2151535008167044,
+        "feature_dim_fused": 1799,
+        "vision_fps": 10.0
+      }
+    ]
+  },
+  "recommendations": {
+    "alignment": {
+      "selected": "length_weighted",
+      "composite_score": 0.7618394024076006,
+      "ranking": [
+        {
+          "method": "length_weighted",
+          "composite_score": 0.7618394024076006
+        },
+        {
+          "method": "energy_dp_20",
+          "composite_score": 0.514889184027074
+        },
+        {
+          "method": "full_dp_40",
+          "composite_score": 0.4461990817527872
+        },
+        {
+          "method": "full_dp_10",
+          "composite_score": 0.36214622191914325
+        },
+        {
+          "method": "uniform",
+          "composite_score": 0.28327564755873796
+        },
+        {
+          "method": "full_dp_20",
+          "composite_score": 0.1605408645947347
+        }
+      ],
+      "rule": "hard constraints first; 0.45*macro_f1 + 0.25*pearson + 0.15*duration_fit + 0.10*active - 0.05*feature_dim; probe is selection-only"
+    },
+    "smoothing": {
+      "selected": "sigma_1p0",
+      "composite_score": 0.55,
+      "ranking": [
+        {
+          "method": "sigma_1p0",
+          "composite_score": 0.55
+        },
+        {
+          "method": "sigma_0p5",
+          "composite_score": 0.35
+        },
+        {
+          "method": "sigma_0p0",
+          "composite_score": 0.3461069499870673
+        },
+        {
+          "method": "sigma_0p75",
+          "composite_score": 0.34362587557707447
+        }
+      ],
+      "rule": "hard constraints first; 0.45*macro_f1 + 0.25*pearson + 0.15*duration_fit + 0.10*active - 0.05*feature_dim; probe is selection-only"
+    },
+    "text": {
+      "selected": "hash",
+      "composite_score": 0.55,
+      "ranking": [
+        {
+          "method": "hash",
+          "composite_score": 0.55
+        },
+        {
+          "method": "bert",
+          "composite_score": 0.35
+        }
+      ],
+      "rule": "hard constraints first; 0.45*macro_f1 + 0.25*pearson + 0.15*duration_fit + 0.10*active - 0.05*feature_dim; probe is selection-only"
+    },
+    "audio_features": {
+      "selected": "energy_voiced_f0_3",
+      "composite_score": 0.825,
+      "ranking": [
+        {
+          "method": "energy_voiced_f0_3",
+          "composite_score": 0.825
+        },
+        {
+          "method": "core_prosody_9",
+          "composite_score": 0.7117205106875396
+        },
+        {
+          "method": "full_40",
+          "composite_score": 0.36806032274205835
+        },
+        {
+          "method": "mfcc_delta_23",
+          "composite_score": 0.1670924030552421
+        },
+        {
+          "method": "spectral_mel_31",
+          "composite_score": 0.15862641741991157
+        }
+      ],
+      "rule": "hard constraints first; 0.45*macro_f1 + 0.25*pearson + 0.15*duration_fit + 0.10*active - 0.05*feature_dim; probe is selection-only"
+    },
+    "vision_features": {
+      "selected": "compact_38",
+      "composite_score": 0.8232252165932937,
+      "ranking": [
+        {
+          "method": "compact_38",
+          "composite_score": 0.8232252165932937
+        },
+        {
+          "method": "no_hog_54",
+          "composite_score": 0.3596153846153846
+        },
+        {
+          "method": "full_90",
+          "composite_score": 0.09566005672105128
+        }
+      ],
+      "rule": "hard constraints first; 0.45*macro_f1 + 0.25*pearson + 0.15*duration_fit + 0.10*active - 0.05*feature_dim; probe is selection-only"
+    },
+    "vision_fps": {
+      "selected": "fps_2p5",
+      "composite_score": 0.7999999999999999,
+      "ranking": [
+        {
+          "method": "fps_2p5",
+          "composite_score": 0.7999999999999999
+        },
+        {
+          "method": "fps_5p0",
+          "composite_score": 0.22747561349958342
+        },
+        {
+          "method": "fps_10p0",
+          "composite_score": 0.1
+        }
+      ],
+      "rule": "hard constraints first; 0.45*macro_f1 + 0.25*pearson + 0.15*duration_fit + 0.10*active - 0.05*feature_dim; probe is selection-only"
+    }
+  },
+  "notes": [
+    "probe_* uses GroupKFold by video_id and is not a formal problem-1 model.",
+    "No external model or dependency was downloaded or installed.",
+    "Final choice also needs reproducibility, storage and manuscript interpretability checks."
+  ]
+}

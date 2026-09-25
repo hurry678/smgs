@@ -1,0 +1,1 @@
+run_id,candidate,stage,device,cold_or_warm,wall_s,cpu_s,peak_rss_mb,peak_vram_mb,output_bytes,status

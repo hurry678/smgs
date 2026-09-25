@@ -1,0 +1,129 @@
+{
+  "manifest_version": 1,
+  "generated_at": "2026-09-24T16:41:05+08:00",
+  "question": "问题二",
+  "status": "final",
+  "selected_model": {
+    "model": "M0",
+    "seed": 42,
+    "checkpoint_server_path": "/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed42.pt",
+    "checkpoint_local_copy": null,
+    "checkpoint_sha256": "57aebf736398ab1f4a7a5cded627fb10dfb9b6d514bffa7d95f48ec1b2bd49b7",
+    "checkpoint_bytes": 91711482,
+    "trainable_params": 349446,
+    "publish_strategy": "C2"
+  },
+  "publish_strategy": {
+    "id": "C2",
+    "polarity_rule": "pred = argmax(logits)",
+    "intensity_rule": "Positive: max(raw, 1e-4); Negative: min(raw, -1e-4); Neutral: 0",
+    "eps": 0.0001,
+    "c3_reference_only_thresholds": [
+      -0.2,
+      0.35
+    ]
+  },
+  "submission": {
+    "path": "submission/q2_predictions.csv",
+    "sha256": "eb6a14c3737460470fa3be1f5e761e2d5a01a2ed976e7e8f3bba2820619a3c7e",
+    "encoding": "UTF-8 BOM",
+    "columns": [
+      "sample_id",
+      "原文件名",
+      "polarity",
+      "intensity"
+    ],
+    "rows": 30,
+    "unique_sample_ids": 30,
+    "id_range": [
+      "附件3_01",
+      "附件3_30"
+    ],
+    "polarity_counts": {
+      "Negative": 5,
+      "Neutral": 10,
+      "Positive": 15
+    },
+    "intensity_min": -1.369635,
+    "intensity_max": 1.236475,
+    "json_sidecar": {
+      "path": "artifacts/q2/submission/attachment3_predictions.json",
+      "sha256": "42010d3e52ad3751ea2c767d54e993ad9f0883f57a5bd1b41dd5a2bb85d73954",
+      "rows": 30,
+      "publish_strategy": "C2",
+      "thresholds": null
+    },
+    "csv_json_consistency": true
+  },
+  "inputs": {
+    "data": {
+      "path": "data/q2/q2_data.npz",
+      "sha256": "2bad10a2913ec3a0a03e3999d36e59117e0efbcc480f379dc61c8bcd4de36c38"
+    },
+    "attachment3_aligned": {
+      "path": "data/q2/attachment3_aligned.npz",
+      "sha256": "5b964459772343542bb2017d433680af812cfd6bbf860dc482e8a86076513f36"
+    },
+    "data_audit": {
+      "path": "data_work/q2/q2_data_audit.json",
+      "sha256": "70281b8e16c30907f17172bed0039698e9c23a98ed139831a748307676a095b1"
+    },
+    "freeze_manifest": {
+      "path": "artifacts/q2/freeze_manifest.json",
+      "sha256": "ba74cc0c0c21d532ac99721b4d24d99ed4efd163eb5343b7a7a34786d4006748"
+    },
+    "scripts_sha256": {
+      "scripts/q2_models.py": "91e97b66924b19528e91993161ef1e9e5311881476449f50318fbc2695fac200",
+      "scripts/q2_train.py": "ee5383dee5378d9ecad21779cc3926aae4635ae5c2d9d486299728da93aef8d6",
+      "scripts/q2_eval.py": "35611c5882c7c52db100d135499c2604ebf4ffa3f3bb6627baeb88a5d53e0dea"
+    }
+  },
+  "evaluation_evidence": {
+    "validation_summary_json": {
+      "path": "artifacts/q2/evaluation/q2_validation_summary.json",
+      "sha256": "1169577fd2a022d5c0c3a1d8826bec6bbe11e0a69ccedfb8a4b5a2d2a136fffa"
+    },
+    "official_test": {
+      "path": "artifacts/q2/test_final/test_test_evaluation.json",
+      "sha256": "0586124adb52d3c66e4ee3285d83cce76bbb4c5214bccd28dab5ca91a788dd7c",
+      "n": 727,
+      "evaluated_once_after_freeze": true,
+      "c2": {
+        "accuracy": 0.639614855570839,
+        "macro_f1": 0.609116771957518,
+        "mae": 0.6530081033706665,
+        "pearson": 0.6435911430361764
+      },
+      "c3_reference": {
+        "accuracy": 0.6189821182943603,
+        "macro_f1": 0.5894212634182893,
+        "mae": 0.6622223258018494,
+        "pearson": 0.6468512369208375
+      }
+    }
+  },
+  "verification": {
+    "csv_row_count_30": true,
+    "sample_ids_unique_and_complete": true,
+    "csv_json_rowwise_consistency": true,
+    "model_checkpoint_hash_verified_on_server": true,
+    "training_data_hash_verified_on_server": true,
+    "official_test_not_rerun_for_publication_correction": true
+  },
+  "publication_correction": {
+    "issue": "原正式提交曾误用 C3 阈值规则，而冻结发布策略为 C2。",
+    "different_rows": [
+      "附件3_10",
+      "附件3_13",
+      "附件3_24",
+      "附件3_27",
+      "附件3_28"
+    ],
+    "action": "已归档 C3 参考输出，修改 q2_eval.py 支持显式发布策略，并以 M0_seed42 + C2 重新生成和覆盖正式附件3提交。",
+    "c3_reference_csv": {
+      "path": "artifacts/q2/c3_reference/attachment3_predictions_c3.csv",
+      "sha256": "ca9710db9f27c12ecad0262429f1f279d84684a0403e74a90df2115bfe8e4ae0"
+    },
+    "official_test_rerun": false
+  }
+}

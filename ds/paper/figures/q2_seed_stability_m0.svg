@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<style>text{font-family:Microsoft YaHei, SimSun, Arial, sans-serif;fill:#1f2937}.axis{stroke:#9aa4b2;stroke-width:1}.grid{stroke:#e5e7eb;stroke-width:1}</style>
+<rect width="1200" height="700" fill="#ffffff"/>
+<text x="54" y="48" font-size="26" font-weight="700">问题二：M0 随机种子稳定性</text>
+<text x="54" y="76" font-size="14" fill="#596579">同一验证协议下的3个随机种子；用于稳定性说明</text>
+<text x="18.00" y="337.50" font-size="13" text-anchor="middle" font-weight="400" fill="#1f2937" transform="rotate(-90.0 18.00 337.50)">指标值</text>
+<line class="grid" x1="105.00" y1="550.00" x2="1150.00" y2="550.00" stroke-width="1"/>
+<text x="95.00" y="554.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.602</text>
+<line class="grid" x1="105.00" y1="465.00" x2="1150.00" y2="465.00" stroke-width="1"/>
+<text x="95.00" y="469.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.621</text>
+<line class="grid" x1="105.00" y1="380.00" x2="1150.00" y2="380.00" stroke-width="1"/>
+<text x="95.00" y="384.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.639</text>
+<line class="grid" x1="105.00" y1="295.00" x2="1150.00" y2="295.00" stroke-width="1"/>
+<text x="95.00" y="299.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.658</text>
+<line class="grid" x1="105.00" y1="210.00" x2="1150.00" y2="210.00" stroke-width="1"/>
+<text x="95.00" y="214.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.677</text>
+<line class="grid" x1="105.00" y1="125.00" x2="1150.00" y2="125.00" stroke-width="1"/>
+<text x="95.00" y="129.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.696</text>
+<line class="axis" x1="105.00" y1="125.00" x2="105.00" y2="550.00" stroke-width="1.2"/>
+<line class="axis" x1="105.00" y1="550.00" x2="1150.00" y2="550.00" stroke-width="1.2"/>
+<text x="105.00" y="578.00" font-size="13" text-anchor="middle" font-weight="400" fill="#1f2937">42</text>
+<text x="627.50" y="578.00" font-size="13" text-anchor="middle" font-weight="400" fill="#1f2937">43</text>
+<text x="1150.00" y="578.00" font-size="13" text-anchor="middle" font-weight="400" fill="#1f2937">44</text>
+<polyline points="105.00,508.87 627.50,500.73 1150.00,328.05" fill="none" stroke="#3B6FB6" stroke-width="2.5"/>
+<circle cx="105.00" cy="508.87" r="5.00" fill="#3B6FB6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="105.00" y="496.87" font-size="10" text-anchor="middle" font-weight="400" fill="#4b5563">0.611</text>
+<circle cx="627.50" cy="500.73" r="5.00" fill="#3B6FB6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="627.50" y="488.73" font-size="10" text-anchor="middle" font-weight="400" fill="#4b5563">0.613</text>
+<circle cx="1150.00" cy="328.05" r="5.00" fill="#3B6FB6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1150.00" y="316.05" font-size="10" text-anchor="middle" font-weight="400" fill="#4b5563">0.651</text>
+<polyline points="105.00,301.02 627.50,292.32 1150.00,166.13" fill="none" stroke="#B24C63" stroke-width="2.5"/>
+<circle cx="105.00" cy="301.02" r="5.00" fill="#B24C63" stroke="#ffffff" stroke-width="1.5"/>
+<text x="105.00" y="289.02" font-size="10" text-anchor="middle" font-weight="400" fill="#4b5563">0.657</text>
+<circle cx="627.50" cy="292.32" r="5.00" fill="#B24C63" stroke="#ffffff" stroke-width="1.5"/>
+<text x="627.50" y="280.32" font-size="10" text-anchor="middle" font-weight="400" fill="#4b5563">0.659</text>
+<circle cx="1150.00" cy="166.13" r="5.00" fill="#B24C63" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1150.00" y="154.13" font-size="10" text-anchor="middle" font-weight="400" fill="#4b5563">0.687</text>
+<rect x="105.00" y="644.00" width="18.00" height="12.00" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="130.00" y="655.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">R_MAE</text>
+<rect x="355.00" y="644.00" width="18.00" height="12.00" fill="#B24C63" stroke="none" rx="2"/>
+<text x="380.00" y="655.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">最差条件MAE</text>
+</svg>

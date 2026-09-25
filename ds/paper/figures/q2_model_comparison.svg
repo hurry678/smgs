@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<style>text{font-family:Microsoft YaHei, SimSun, Arial, sans-serif;fill:#1f2937}.axis{stroke:#9aa4b2;stroke-width:1}.grid{stroke:#e5e7eb;stroke-width:1}</style>
+<rect width="1200" height="720" fill="#ffffff"/>
+<text x="54" y="48" font-size="26" font-weight="700">问题二：候选模型族对比</text>
+<text x="54" y="76" font-size="14" fill="#596579">固定21个验证条件；正式发布版本为M0架构的9模型集成，不是单一seed</text>
+<text x="18.00" y="345.00" font-size="13" text-anchor="middle" font-weight="400" fill="#1f2937" transform="rotate(-90.0 18.00 345.00)">指标值</text>
+<line class="grid" x1="105.00" y1="565.00" x2="1155.00" y2="565.00" stroke-width="1"/>
+<text x="95.00" y="569.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.000</text>
+<line class="grid" x1="105.00" y1="477.00" x2="1155.00" y2="477.00" stroke-width="1"/>
+<text x="95.00" y="481.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.147</text>
+<line class="grid" x1="105.00" y1="389.00" x2="1155.00" y2="389.00" stroke-width="1"/>
+<text x="95.00" y="393.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.293</text>
+<line class="grid" x1="105.00" y1="301.00" x2="1155.00" y2="301.00" stroke-width="1"/>
+<text x="95.00" y="305.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.440</text>
+<line class="grid" x1="105.00" y1="213.00" x2="1155.00" y2="213.00" stroke-width="1"/>
+<text x="95.00" y="217.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.587</text>
+<line class="grid" x1="105.00" y1="125.00" x2="1155.00" y2="125.00" stroke-width="1"/>
+<text x="95.00" y="129.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.734</text>
+<line class="axis" x1="105.00" y1="125.00" x2="105.00" y2="565.00" stroke-width="1.2"/>
+<line class="axis" x1="105.00" y1="565.00" x2="1155.00" y2="565.00" stroke-width="1.2"/>
+<text x="210.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">B2</text>
+<rect x="166.00" y="179.04" width="42.00" height="385.96" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="187.00" y="174.04" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.643</text>
+<rect x="212.00" y="217.13" width="42.00" height="347.87" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="233.00" y="212.13" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.580</text>
+<text x="420.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">B3</text>
+<rect x="376.00" y="182.86" width="42.00" height="382.14" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="397.00" y="177.86" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.637</text>
+<rect x="422.00" y="219.85" width="42.00" height="345.15" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="443.00" y="214.85" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.575</text>
+<text x="630.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">B4</text>
+<rect x="586.00" y="189.30" width="42.00" height="375.70" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="607.00" y="184.30" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.626</text>
+<rect x="632.00" y="215.46" width="42.00" height="349.54" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="653.00" y="210.46" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.583</text>
+<text x="840.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">B5</text>
+<rect x="796.00" y="183.53" width="42.00" height="381.47" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="817.00" y="178.53" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.636</text>
+<rect x="842.00" y="219.96" width="42.00" height="345.04" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="863.00" y="214.96" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.575</text>
+<text x="1050.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">M0</text>
+<rect x="1006.00" y="190.27" width="42.00" height="374.73" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="1027.00" y="185.27" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.625</text>
+<rect x="1052.00" y="220.96" width="42.00" height="344.04" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="1073.00" y="215.96" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.574</text>
+<rect x="105.00" y="664.00" width="18.00" height="12.00" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="130.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">R_MAE（越低越好）</text>
+<rect x="355.00" y="664.00" width="18.00" height="12.00" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="380.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">完整输入Macro-F1</text>
+</svg>

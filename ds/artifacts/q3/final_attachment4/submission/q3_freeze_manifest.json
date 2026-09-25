@@ -1,0 +1,71 @@
+{
+  "manifest_version": 1,
+  "question": "问题三",
+  "status": "completed_with_frozen_attachment4_inference",
+  "created_at": "2026-09-24T22:00:48+08:00",
+  "model_manifest": "artifacts/q2/v3_m3_ensemble9/version_manifest.json",
+  "model_manifest_sha256": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+  "explanation_script": "scripts/q3_explain_core.py",
+  "explanation_script_sha256": "d93f46dcee062daae0a1deb0d6045b96ce30849398d2f1882ca0fd471e4646d0",
+  "packager_script": "scripts/q3_build_outputs.py",
+  "packager_script_sha256": "9583fa7ffef16217da759678cfc059eb86fde74965f998b10e5ef0716790b01c",
+  "explanation_parameters": "artifacts/q3/freeze_parameters.json",
+  "explanation_parameters_sha256": "d7b4ac9daf54a642765a7277db34e0b2aa360ccef89053edc5fea5b449bd5811",
+  "inputs": {
+    "data": "data/q2/q2_data.npz",
+    "data_sha256": "2bad10a2913ec3a0a03e3999d36e59117e0efbcc480f379dc61c8bcd4de36c38",
+    "offsets": "data/q3/q3_text_offsets.npz",
+    "offsets_sha256": "fad37b46b496ec54421e83da99efbfbe2272bb18978f3d2db7a43aa8e1d8bf3d",
+    "audit": "data/q3/attachment4_audit.json",
+    "audit_sha256": "88ca2dff223579dfd402d8e4a998055e4431ebc4f846e624dcc1a0728e5b77f2",
+    "attachment4": "data/q3/attachment4_aligned.npz",
+    "attachment4_sha256": "78e1a72d0be26fe83e9ab1b12f473982399a62d8f545773fb57c52f768039a53"
+  },
+  "frozen_parameters": {
+    "question": 3,
+    "split": "attachment4",
+    "n": 20,
+    "window_size": 10,
+    "stride": 10,
+    "point_scan_n": 20,
+    "top_k_per_modality": 2,
+    "seed": 2026,
+    "batch_size": 64,
+    "frozen_explanation_parameters": true,
+    "attachment4_used_for_tuning": false,
+    "local_pairing": "paired by sample x modality x window index",
+    "paired_statistics": "5000-resample paired bootstrap 95% CI and exact two-sided sign test"
+  },
+  "validation_report": "artifacts/q3/final_validation/q3_validation_report.json",
+  "validation_report_sha256": "a9f7bc2cf884db5c1e53b1a6b95cff60b1e94a33c1d09cc0a911b20d99ce8158",
+  "outputs": {
+    "raw_json": "artifacts/q3/final_attachment4/q3_attachment4_raw.json",
+    "raw_json_sha256": "4fcc337925a324a99fcae005f963dacb0c50c63d742f0a7c2fb57aaad68c1593",
+    "csv": "artifacts/q3/final_attachment4/submission/q3_predictions_explanations.csv",
+    "csv_sha256": "edb84dd8fcc28f3181a683c364ddf6e1bca8c2c45c3ce3f2ed07e03381c88dcc",
+    "jsonl": "artifacts/q3/final_attachment4/submission/q3_evidence.jsonl",
+    "jsonl_sha256": "940b264e05907d570882a81a1cf30aa33875cb123baee5973c292d214522bf06",
+    "validation_report_copy": "artifacts/q3/final_attachment4/submission/q3_validation_report.json",
+    "validation_report_copy_sha256": "ed2878f1228398be695ec736a81cbdd16977c6fbc8c0fb4d321d881e1e498884"
+  },
+  "validation_checks": {
+    "sample_count": 20,
+    "unique_sample_ids": 20,
+    "all_sample_ids_covered": true,
+    "polarity_values_valid": true,
+    "intensity_range_valid": true,
+    "shapley_sum_error_tolerance": 1e-05,
+    "text_offsets_exact_and_snippet_checked": true,
+    "audio_vision_mapping_warnings_checked": true,
+    "support_evidence_positive_class_delta": true,
+    "counter_evidence_negative_class_delta": true,
+    "no_evidence_reason_present_when_empty": true,
+    "errors": []
+  },
+  "limitations": [
+    "Modality contributions are occlusion-based Shapley attributions, not physical causal effects.",
+    "Continuous-window evidence is model-intervention evidence under a fixed occlusion baseline.",
+    "Audio and visual locations are approximate proportional mappings because attachment 4 provides no original token-level timestamps.",
+    "Validation-set local-window comparisons did not establish a significant universal advantage over random contiguous controls; concentration improved at the frozen window size."
+  ]
+}

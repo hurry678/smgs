@@ -1,0 +1,72 @@
+{
+  "status": "frozen_selection",
+  "scope": "问题一特征提取、时序对齐与下游推荐表示；不包含情感预测器训练",
+  "data": {
+    "n_samples": 100,
+    "n_video_groups": 37,
+    "probe": "按 video_id 重复分组交叉验证，10 次重复；仅用于方法选型"
+  },
+  "formal_feature_superset": {
+    "text": {"method": "bert-base-uncased", "dimension": 768},
+    "audio": {"method": "full_40", "dimension": 40},
+    "vision": {"method": "full_90", "dimension": 90, "fps": 5.0},
+    "alignment": "full_dp_20",
+    "smoothing_sigma": 0.75,
+    "reason": "正式 NPZ 保存完整、可审计的特征超集；下游可按冻结索引使用轻量子集。"
+  },
+  "selected": {
+    "alignment": {
+      "method": "full_dp_20",
+      "metrics": {"macro_f1": 0.4465180916346636, "pearson": 0.3062824443684578, "mae": 0.5628351096257235, "pause_quality": 0.6660, "duration_fit": 0.8569},
+      "reason": "没有候选在 Holm 校正后显著优于当前方案；20Hz在停顿结构、时长适配与计算成本间最均衡。"
+    },
+    "smoothing": {
+      "method": "sigma_0p75",
+      "metrics": {"macro_f1": 0.4465180916346636, "pearson": 0.3062824443684578, "mae": 0.5628351096257235},
+      "reason": "sigma=1.0 的 F1 增益不显著且 Pearson 显著下降；0.75 更保真且仍完成弱平滑。"
+    },
+    "text": {
+      "method": "bert",
+      "metrics": {"macro_f1": 0.4556725299627128, "pearson": 0.34863411730930255, "mae": 0.5583043688737386},
+      "reason": "相对 hash 基线的 Macro-F1 提升 0.0627、Pearson 提升 0.2498，Holm 校正后均显著。"
+    },
+    "audio_features": {
+      "method": "full_40",
+      "metrics": {"macro_f1": 0.376114563114135, "pearson": 0.1242617993828814, "mae": 0.7888491914310402},
+      "reason": "F1 最高；energy_voiced_f0_3 的差异不显著且丢失 MFCC/频谱信息，不适合作为问题二后续时序建模的唯一表示。"
+    },
+    "vision_features": {
+      "method": "no_hog_54",
+      "indices": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,85,86,87,88,89],
+      "metrics": {"macro_f1": 0.31490929519427685, "pearson": -0.09799833915444575, "mae": 0.8456966405152677},
+      "reason": "相对 full_90 的 Macro-F1 不降，Pearson 提升 0.0548 且 Holm 校正后显著，同时去除高维 HOG 噪声；比 compact_38 更兼顾极性与强度。"
+    },
+    "vision_fps": {
+      "method": "fps_5p0",
+      "metrics": {"macro_f1": 0.3116471456118677, "pearson": -0.15279008833822197, "mae": 0.9406778719151232},
+      "reason": "10fps 的 F1 增益不显著且 Pearson 不升，存储与计算约翻倍；保留 5fps。"
+    }
+  },
+  "rejected_summary": {
+    "length_weighted": "时长适配高，但不使用能量/停顿结构，不能作为更优的真实边界对齐证据。",
+    "full_dp_40": "指标略优但不显著，计算成本约为 full_dp_20 的 3 倍；保留为后续消融候选。",
+    "sigma_1p0": "F1 增益不显著，Pearson 显著下降。",
+    "hash": "分类与回归均显著劣于 BERT。",
+    "energy_voiced_f0_3": "轻量且 MAE 较好，但 F1 略低且特征覆盖不足。",
+    "compact_38": "F1 显著较高，但 Pearson 比 no_hog_54 低 0.0876；分类导向场景可回退使用。",
+    "fps_10p0": "F1 增益不显著且计算/存储成本更高。"
+  },
+  "evidence_files": {
+    "metrics": "comparison_metrics.csv",
+    "summary": "comparison_summary.json",
+    "report": "comparison_report.md",
+    "pairwise_statistics": "pairwise_statistics.csv",
+    "pairwise_statistics_json": "pairwise_statistics.json"
+  },
+  "caveats": [
+    "诊断探针不是问题一正式模型，也不是最终情感预测成绩。",
+    "重复分组折分并非独立样本，p 值仅用于选型。",
+    "视觉线性探针的 Pearson 仍为负，不能据此宣称视觉模态对情感预测无用。",
+    "正式 NPZ 保留 full_90；no_hog_54 通过固定索引确定性派生，无需重跑原始视频特征。"
+  ]
+}

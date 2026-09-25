@@ -1,0 +1,74 @@
+{
+  "frozen_at": "2026-09-24T16:26:46+08:00",
+  "question": "问题二",
+  "selection_rule": {
+    "primary": "验证集 7 种非空模态子集 × 3 种缺失比例 × 3 复本的 21 条件等权平均 MAE (C2)",
+    "secondary": "最差条件平均 MAE",
+    "tie_break": "完整输入 Macro-F1",
+    "test_policy": "冻结后只评价一次；附件3只用于最终推理"
+  },
+  "selected": {
+    "model": "M0",
+    "seed": 42,
+    "publish_strategy": "C2",
+    "validation_R_MAE": 0.6118390191169012,
+    "validation_worst_condition_MAE": 0.6569171981532946,
+    "validation_mean_macro_f1": 0.5671317991618281,
+    "validation_full": {
+      "accuracy": 0.6016483516483516,
+      "macro_f1": 0.5889314740860138,
+      "mae": 0.5885180234909058,
+      "pearson": 0.6449807212114066
+    },
+    "c3_reference_thresholds": [
+      -0.2,
+      0.35
+    ],
+    "c3_not_selected_reason": "验证集缺失条件下 C3 平均 MAE 0.6245，高于 C2 0.6118；C2 同时具有更高 Macro-F1。"
+  },
+  "artifacts": {
+    "checkpoint": "artifacts/q2/final/M0_seed42.pt",
+    "checkpoint_sha256": "57aebf736398ab1f4a7a5cded627fb10dfb9b6d514bffa7d95f48ec1b2bd49b7",
+    "data": "data/q2/q2_data.npz",
+    "data_sha256": "2bad10a2913ec3a0a03e3999d36e59117e0efbcc480f379dc61c8bcd4de36c38",
+    "attachment3": "data/q2/attachment3_aligned.npz",
+    "attachment3_sha256": "5b964459772343542bb2017d433680af812cfd6bbf860dc482e8a86076513f36",
+    "scripts_sha256": {
+      "scripts/q2_models.py": "91e97b66924b19528e91993161ef1e9e5311881476449f50318fbc2695fac200",
+      "scripts/q2_train.py": "ee5383dee5378d9ecad21779cc3926aae4635ae5c2d9d486299728da93aef8d6",
+      "scripts/q2_eval.py": "35611c5882c7c52db100d135499c2604ebf4ffa3f3bb6627baeb88a5d53e0dea"
+    },
+    "checkpoint_location": "server:/data2/hy/cts/e_problem/artifacts/q2/final/M0_seed42.pt",
+    "local_checkpoint_available": false,
+    "evaluation_summary_json_sha256": "1169577fd2a022d5c0c3a1d8826bec6bbe11e0a69ccedfb8a4b5a2d2a136fffa",
+    "evaluation_summary_md_sha256": "3b654cd9c5cd226652e9ee11bd89d433068e76c46d260ad6af5c3650557a5c12",
+    "official_test_evaluation_json_sha256": "0586124adb52d3c66e4ee3285d83cce76bbb4c5214bccd28dab5ca91a788dd7c",
+    "submission_csv": "submission/q2_predictions.csv",
+    "submission_csv_sha256": "eb6a14c3737460470fa3be1f5e761e2d5a01a2ed976e7e8f3bba2820619a3c7e",
+    "attachment3_json": "artifacts/q2/submission/attachment3_predictions.json",
+    "attachment3_json_sha256": "42010d3e52ad3751ea2c767d54e993ad9f0883f57a5bd1b41dd5a2bb85d73954"
+  },
+  "server": {
+    "host": "192.168.182.155",
+    "workdir": "/data2/hy/cts/e_problem",
+    "python": "/data2/hy/anaconda3/envs/secgpt-vllm/bin/python",
+    "gpu": "NVIDIA GeForce RTX 4090"
+  },
+  "manifest_version": 2,
+  "updated_at": "2026-09-24T16:40:29+08:00",
+  "publication_correction": {
+    "detected_at": "2026-09-24T16:27:00+08:00",
+    "issue": "原 submission/q2_predictions.csv 实际按 C3 阈值规则生成，与冻结发布策略 C2 不一致。",
+    "impact": "30条附件3样本中有5条极性标签不同：附件3_10、附件3_13、附件3_24、附件3_27、附件3_28。",
+    "action": "将原 C3 输出归档到 artifacts/q2/c3_reference/；修改 q2_eval.py 增加 --publish-strategy 参数，并默认 c2；使用冻结的 M0_seed42.pt 重新推理附件3，核验后覆盖正式提交。",
+    "final_strategy": "C2",
+    "c3_reference_files": {
+      "csv": "artifacts/q2/c3_reference/attachment3_predictions_c3.csv",
+      "csv_sha256": "ca9710db9f27c12ecad0262429f1f279d84684a0403e74a90df2115bfe8e4ae0",
+      "json": "artifacts/q2/c3_reference/attachment3_predictions_c3.json",
+      "json_sha256": "cd20bc2efa59b2b79a8d65a90dc896348b0fb1a44fee1a308a329095556831c0"
+    },
+    "official_test_rerun": false,
+    "official_test_policy_note": "纠错仅涉及附件3发布规则和提交文件；官方 test 已冻结后评价一次，未因纠错重新评价。"
+  }
+}

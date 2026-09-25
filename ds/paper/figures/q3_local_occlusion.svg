@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<style>text{font-family:Microsoft YaHei, SimSun, Arial, sans-serif;fill:#1f2937}.axis{stroke:#9aa4b2;stroke-width:1}.grid{stroke:#e5e7eb;stroke-width:1}</style>
+<rect width="1200" height="720" fill="#ffffff"/>
+<text x="54" y="48" font-size="26" font-weight="700">问题三：局部遮挡忠实性对照</text>
+<text x="54" y="76" font-size="14" fill="#596579">验证集；连续窗口、随机连续窗口与点散遮挡使用相同预算</text>
+<text x="18.00" y="345.00" font-size="13" text-anchor="middle" font-weight="400" fill="#1f2937" transform="rotate(-90.0 18.00 345.00)">平均绝对变化</text>
+<line class="grid" x1="105.00" y1="565.00" x2="1155.00" y2="565.00" stroke-width="1"/>
+<text x="95.00" y="569.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.000</text>
+<line class="grid" x1="105.00" y1="477.00" x2="1155.00" y2="477.00" stroke-width="1"/>
+<text x="95.00" y="481.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.030</text>
+<line class="grid" x1="105.00" y1="389.00" x2="1155.00" y2="389.00" stroke-width="1"/>
+<text x="95.00" y="393.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.061</text>
+<line class="grid" x1="105.00" y1="301.00" x2="1155.00" y2="301.00" stroke-width="1"/>
+<text x="95.00" y="305.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.091</text>
+<line class="grid" x1="105.00" y1="213.00" x2="1155.00" y2="213.00" stroke-width="1"/>
+<text x="95.00" y="217.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.121</text>
+<line class="grid" x1="105.00" y1="125.00" x2="1155.00" y2="125.00" stroke-width="1"/>
+<text x="95.00" y="129.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.152</text>
+<line class="axis" x1="105.00" y1="125.00" x2="105.00" y2="565.00" stroke-width="1.2"/>
+<line class="axis" x1="105.00" y1="565.00" x2="1155.00" y2="565.00" stroke-width="1.2"/>
+<text x="280.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">连续窗口</text>
+<rect x="236.00" y="285.27" width="42.00" height="279.73" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="257.00" y="280.27" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.097</text>
+<rect x="282.00" y="222.72" width="42.00" height="342.28" fill="#E07B39" stroke="none" rx="2"/>
+<text x="303.00" y="217.72" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.118</text>
+<text x="630.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">随机连续</text>
+<rect x="586.00" y="301.52" width="42.00" height="263.48" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="607.00" y="296.52" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.091</text>
+<rect x="632.00" y="227.86" width="42.00" height="337.14" fill="#E07B39" stroke="none" rx="2"/>
+<text x="653.00" y="222.86" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.116</text>
+<text x="980.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">点散遮挡</text>
+<rect x="936.00" y="269.31" width="42.00" height="295.69" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="957.00" y="264.31" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.102</text>
+<rect x="982.00" y="179.04" width="42.00" height="385.96" fill="#E07B39" stroke="none" rx="2"/>
+<text x="1003.00" y="174.04" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.133</text>
+<rect x="105.00" y="664.00" width="18.00" height="12.00" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="130.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">平均类别绝对变化</text>
+<rect x="355.00" y="664.00" width="18.00" height="12.00" fill="#E07B39" stroke="none" rx="2"/>
+<text x="380.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">平均强度绝对变化</text>
+</svg>

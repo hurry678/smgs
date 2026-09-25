@@ -1,0 +1,29 @@
+{
+  "total_input_samples": 100,
+  "processed_samples": 2,
+  "ok_samples": 0,
+  "error_samples": 2,
+  "coverage": 0.02,
+  "all_samples_covered": false,
+  "all_word_intervals_valid": true,
+  "all_arrays_finite": true,
+  "audio_observed_word_ratio_mean": 0.0,
+  "vision_observed_word_ratio_mean": 0.0,
+  "alignment_confidence_mean": 0.0,
+  "smoothing": {
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_valid_runs_only"
+  },
+  "tool_versions": {
+    "python": "3.12.7",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "ffmpeg": "ffmpeg version 8.0-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "opencv-python": "4.12.0.88",
+    "Pillow": "10.4.0",
+    "torch": "2.9.0+cu126",
+    "transformers": "unavailable"
+  },
+  "generated_at": "2026-09-24T12:26:43.037453+08:00"
+}

@@ -1,0 +1,15 @@
+{
+  "candidate_count": 15,
+  "reference_candidate": "B2_seed42",
+  "mask_seed_values": [
+    2026
+  ],
+  "replica_values": [
+    5
+  ],
+  "random_condition_count": 105,
+  "position_condition_count": 27,
+  "mismatch_count": 0,
+  "passed": true,
+  "mismatches": []
+}

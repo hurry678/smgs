@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<style>text{font-family:Microsoft YaHei, SimSun, Arial, sans-serif;fill:#1f2937}.axis{stroke:#9aa4b2;stroke-width:1}.grid{stroke:#e5e7eb;stroke-width:1}</style>
+<rect width="1200" height="720" fill="#ffffff"/>
+<text x="54" y="48" font-size="26" font-weight="700">问题一：时序对齐方法对比</text>
+<text x="54" y="76" font-size="14" fill="#596579">按 video_id 分组重复交叉验证；仅用于方法选型，不是正式预测模型</text>
+<text x="18.00" y="345.00" font-size="13" text-anchor="middle" font-weight="400" fill="#1f2937" transform="rotate(-90.0 18.00 345.00)">指标值</text>
+<line class="grid" x1="105.00" y1="565.00" x2="1155.00" y2="565.00" stroke-width="1"/>
+<text x="95.00" y="569.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.000</text>
+<line class="grid" x1="105.00" y1="477.00" x2="1155.00" y2="477.00" stroke-width="1"/>
+<text x="95.00" y="481.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.210</text>
+<line class="grid" x1="105.00" y1="389.00" x2="1155.00" y2="389.00" stroke-width="1"/>
+<text x="95.00" y="393.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.420</text>
+<line class="grid" x1="105.00" y1="301.00" x2="1155.00" y2="301.00" stroke-width="1"/>
+<text x="95.00" y="305.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.630</text>
+<line class="grid" x1="105.00" y1="213.00" x2="1155.00" y2="213.00" stroke-width="1"/>
+<text x="95.00" y="217.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0.840</text>
+<line class="grid" x1="105.00" y1="125.00" x2="1155.00" y2="125.00" stroke-width="1"/>
+<text x="95.00" y="129.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">1.050</text>
+<line class="axis" x1="105.00" y1="125.00" x2="105.00" y2="565.00" stroke-width="1.2"/>
+<line class="axis" x1="105.00" y1="565.00" x2="1155.00" y2="565.00" stroke-width="1.2"/>
+<text x="192.50" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">uniform</text>
+<rect x="126.00" y="378.17" width="41.67" height="186.83" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="146.83" y="373.17" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.446</text>
+<rect x="171.67" y="245.09" width="41.67" height="319.91" fill="#E07B39" stroke="none" rx="2"/>
+<text x="192.50" y="240.09" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.763</text>
+<rect x="217.33" y="321.79" width="41.67" height="243.21" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="238.17" y="316.79" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.580</text>
+<text x="367.50" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">length_weigh</text>
+<text x="367.50" y="604.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">ted</text>
+<rect x="301.00" y="374.68" width="41.67" height="190.32" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="321.83" y="369.68" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.454</text>
+<rect x="346.67" y="158.46" width="41.67" height="406.54" fill="#E07B39" stroke="none" rx="2"/>
+<text x="367.50" y="153.46" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.970</text>
+<rect x="392.33" y="318.92" width="41.67" height="246.08" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="413.17" y="313.92" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.587</text>
+<text x="542.50" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">energy_dp_20</text>
+<rect x="476.00" y="378.73" width="41.67" height="186.27" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="496.83" y="373.73" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.445</text>
+<rect x="521.67" y="213.17" width="41.67" height="351.83" fill="#E07B39" stroke="none" rx="2"/>
+<text x="542.50" y="208.17" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.840</text>
+<rect x="567.33" y="297.04" width="41.67" height="267.96" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="588.17" y="292.04" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.639</text>
+<text x="717.50" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">full_dp_10</text>
+<rect x="651.00" y="379.69" width="41.67" height="185.31" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="671.83" y="374.69" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.442</text>
+<rect x="696.67" y="210.43" width="41.67" height="354.57" fill="#E07B39" stroke="none" rx="2"/>
+<text x="717.50" y="205.43" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.846</text>
+<rect x="742.33" y="320.38" width="41.67" height="244.62" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="763.17" y="315.38" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.584</text>
+<text x="892.50" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">full_dp_20</text>
+<rect x="826.00" y="377.89" width="41.67" height="187.11" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="846.83" y="372.89" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.447</text>
+<rect x="871.67" y="205.91" width="41.67" height="359.09" fill="#E07B39" stroke="none" rx="2"/>
+<text x="892.50" y="200.91" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.857</text>
+<rect x="917.33" y="285.92" width="41.67" height="279.08" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="938.17" y="280.92" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.666</text>
+<text x="1067.50" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">full_dp_40</text>
+<rect x="1001.00" y="375.94" width="41.67" height="189.06" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="1021.83" y="370.94" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.451</text>
+<rect x="1046.67" y="207.38" width="41.67" height="357.62" fill="#E07B39" stroke="none" rx="2"/>
+<text x="1067.50" y="202.38" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.853</text>
+<rect x="1092.33" y="260.04" width="41.67" height="304.96" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="1113.17" y="255.04" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0.728</text>
+<rect x="105.00" y="664.00" width="18.00" height="12.00" fill="#3B6FB6" stroke="none" rx="2"/>
+<text x="130.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">Macro-F1</text>
+<rect x="355.00" y="664.00" width="18.00" height="12.00" fill="#E07B39" stroke="none" rx="2"/>
+<text x="380.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">时长适配</text>
+<rect x="605.00" y="664.00" width="18.00" height="12.00" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="630.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">停顿质量</text>
+</svg>

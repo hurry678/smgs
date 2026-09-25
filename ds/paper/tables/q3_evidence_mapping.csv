@@ -1,0 +1,5 @@
+﻿modality,mapping_status,count
+audio,approximate,14
+text,exact,25
+text,unavailable,12
+vision,approximate,24

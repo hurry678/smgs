@@ -1,0 +1,899 @@
+{
+  "sample_id": "-3g5yACwYnA$_$3",
+  "video_id": "-3g5yACwYnA",
+  "clip_id": "3",
+  "raw_text": "",
+  "source_video_path": "/data2/hy/cts/e_problem/data/raw_q1/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/3.mp4",
+  "source_sha256": "eff8cfefba2425155f2b72656829b34b23be8bfe1dcbece384154f56818aa26d",
+  "word_tokens": [
+    "We're",
+    "a",
+    "huge",
+    "user",
+    "of",
+    "adhesives",
+    "for",
+    "our",
+    "operation",
+    "called",
+    "flocking",
+    "and",
+    "we",
+    "don't",
+    "have",
+    "the",
+    "technical",
+    "inside",
+    "compounding",
+    "or",
+    "the",
+    "technical",
+    "expertise",
+    "to",
+    "do",
+    "these",
+    "types",
+    "of",
+    "things"
+  ],
+  "text": {
+    "backend": "precomputed",
+    "path": "artifacts/q1/text_bert_100/features/-3g5yACwYnA__3.npz",
+    "sample_id": "-3g5yACwYnA$_$3",
+    "raw_text": "We're a huge user of adhesives for our operation, called flocking, and we don't have the technical inside compounding or the technical expertise to do these types of things.",
+    "word_tokens": [
+      "We're",
+      "a",
+      "huge",
+      "user",
+      "of",
+      "adhesives",
+      "for",
+      "our",
+      "operation",
+      "called",
+      "flocking",
+      "and",
+      "we",
+      "don't",
+      "have",
+      "the",
+      "technical",
+      "inside",
+      "compounding",
+      "or",
+      "the",
+      "technical",
+      "expertise",
+      "to",
+      "do",
+      "these",
+      "types",
+      "of",
+      "things"
+    ],
+    "backend_metadata": {
+      "truncated": false,
+      "fallback_words": 0,
+      "input_tokens": 42
+    },
+    "feature_dim": 768,
+    "word_count": 29
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "samples": 229246,
+    "duration_sec": 14.327875,
+    "frame_count": 1431,
+    "frame_window_sec": 0.025,
+    "frame_hop_sec": 0.01,
+    "feature_dim": 40
+  },
+  "audio_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 453,
+    "runs": 78
+  },
+  "vision": {
+    "backend": "opencv_haar_face_region",
+    "native_fps": 30.0,
+    "target_fps": 5.0,
+    "sample_step_frames": 6,
+    "decoded_frames": 431,
+    "sampled_frames": 72,
+    "detected_frames": 72,
+    "detection_rate": 1.0,
+    "cascade": "/data2/hy/anaconda3/envs/secgpt-vllm/lib/python3.10/site-packages/cv2/data/haarcascade_frontalface_default.xml",
+    "scale_factor": 1.1,
+    "min_neighbors": 5,
+    "min_size": [
+      30,
+      30
+    ],
+    "face_roi_size": [
+      48,
+      48
+    ],
+    "feature_dim": 90,
+    "face_boxes": [
+      [
+        460,
+        116,
+        311,
+        311
+      ],
+      [
+        466,
+        121,
+        305,
+        305
+      ],
+      [
+        464,
+        122,
+        300,
+        300
+      ],
+      [
+        456,
+        118,
+        306,
+        306
+      ],
+      [
+        451,
+        119,
+        307,
+        307
+      ],
+      [
+        446,
+        116,
+        315,
+        315
+      ],
+      [
+        448,
+        113,
+        316,
+        316
+      ],
+      [
+        453,
+        118,
+        310,
+        310
+      ],
+      [
+        448,
+        112,
+        318,
+        318
+      ],
+      [
+        455,
+        114,
+        311,
+        311
+      ],
+      [
+        459,
+        116,
+        305,
+        305
+      ],
+      [
+        461,
+        117,
+        304,
+        304
+      ],
+      [
+        454,
+        118,
+        308,
+        308
+      ],
+      [
+        459,
+        117,
+        312,
+        312
+      ],
+      [
+        461,
+        119,
+        305,
+        305
+      ],
+      [
+        455,
+        120,
+        306,
+        306
+      ],
+      [
+        452,
+        116,
+        309,
+        309
+      ],
+      [
+        464,
+        122,
+        298,
+        298
+      ],
+      [
+        466,
+        122,
+        297,
+        297
+      ],
+      [
+        460,
+        119,
+        306,
+        306
+      ],
+      [
+        463,
+        122,
+        299,
+        299
+      ],
+      [
+        458,
+        121,
+        302,
+        302
+      ],
+      [
+        446,
+        114,
+        316,
+        316
+      ],
+      [
+        447,
+        116,
+        315,
+        315
+      ],
+      [
+        452,
+        117,
+        312,
+        312
+      ],
+      [
+        463,
+        123,
+        298,
+        298
+      ],
+      [
+        461,
+        120,
+        306,
+        306
+      ],
+      [
+        462,
+        121,
+        304,
+        304
+      ],
+      [
+        464,
+        122,
+        303,
+        303
+      ],
+      [
+        448,
+        118,
+        309,
+        309
+      ],
+      [
+        444,
+        116,
+        315,
+        315
+      ],
+      [
+        450,
+        118,
+        306,
+        306
+      ],
+      [
+        445,
+        115,
+        309,
+        309
+      ],
+      [
+        446,
+        115,
+        308,
+        308
+      ],
+      [
+        446,
+        118,
+        305,
+        305
+      ],
+      [
+        451,
+        116,
+        306,
+        306
+      ],
+      [
+        451,
+        118,
+        305,
+        305
+      ],
+      [
+        456,
+        120,
+        300,
+        300
+      ],
+      [
+        453,
+        119,
+        308,
+        308
+      ],
+      [
+        453,
+        120,
+        308,
+        308
+      ],
+      [
+        457,
+        119,
+        309,
+        309
+      ],
+      [
+        464,
+        121,
+        300,
+        300
+      ],
+      [
+        462,
+        121,
+        301,
+        301
+      ],
+      [
+        460,
+        116,
+        305,
+        305
+      ],
+      [
+        465,
+        127,
+        296,
+        296
+      ],
+      [
+        460,
+        116,
+        304,
+        304
+      ],
+      [
+        462,
+        119,
+        302,
+        302
+      ],
+      [
+        458,
+        116,
+        307,
+        307
+      ],
+      [
+        452,
+        112,
+        313,
+        313
+      ],
+      [
+        450,
+        121,
+        308,
+        308
+      ],
+      [
+        447,
+        114,
+        316,
+        316
+      ],
+      [
+        455,
+        118,
+        309,
+        309
+      ],
+      [
+        460,
+        116,
+        304,
+        304
+      ],
+      [
+        470,
+        121,
+        310,
+        310
+      ],
+      [
+        468,
+        120,
+        319,
+        319
+      ],
+      [
+        471,
+        121,
+        312,
+        312
+      ],
+      [
+        469,
+        122,
+        310,
+        310
+      ],
+      [
+        463,
+        119,
+        310,
+        310
+      ],
+      [
+        465,
+        120,
+        301,
+        301
+      ],
+      [
+        468,
+        122,
+        296,
+        296
+      ],
+      [
+        460,
+        118,
+        305,
+        305
+      ],
+      [
+        463,
+        117,
+        306,
+        306
+      ],
+      [
+        459,
+        121,
+        303,
+        303
+      ],
+      [
+        461,
+        121,
+        299,
+        299
+      ],
+      [
+        465,
+        124,
+        304,
+        304
+      ],
+      [
+        460,
+        122,
+        314,
+        314
+      ],
+      [
+        465,
+        119,
+        312,
+        312
+      ],
+      [
+        466,
+        117,
+        313,
+        313
+      ],
+      [
+        473,
+        117,
+        307,
+        307
+      ],
+      [
+        470,
+        117,
+        312,
+        312
+      ],
+      [
+        463,
+        109,
+        320,
+        320
+      ],
+      [
+        465,
+        111,
+        316,
+        316
+      ]
+    ],
+    "feature_blocks": {
+      "geometry": 8,
+      "hu_moments": 7,
+      "roi_3x3_mean_std": 18,
+      "gray_hist_16": 16,
+      "hog_2x2x9": 36,
+      "laplacian_texture": 5
+    }
+  },
+  "vision_smoothing": {
+    "enabled": true,
+    "method": "gaussian_filter1d",
+    "sigma": 0.75,
+    "boundary_rule": "within_contiguous_all_dim_valid_runs_only",
+    "smoothed_frames": 72,
+    "runs": 1
+  },
+  "alignment": {
+    "backend": "energy_pause_dp_v1",
+    "description": "Monotonic non-overlapping energy/pause-constrained DP; deterministic baseline, not a neural forced aligner.",
+    "working_hz": 20.0,
+    "working_frames": 287,
+    "group_size_audio_frames": 5,
+    "word_count": 29,
+    "assigned_word_count": 29,
+    "coverage": 1.0,
+    "mean_confidence": 0.7231878638267517,
+    "min_confidence": 0.548179566860199,
+    "low_confidence_words": 0,
+    "fallback_used": false,
+    "speech_activity": {
+      "working_hz": 20.0,
+      "group_size": 5,
+      "energy_percentiles": [
+        10,
+        90
+      ],
+      "active_threshold": 0.5338075399398804,
+      "closing_frames": 3,
+      "opening_frames": 3,
+      "score_weights": {
+        "energy": 0.58,
+        "voiced": 0.27,
+        "spectral_flux": 0.15
+      },
+      "activity_working": [
+        0.75,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "boundary_rule": "strictly_monotonic_non_overlapping",
+    "weights_rule": "1 + 0.52*clean_token_length + 0.30*trailing_punctuation"
+  },
+  "dimensions": {
+    "text": 768,
+    "audio": 40,
+    "vision": 90
+  },
+  "padding_rule": "No cross-sample padding in NPZ; variable-length arrays are retained and all invalid entries are masked."
+}

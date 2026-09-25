@@ -1,0 +1,197 @@
+{
+  "manifest_version": 1,
+  "question": "问题三",
+  "status": "frozen_before_attachment4_inference",
+  "frozen_at": "2026-09-24T21:54:21+08:00",
+  "predictor": {
+    "version": "M3-ensemble9 + C2",
+    "model_manifest": "artifacts/q2/v3_m3_ensemble9/version_manifest.json",
+    "model_manifest_sha256": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+    "checkpoints": [
+      "artifacts/q2/final/M0_seed42.pt",
+      "artifacts/q2/final/M0_seed43.pt",
+      "artifacts/q2/final/M0_seed44.pt",
+      "artifacts/q2/v2_m0_ensemble_add/M0_seed45.pt",
+      "artifacts/q2/v2_m0_ensemble_add/M0_seed46.pt",
+      "artifacts/q2/v2_m0_ensemble_add/M0_seed47.pt",
+      "artifacts/q2/v2_m0_ensemble_add2/M0_seed48.pt",
+      "artifacts/q2/v2_m0_ensemble_add2/M0_seed49.pt",
+      "artifacts/q2/v2_m0_ensemble_add2/M0_seed50.pt"
+    ]
+  },
+  "explanation": {
+    "script": "scripts/q3_explain_core.py",
+    "script_sha256": "7df8ba6e8ef5b4a845fc9f81ae926f86b896363866b9ac1e8d3b5862ea456f9e",
+    "modality_method": "exact Shapley over all 8 modality subsets, occlusion before text BERT encoding",
+    "local_method": "continuous-window occlusion with same-budget random-contiguous and point-scatter controls",
+    "selected_parameters": {
+      "window_size": 10,
+      "stride": 10,
+      "point_scan_n_attachment4": 20,
+      "top_k_per_modality": 2,
+      "seed": 2026,
+      "batch_size": 64
+    },
+    "selection_basis": "w10 gave the largest continuous-window class effect and the highest top-1 evidence concentration among w3/w5/w10 on validation; paired comparisons versus random controls did not establish a significant universal advantage, so this is a frozen engineering choice rather than a causal-superiority claim.",
+    "support_rule": "positive signed class contribution; top-k by average percentile of signed class and raw-intensity deltas",
+    "counter_rule": "most negative signed class contribution per modality",
+    "primary_modality_rule": "argmax of 0.5*(class absolute share + intensity absolute share)",
+    "evidence_level_rule": "high: rank>=0.8 and control_beat_rate>=0.75; medium: rank>=0.5 or control_beat_rate>=0.5; low otherwise",
+    "attention_maps_used_as_explanation": false
+  },
+  "validation": {
+    "report": "artifacts/q3/final_validation/q3_validation_report.json",
+    "report_sha256": "a9f7bc2cf884db5c1e53b1a6b95cff60b1e94a33c1d09cc0a911b20d99ce8158",
+    "selected_samples": 128,
+    "full_metrics": {
+      "accuracy": 0.6208791208791209,
+      "macro_f1": 0.5997068114591327,
+      "mae": 0.5799670219421387,
+      "pearson": 0.6635369958302701,
+      "n": 728
+    },
+    "shapley_sum_error_max": 1.1920928955078125e-07,
+    "main_modality_agreement_shapley_vs_loo": 0.8203125
+  },
+  "sensitivity": {
+    "3": {
+      "continuous_mean_abs_class_delta": 0.041751789540408125,
+      "random_contiguous_mean_abs_class_delta": 0.04086188913346276,
+      "point_scatter_mean_abs_class_delta": 0.04060879912041067,
+      "top1_concentration_continuous": 0.391828470132864,
+      "paired_vs_random": {
+        "n_pairs": 3079,
+        "mean_difference": 0.0008899004069453674,
+        "median_difference": 0.0,
+        "bootstrap_95_ci": [
+          -0.004620797590063126,
+          0.006353191510180129
+        ],
+        "wins": 1470,
+        "losses": 1460,
+        "ties": 149,
+        "win_rate": 0.4774277362780123,
+        "sign_test_two_sided_p": 0.8679496600767588,
+        "paired_effect_dz": 0.005862538890862462,
+        "definition": "difference = continuous_abs_class_delta - control_abs_class_delta; positive favors continuous-window evidence"
+      },
+      "paired_vs_scatter": {
+        "n_pairs": 3079,
+        "mean_difference": 0.0011429904199974535,
+        "median_difference": 0.00012615323066711426,
+        "bootstrap_95_ci": [
+          -0.0031942479366941132,
+          0.005765246802881377
+        ],
+        "wins": 1581,
+        "losses": 1477,
+        "ties": 21,
+        "win_rate": 0.513478402078597,
+        "sign_test_two_sided_p": 0.06250158771113766,
+        "paired_effect_dz": 0.009121055463156487,
+        "definition": "difference = continuous_abs_class_delta - control_abs_class_delta; positive favors continuous-window evidence"
+      },
+      "point_scan": {
+        "n_samples": 64,
+        "n_perturbations": 4500,
+        "mean_top_abs_class_delta": 0.1506275562569499,
+        "mean_abs_class_delta": 0.022502037679569587,
+        "mean_top_abs_raw_delta": 0.15750723058133537
+      }
+    },
+    "5": {
+      "continuous_mean_abs_class_delta": 0.06117787306913166,
+      "random_contiguous_mean_abs_class_delta": 0.057021149397807336,
+      "point_scatter_mean_abs_class_delta": 0.06311845243351222,
+      "top1_concentration_continuous": 0.5121808888976536,
+      "paired_vs_random": {
+        "n_pairs": 1922,
+        "mean_difference": 0.004156723671324326,
+        "median_difference": 0.0,
+        "bootstrap_95_ci": [
+          -0.003068880858682348,
+          0.011566780900481395
+        ],
+        "wins": 891,
+        "losses": 909,
+        "ties": 122,
+        "win_rate": 0.463579604578564,
+        "sign_test_two_sided_p": 0.6886570221078474,
+        "paired_effect_dz": 0.02568969318162503,
+        "definition": "difference = continuous_abs_class_delta - control_abs_class_delta; positive favors continuous-window evidence"
+      },
+      "paired_vs_scatter": {
+        "n_pairs": 1922,
+        "mean_difference": -0.0019405793643805598,
+        "median_difference": 0.00024913810193538666,
+        "bootstrap_95_ci": [
+          -0.009850391417411791,
+          0.0060668428399155245
+        ],
+        "wins": 997,
+        "losses": 909,
+        "ties": 16,
+        "win_rate": 0.5187304890738814,
+        "sign_test_two_sided_p": 0.046257954132781276,
+        "paired_effect_dz": -0.010762268360298234,
+        "definition": "difference = continuous_abs_class_delta - control_abs_class_delta; positive favors continuous-window evidence"
+      },
+      "point_scan": {
+        "n_samples": 64,
+        "n_perturbations": 4500,
+        "mean_top_abs_class_delta": 0.1506275562569499,
+        "mean_abs_class_delta": 0.022502037679569587,
+        "mean_top_abs_raw_delta": 0.15750723058133537
+      }
+    },
+    "10": {
+      "continuous_mean_abs_class_delta": 0.09653870070989436,
+      "random_contiguous_mean_abs_class_delta": 0.09092967237171695,
+      "point_scatter_mean_abs_class_delta": 0.10204426041548319,
+      "top1_concentration_continuous": 0.6794556962395724,
+      "paired_vs_random": {
+        "n_pairs": 1048,
+        "mean_difference": 0.0056090283381773996,
+        "median_difference": 0.0,
+        "bootstrap_95_ci": [
+          -0.004219938005153658,
+          0.016040230645217844
+        ],
+        "wins": 442,
+        "losses": 481,
+        "ties": 125,
+        "win_rate": 0.4217557251908397,
+        "sign_test_two_sided_p": 0.21098962223545398,
+        "paired_effect_dz": 0.03367903718789247,
+        "definition": "difference = continuous_abs_class_delta - control_abs_class_delta; positive favors continuous-window evidence"
+      },
+      "paired_vs_scatter": {
+        "n_pairs": 1048,
+        "mean_difference": -0.0055055597055888245,
+        "median_difference": 0.0002421066164970398,
+        "bootstrap_95_ci": [
+          -0.016218881186307585,
+          0.004986375628127217
+        ],
+        "wins": 533,
+        "losses": 463,
+        "ties": 52,
+        "win_rate": 0.5085877862595419,
+        "sign_test_two_sided_p": 0.028739517112386835,
+        "paired_effect_dz": -0.030905453829268518,
+        "definition": "difference = continuous_abs_class_delta - control_abs_class_delta; positive favors continuous-window evidence"
+      },
+      "point_scan": {
+        "n_samples": 64,
+        "n_perturbations": 4500,
+        "mean_top_abs_class_delta": 0.1506275562569499,
+        "mean_abs_class_delta": 0.022502037679569587,
+        "mean_top_abs_raw_delta": 0.15750723058133537
+      }
+    }
+  },
+  "attachment4_policy": {
+    "used_for_tuning": false,
+    "run_count_after_freeze": 1
+  }
+}

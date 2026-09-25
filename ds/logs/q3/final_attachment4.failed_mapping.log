@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/data2/hy/cts/e_problem/scripts/q3_explain_core.py", line 1127, in <module>
+    main()
+  File "/data2/hy/cts/e_problem/scripts/q3_explain_core.py", line 1123, in main
+    run_attachment4(args, device)
+  File "/data2/hy/cts/e_problem/scripts/q3_explain_core.py", line 1040, in run_attachment4
+    explanations = build_sample_explanations(
+  File "/data2/hy/cts/e_problem/scripts/q3_explain_core.py", line 769, in build_sample_explanations
+    mapped = map_evidence(modality, row["positions"], int(gidx), data, offsets, audit_map)
+  File "/data2/hy/cts/e_problem/scripts/q3_explain_core.py", line 665, in map_evidence
+    mapping_rows = {int(x["token_position"]): x for x in meta.get("position_to_time", [])}
+  File "/data2/hy/cts/e_problem/scripts/q3_explain_core.py", line 665, in <dictcomp>
+    mapping_rows = {int(x["token_position"]): x for x in meta.get("position_to_time", [])}
+TypeError: 'NoneType' object is not subscriptable

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<style>text{font-family:Microsoft YaHei, SimSun, Arial, sans-serif;fill:#1f2937}.axis{stroke:#9aa4b2;stroke-width:1}.grid{stroke:#e5e7eb;stroke-width:1}</style>
+<rect width="1200" height="720" fill="#ffffff"/>
+<text x="54" y="48" font-size="26" font-weight="700">问题三：附件4关键证据等级分布</text>
+<text x="54" y="76" font-size="14" fill="#596579">按样本×模态×窗口配对统计；等级由排名和控制组胜率共同确定</text>
+<text x="18.00" y="345.00" font-size="13" text-anchor="middle" font-weight="400" fill="#1f2937" transform="rotate(-90.0 18.00 345.00)">证据片段数</text>
+<line class="grid" x1="105.00" y1="565.00" x2="1155.00" y2="565.00" stroke-width="1"/>
+<text x="95.00" y="569.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">0</text>
+<line class="grid" x1="105.00" y1="477.00" x2="1155.00" y2="477.00" stroke-width="1"/>
+<text x="95.00" y="481.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">7</text>
+<line class="grid" x1="105.00" y1="389.00" x2="1155.00" y2="389.00" stroke-width="1"/>
+<text x="95.00" y="393.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">14</text>
+<line class="grid" x1="105.00" y1="301.00" x2="1155.00" y2="301.00" stroke-width="1"/>
+<text x="95.00" y="305.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">22</text>
+<line class="grid" x1="105.00" y1="213.00" x2="1155.00" y2="213.00" stroke-width="1"/>
+<text x="95.00" y="217.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">29</text>
+<line class="grid" x1="105.00" y1="125.00" x2="1155.00" y2="125.00" stroke-width="1"/>
+<text x="95.00" y="129.00" font-size="11" text-anchor="end" font-weight="400" fill="#596579">36</text>
+<line class="axis" x1="105.00" y1="125.00" x2="105.00" y2="565.00" stroke-width="1.2"/>
+<line class="axis" x1="105.00" y1="565.00" x2="1155.00" y2="565.00" stroke-width="1.2"/>
+<text x="280.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">text</text>
+<rect x="213.00" y="503.89" width="42.00" height="61.11" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="234.00" y="498.89" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">5</text>
+<rect x="259.00" y="198.33" width="42.00" height="366.67" fill="#E07B39" stroke="none" rx="2"/>
+<text x="280.00" y="193.33" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">30</text>
+<rect x="305.00" y="540.56" width="42.00" height="24.44" fill="#B24C63" stroke="none" rx="2"/>
+<text x="326.00" y="535.56" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">2</text>
+<text x="630.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">audio</text>
+<rect x="563.00" y="540.56" width="42.00" height="24.44" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="584.00" y="535.56" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">2</text>
+<rect x="609.00" y="418.33" width="42.00" height="146.67" fill="#E07B39" stroke="none" rx="2"/>
+<text x="630.00" y="413.33" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">12</text>
+<rect x="655.00" y="565.00" width="42.00" height="0.00" fill="#B24C63" stroke="none" rx="2"/>
+<text x="676.00" y="560.00" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0</text>
+<text x="980.00" y="589.00" font-size="11" text-anchor="middle" font-weight="400" fill="#1f2937">vision</text>
+<rect x="913.00" y="491.67" width="42.00" height="73.33" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="934.00" y="486.67" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">6</text>
+<rect x="959.00" y="345.00" width="42.00" height="220.00" fill="#E07B39" stroke="none" rx="2"/>
+<text x="980.00" y="340.00" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">18</text>
+<rect x="1005.00" y="565.00" width="42.00" height="0.00" fill="#B24C63" stroke="none" rx="2"/>
+<text x="1026.00" y="560.00" font-size="9" text-anchor="middle" font-weight="400" fill="#4b5563">0</text>
+<rect x="105.00" y="664.00" width="18.00" height="12.00" fill="#4C9A6A" stroke="none" rx="2"/>
+<text x="130.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">high</text>
+<rect x="355.00" y="664.00" width="18.00" height="12.00" fill="#E07B39" stroke="none" rx="2"/>
+<text x="380.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">medium</text>
+<rect x="605.00" y="664.00" width="18.00" height="12.00" fill="#B24C63" stroke="none" rx="2"/>
+<text x="630.00" y="675.00" font-size="13" text-anchor="start" font-weight="400" fill="#1f2937">low</text>
+</svg>

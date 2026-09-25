@@ -1,0 +1,10 @@
+﻿modality,evidence_level,count
+text,high,5
+text,medium,30
+text,low,2
+audio,high,2
+audio,medium,12
+audio,low,0
+vision,high,6
+vision,medium,18
+vision,low,0

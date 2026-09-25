@@ -1,0 +1,1058 @@
+[
+  {
+    "sample_id": "CPjbogfLHR4$_$2",
+    "global_index": 275,
+    "polarity": "Positive",
+    "polarity_index": 2,
+    "intensity": 0.15959927439689636,
+    "raw_intensity": 0.15959927439689636,
+    "log_mean_probability": [
+      -1.2122611999511719,
+      -1.5323165655136108,
+      -0.7206383943557739
+    ],
+    "target_class_for_explanation": 2,
+    "strongest_modality": "text",
+    "support_modality": "text",
+    "primary_modality": "text",
+    "modality_effect_text": 0.42924511432647705,
+    "modality_effect_audio": 0.2441084086894989,
+    "modality_effect_vision": 0.32664644718170166,
+    "class_contrib_text": 0.2730526030063629,
+    "class_contrib_audio": -0.14513804018497467,
+    "class_contrib_vision": 0.2534421682357788,
+    "class_abs_share_text": 0.40655040740966797,
+    "class_abs_share_audio": 0.21609729528427124,
+    "class_abs_share_vision": 0.3773522675037384,
+    "intensity_contrib_text": 0.17968273162841797,
+    "intensity_contrib_audio": -0.10818957537412643,
+    "intensity_contrib_vision": 0.109708771109581,
+    "intensity_abs_share_text": 0.45193982124328613,
+    "intensity_abs_share_audio": 0.27211952209472656,
+    "intensity_abs_share_vision": 0.27594059705734253,
+    "loo_text": 0.40243303775787354,
+    "loo_audio": -0.027502775192260742,
+    "loo_vision": 0.38569164276123047,
+    "class_shapley_sum_error": 0.0,
+    "intensity_shapley_sum_error": 0.0,
+    "key_evidence": {
+      "text": [
+        {
+          "window_index": 2,
+          "positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "class_delta": 0.6779370307922363,
+          "abs_class_delta": 0.6779370307922363,
+          "raw_delta": 0.3121965527534485,
+          "abs_raw_delta": 0.3121965527534485,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.75,
+          "evidence_level": "high",
+          "mapping_status": "exact",
+          "mapping_precision": "exact_character_offsets_from_official_tokenizer",
+          "text_char_start": 60,
+          "text_char_end": 95,
+          "text_snippet": "to prevent these catastrophic fires",
+          "token_positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "warning": ""
+        }
+      ],
+      "audio": [
+        {
+          "window_index": 1,
+          "positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "class_delta": 0.045687317848205566,
+          "abs_class_delta": 0.045687317848205566,
+          "raw_delta": 0.034824855625629425,
+          "abs_raw_delta": 0.034824855625629425,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.875,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.12,
+          "relative_end": 0.22,
+          "token_positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ],
+      "vision": [
+        {
+          "window_index": 1,
+          "positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "class_delta": 0.06584393978118896,
+          "abs_class_delta": 0.06584393978118896,
+          "raw_delta": 0.07162218540906906,
+          "abs_raw_delta": 0.07162218540906906,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.75,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.12,
+          "relative_end": 0.22,
+          "token_positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ]
+    },
+    "no_evidence_reason": null
+  },
+  {
+    "sample_id": "SHa756SwGJQ$_$0",
+    "global_index": 422,
+    "polarity": "Neutral",
+    "polarity_index": 1,
+    "intensity": 0.0,
+    "raw_intensity": 0.3208223283290863,
+    "log_mean_probability": [
+      -2.1276280879974365,
+      -0.5692134499549866,
+      -1.1554681062698364
+    ],
+    "target_class_for_explanation": 1,
+    "strongest_modality": "text",
+    "support_modality": "text",
+    "primary_modality": "vision",
+    "modality_effect_text": 0.3402763307094574,
+    "modality_effect_audio": 0.20297777652740479,
+    "modality_effect_vision": 0.4567459225654602,
+    "class_contrib_text": 0.4105003774166107,
+    "class_contrib_audio": -0.11797747761011124,
+    "class_contrib_vision": 0.2055308222770691,
+    "class_abs_share_text": 0.559258222579956,
+    "class_abs_share_audio": 0.16073036193847656,
+    "class_abs_share_vision": 0.28001144528388977,
+    "intensity_contrib_text": -0.05483711138367653,
+    "intensity_contrib_audio": 0.11086611449718475,
+    "intensity_contrib_vision": 0.28639599680900574,
+    "intensity_abs_share_text": 0.12129442393779755,
+    "intensity_abs_share_audio": 0.245225191116333,
+    "intensity_abs_share_vision": 0.633480429649353,
+    "loo_text": 0.4010966420173645,
+    "loo_audio": -0.09890860319137573,
+    "loo_vision": 0.0927543044090271,
+    "class_shapley_sum_error": 0.0,
+    "intensity_shapley_sum_error": 0.0,
+    "key_evidence": {
+      "text": [
+        {
+          "window_index": 3,
+          "positions": [
+            16
+          ],
+          "class_delta": 0.15668874979019165,
+          "abs_class_delta": 0.15668874979019165,
+          "raw_delta": -0.1864907443523407,
+          "abs_raw_delta": 0.1864907443523407,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.5,
+          "evidence_level": "medium",
+          "mapping_status": "exact",
+          "mapping_precision": "exact_character_offsets_from_official_tokenizer",
+          "text_char_start": 71,
+          "text_char_end": 77,
+          "text_snippet": "rights",
+          "token_positions": [
+            16
+          ],
+          "warning": ""
+        }
+      ],
+      "audio": [
+        {
+          "window_index": 2,
+          "positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "class_delta": -0.04918670654296875,
+          "abs_class_delta": 0.04918670654296875,
+          "raw_delta": 0.016584932804107666,
+          "abs_raw_delta": 0.016584932804107666,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 1.0,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.22,
+          "relative_end": 0.32,
+          "token_positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ],
+      "vision": [
+        {
+          "window_index": 0,
+          "positions": [
+            12
+          ],
+          "class_delta": -0.004550337791442871,
+          "abs_class_delta": 0.004550337791442871,
+          "raw_delta": -0.012640565633773804,
+          "abs_raw_delta": 0.012640565633773804,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 1.0,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.24,
+          "relative_end": 0.26,
+          "token_positions": [
+            12
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ]
+    },
+    "no_evidence_reason": null
+  },
+  {
+    "sample_id": "TWszOxkOV0w$_$1",
+    "global_index": 429,
+    "polarity": "Negative",
+    "polarity_index": 0,
+    "intensity": -0.4589780271053314,
+    "raw_intensity": -0.4589780271053314,
+    "log_mean_probability": [
+      -0.1933610588312149,
+      -2.858266830444336,
+      -2.1332857608795166
+    ],
+    "target_class_for_explanation": 0,
+    "strongest_modality": "text",
+    "support_modality": "text",
+    "primary_modality": "text",
+    "modality_effect_text": 0.3857675790786743,
+    "modality_effect_audio": 0.35507357120513916,
+    "modality_effect_vision": 0.2591588795185089,
+    "class_contrib_text": 1.1497777700424194,
+    "class_contrib_audio": -1.0230638980865479,
+    "class_contrib_vision": 0.8074148297309875,
+    "class_abs_share_text": 0.38579827547073364,
+    "class_abs_share_audio": 0.34328049421310425,
+    "class_abs_share_vision": 0.2709212601184845,
+    "intensity_contrib_text": -0.633619487285614,
+    "intensity_contrib_audio": 0.6026228070259094,
+    "intensity_contrib_vision": -0.40637871623039246,
+    "intensity_abs_share_text": 0.3857368528842926,
+    "intensity_abs_share_audio": 0.3668666183948517,
+    "intensity_abs_share_vision": 0.24739651381969452,
+    "loo_text": 1.8497536182403564,
+    "loo_audio": -0.09068209677934647,
+    "loo_vision": 1.2874993085861206,
+    "class_shapley_sum_error": 5.960464477539063e-08,
+    "intensity_shapley_sum_error": 2.9802322387695312e-08,
+    "key_evidence": {
+      "text": [
+        {
+          "window_index": 1,
+          "positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "class_delta": 0.23575188219547272,
+          "abs_class_delta": 0.23575188219547272,
+          "raw_delta": -0.4561593532562256,
+          "abs_raw_delta": 0.4561593532562256,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.875,
+          "evidence_level": "high",
+          "mapping_status": "exact",
+          "mapping_precision": "exact_character_offsets_from_official_tokenizer",
+          "text_char_start": 22,
+          "text_char_end": 49,
+          "text_snippet": "the outrage of the ordinary",
+          "token_positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "warning": ""
+        }
+      ],
+      "audio": [
+        {
+          "window_index": 2,
+          "positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "class_delta": -0.019834667444229126,
+          "abs_class_delta": 0.019834667444229126,
+          "raw_delta": 0.02453431487083435,
+          "abs_raw_delta": 0.02453431487083435,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 1.0,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.22,
+          "relative_end": 0.32,
+          "token_positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ],
+      "vision": [
+        {
+          "window_index": 2,
+          "positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "class_delta": 0.025599241256713867,
+          "abs_class_delta": 0.025599241256713867,
+          "raw_delta": -0.02783834934234619,
+          "abs_raw_delta": 0.02783834934234619,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.9375,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.22,
+          "relative_end": 0.32,
+          "token_positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ]
+    },
+    "no_evidence_reason": null
+  },
+  {
+    "sample_id": "c1a1y9ytHH0$_$0",
+    "global_index": 528,
+    "polarity": "Neutral",
+    "polarity_index": 1,
+    "intensity": 0.0,
+    "raw_intensity": 0.37314310669898987,
+    "log_mean_probability": [
+      -2.580967426300049,
+      -0.7597337961196899,
+      -0.7841482162475586
+    ],
+    "target_class_for_explanation": 1,
+    "strongest_modality": "text",
+    "support_modality": "text",
+    "primary_modality": "text",
+    "modality_effect_text": 0.40959280729293823,
+    "modality_effect_audio": 0.22014392912387848,
+    "modality_effect_vision": 0.3702632784843445,
+    "class_contrib_text": 0.4036239981651306,
+    "class_contrib_audio": -0.3252250850200653,
+    "class_contrib_vision": 0.2291344702243805,
+    "class_abs_share_text": 0.4213266670703888,
+    "class_abs_share_audio": 0.33948925137519836,
+    "class_abs_share_vision": 0.2391841560602188,
+    "intensity_contrib_text": 0.19670915603637695,
+    "intensity_contrib_audio": -0.04983677715063095,
+    "intensity_contrib_vision": 0.24787338078022003,
+    "intensity_abs_share_text": 0.39785894751548767,
+    "intensity_abs_share_audio": 0.100798599421978,
+    "intensity_abs_share_vision": 0.5013424158096313,
+    "loo_text": 0.25031960010528564,
+    "loo_audio": -0.14928799867630005,
+    "loo_vision": 0.1743006706237793,
+    "class_shapley_sum_error": 0.0,
+    "intensity_shapley_sum_error": 0.0,
+    "key_evidence": {
+      "text": [
+        {
+          "window_index": 1,
+          "positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "class_delta": 0.09172892570495605,
+          "abs_class_delta": 0.09172892570495605,
+          "raw_delta": 0.012406796216964722,
+          "abs_raw_delta": 0.012406796216964722,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.9166666666666666,
+          "evidence_level": "high",
+          "mapping_status": "exact",
+          "mapping_precision": "exact_character_offsets_from_official_tokenizer",
+          "text_char_start": 30,
+          "text_char_end": 54,
+          "text_snippet": "in the  counting method,",
+          "token_positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "warning": ""
+        }
+      ],
+      "audio": [
+        {
+          "window_index": 1,
+          "positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "class_delta": -0.04476410150527954,
+          "abs_class_delta": 0.04476410150527954,
+          "raw_delta": 0.038582563400268555,
+          "abs_raw_delta": 0.038582563400268555,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 1.0,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.12,
+          "relative_end": 0.22,
+          "token_positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ],
+      "vision": [
+        {
+          "window_index": 0,
+          "positions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "class_delta": 0.08894801139831543,
+          "abs_class_delta": 0.08894801139831543,
+          "raw_delta": -0.05787786841392517,
+          "abs_raw_delta": 0.05787786841392517,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 1.0,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.02,
+          "relative_end": 0.12,
+          "token_positions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ]
+    },
+    "no_evidence_reason": null
+  },
+  {
+    "sample_id": "ewBrNsyY82Q$_$4",
+    "global_index": 548,
+    "polarity": "Positive",
+    "polarity_index": 2,
+    "intensity": 0.383733332157135,
+    "raw_intensity": 0.383733332157135,
+    "log_mean_probability": [
+      -2.501056432723999,
+      -1.082118034362793,
+      -0.5462374687194824
+    ],
+    "target_class_for_explanation": 2,
+    "strongest_modality": "vision",
+    "support_modality": "vision",
+    "primary_modality": "vision",
+    "modality_effect_text": 0.3302730917930603,
+    "modality_effect_audio": 0.23976895213127136,
+    "modality_effect_vision": 0.42995795607566833,
+    "class_contrib_text": 0.40455377101898193,
+    "class_contrib_audio": -0.401566743850708,
+    "class_contrib_vision": 0.5527706146240234,
+    "class_abs_share_text": 0.29770874977111816,
+    "class_abs_share_audio": 0.2955106198787689,
+    "class_abs_share_vision": 0.4067806601524353,
+    "intensity_contrib_text": 0.23272749781608582,
+    "intensity_contrib_audio": -0.1180369183421135,
+    "intensity_contrib_vision": 0.29064542055130005,
+    "intensity_abs_share_text": 0.36283740401268005,
+    "intensity_abs_share_audio": 0.1840272843837738,
+    "intensity_abs_share_vision": 0.45313525199890137,
+    "loo_text": 0.8717257976531982,
+    "loo_audio": -0.09222066402435303,
+    "loo_vision": 1.2827441692352295,
+    "class_shapley_sum_error": 0.0,
+    "intensity_shapley_sum_error": 0.0,
+    "key_evidence": {
+      "text": [
+        {
+          "window_index": 0,
+          "positions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "class_delta": 0.3066224455833435,
+          "abs_class_delta": 0.3066224455833435,
+          "raw_delta": 0.12459826469421387,
+          "abs_raw_delta": 0.12459826469421387,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.9285714285714286,
+          "evidence_level": "high",
+          "mapping_status": "exact",
+          "mapping_precision": "exact_character_offsets_from_official_tokenizer",
+          "text_char_start": 0,
+          "text_char_end": 22,
+          "text_snippet": "You might have people,",
+          "token_positions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "warning": ""
+        }
+      ],
+      "audio": [
+        {
+          "window_index": 4,
+          "positions": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "class_delta": -0.03747141361236572,
+          "abs_class_delta": 0.03747141361236572,
+          "raw_delta": -0.00033411383628845215,
+          "abs_raw_delta": 0.00033411383628845215,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.9285714285714286,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.42,
+          "relative_end": 0.52,
+          "token_positions": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ],
+      "vision": [
+        {
+          "window_index": 2,
+          "positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "class_delta": -0.03703707456588745,
+          "abs_class_delta": 0.03703707456588745,
+          "raw_delta": -0.0239010751247406,
+          "abs_raw_delta": 0.0239010751247406,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 1.0,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.22,
+          "relative_end": 0.32,
+          "token_positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ]
+    },
+    "no_evidence_reason": null
+  },
+  {
+    "sample_id": "iUXqlrui25c$_$21",
+    "global_index": 584,
+    "polarity": "Neutral",
+    "polarity_index": 1,
+    "intensity": 0.0,
+    "raw_intensity": 0.15330538153648376,
+    "log_mean_probability": [
+      -1.9394347667694092,
+      -0.3996814787387848,
+      -1.6837235689163208
+    ],
+    "target_class_for_explanation": 1,
+    "strongest_modality": "vision",
+    "support_modality": "vision",
+    "primary_modality": "text",
+    "modality_effect_text": 0.4958656430244446,
+    "modality_effect_audio": 0.18961913883686066,
+    "modality_effect_vision": 0.31451520323753357,
+    "class_contrib_text": 0.25968921184539795,
+    "class_contrib_audio": 0.022685900330543518,
+    "class_contrib_vision": 0.3852105736732483,
+    "class_abs_share_text": 0.3889975845813751,
+    "class_abs_share_audio": 0.03398200497031212,
+    "class_abs_share_vision": 0.5770204067230225,
+    "intensity_contrib_text": 0.34063729643821716,
+    "intensity_contrib_audio": -0.19512292742729187,
+    "intensity_contrib_vision": 0.029393663629889488,
+    "intensity_abs_share_text": 0.6027336716651917,
+    "intensity_abs_share_audio": 0.3452562689781189,
+    "intensity_abs_share_vision": 0.05201001837849617,
+    "loo_text": 0.28327783942222595,
+    "loo_audio": 0.0468173623085022,
+    "loo_vision": 0.5065979957580566,
+    "class_shapley_sum_error": 5.960464477539063e-08,
+    "intensity_shapley_sum_error": 1.4901161193847656e-08,
+    "key_evidence": {
+      "text": [
+        {
+          "window_index": 0,
+          "positions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "class_delta": 0.1334570348262787,
+          "abs_class_delta": 0.1334570348262787,
+          "raw_delta": 0.07326918095350266,
+          "abs_raw_delta": 0.07326918095350266,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.625,
+          "evidence_level": "medium",
+          "mapping_status": "exact",
+          "mapping_precision": "exact_character_offsets_from_official_tokenizer",
+          "text_char_start": 0,
+          "text_char_end": 22,
+          "text_snippet": "And these are the ones",
+          "token_positions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "warning": ""
+        }
+      ],
+      "audio": [
+        {
+          "window_index": 3,
+          "positions": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "class_delta": 0.08066144585609436,
+          "abs_class_delta": 0.08066144585609436,
+          "raw_delta": -0.1231711208820343,
+          "abs_raw_delta": 0.1231711208820343,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 1.0,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.32,
+          "relative_end": 0.42,
+          "token_positions": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ],
+      "vision": [
+        {
+          "window_index": 2,
+          "positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "class_delta": -0.008144587278366089,
+          "abs_class_delta": 0.008144587278366089,
+          "raw_delta": 0.004502430558204651,
+          "abs_raw_delta": 0.004502430558204651,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.875,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.22,
+          "relative_end": 0.32,
+          "token_positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ]
+    },
+    "no_evidence_reason": null
+  },
+  {
+    "sample_id": "sC16n1k66io$_$16",
+    "global_index": 665,
+    "polarity": "Negative",
+    "polarity_index": 0,
+    "intensity": -9.999999747378752e-05,
+    "raw_intensity": 0.061790261417627335,
+    "log_mean_probability": [
+      -0.8577313423156738,
+      -1.0495753288269043,
+      -1.4881478548049927
+    ],
+    "target_class_for_explanation": 0,
+    "strongest_modality": "audio",
+    "support_modality": "audio",
+    "primary_modality": "text",
+    "modality_effect_text": 0.43064257502555847,
+    "modality_effect_audio": 0.33801883459091187,
+    "modality_effect_vision": 0.23133860528469086,
+    "class_contrib_text": -0.199386864900589,
+    "class_contrib_audio": 0.2620464265346527,
+    "class_contrib_vision": 0.20709890127182007,
+    "class_abs_share_text": 0.29824572801589966,
+    "class_abs_share_audio": 0.39197278022766113,
+    "class_abs_share_vision": 0.3097814917564392,
+    "intensity_contrib_text": 0.3724137842655182,
+    "intensity_contrib_audio": -0.18789033591747284,
+    "intensity_contrib_vision": -0.10113053023815155,
+    "intensity_abs_share_text": 0.5630394220352173,
+    "intensity_abs_share_audio": 0.2840648591518402,
+    "intensity_abs_share_vision": 0.1528957188129425,
+    "loo_text": -0.08231186866760254,
+    "loo_audio": 0.21519792079925537,
+    "loo_vision": 0.4745316505432129,
+    "class_shapley_sum_error": 0.0,
+    "intensity_shapley_sum_error": 0.0,
+    "key_evidence": {
+      "text": [
+        {
+          "window_index": 1,
+          "positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "class_delta": 0.23847126960754395,
+          "abs_class_delta": 0.23847126960754395,
+          "raw_delta": 0.017472486943006516,
+          "abs_raw_delta": 0.017472486943006516,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.8333333333333334,
+          "evidence_level": "high",
+          "mapping_status": "exact",
+          "mapping_precision": "exact_character_offsets_from_official_tokenizer",
+          "text_char_start": 29,
+          "text_char_end": 60,
+          "text_snippet": "heart and soul of environmental",
+          "token_positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "warning": ""
+        }
+      ],
+      "audio": [
+        {
+          "window_index": 1,
+          "positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "class_delta": 0.15402686595916748,
+          "abs_class_delta": 0.15402686595916748,
+          "raw_delta": -0.1393612027168274,
+          "abs_raw_delta": 0.1393612027168274,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 1.0,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.12,
+          "relative_end": 0.22,
+          "token_positions": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ],
+      "vision": [
+        {
+          "window_index": 0,
+          "positions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "class_delta": -0.04732334613800049,
+          "abs_class_delta": 0.04732334613800049,
+          "raw_delta": 0.06862341612577438,
+          "abs_raw_delta": 0.06862341612577438,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.8333333333333334,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.02,
+          "relative_end": 0.12,
+          "token_positions": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ]
+    },
+    "no_evidence_reason": null
+  },
+  {
+    "sample_id": "tXQpm-nKxNA$_$7",
+    "global_index": 672,
+    "polarity": "Positive",
+    "polarity_index": 2,
+    "intensity": 1.1427239179611206,
+    "raw_intensity": 1.1427239179611206,
+    "log_mean_probability": [
+      -3.592927932739258,
+      -3.0626206398010254,
+      -0.07718632370233536
+    ],
+    "target_class_for_explanation": 2,
+    "strongest_modality": "text",
+    "support_modality": "text",
+    "primary_modality": "text",
+    "modality_effect_text": 0.5630612373352051,
+    "modality_effect_audio": 0.1487555205821991,
+    "modality_effect_vision": 0.28818321228027344,
+    "class_contrib_text": 0.7751935124397278,
+    "class_contrib_audio": -0.21404339373111725,
+    "class_contrib_vision": 0.4636586904525757,
+    "class_abs_share_text": 0.5335507392883301,
+    "class_abs_share_audio": 0.1473219394683838,
+    "class_abs_share_vision": 0.31912732124328613,
+    "intensity_contrib_text": 0.986171543598175,
+    "intensity_contrib_audio": -0.2499481737613678,
+    "intensity_contrib_vision": 0.4281032383441925,
+    "intensity_abs_share_text": 0.5925717949867249,
+    "intensity_abs_share_audio": 0.1501891165971756,
+    "intensity_abs_share_vision": 0.25723910331726074,
+    "loo_text": 0.6136776208877563,
+    "loo_audio": -0.04713587462902069,
+    "loo_vision": 0.04563664644956589,
+    "class_shapley_sum_error": 1.1920928955078125e-07,
+    "intensity_shapley_sum_error": 0.0,
+    "key_evidence": {
+      "text": [
+        {
+          "window_index": 2,
+          "positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "class_delta": 0.15732696652412415,
+          "abs_class_delta": 0.15732696652412415,
+          "raw_delta": 0.4237600564956665,
+          "abs_raw_delta": 0.4237600564956665,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 1.0,
+          "evidence_level": "high",
+          "mapping_status": "exact",
+          "mapping_precision": "exact_character_offsets_from_official_tokenizer",
+          "text_char_start": 51,
+          "text_char_end": 72,
+          "text_snippet": "I urge you to stretch",
+          "token_positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "warning": ""
+        }
+      ],
+      "audio": [
+        {
+          "window_index": 4,
+          "positions": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "class_delta": -0.014712855219841003,
+          "abs_class_delta": 0.014712855219841003,
+          "raw_delta": -0.0728522539138794,
+          "abs_raw_delta": 0.0728522539138794,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.9166666666666666,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.42,
+          "relative_end": 0.52,
+          "token_positions": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ],
+      "vision": [
+        {
+          "window_index": 2,
+          "positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "class_delta": 0.005158878862857819,
+          "abs_class_delta": 0.005158878862857819,
+          "raw_delta": 0.024441003799438477,
+          "abs_raw_delta": 0.024441003799438477,
+          "evidence_rank_score": 1.0,
+          "control_beat_rate": 0.9166666666666666,
+          "evidence_level": "high",
+          "mapping_status": "relative_only",
+          "mapping_precision": "relative_position_no_video_metadata",
+          "relative_start": 0.22,
+          "relative_end": 0.32,
+          "token_positions": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "warning": "No per-sample video metadata available for this validation explanation."
+        }
+      ]
+    },
+    "no_evidence_reason": null
+  }
+]
