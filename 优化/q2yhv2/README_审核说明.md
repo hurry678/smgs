@@ -4,7 +4,7 @@
 方案来源：`问题二/q2_ds_optimization_v2_20260925`（[GitHub](https://github.com/hurry678/smgs/tree/main/%E9%97%AE%E9%A2%98%E4%BA%8C/q2_ds_optimization_v2_20260925)）。
 服务器：`myserver`（hy@192.168.182.155，4×RTX 4090），工作目录 `/data2/hy/q2_runs/q2_ds_hc_v2_20260925`。
 运行日期：2026-09-25（CST），主流程 17:01:41 → 17:39:10，冻结后发布 17:42:52 → 17:43:01。
-本目录已按 `PUSH_MANIFEST_SHA256.txt` 逐文件记录 SHA-256（31 个文件，1,888,923 字节）。
+本目录已按 `PUSH_MANIFEST_SHA256.txt` 逐文件记录 SHA-256（共 33 个文件，合计 1,897,465 字节，含本说明与校验清单本身）。
 
 ## 0. 结论速览
 
