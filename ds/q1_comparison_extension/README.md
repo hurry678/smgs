@@ -38,7 +38,6 @@ export REPO="/path/to/smgs"
 export PROTOCOL_ROOT="$REPO/ds/q1_comparison_extension"
 
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
-  --e-root "/path/to/E题" \
   --work-dir "/path/to/benchmark_runs/q1_smoke" \
   --profile smoke \
   --stage preflight

@@ -17,6 +17,8 @@
   "local_portability_test": {
     "scope": "Fresh work directory; no --current-q1-dir argument; candidate A materialized only from the repository bundle",
     "profile": "smoke",
+    "e_root_supplied": false,
+    "mfa_invoked": false,
     "preflight_passed": true,
     "validation_passed": true,
     "candidate_a_features_verified": 100,
@@ -29,6 +31,7 @@
     "interpretation": "This verifies portability on the local machine, not completion on the target server and not a paper result."
   },
   "target_server_status": "rerun_required_after_git_pull",
+  "recommended_server_command": "python ds/q1_comparison_extension/scripts/run_q1_comparison_protocol.py --work-dir /data2/hy/cts/q1_ab_compare_full --profile full --stage frozen-all",
   "paper_claim_allowed": false,
   "paper_claim_gate": [
     "target-server preflight.json has passed=true",

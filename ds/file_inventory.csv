@@ -411,12 +411,12 @@ paper/tables/q3_sensitivity.csv,383,4b0d298b48923c685194b499b449930a1ef6d01241b7
 paper/tables/q3_shapley_modalities.csv,196,7207cee7915b6445308d137f68b57b352f77c4ab0ad8e7ed8024d6ffda440f79,2026-09-25T02:37:05.157722+00:00,PAPER_DELIVERY,csv
 problem/E题_题目提取.txt,15732,2de6a522602dd58bf2c585d317037c3603c56dad6858db154ed5ec3f4eaca05e,2026-09-24T13:53:07.106671+00:00,GENERAL,txt
 q1_comparison_extension/FILE_MANAGEMENT_AUDIT.json,966,12bac82f92a2ec859fa4936e13d8bbf4ba8f30a7addf3c34a57244df08fc5e01,2026-09-25T04:23:27.983996+00:00,Q1,json
-q1_comparison_extension/README.md,3553,8fe7a3f1fbf98fd7b495d529b465dc43b560275c3afd753b2f314f2ca096da28,2026-09-25T04:23:18.300807+00:00,Q1,md
-q1_comparison_extension/SERVER_EXECUTION_STATUS.json,1598,4aced77adf543e67bdfa381628279ecf9a5bb474d7ade922e65480493272b5e7,2026-09-25T04:23:05.893647+00:00,Q1,json
+q1_comparison_extension/README.md,3524,4d9ba5d8711bd1fb8058a367e6c747b382b0e0fcaa080869688342c94c854647,2026-09-25T04:31:26.153950+00:00,Q1,md
+q1_comparison_extension/SERVER_EXECUTION_STATUS.json,1839,f852433cb1cc9709112fac9ec0e800382acf63e67c03053433ad51ba6bd97909,2026-09-25T04:32:41.471499+00:00,Q1,json
 q1_comparison_extension/candidates/A_current_audited_q1_2_1.json,1631,6a54e3d76103b042de930428347918df8e0157ffa792a0b010dbf49b0ed3dd68,2026-09-25T04:18:13.390093+00:00,Q1,json
 q1_comparison_extension/candidates/A_current_audited_q1_2_1.zip,1073211,653dc1e5e5fe6b1b67720f6afdad705331a996d5f0f284f473a750d0b2935058,2026-09-25T04:17:06.560447+00:00,Q1,zip
 q1_comparison_extension/configs/q1_comparison_protocol.json,6887,4bf7f711b3123fd88293ed50bb3e22f0d7328e5f50c397dbe2220ee24152b664,2026-09-25T04:20:33.854657+00:00,Q1,json
-q1_comparison_extension/docs/AI服务器执行说明.md,9950,60812ed7ee3e41603f7a4660e034264be5371bf0871f2edabe0af92af9752fac,2026-09-25T04:20:11.709464+00:00,Q1,md
+q1_comparison_extension/docs/AI服务器执行说明.md,10593,507b1a37c361826559e9f26d013737785b181e756955d75950575166a5f2c5a7,2026-09-25T04:31:15.294014+00:00,Q1,md
 q1_comparison_extension/docs/问题一_实验数据说明与使用规范.md,6073,0bd9752c8d2f20b74af88cc1b6e1c3879c83cb31adc88e18863c68350d64d950,2026-09-25T04:20:56.641786+00:00,Q1,md
 q1_comparison_extension/docs/问题一_模型与优化算法系统对比方案.md,15341,c640e0200f8d4b3ada06fbca3acf6c341c441bedaf30315e34e1e1f653af91bc,2026-09-25T04:20:21.918854+00:00,Q1,md
 q1_comparison_extension/requirements-comparison.txt,80,5b60402fed00b56c5cf4414a208e5d490e2ccc0509f1a44ecafc2a3f0244cb1d,2026-09-25T02:32:22.867137+00:00,Q1,txt
@@ -424,7 +424,7 @@ q1_comparison_extension/scripts/build_q1_probe_vectors.py,8420,6caaeb2f8f222e11d
 q1_comparison_extension/scripts/compare_q1_versions.py,8717,775dadc2c4d8ea7e5e51bc0580b9184510ba751cea98f0138b41c96b8d2404d1,2026-09-25T02:32:22.869641+00:00,Q1,py
 q1_comparison_extension/scripts/evaluate_q1_candidate_vectors.py,9616,4df944013c95717a13777044776c03792622c87b14833644f04cf0f513efce73,2026-09-25T02:32:22.870758+00:00,Q1,py
 q1_comparison_extension/scripts/materialize_candidate_a.py,6706,b627ede8cde820b4b3d7a826e145e91db27fcd2bc8b5745f273319e909fb9ecd,2026-09-25T04:18:32.048635+00:00,Q1,py
-q1_comparison_extension/scripts/run_q1_comparison_protocol.py,19005,95117f48097b9cba70b820e83e79c767cc1e780e150ac60fc21ede20f212a0e3,2026-09-25T04:18:49.201266+00:00,Q1,py
+q1_comparison_extension/scripts/run_q1_comparison_protocol.py,20332,133b29c31ec54e94dbb7ac1ed145b1080d74d91efbf8b31a24fc8e87a3ea2161,2026-09-25T04:30:30.059330+00:00,Q1,py
 q1_comparison_extension/templates/experiment_record_template.json,1105,524c5e6155f804ffafc6f93a69f39951219a9904c8a5a3b075df48115697fa28,2026-09-25T02:32:22.873673+00:00,Q1,json
 q1_comparison_extension/templates/resource_usage_template.csv,101,77a3d2adaca1c37274627a5b978d5d78ff2f7e3384744a3d1264d0c3dcb5a731,2026-09-25T02:32:22.875174+00:00,Q1,csv
 q1_comparison_extension/templates/问题一_对比实验结果分析模板.md,5882,3f5de3f269373e0359d129993b8ef1fc5252024151dac1a73aa6b8a6c6be06eb,2026-09-25T02:32:22.876173+00:00,Q1,md

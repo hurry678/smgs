@@ -46,13 +46,11 @@ export TOKENIZERS_PARALLELISM=false
 ```bash
 export REPO="/path/to/smgs"
 export PROTOCOL_ROOT="$REPO/ds/q1_comparison_extension"
-export E_ROOT="/path/to/E题"
 export RUN_ID="q1_compare_$(date +%Y%m%d_%H%M%S)"
 export RUN_DIR="/path/to/benchmark_runs/${RUN_ID}"
 ```
 
-`${E_ROOT}`必须是包含`E题数据/`的目录。脚本默认校验
-`candidates/A_current_audited_q1_2_1.zip`，并解包到`${RUN_DIR}/materialized/A_current_audited/`。该冻结包包含：
+冻结A/B/C比较不需要`${E_ROOT}`。脚本默认校验`candidates/A_current_audited_q1_2_1.zip`，并解包到`${RUN_DIR}/materialized/A_current_audited/`。该冻结包包含：
 
 ```text
 outputs/alignment.jsonl
@@ -63,13 +61,18 @@ reports/validation.json
 
 若服务器已有另一份经过校验的候选A，可显式传入`--current-q1-dir`覆盖默认包；不得把候选B目录传入该参数。
 
+只有重跑Git候选B的原视频组件筛选时才设置：
+
+```bash
+export E_ROOT="/path/to/包含E题数据的目录"
+```
+
 ## 4. 阶段命令
 
 ### 4.1 预检和计划
 
 ```bash
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
-  --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR" \
   --profile smoke \
   --stage preflight
@@ -81,17 +84,16 @@ python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
 - `run_resolved_plan.sh`：可审阅命令，不自动执行；
 - `run_manifest_sha256.txt`：当前输出摘要。
 
-### 4.2 六条冒烟
+### 4.2 冻结比较冒烟
 
 ```bash
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
-  --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/smoke" \
   --profile smoke \
-  --stage all
+  --stage frozen-all
 ```
 
-检查日志、字段、静音分支和失败列表。通过后才能全量。
+该模式使用全部100条冻结A/B产物，但只运行1个探针种子；检查解包、字段、静音分支、跨版本映射和失败列表。通过后才能运行五种子全量探针。Git原视频组件的6条冒烟另用`--e-root ... --profile smoke --stage git-screening`。
 
 ### 4.3 Git组件全量筛选
 
@@ -120,7 +122,6 @@ python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
 
 ```bash
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
-  --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
   --profile full \
   --stage version-comparison
@@ -134,7 +135,6 @@ python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
 
 ```bash
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
-  --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
   --profile full \
   --stage representation-probe
@@ -146,7 +146,6 @@ python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
 
 ```bash
 python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
-  --e-root "$E_ROOT" \
   --work-dir "$RUN_DIR/full" \
   --profile full \
   --stage validate
@@ -159,6 +158,19 @@ find "$RUN_DIR/full" -type f ! -name run_manifest_sha256.txt -print0 \
   | sort -z \
   | xargs -0 shasum -a 256 > "$RUN_DIR/full/run_manifest_sha256.txt"
 ```
+
+### 4.6 服务器推荐的一键冻结比较
+
+服务器已有仓库后，直接执行：
+
+```bash
+python "$PROTOCOL_ROOT/scripts/run_q1_comparison_protocol.py" \
+  --work-dir "$RUN_DIR/full" \
+  --profile full \
+  --stage frozen-all
+```
+
+该命令依次完成候选A校验/解包、冻结输入预检、A/B共享边界比较、A/B/C五种子嵌套探针和输出验证。它不调用MFA、不读取原视频，也不重建候选A或B的底层特征。
 
 ## 5. A/B/C正式探针执行要求
 

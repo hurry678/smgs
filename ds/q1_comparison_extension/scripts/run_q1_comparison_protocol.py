@@ -32,12 +32,14 @@ DEFAULT_CANDIDATE_A_METADATA = EXTENSION_ROOT / "candidates/A_current_audited_q1
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--e-root", type=Path, required=True, help="Directory containing E题数据/")
+    parser.add_argument("--e-root", type=Path,
+                        help="Directory containing E题数据/; required only for raw-data Git screening")
     parser.add_argument("--work-dir", type=Path, required=True)
     parser.add_argument("--spec", type=Path, default=DEFAULT_SPEC)
     parser.add_argument("--profile", choices=("smoke", "full"), default="smoke")
     parser.add_argument("--stage", choices=("preflight", "plan", "git-screening", "version-comparison",
-                                           "representation-probe", "validate", "all"), default="preflight")
+                                           "representation-probe", "frozen-all", "validate", "all"),
+                        default="preflight")
     parser.add_argument("--current-q1-dir", type=Path,
                         help="Already materialized candidate A; otherwise the bundled frozen candidate is used")
     parser.add_argument("--current-q1-metadata", type=Path, default=DEFAULT_CANDIDATE_A_METADATA,
@@ -120,31 +122,41 @@ def resolve_data(spec: dict[str, Any], e_root: Path) -> dict[str, Path]:
     }
 
 
-def preflight(spec: dict[str, Any], e_root: Path, current: Path | None) -> dict[str, Any]:
-    paths = resolve_data(spec, e_root)
+def preflight(
+    spec: dict[str, Any],
+    e_root: Path | None,
+    current: Path | None,
+    require_datasets: bool,
+) -> dict[str, Any]:
+    paths = resolve_data(spec, e_root) if e_root is not None else {}
     checks: list[dict[str, Any]] = []
 
     def check(name: str, passed: bool, observed: Any, expected: Any) -> None:
         checks.append({"name": name, "passed": bool(passed), "observed": observed, "expected": expected})
 
-    a1 = paths["attachment_1"]
-    videos = sorted(a1.glob("*/*.mp4")) if a1.is_dir() else []
-    expected_videos = spec["dataset_contract"]["attachment_1"]["expected_videos"]
-    check("attachment_1_directory", a1.is_dir(), str(a1), "existing directory")
-    check("attachment_1_videos", len(videos) == expected_videos, len(videos), expected_videos)
-    label = a1 / spec["dataset_contract"]["attachment_1"]["required_file"]
-    check("attachment_1_label", label.is_file(), str(label), "existing file")
+    if require_datasets:
+        if e_root is None:
+            check("e_root_required", False, None, "directory containing E题数据/")
+        else:
+            a1 = paths["attachment_1"]
+            videos = sorted(a1.glob("*/*.mp4")) if a1.is_dir() else []
+            expected_videos = spec["dataset_contract"]["attachment_1"]["expected_videos"]
+            check("attachment_1_directory", a1.is_dir(), str(a1), "existing directory")
+            check("attachment_1_videos", len(videos) == expected_videos, len(videos), expected_videos)
+            label = a1 / spec["dataset_contract"]["attachment_1"]["required_file"]
+            check("attachment_1_label", label.is_file(), str(label), "existing file")
 
-    a2 = paths["attachment_2"]
-    for name in spec["dataset_contract"]["attachment_2"]["required_files"]:
-        check(f"attachment_2_{name}", (a2 / name).is_file(), str(a2 / name), "existing file")
+            a2 = paths["attachment_2"]
+            for name in spec["dataset_contract"]["attachment_2"]["required_files"]:
+                check(f"attachment_2_{name}", (a2 / name).is_file(), str(a2 / name), "existing file")
 
-    a3 = paths["attachment_3"]
-    aligned = list((a3 / "对齐版本").glob("*.pkl"))
-    unaligned = list((a3 / "未对齐版本").glob("*.pkl"))
-    check("attachment_3_aligned_count", len(aligned) == 30, len(aligned), 30)
-    check("attachment_3_unaligned_count", len(unaligned) == 30, len(unaligned), 30)
-    check("attachment_4_directory", paths["attachment_4"].is_dir(), str(paths["attachment_4"]), "existing directory")
+            a3 = paths["attachment_3"]
+            aligned = list((a3 / "对齐版本").glob("*.pkl"))
+            unaligned = list((a3 / "未对齐版本").glob("*.pkl"))
+            check("attachment_3_aligned_count", len(aligned) == 30, len(aligned), 30)
+            check("attachment_3_unaligned_count", len(unaligned) == 30, len(unaligned), 30)
+            check("attachment_4_directory", paths["attachment_4"].is_dir(),
+                  str(paths["attachment_4"]), "existing directory")
 
     required_formal = {
         "features": len(list((FORMAL / "features").glob("*.npz"))),
@@ -167,9 +179,12 @@ def preflight(spec: dict[str, Any], e_root: Path, current: Path | None) -> dict[
         check("current_q1_boundary_audit", current_counts["boundary_audit"] == 1, current_counts["boundary_audit"], 1)
         check("current_q1_validation", current_counts["validation"] == 1, current_counts["validation"], 1)
 
-    for executable in ("ffmpeg", "ffprobe"):
-        check(f"tool_{executable}", shutil.which(executable) is not None, shutil.which(executable), "available")
-    for module in ("numpy", "scipy", "sklearn", "cv2"):
+    if require_datasets:
+        for executable in ("ffmpeg", "ffprobe"):
+            check(f"tool_{executable}", shutil.which(executable) is not None,
+                  shutil.which(executable), "available")
+    modules = ("numpy", "scipy", "sklearn", "cv2") if require_datasets else ("numpy", "sklearn")
+    for module in modules:
         check(f"python_module_{module}", importlib.util.find_spec(module) is not None, bool(importlib.util.find_spec(module)), True)
 
     return {
@@ -178,7 +193,9 @@ def preflight(spec: dict[str, Any], e_root: Path, current: Path | None) -> dict[
         "python": sys.version,
         "platform": platform.platform(),
         "executable": sys.executable,
-        "e_root": str(e_root.resolve()),
+        "dataset_preflight_required": require_datasets,
+        "mfa_required_for_frozen_comparison": False,
+        "e_root": str(e_root.resolve()) if e_root else None,
         "resolved_data": {key: str(value) for key, value in paths.items()},
         "current_q1_dir": str(current.resolve()) if current else None,
         "checks": checks,
@@ -188,29 +205,29 @@ def preflight(spec: dict[str, Any], e_root: Path, current: Path | None) -> dict[
 
 def commands(spec: dict[str, Any], args: argparse.Namespace) -> dict[str, list[str]]:
     profile = spec["profiles"][args.profile]
-    a1 = resolve_data(spec, args.e_root)["attachment_1"]
     work = args.work_dir.resolve()
-    compare = [
-        sys.executable, str(ORIGINAL_SCRIPTS / "compare_q1_methods.py"),
-        "--csv", str(Q1_ROOT / "artifacts/q1/data_cleaning/qualified_samples.csv"),
-        "--raw-root", str(a1),
-        "--text-feature-dir", str(FORMAL),
-        "--cache-dir", str(work / "cache"),
-        "--output-dir", str(work / "git_screening"),
-        "--probe-repeats", str(profile["probe_repeats"]),
-    ]
-    if profile["sample_limit"]:
-        compare.extend(["--limit", str(profile["sample_limit"])])
-    if args.overwrite_cache:
-        compare.append("--overwrite-cache")
-    result = {
-        "git_screening": compare,
-        "git_paired_statistics": [
+    result: dict[str, list[str]] = {}
+    if args.e_root is not None:
+        a1 = resolve_data(spec, args.e_root)["attachment_1"]
+        compare = [
+            sys.executable, str(ORIGINAL_SCRIPTS / "compare_q1_methods.py"),
+            "--csv", str(Q1_ROOT / "artifacts/q1/data_cleaning/qualified_samples.csv"),
+            "--raw-root", str(a1),
+            "--text-feature-dir", str(FORMAL),
+            "--cache-dir", str(work / "cache"),
+            "--output-dir", str(work / "git_screening"),
+            "--probe-repeats", str(profile["probe_repeats"]),
+        ]
+        if profile["sample_limit"]:
+            compare.extend(["--limit", str(profile["sample_limit"])])
+        if args.overwrite_cache:
+            compare.append("--overwrite-cache")
+        result["git_screening"] = compare
+        result["git_paired_statistics"] = [
             sys.executable, str(ORIGINAL_SCRIPTS / "analyze_q1_comparison.py"),
             "--metrics", str(work / "git_screening/comparison_metrics.csv"),
             "--output-dir", str(work / "git_screening"),
-        ],
-    }
+        ]
     if args.current_q1_dir:
         result["version_comparison"] = [
             sys.executable, str(HERE / "compare_q1_versions.py"),
@@ -254,19 +271,20 @@ def write_plan(spec: dict[str, Any], args: argparse.Namespace, command_map: dict
     target.chmod(0o755)
 
 
-def validate_outputs(args: argparse.Namespace) -> dict[str, Any]:
+def validate_outputs(args: argparse.Namespace, require_screening: bool) -> dict[str, Any]:
     checks: list[dict[str, Any]] = []
 
     def add(name: str, passed: bool, detail: Any) -> None:
         checks.append({"name": name, "passed": bool(passed), "detail": detail})
 
     screening = args.work_dir / "git_screening"
-    for name in ("comparison_metrics.csv", "comparison_summary.json", "comparison_report.md",
-                 "pairwise_statistics.csv", "pairwise_statistics.json", "pairwise_statistics.md"):
-        path = screening / name
-        add(f"git_screening_{name}", path.is_file() and path.stat().st_size > 0, str(path))
+    if require_screening:
+        for name in ("comparison_metrics.csv", "comparison_summary.json", "comparison_report.md",
+                     "pairwise_statistics.csv", "pairwise_statistics.json", "pairwise_statistics.md"):
+            path = screening / name
+            add(f"git_screening_{name}", path.is_file() and path.stat().st_size > 0, str(path))
     metrics = screening / "comparison_metrics.csv"
-    if metrics.is_file():
+    if require_screening and metrics.is_file():
         with metrics.open(encoding="utf-8-sig", newline="") as handle:
             rows = list(csv.DictReader(handle))
         add("git_screening_candidate_rows", len(rows) >= 2, len(rows))
@@ -340,12 +358,15 @@ def initialize_run_files(work_dir: Path, report: dict[str, Any]) -> None:
 
 def main() -> int:
     args = parse_args()
-    args.e_root = args.e_root.resolve()
+    args.e_root = args.e_root.resolve() if args.e_root else None
     args.work_dir = args.work_dir.resolve()
     args.work_dir.mkdir(parents=True, exist_ok=True)
+    require_datasets = args.stage in ("git-screening", "all")
+    if require_datasets and args.e_root is None:
+        raise ValueError("--e-root is required for git-screening and all")
     ensure_candidate_a(args)
     spec = json.loads(args.spec.read_text(encoding="utf-8"))
-    report = preflight(spec, args.e_root, args.current_q1_dir)
+    report = preflight(spec, args.e_root, args.current_q1_dir, require_datasets)
     dump(args.work_dir / "preflight.json", report)
     initialize_run_files(args.work_dir, report)
     command_map = commands(spec, args)
@@ -361,20 +382,21 @@ def main() -> int:
             args.work_dir / "resource_usage.csv", "B_git_frozen", "component_screening")
         run(command_map["git_paired_statistics"], args.work_dir / "logs/git_paired_statistics.log",
             args.work_dir / "resource_usage.csv", "B_git_frozen", "paired_statistics")
-    if args.stage in ("version-comparison", "all"):
+    if args.stage in ("version-comparison", "frozen-all", "all"):
         if "version_comparison" not in command_map:
             raise ValueError("--current-q1-dir is required for version-comparison")
         run(command_map["version_comparison"], args.work_dir / "logs/version_comparison.log",
             args.work_dir / "resource_usage.csv", "A_vs_B", "version_comparison")
-    if args.stage in ("representation-probe", "all"):
+    if args.stage in ("representation-probe", "frozen-all", "all"):
         if "build_candidate_vectors" not in command_map:
             raise ValueError("--current-q1-dir is required for representation-probe")
         run(command_map["build_candidate_vectors"], args.work_dir / "logs/build_candidate_vectors.log",
             args.work_dir / "resource_usage.csv", "A_B_C", "build_candidate_vectors")
         run(command_map["nested_representation_probe"], args.work_dir / "logs/nested_representation_probe.log",
             args.work_dir / "resource_usage.csv", "A_B_C", "nested_representation_probe")
-    if args.stage in ("validate", "all"):
-        validation = validate_outputs(args)
+    if args.stage in ("validate", "frozen-all", "all"):
+        require_screening = args.stage == "all" or (args.work_dir / "git_screening").is_dir()
+        validation = validate_outputs(args, require_screening=require_screening)
         dump(args.work_dir / "validation.json", validation)
         if not validation["passed"]:
             raise RuntimeError(f"Output validation failed; see {args.work_dir / 'validation.json'}")
