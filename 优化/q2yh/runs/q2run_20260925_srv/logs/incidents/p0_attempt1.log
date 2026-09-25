@@ -1,0 +1,2 @@
+{"run_id": "p0_B0_seed42", "status": "failed", "error": "'TrainingPriorModel' object has no attribute 'clear_text_cache'"}
+{"run_id": "p0_B2_seed42", "select_R_MAE": 0.6573464236421588, "select_R_F1": 0.5150282704357408, "clean_F1": 0.517909391877884, "clean_MAE": 0.6434926644826411, "best_epoch": 8}

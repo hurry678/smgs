@@ -1,0 +1,2 @@
+{"bank": "test", "summary": {"accuracy": 0.5663195126743956, "macro_f1": 0.5135975171017041, "worst_condition_macro_f1": 0.5410032191632793, "mae": 0.7767290317380126, "worst_condition_mae": 0.8118203347553195, "pearson": 0.457887117817144, "raw_mae": 0.7798818171677291, "raw_pearson": 0.4620268368110275}, "worst_condition": "select:0:0.50:random:independent:2", "reference": "p0_B2_seed42", "comparison_status": "completed", "output": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/evaluation/test"}
+exit=0

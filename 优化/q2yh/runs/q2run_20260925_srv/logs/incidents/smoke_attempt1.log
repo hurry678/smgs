@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/data2/hy/cts/e_problem/q2yh/scripts/run_experiments.py", line 395, in <module>
+    raise SystemExit(main())
+  File "/data2/hy/cts/e_problem/q2yh/scripts/run_experiments.py", line 130, in main
+    run_data = E.RunData(run_dir, device=str(device))
+  File "/data2/hy/cts/e_problem/q2yh/src/engine.py", line 32, in __init__
+    self.train = self._split("train", "train.npz")
+  File "/data2/hy/cts/e_problem/q2yh/src/engine.py", line 47, in _split
+    mean = self.normalizer[field]["mean"]
+AttributeError: 'RunData' object has no attribute 'normalizer'

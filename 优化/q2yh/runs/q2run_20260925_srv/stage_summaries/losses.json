@@ -1,0 +1,329 @@
+{
+  "stage": "losses",
+  "completed": 5,
+  "planned": 5,
+  "ranking": [
+    {
+      "run_id": "s5_B3_L2_seed42",
+      "architecture": "bigru_content_gate_time_pool",
+      "seed": 42,
+      "config": {
+        "loss": "L2",
+        "optimizer": "O3",
+        "regression_weight": 1.0,
+        "huber_beta": 0.5,
+        "rho": 0.02,
+        "lr": 0.0005
+      },
+      "summary": {
+        "accuracy": 0.5702293738008023,
+        "macro_f1": 0.544243000979189,
+        "worst_condition_macro_f1": 0.5749121506182898,
+        "mae": 0.6565743058500241,
+        "worst_condition_mae": 0.7191506863045741,
+        "pearson": 0.4996342288352897,
+        "raw_mae": 0.667724450938722,
+        "raw_pearson": 0.4971516747573066
+      },
+      "clean": {
+        "accuracy": 0.5947802197802198,
+        "macro_f1": 0.5743364183356738,
+        "mae": 0.635868831023623,
+        "pearson": 0.5324036248796694,
+        "raw_mae": 0.6513533967414072,
+        "raw_pearson": 0.5249097158044245,
+        "per_class_f1": {
+          "Negative": 0.5995203836930456,
+          "Neutral": 0.4528301886792453,
+          "Positive": 0.6706586826347305
+        },
+        "support": {
+          "Negative": 206,
+          "Neutral": 184,
+          "Positive": 338
+        },
+        "confusion": [
+          [
+            125,
+            41,
+            40
+          ],
+          [
+            34,
+            84,
+            66
+          ],
+          [
+            52,
+            62,
+            224
+          ]
+        ],
+        "raw_sign_conflict_rate": 0.27197802197802196,
+        "published_sign_conflict_rate": 0.0,
+        "mean_projection_magnitude": 0.038227864269912246,
+        "argmax_agreement_with_published": 1.0,
+        "actual_missing_ratio": 0.020685516934361863,
+        "samples_with_new_masking": 0
+      }
+    },
+    {
+      "run_id": "s5_B3_L3_seed42",
+      "architecture": "bigru_content_gate_time_pool",
+      "seed": 42,
+      "config": {
+        "loss": "L3",
+        "optimizer": "O3",
+        "regression_weight": 1.0,
+        "huber_beta": 0.5,
+        "rho": 0.02,
+        "lr": 0.0005
+      },
+      "summary": {
+        "accuracy": 0.5834641548927264,
+        "macro_f1": 0.5303050293887632,
+        "worst_condition_macro_f1": 0.5678039165638403,
+        "mae": 0.6582150209000699,
+        "worst_condition_mae": 0.7211543092512877,
+        "pearson": 0.5012390699811169,
+        "raw_mae": 0.6656389278542467,
+        "raw_pearson": 0.4993855799650215
+      },
+      "clean": {
+        "accuracy": 0.6043956043956044,
+        "macro_f1": 0.5604407765762348,
+        "mae": 0.6378409385138734,
+        "pearson": 0.5332328065136437,
+        "raw_mae": 0.6480519872537436,
+        "raw_pearson": 0.5277214043489449,
+        "per_class_f1": {
+          "Negative": 0.606516290726817,
+          "Neutral": 0.3815789473684211,
+          "Positive": 0.6932270916334662
+        },
+        "support": {
+          "Negative": 206,
+          "Neutral": 184,
+          "Positive": 338
+        },
+        "confusion": [
+          [
+            121,
+            27,
+            58
+          ],
+          [
+            30,
+            58,
+            96
+          ],
+          [
+            42,
+            35,
+            261
+          ]
+        ],
+        "raw_sign_conflict_rate": 0.20054945054945056,
+        "published_sign_conflict_rate": 0.0,
+        "mean_projection_magnitude": 0.020886440025466486,
+        "argmax_agreement_with_published": 1.0,
+        "actual_missing_ratio": 0.020685516934361863,
+        "samples_with_new_masking": 0
+      }
+    },
+    {
+      "run_id": "s5_B3_L1w2_seed42",
+      "architecture": "bigru_content_gate_time_pool",
+      "seed": 42,
+      "config": {
+        "loss": "L1",
+        "optimizer": "O3",
+        "regression_weight": 2.0,
+        "huber_beta": 0.5,
+        "rho": 0.02,
+        "lr": 0.0005
+      },
+      "summary": {
+        "accuracy": 0.5766396302110588,
+        "macro_f1": 0.520590581118889,
+        "worst_condition_macro_f1": 0.5637680017213769,
+        "mae": 0.6612187376652695,
+        "worst_condition_mae": 0.7244511731803254,
+        "pearson": 0.4964779504516763,
+        "raw_mae": 0.667690975610953,
+        "raw_pearson": 0.49557398030399225
+      },
+      "clean": {
+        "accuracy": 0.5892857142857143,
+        "macro_f1": 0.5400731749645923,
+        "mae": 0.6411254296584444,
+        "pearson": 0.5280618124553103,
+        "raw_mae": 0.6489199569786561,
+        "raw_pearson": 0.5258580855541721,
+        "per_class_f1": {
+          "Negative": 0.5975903614457831,
+          "Neutral": 0.3389830508474576,
+          "Positive": 0.6836461126005362
+        },
+        "support": {
+          "Negative": 206,
+          "Neutral": 184,
+          "Positive": 338
+        },
+        "confusion": [
+          [
+            124,
+            28,
+            54
+          ],
+          [
+            35,
+            50,
+            99
+          ],
+          [
+            50,
+            33,
+            255
+          ]
+        ],
+        "raw_sign_conflict_rate": 0.18681318681318682,
+        "published_sign_conflict_rate": 0.0,
+        "mean_projection_magnitude": 0.0191043412376318,
+        "argmax_agreement_with_published": 1.0,
+        "actual_missing_ratio": 0.020685516934361863,
+        "samples_with_new_masking": 0
+      }
+    },
+    {
+      "run_id": "s5_B3_L1w0.5_seed42",
+      "architecture": "bigru_content_gate_time_pool",
+      "seed": 42,
+      "config": {
+        "loss": "L1",
+        "optimizer": "O3",
+        "regression_weight": 0.5,
+        "huber_beta": 0.5,
+        "rho": 0.02,
+        "lr": 0.0005
+      },
+      "summary": {
+        "accuracy": 0.5769884877027734,
+        "macro_f1": 0.5182740746909029,
+        "worst_condition_macro_f1": 0.5590989633959719,
+        "mae": 0.6630403065819852,
+        "worst_condition_mae": 0.7238945288649082,
+        "pearson": 0.4989650482176379,
+        "raw_mae": 0.6696780983203644,
+        "raw_pearson": 0.49840399536567803
+      },
+      "clean": {
+        "accuracy": 0.5892857142857143,
+        "macro_f1": 0.5412290118037304,
+        "mae": 0.6421561302732636,
+        "pearson": 0.5271028480358328,
+        "raw_mae": 0.6515632890789145,
+        "raw_pearson": 0.5267383756103884,
+        "per_class_f1": {
+          "Negative": 0.5845410628019324,
+          "Neutral": 0.35738831615120276,
+          "Positive": 0.681757656458056
+        },
+        "support": {
+          "Negative": 206,
+          "Neutral": 184,
+          "Positive": 338
+        },
+        "confusion": [
+          [
+            121,
+            24,
+            61
+          ],
+          [
+            36,
+            52,
+            96
+          ],
+          [
+            51,
+            31,
+            256
+          ]
+        ],
+        "raw_sign_conflict_rate": 0.17994505494505494,
+        "published_sign_conflict_rate": 0.0,
+        "mean_projection_magnitude": 0.024201704179430076,
+        "argmax_agreement_with_published": 1.0,
+        "actual_missing_ratio": 0.020685516934361863,
+        "samples_with_new_masking": 0
+      }
+    },
+    {
+      "run_id": "s5_B3_EMA_seed42",
+      "architecture": "bigru_content_gate_time_pool",
+      "seed": 42,
+      "config": {
+        "loss": "L1",
+        "optimizer": "O3",
+        "regression_weight": 1.0,
+        "huber_beta": 0.5,
+        "rho": 0.02,
+        "lr": 0.0005,
+        "ema": true,
+        "ema_decay": 0.99
+      },
+      "summary": {
+        "accuracy": 0.5759637188208616,
+        "macro_f1": 0.5027873459399791,
+        "worst_condition_macro_f1": 0.5355958354180596,
+        "mae": 0.6655668386353608,
+        "worst_condition_mae": 0.7250934400742444,
+        "pearson": 0.4958706822817644,
+        "raw_mae": 0.670414922819368,
+        "raw_pearson": 0.4946072231018618
+      },
+      "clean": {
+        "accuracy": 0.5906593406593407,
+        "macro_f1": 0.5231949400499339,
+        "mae": 0.6471813771218716,
+        "pearson": 0.5258030680685103,
+        "raw_mae": 0.6535665682762616,
+        "raw_pearson": 0.5229916123191598,
+        "per_class_f1": {
+          "Negative": 0.5894206549118388,
+          "Neutral": 0.2900763358778626,
+          "Positive": 0.6900878293601004
+        },
+        "support": {
+          "Negative": 206,
+          "Neutral": 184,
+          "Positive": 338
+        },
+        "confusion": [
+          [
+            117,
+            19,
+            70
+          ],
+          [
+            32,
+            38,
+            114
+          ],
+          [
+            42,
+            21,
+            275
+          ]
+        ],
+        "raw_sign_conflict_rate": 0.1346153846153846,
+        "published_sign_conflict_rate": 0.0,
+        "mean_projection_magnitude": 0.015494690112483042,
+        "argmax_agreement_with_published": 1.0,
+        "actual_missing_ratio": 0.020685516934361863,
+        "samples_with_new_masking": 0
+      }
+    }
+  ]
+}

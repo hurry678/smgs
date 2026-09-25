@@ -1,0 +1,111 @@
+{
+  "schema": "q2-data-manifest-1",
+  "created_utc": "2026-09-25T06:25:16Z",
+  "git_commit": null,
+  "protocol_sha256": "8cc7c0444993df4f1e7528afef98c5dabc457eda34ded7a3587087346bb10973",
+  "aligned_source": "/data2/hy/test_5/E题/E题数据/E题数据/附件2-数据集特征文件/aligned_50.pkl",
+  "aligned_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+  "attachment3_dir": "/data2/hy/test_5/E题/E题数据/E题数据/附件3-模态缺失特征样本/对齐版本",
+  "normalization_fit_split": "train",
+  "text_input": "text_bert (int64, 3x50 token channels); precomputed `text` never used",
+  "splits": {
+    "train": {
+      "count": 3395,
+      "video_groups": 1528,
+      "class_counts": {
+        "0": 967,
+        "1": 758,
+        "2": 1670
+      },
+      "semantic_length_min": 1,
+      "semantic_length_max": 48,
+      "native_empty_modalities": [
+        0,
+        0,
+        110
+      ],
+      "label_dtype": "int8 classification / float32 regression (not float16)"
+    },
+    "valid": {
+      "count": 728,
+      "video_groups": 239,
+      "class_counts": {
+        "0": 206,
+        "1": 184,
+        "2": 338
+      },
+      "semantic_length_min": 1,
+      "semantic_length_max": 48,
+      "native_empty_modalities": [
+        0,
+        0,
+        15
+      ],
+      "label_dtype": "int8 classification / float32 regression (not float16)"
+    },
+    "test": {
+      "count": 727,
+      "scope": "labels stored for the post-freeze descriptive audit only; never read by train.py or run_experiments.py",
+      "class_counts": {
+        "0": 207,
+        "1": 158,
+        "2": 362
+      }
+    }
+  },
+  "files": {
+    "train.npz": "938e95437993e9eb100628d1e51f6ea4bd7d423dce795072cc9d76a9b766889f",
+    "valid.npz": "36beb7993c72e891aef086156587f05ccac62bc0547c78f70671f0b1f14d31a2",
+    "test.npz": "d85cfa3b1b2a9761ac0499399e281ece75abd57ae67001f083451cd95a35cc45",
+    "attachment3.npz": "37e090d2a8e3a172e4f0ca54f22b7251cd21607c57aba71b9f370ec91175857e",
+    "normalizer.npz": "07133584093cec8e6941680d2239e6e762d60c223ad608aa828f56412c0c407f"
+  },
+  "attachment3": {
+    "count": 30,
+    "ids": [
+      "附件3_01",
+      "附件3_02",
+      "附件3_03",
+      "附件3_04",
+      "附件3_05",
+      "附件3_06",
+      "附件3_07",
+      "附件3_08",
+      "附件3_09",
+      "附件3_10",
+      "附件3_11",
+      "附件3_12",
+      "附件3_13",
+      "附件3_14",
+      "附件3_15",
+      "附件3_16",
+      "附件3_17",
+      "附件3_18",
+      "附件3_19",
+      "附件3_20",
+      "附件3_21",
+      "附件3_22",
+      "附件3_23",
+      "附件3_24",
+      "附件3_25",
+      "附件3_26",
+      "附件3_27",
+      "附件3_28",
+      "附件3_29",
+      "附件3_30"
+    ],
+    "has_precomputed_text": false,
+    "role": "frozen inference only; never used for training, selection or threshold tuning"
+  },
+  "normalizer_provenance": {
+    "fit_split": "train",
+    "rows": 76817,
+    "rule": "per-dimension mean/std over O=1 rows, float64 accumulation, std floor 1e-5",
+    "source_sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd"
+  },
+  "checks": [
+    "no_id_overlap_across_splits",
+    "normalizer_train_only",
+    "domain_and_observed_stored_per_split"
+  ]
+}

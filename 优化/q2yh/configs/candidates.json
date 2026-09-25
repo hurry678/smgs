@@ -1,0 +1,35 @@
+{
+  "schema": "q2-candidate-registry-1",
+  "status": "specifications_for_server_implementation",
+  "models": [
+    {"id": "B0", "architecture": "training_prior", "priority": "P0", "trainable": false},
+    {"id": "B1", "architecture": "tinybert_masked_mean_linear_dual_head", "priority": "P1"},
+    {"id": "B2", "architecture": "three_modality_masked_mean_concat_mlp", "priority": "P0"},
+    {"id": "B3", "architecture": "bigru_content_gate_time_pool", "priority": "P1", "mask_side_channel": 0},
+    {"id": "M1", "architecture": "bigru_binary_mask_gate_time_pool", "priority": "P0", "mask_side_channel": 3},
+    {"id": "M2", "architecture": "bigru_domain_safe_gap_structure_gate", "priority": "P1", "mask_side_channel": 26},
+    {"id": "M3", "architecture": "M2_plus_local_cross_time_attention", "priority": "P1", "heads": 4, "layers": 1, "window_radius": 5},
+    {"id": "M4", "architecture": "selected_student_with_full_view_teacher", "priority": "P2", "requires_teacher_trained_on_train_only": true},
+    {"id": "M5", "architecture": "three_unimodal_experts_with_coverage_gate", "priority": "P2"}
+  ],
+  "optimizers": [
+    {"id": "O1", "name": "AdamW", "lr": [0.001], "weight_decay": 0.0001, "scheduler": "warmup_0.1_cosine", "priority": "P0"},
+    {"id": "O2", "name": "SGD_Nesterov", "lr": [0.01, 0.03], "momentum": 0.9, "weight_decay": 0.0001, "scheduler": "warmup_0.1_cosine", "priority": "P1"},
+    {"id": "O3", "name": "SAM_AdamW", "lr": [0.0005], "rho": [0.02, 0.05], "weight_decay": 0.0001, "same_batch_mask_rng_two_passes": true, "priority": "P1"},
+    {"id": "O4", "name": "PCGrad_AdamW", "lr": [0.001], "weight_decay": 0.0001, "projection_scope": "shared_parameters_only", "priority": "P1"},
+    {"id": "O5", "name": "GradNorm_AdamW", "lr": [0.001], "alpha": 1.5, "task_weight_lr": 0.001, "priority": "P2"}
+  ],
+  "losses": [
+    {"id": "L0", "name": "CE_MSE", "regression_weight": [1.0], "role": "user_proposal_control"},
+    {"id": "L1", "name": "CE_SmoothL1", "huber_beta": 0.5, "regression_weight": [0.5, 1.0, 2.0], "architecture_screen_weight": 1.0},
+    {"id": "L2", "name": "sqrt_inverse_train_frequency_CE_SmoothL1", "regression_weight": [1.0]},
+    {"id": "L3", "name": "L1_plus_label_sign_penalty", "consistency_weight": 0.05, "sign_margin": 0.05},
+    {"id": "L4", "name": "class_conditional_magnitude_heads", "priority": "P2"}
+  ],
+  "stability": {
+    "ema": {"decay": 0.99, "updates": "after_optimizer_step", "separate_ablation": true},
+    "ensemble": {"seeds": [42, 43, 44], "probabilities": "arithmetic_mean", "raw_intensity": "arithmetic_mean", "text_encoder_shared": true}
+  },
+  "not_a_cartesian_grid": true,
+  "stage_rule": "architecture with O1/L1 first; optimizer sweep on top two; loss/stability on best; paired three-seed comparison before freeze"
+}

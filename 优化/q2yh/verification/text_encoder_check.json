@@ -1,0 +1,15 @@
+{
+  "schema": "q2-text-adapter-check-1",
+  "passed": true,
+  "checks": {
+    "finite_output": true,
+    "hidden_input_invariance": true,
+    "repeat_determinism": true,
+    "empty_text_zero_output": true,
+    "frozen_gradients_disabled": true,
+    "encoder_stays_eval_after_train": true,
+    "shape_2_50_128": true
+  },
+  "masked_input_max_abs_difference": 0.0,
+  "scope": "interface_and_frozen_encoder_only_no_task_training"
+}

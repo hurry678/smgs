@@ -1,0 +1,105 @@
+{
+  "schema": "q2-execution-plan-1",
+  "protocol": null,
+  "stages": {
+    "smoke": {
+      "runs": 2,
+      "run_ids": [
+        "smoke_B2_seed42",
+        "smoke_M1_seed42"
+      ],
+      "max_hours": 11.0,
+      "device": "cuda:1",
+      "recorded_utc": "2026-09-25T06:31:39Z",
+      "recorded_before_first_update": true
+    },
+    "p0": {
+      "runs": 5,
+      "run_ids": [
+        "p0_B0_seed42",
+        "p0_B2_seed42",
+        "p0_M1_seed42",
+        "p0_M1_CEMSE_seed42",
+        "p0_M1_cleanonly_seed42"
+      ],
+      "max_hours": 11.0,
+      "device": "cuda:1",
+      "recorded_utc": "2026-09-25T06:31:50Z",
+      "recorded_before_first_update": true
+    },
+    "screen": {
+      "runs": 4,
+      "run_ids": [
+        "s3_B1_seed42",
+        "s3_B3_seed42",
+        "s3_M2_seed42",
+        "s3_M3_seed42"
+      ],
+      "max_hours": 11.0,
+      "device": "cuda:1",
+      "recorded_utc": "2026-09-25T06:33:33Z",
+      "recorded_before_first_update": true
+    },
+    "optimize": {
+      "runs": 9,
+      "run_ids": [
+        "s4_B1_O2lr0.01_seed42",
+        "s4_B1_O2lr0.03_seed42",
+        "s4_B1_O3rho0.02_seed42",
+        "s4_B1_O3rho0.05_seed42",
+        "s4_B1_O4_seed42",
+        "s4_B3_O2lr0.01_seed42",
+        "s4_B3_O2lr0.03_seed42",
+        "s4_B3_O3rho0.02_seed42",
+        "s4_B3_O3rho0.05_seed42"
+      ],
+      "max_hours": 11.0,
+      "device": "cuda:1",
+      "recorded_utc": "2026-09-25T06:36:51Z",
+      "recorded_before_first_update": true
+    },
+    "losses": {
+      "runs": 5,
+      "run_ids": [
+        "s5_B3_L1w0.5_seed42",
+        "s5_B3_L1w2_seed42",
+        "s5_B3_L2_seed42",
+        "s5_B3_L3_seed42",
+        "s5_B3_EMA_seed42"
+      ],
+      "max_hours": 11.0,
+      "device": "cuda:1",
+      "recorded_utc": "2026-09-25T06:44:14Z",
+      "recorded_before_first_update": true
+    },
+    "multiseed": {
+      "runs": 6,
+      "run_ids": [
+        "s6_B3_loss_seed43",
+        "s6_B3_loss_seed44",
+        "s6_B3_optimizer_seed43",
+        "s6_B3_optimizer_seed44",
+        "s6_B2_baseline_seed43",
+        "s6_B2_baseline_seed44"
+      ],
+      "max_hours": 11.0,
+      "device": "cuda:1",
+      "recorded_utc": "2026-09-25T06:49:23Z",
+      "recorded_before_first_update": true
+    }
+  },
+  "budget": {
+    "total_neural_runs_cap": 36,
+    "wall_clock_hours_cap": 12.0,
+    "reserve_hours": 2.0
+  },
+  "selection_tolerance": {
+    "mae_tie_tolerance": 0.005,
+    "f1_tie_tolerance": 0.005,
+    "worst_mae_tie_tolerance": 0.005,
+    "max_clean_f1_drop_vs_B2": 0.02,
+    "max_clean_mae_increase_vs_B2": 0.02,
+    "max_missing_f1_drop_vs_B2": 0.01,
+    "max_worst_mae_increase_vs_B2": 0.03
+  }
+}

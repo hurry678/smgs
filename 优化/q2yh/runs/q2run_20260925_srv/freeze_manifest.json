@@ -1,0 +1,121 @@
+{
+  "schema": "q2-freeze-manifest-1",
+  "created_utc": "2026-09-25T06:56:17Z",
+  "git_commit": null,
+  "protocol_sha256": "8cc7c0444993df4f1e7528afef98c5dabc457eda34ded7a3587087346bb10973",
+  "architecture": "bigru_content_gate_time_pool",
+  "config": {
+    "loss": "L2",
+    "optimizer": "O3",
+    "regression_weight": 1.0,
+    "huber_beta": 0.5,
+    "rho": 0.02,
+    "lr": 0.0005
+  },
+  "selection_status": "selected_three_seed",
+  "selection_bank": "select",
+  "deployment_seed": 42,
+  "member_runs": [
+    {
+      "run_id": "s5_B3_L2_seed42",
+      "seed": 42
+    },
+    {
+      "run_id": "s6_B3_loss_seed43",
+      "seed": 43
+    },
+    {
+      "run_id": "s6_B3_loss_seed44",
+      "seed": 44
+    }
+  ],
+  "deployed_run_id": "s5_B3_L2_seed42",
+  "checkpoint": {
+    "path": "runs/s5_B3_L2_seed42/checkpoint.pt",
+    "sha256": "1e018b99ebceb9dd972a73523f58862624505350f642fbb801b7e853d23bc6ca",
+    "bytes": 538914,
+    "contains_encoder": false,
+    "encoder_shared": "resources/bert_shared"
+  },
+  "text_encoder": {
+    "model_id": "google/bert_uncased_L-2_H-128_A-2",
+    "revision": "30b0a37ccaaa32f332884b96992754e246e48c5f",
+    "resource_dir": "resources/bert_shared",
+    "files": {
+      "resources/bert_shared/config.json": "508e1f01aae55d73355cbdd82609be2f43ba5a0d3428837adbe56cf8391f8b39",
+      "resources/bert_shared/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "resources/bert_shared/model.safetensors": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414",
+      "resources/bert_shared/README.md": "d13a54d652a2a54fbbc50e063b465fb273295870867821e1b06baba1d49d68a9"
+    },
+    "frozen": true,
+    "always_eval": true,
+    "mask_before_encoding": true
+  },
+  "normalizer": {
+    "path": "data/normalizer.npz",
+    "sha256": "07133584093cec8e6941680d2239e6e762d60c223ad608aa828f56412c0c407f",
+    "fit_split": "train"
+  },
+  "input_protocol": {
+    "mask_protocol": "q2-mask-domain-1",
+    "domain": "strictly_between_CLS_and_unique_SEP",
+    "unobserved": "all_dimensions_exactly_zero_before_normalization",
+    "text_input": "text_bert",
+    "batch_size": 64
+  },
+  "mask_banks": {
+    "select": {
+      "bank_sha256": "44dd28b915153bf5f5f6070485ab40cff452d48b81d72b8d7758dea6895dbe41",
+      "conditions": 63
+    },
+    "confirm": {
+      "bank_sha256": "afb54ddb2b27ff2839f878b4f9add9a2cf63526dc1b31a55169108cfe7cc3a06",
+      "conditions": 105
+    },
+    "position": {
+      "bank_sha256": "b7b6bffc63f0ef3cef8c23d84c2554ef68153324080f25394414a5172ab2e7a8",
+      "conditions": 27
+    },
+    "coupling": {
+      "bank_sha256": "2c3ea9b7982d414b449fa5e888d4e2030c59c7d0028fd877c77c5f500e679547",
+      "conditions": 60
+    },
+    "clean": {
+      "bank_sha256": "d917f00471eea4c19adc5c1cb35e46f7c1765653b3a4bcacbbd65749aca5a280",
+      "conditions": 1
+    }
+  },
+  "publication": {
+    "policy": "C2",
+    "intensity_range": [
+      -3,
+      3
+    ],
+    "nonneutral_epsilon": 0.0001,
+    "csv_decimals": 6,
+    "csv_columns": [
+      "sample_id",
+      "原文件名",
+      "polarity",
+      "intensity"
+    ],
+    "rule": "argmax class; neutral intensity 0; positive max(clip(r,-3,3),1e-4); negative min(clip(r,-3,3),-1e-4)"
+  },
+  "stage_status": {
+    "S0_preflight": "passed",
+    "S0_preflight_source": "runs/preflight_server/preflight.json",
+    "S1_smoke": "completed (2/2)",
+    "S2_p0": "completed (5/5)",
+    "S3_screen": "completed (4/4)",
+    "S4_optimize": "completed (9/9)",
+    "S5_losses": "completed (5/5)",
+    "S6_multiseed": "completed (6/6)",
+    "S7_post_freeze": "not_run",
+    "S8_attachment3": "not_run"
+  },
+  "notes": [
+    "confirm/position/coupling/test are evaluated only after this manifest is written",
+    "no attachment-3 or attachment-4 data was used for training, selection or thresholds",
+    "the historical official test split was already exposed in earlier project work; the new test report is descriptive, not a first blind test"
+  ]
+}

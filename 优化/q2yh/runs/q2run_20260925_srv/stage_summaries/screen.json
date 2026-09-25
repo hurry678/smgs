@@ -1,0 +1,255 @@
+{
+  "stage": "screen",
+  "completed": 4,
+  "planned": 4,
+  "ranking": [
+    {
+      "run_id": "s3_B1_seed42",
+      "architecture": "tinybert_masked_mean_linear_dual_head",
+      "seed": 42,
+      "config": {
+        "loss": "L1",
+        "optimizer": "O1",
+        "regression_weight": 1.0,
+        "huber_beta": 0.5
+      },
+      "summary": {
+        "accuracy": 0.5750261643118786,
+        "macro_f1": 0.5020685514748096,
+        "worst_condition_macro_f1": 0.5170292390801364,
+        "mae": 0.6628411416462754,
+        "worst_condition_mae": 0.7010000581185404,
+        "pearson": 0.5030241699284869,
+        "raw_mae": 0.6698529738389049,
+        "raw_pearson": 0.502007134575163
+      },
+      "clean": {
+        "accuracy": 0.5865384615384616,
+        "macro_f1": 0.5080466958515739,
+        "mae": 0.6481374372643592,
+        "pearson": 0.5315105635285851,
+        "raw_mae": 0.6555705472934418,
+        "raw_pearson": 0.5291085547796897,
+        "per_class_f1": {
+          "Negative": 0.5948717948717949,
+          "Neutral": 0.24390243902439024,
+          "Positive": 0.6853658536585366
+        },
+        "support": {
+          "Negative": 206,
+          "Neutral": 184,
+          "Positive": 338
+        },
+        "confusion": [
+          [
+            116,
+            14,
+            76
+          ],
+          [
+            29,
+            30,
+            125
+          ],
+          [
+            39,
+            18,
+            281
+          ]
+        ],
+        "raw_sign_conflict_rate": 0.12087912087912088,
+        "published_sign_conflict_rate": 0.0,
+        "mean_projection_magnitude": 0.01450791082869765,
+        "argmax_agreement_with_published": 1.0,
+        "actual_missing_ratio": 0.020685516934361863,
+        "samples_with_new_masking": 0
+      }
+    },
+    {
+      "run_id": "s3_B3_seed42",
+      "architecture": "bigru_content_gate_time_pool",
+      "seed": 42,
+      "config": {
+        "loss": "L1",
+        "optimizer": "O1",
+        "regression_weight": 1.0,
+        "huber_beta": 0.5
+      },
+      "summary": {
+        "accuracy": 0.5741104133961278,
+        "macro_f1": 0.5028179698950169,
+        "worst_condition_macro_f1": 0.5432474482497281,
+        "mae": 0.6646836389514658,
+        "worst_condition_mae": 0.7207491039087621,
+        "pearson": 0.49416016177523936,
+        "raw_mae": 0.6684967994364394,
+        "raw_pearson": 0.4928278980259987
+      },
+      "clean": {
+        "accuracy": 0.5947802197802198,
+        "macro_f1": 0.5386042615463099,
+        "mae": 0.6442214902067087,
+        "pearson": 0.5249583046895577,
+        "raw_mae": 0.6502015462227084,
+        "raw_pearson": 0.5214132888179923,
+        "per_class_f1": {
+          "Negative": 0.5879396984924623,
+          "Neutral": 0.3381294964028777,
+          "Positive": 0.6897435897435897
+        },
+        "support": {
+          "Negative": 206,
+          "Neutral": 184,
+          "Positive": 338
+        },
+        "confusion": [
+          [
+            117,
+            23,
+            66
+          ],
+          [
+            30,
+            47,
+            107
+          ],
+          [
+            45,
+            24,
+            269
+          ]
+        ],
+        "raw_sign_conflict_rate": 0.16071428571428573,
+        "published_sign_conflict_rate": 0.0,
+        "mean_projection_magnitude": 0.014128068326659256,
+        "argmax_agreement_with_published": 1.0,
+        "actual_missing_ratio": 0.020685516934361863,
+        "samples_with_new_masking": 0
+      }
+    },
+    {
+      "run_id": "s3_M2_seed42",
+      "architecture": "bigru_domain_safe_gap_structure_gate",
+      "seed": 42,
+      "config": {
+        "loss": "L1",
+        "optimizer": "O1",
+        "regression_weight": 1.0,
+        "huber_beta": 0.5
+      },
+      "summary": {
+        "accuracy": 0.5665445665445665,
+        "macro_f1": 0.5053056737826281,
+        "worst_condition_macro_f1": 0.5506230023861193,
+        "mae": 0.67288117466267,
+        "worst_condition_mae": 0.7188416127117249,
+        "pearson": 0.4750925655951054,
+        "raw_mae": 0.6769530246915634,
+        "raw_pearson": 0.4750587789107631
+      },
+      "clean": {
+        "accuracy": 0.5851648351648352,
+        "macro_f1": 0.548540606811529,
+        "mae": 0.655406640067541,
+        "pearson": 0.49765597828459823,
+        "raw_mae": 0.6614686717371364,
+        "raw_pearson": 0.49794125586477783,
+        "per_class_f1": {
+          "Negative": 0.5672371638141809,
+          "Neutral": 0.3987730061349693,
+          "Positive": 0.6796116504854369
+        },
+        "support": {
+          "Negative": 206,
+          "Neutral": 184,
+          "Positive": 338
+        },
+        "confusion": [
+          [
+            116,
+            37,
+            53
+          ],
+          [
+            34,
+            65,
+            85
+          ],
+          [
+            53,
+            40,
+            245
+          ]
+        ],
+        "raw_sign_conflict_rate": 0.2129120879120879,
+        "published_sign_conflict_rate": 0.0,
+        "mean_projection_magnitude": 0.019589770539718995,
+        "argmax_agreement_with_published": 1.0,
+        "actual_missing_ratio": 0.020685516934361863,
+        "samples_with_new_masking": 0
+      }
+    },
+    {
+      "run_id": "s3_M3_seed42",
+      "architecture": "M2_plus_local_cross_time_attention",
+      "seed": 42,
+      "config": {
+        "loss": "L1",
+        "optimizer": "O1",
+        "regression_weight": 1.0,
+        "huber_beta": 0.5
+      },
+      "summary": {
+        "accuracy": 0.5497339961625676,
+        "macro_f1": 0.48531113905455425,
+        "worst_condition_macro_f1": 0.512717218569538,
+        "mae": 0.6767459468236838,
+        "worst_condition_mae": 0.7415680987968223,
+        "pearson": 0.4752420471212584,
+        "raw_mae": 0.6802824503595873,
+        "raw_pearson": 0.47536056723490444
+      },
+      "clean": {
+        "accuracy": 0.5618131868131868,
+        "macro_f1": 0.5086849979141521,
+        "mae": 0.6554764573649391,
+        "pearson": 0.5055238592052361,
+        "raw_mae": 0.6593866056716581,
+        "raw_pearson": 0.5082924252553611,
+        "per_class_f1": {
+          "Negative": 0.5683297180043384,
+          "Neutral": 0.3048327137546468,
+          "Positive": 0.6528925619834711
+        },
+        "support": {
+          "Negative": 206,
+          "Neutral": 184,
+          "Positive": 338
+        },
+        "confusion": [
+          [
+            131,
+            17,
+            58
+          ],
+          [
+            50,
+            41,
+            93
+          ],
+          [
+            74,
+            27,
+            237
+          ]
+        ],
+        "raw_sign_conflict_rate": 0.16071428571428573,
+        "published_sign_conflict_rate": 0.0,
+        "mean_projection_magnitude": 0.014293973098535622,
+        "argmax_agreement_with_published": 1.0,
+        "actual_missing_ratio": 0.020685516934361863,
+        "samples_with_new_masking": 0
+      }
+    }
+  ]
+}

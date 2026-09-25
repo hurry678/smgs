@@ -1,0 +1,39 @@
+{
+  "schema": "q2-package-config-1",
+  "architecture": "bigru_content_gate_time_pool",
+  "model_kwargs": {},
+  "publication": {
+    "policy": "C2",
+    "intensity_range": [
+      -3,
+      3
+    ],
+    "nonneutral_epsilon": 0.0001,
+    "csv_decimals": 6,
+    "csv_columns": [
+      "sample_id",
+      "原文件名",
+      "polarity",
+      "intensity"
+    ],
+    "rule": "argmax class; neutral intensity 0; positive max(clip(r,-3,3),1e-4); negative min(clip(r,-3,3),-1e-4)"
+  },
+  "input_protocol": {
+    "mask_protocol": "q2-mask-domain-1",
+    "domain": "strictly_between_CLS_and_unique_SEP",
+    "unobserved": "all_dimensions_exactly_zero_before_normalization",
+    "text_input": "text_bert",
+    "batch_size": 64
+  },
+  "text_encoder": {
+    "dir": "resources/bert_shared",
+    "model_id": "google/bert_uncased_L-2_H-128_A-2",
+    "revision": "30b0a37ccaaa32f332884b96992754e246e48c5f",
+    "frozen": true,
+    "always_eval": true,
+    "mask_before_encoding": true
+  },
+  "trained_run_id": "s5_B3_L2_seed42",
+  "deployment_seed": 42,
+  "checkpoint_sha256": "1e018b99ebceb9dd972a73523f58862624505350f642fbb801b7e853d23bc6ca"
+}

@@ -1,0 +1,7 @@
+{"run_id": "s6_B3_loss_seed43", "select_R_MAE": 0.6710666624568743, "select_R_F1": 0.5214428611363688, "clean_F1": 0.5393399298488498, "clean_MAE": 0.6499614006518519, "best_epoch": 8}
+{"run_id": "s6_B3_loss_seed44", "select_R_MAE": 0.6640187913760631, "select_R_F1": 0.5384227869880635, "clean_F1": 0.5597659770367446, "clean_MAE": 0.6450254127339511, "best_epoch": 7}
+{"run_id": "s6_B3_optimizer_seed43", "select_R_MAE": 0.6754123255842501, "select_R_F1": 0.4945859357217802, "clean_F1": 0.5150320421628799, "clean_MAE": 0.6574331916543973, "best_epoch": 8}
+{"run_id": "s6_B3_optimizer_seed44", "select_R_MAE": 0.668375024745572, "select_R_F1": 0.5213986903955825, "clean_F1": 0.5439836219876737, "clean_MAE": 0.6503168039366275, "best_epoch": 7}
+{"run_id": "s6_B2_baseline_seed43", "select_R_MAE": 0.6664935941672058, "select_R_F1": 0.512892227172295, "clean_F1": 0.5189754919262651, "clean_MAE": 0.6516894942622181, "best_epoch": 12}
+{"run_id": "s6_B2_baseline_seed44", "select_R_MAE": 0.6613810409020119, "select_R_F1": 0.5243699749941526, "clean_F1": 0.5355898532308796, "clean_MAE": 0.6474621262811697, "best_epoch": 7}
+{"stage": "multiseed", "completed": 6, "summary": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/stage_summaries/multiseed.json"}

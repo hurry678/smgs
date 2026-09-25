@@ -1,0 +1,6 @@
+{"run_id": "s5_B3_L1w0.5_seed42", "select_R_MAE": 0.6630403065819852, "select_R_F1": 0.5182740746909029, "clean_F1": 0.5412290118037304, "clean_MAE": 0.6421561302732636, "best_epoch": 8}
+{"run_id": "s5_B3_L1w2_seed42", "select_R_MAE": 0.6612187376652695, "select_R_F1": 0.520590581118889, "clean_F1": 0.5400731749645923, "clean_MAE": 0.6411254296584444, "best_epoch": 8}
+{"run_id": "s5_B3_L2_seed42", "select_R_MAE": 0.6565743058500241, "select_R_F1": 0.544243000979189, "clean_F1": 0.5743364183356738, "clean_MAE": 0.635868831023623, "best_epoch": 8}
+{"run_id": "s5_B3_L3_seed42", "select_R_MAE": 0.6582150209000699, "select_R_F1": 0.5303050293887632, "clean_F1": 0.5604407765762348, "clean_MAE": 0.6378409385138734, "best_epoch": 8}
+{"run_id": "s5_B3_EMA_seed42", "select_R_MAE": 0.6589794422754833, "select_R_F1": 0.5309319051215617, "clean_F1": 0.5580785545954439, "clean_MAE": 0.6385206527841452, "best_epoch": 8}
+{"stage": "losses", "completed": 5, "summary": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/stage_summaries/losses.json"}

@@ -1,0 +1,112 @@
+{
+  "schema": "q2-package-1",
+  "created_utc": "2026-09-25T07:13:37Z",
+  "freeze_manifest": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/freeze_manifest.json",
+  "freeze_manifest_sha256": "921908f1d9d54cfb71e5b033fdab9c907050c93468ac7dacc2c9a4ff1f14bea2",
+  "deployed_run_id": "s5_B3_L2_seed42",
+  "architecture": "bigru_content_gate_time_pool",
+  "state_dict_tensors": 15,
+  "package_dir": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/package",
+  "package_bytes_uncompressed": 19266025,
+  "package_zip": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/submission/q2_package.zip",
+  "package_zip_bytes": 17222868,
+  "q1_zip": null,
+  "q1_zip_bytes": null,
+  "combined_q1_q2_bytes": null,
+  "combined_limit_bytes": 50000000,
+  "combined_within_limit": null,
+  "shared_encoder_copies": 1,
+  "files": {
+    "README.md": {
+      "bytes": 927,
+      "sha256": "dd3f9516533887aaf1480528508dac829e33315b1bfbb0c12f8d2cd2c17f27ad"
+    },
+    "data/attachment3_input.npz": {
+      "bytes": 707870,
+      "sha256": "37e090d2a8e3a172e4f0ca54f22b7251cd21607c57aba71b9f370ec91175857e"
+    },
+    "data/normalizer.npz": {
+      "bytes": 3858,
+      "sha256": "07133584093cec8e6941680d2239e6e762d60c223ad608aa828f56412c0c407f"
+    },
+    "infer.py": {
+      "bytes": 4637,
+      "sha256": "a8863caf85570d239ac748c3c4761b1cc7717edf5d39e472ea1f6710c2ebea51"
+    },
+    "model/config.json": {
+      "bytes": 1131,
+      "sha256": "fe4fe6816b20098051c86a28725ddbf7fb966b429375deee5e9953b439ca7767"
+    },
+    "model/frozen_logits.npz": {
+      "bytes": 1944,
+      "sha256": "9867d94adb27a57a8e0b3ef13494dc8ecffb2bf151e9ef52beccc3d3fa1466d6"
+    },
+    "model/state_dict.pt": {
+      "bytes": 538274,
+      "sha256": "6d1cc2583f9d46f7a6141c633cf8fc9981355edf4747b2811ab323f7219f4e57"
+    },
+    "resources/bert_shared/README.md": {
+      "bytes": 4617,
+      "sha256": "d13a54d652a2a54fbbc50e063b465fb273295870867821e1b06baba1d49d68a9"
+    },
+    "resources/bert_shared/config.json": {
+      "bytes": 382,
+      "sha256": "508e1f01aae55d73355cbdd82609be2f43ba5a0d3428837adbe56cf8391f8b39"
+    },
+    "resources/bert_shared/model.safetensors": {
+      "bytes": 17739144,
+      "sha256": "7fb69ad9f6866d8983183c930e33828f326470bf6ad8bbb2ad4ed957a92e9414"
+    },
+    "resources/bert_shared/vocab.txt": {
+      "bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "src/models.py": {
+      "bytes": 17859,
+      "sha256": "53af595b504bdb52cbc18433038f446377989be16789e6d8e154dc54f9eac08d"
+    },
+    "src/text_encoder.py": {
+      "bytes": 1859,
+      "sha256": "7ce80ad92543fb049eaa5bf6775b77ef776432642f8bfee8e0f5f77d02cb61c5"
+    },
+    "submission/q2_predictions.csv": {
+      "bytes": 1388,
+      "sha256": "6c7aa69d4b1b549c41fec06be43a99d6481dee21298b33bc6d3b34f39bf333f0"
+    },
+    "submission/q2_predictions.json": {
+      "bytes": 9650,
+      "sha256": "389db4fe940acd79abaa98521f4c1e7f261f102025dcfc4f53640ea8091df802"
+    },
+    "submission/validation.json": {
+      "bytes": 977,
+      "sha256": "f69001270ffb1cd9822897802979a3e28802228ff662c5aac0ca03557613734a"
+    }
+  },
+  "clean_process_verification": {
+    "command": [
+      "/data2/hy/test_5/problem2-venv/bin/python",
+      "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/package/infer.py",
+      "--package",
+      "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/package",
+      "--input",
+      "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/package/data/attachment3_input.npz",
+      "--out",
+      "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/package/_clean_process",
+      "--device",
+      "cuda:1"
+    ],
+    "returncode": 0,
+    "stdout": "{\"rows\": 30, \"ids_in_order\": true}",
+    "stderr": "",
+    "logits_max_abs_diff": 0.0,
+    "raw_max_abs_diff": 0.0,
+    "logits_ok": true,
+    "raw_ok": true,
+    "rows_match": true,
+    "polarity_match": true,
+    "intensity_max_readback_diff": 0.0,
+    "csv_ok": true,
+    "passed": true
+  },
+  "publication_policy": "C2"
+}

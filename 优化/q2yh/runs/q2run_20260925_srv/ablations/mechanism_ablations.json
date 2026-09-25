@@ -1,0 +1,156 @@
+{
+  "schema": "q2-mechanism-ablations-1",
+  "comparisons": [
+    {
+      "mechanism": "missing_view",
+      "status": "completed",
+      "control": "p0_M1_seed42",
+      "variant": "p0_M1_cleanonly_seed42",
+      "description": "full-view + missing-view training vs clean-only training (same architecture/seed)",
+      "control_metrics": {
+        "select_R_MAE": 0.6651,
+        "select_R_F1": 0.5187,
+        "clean_F1": 0.5474,
+        "clean_MAE": 0.647
+      },
+      "variant_metrics": {
+        "select_R_MAE": 0.6661,
+        "select_R_F1": 0.5321,
+        "clean_F1": 0.5689,
+        "clean_MAE": 0.6449
+      },
+      "delta_variant_minus_control": {
+        "select_R_MAE": 0.001,
+        "select_R_F1": 0.0134,
+        "clean_F1": 0.0215,
+        "clean_MAE": -0.0021
+      }
+    },
+    {
+      "mechanism": "ce_mse_control",
+      "status": "completed",
+      "control": "p0_M1_seed42",
+      "variant": "p0_M1_CEMSE_seed42",
+      "description": "L1 regression head vs the user-requested CE+MSE control",
+      "control_metrics": {
+        "select_R_MAE": 0.6651,
+        "select_R_F1": 0.5187,
+        "clean_F1": 0.5474,
+        "clean_MAE": 0.647
+      },
+      "variant_metrics": {
+        "select_R_MAE": 0.6751,
+        "select_R_F1": 0.51,
+        "clean_F1": 0.5434,
+        "clean_MAE": 0.6601
+      },
+      "delta_variant_minus_control": {
+        "select_R_MAE": 0.01,
+        "select_R_F1": -0.0087,
+        "clean_F1": -0.004,
+        "clean_MAE": 0.0131
+      }
+    },
+    {
+      "mechanism": "mask_side_channel",
+      "status": "completed",
+      "control": "p0_M1_seed42",
+      "variant": "s3_B3_seed42",
+      "description": "binary mask side channel vs content-only gate",
+      "control_metrics": {
+        "select_R_MAE": 0.6651,
+        "select_R_F1": 0.5187,
+        "clean_F1": 0.5474,
+        "clean_MAE": 0.647
+      },
+      "variant_metrics": {
+        "select_R_MAE": 0.6647,
+        "select_R_F1": 0.5028,
+        "clean_F1": 0.5386,
+        "clean_MAE": 0.6442
+      },
+      "delta_variant_minus_control": {
+        "select_R_MAE": -0.0004,
+        "select_R_F1": -0.0159,
+        "clean_F1": -0.0088,
+        "clean_MAE": -0.0028
+      }
+    },
+    {
+      "mechanism": "gap_structure",
+      "status": "completed",
+      "control": "s3_B3_seed42",
+      "variant": "s3_M2_seed42",
+      "description": "content gate vs domain-safe gap-structure gate",
+      "control_metrics": {
+        "select_R_MAE": 0.6647,
+        "select_R_F1": 0.5028,
+        "clean_F1": 0.5386,
+        "clean_MAE": 0.6442
+      },
+      "variant_metrics": {
+        "select_R_MAE": 0.6729,
+        "select_R_F1": 0.5053,
+        "clean_F1": 0.5485,
+        "clean_MAE": 0.6554
+      },
+      "delta_variant_minus_control": {
+        "select_R_MAE": 0.0082,
+        "select_R_F1": 0.0025,
+        "clean_F1": 0.0099,
+        "clean_MAE": 0.0112
+      }
+    },
+    {
+      "mechanism": "cross_time_attention",
+      "status": "completed",
+      "control": "s3_M2_seed42",
+      "variant": "s3_M3_seed42",
+      "description": "gap-structure gate vs gap-structure + local cross-time attention",
+      "control_metrics": {
+        "select_R_MAE": 0.6729,
+        "select_R_F1": 0.5053,
+        "clean_F1": 0.5485,
+        "clean_MAE": 0.6554
+      },
+      "variant_metrics": {
+        "select_R_MAE": 0.6768,
+        "select_R_F1": 0.4853,
+        "clean_F1": 0.5087,
+        "clean_MAE": 0.6555
+      },
+      "delta_variant_minus_control": {
+        "select_R_MAE": 0.0039,
+        "select_R_F1": -0.02,
+        "clean_F1": -0.0398,
+        "clean_MAE": 0.0001
+      }
+    },
+    {
+      "mechanism": "mean_pool_vs_gru",
+      "status": "completed",
+      "control": "p0_B2_seed42",
+      "variant": "p0_M1_seed42",
+      "description": "masked-mean MLP baseline vs padding-aware BiGRU fusion",
+      "control_metrics": {
+        "select_R_MAE": 0.6573,
+        "select_R_F1": 0.515,
+        "clean_F1": 0.5179,
+        "clean_MAE": 0.6435
+      },
+      "variant_metrics": {
+        "select_R_MAE": 0.6651,
+        "select_R_F1": 0.5187,
+        "clean_F1": 0.5474,
+        "clean_MAE": 0.647
+      },
+      "delta_variant_minus_control": {
+        "select_R_MAE": 0.0078,
+        "select_R_F1": 0.0037,
+        "clean_F1": 0.0295,
+        "clean_MAE": 0.0035
+      }
+    }
+  ],
+  "note": "each pair changes exactly one mechanism; deltas are read from metrics.csv"
+}

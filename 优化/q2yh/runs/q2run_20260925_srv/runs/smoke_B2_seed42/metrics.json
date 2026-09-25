@@ -1,0 +1,66 @@
+{
+  "run_id": "smoke_B2_seed42",
+  "architecture": "three_modality_masked_mean_concat_mlp",
+  "seed": 42,
+  "config": {},
+  "summary": {
+    "accuracy": 0.4221230158730159,
+    "macro_f1": 0.4077206175777991,
+    "worst_condition_macro_f1": 0.460024536269747,
+    "mae": 1.0117702358374077,
+    "worst_condition_mae": 1.0167446019177635,
+    "pearson": 0.12930356771677062,
+    "raw_mae": 1.0394247713524638,
+    "raw_pearson": 0.1571269029402084
+  },
+  "clean": {
+    "accuracy": 0.4375,
+    "macro_f1": 0.42686202686202684,
+    "mae": 1.0142549343343825,
+    "pearson": 0.06910753857653844,
+    "raw_mae": 1.0369209363125265,
+    "raw_pearson": 0.1726036929718002,
+    "per_class_f1": {
+      "Negative": 0.5333333333333333,
+      "Neutral": 0.46153846153846156,
+      "Positive": 0.2857142857142857
+    },
+    "support": {
+      "Negative": 12,
+      "Neutral": 5,
+      "Positive": 15
+    },
+    "confusion": [
+      [
+        8,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        9,
+        3,
+        3
+      ]
+    ],
+    "raw_sign_conflict_rate": 0.59375,
+    "published_sign_conflict_rate": 0.0,
+    "mean_projection_magnitude": 0.07234076096229256,
+    "argmax_agreement_with_published": 1.0,
+    "actual_missing_ratio": 0.007761437908496732,
+    "samples_with_new_masking": 0
+  },
+  "train": {
+    "best_epoch": 0,
+    "epochs_run": 2,
+    "total_seconds": 2.7622427940368652,
+    "peak_gpu_bytes": 72970752,
+    "trainable_params": 15492,
+    "non_encoder_params": 15492
+  },
+  "checkpoint_sha256": "37a925708e423c2a6c6ecdf5a41140cc1d46654a3e71c0aee73544f00c6e39c5"
+}

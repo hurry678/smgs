@@ -1,0 +1,17 @@
+{
+  "python": "3.10.20",
+  "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+  "torch": "2.5.1+cu121",
+  "torch_cuda": "12.1",
+  "cudnn": 90100,
+  "numpy": "1.26.4",
+  "cuda_available": true,
+  "device": "cuda:1",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "threads": 8,
+  "amp": false,
+  "tf32": false,
+  "deterministic": false,
+  "cwd": "/data2/hy/cts/e_problem/q2yh",
+  "git_commit": null
+}

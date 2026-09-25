@@ -1,0 +1,3 @@
+{"run_id": "smoke_B2_seed42", "select_R_MAE": 1.0117702358374077, "select_R_F1": 0.4077206175777991, "clean_F1": 0.42686202686202684, "clean_MAE": 1.0142549343343825, "best_epoch": 0}
+{"run_id": "smoke_M1_seed42", "select_R_MAE": 1.0217720381853808, "select_R_F1": 0.18289204335715958, "clean_F1": 0.1818181818181818, "clean_MAE": 1.021753111917712, "best_epoch": 0}
+{"stage": "smoke", "completed": 2, "summary": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/stage_summaries/smoke.json"}

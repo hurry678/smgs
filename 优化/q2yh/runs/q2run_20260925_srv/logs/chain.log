@@ -1,0 +1,28 @@
+=== chain start 2026-09-25T14:28:12+08:00 ===
+=== stage smoke start 2026-09-25T14:28:12+08:00 ===
+=== stage smoke exit 1 2026-09-25T14:28:17+08:00 ===
+=== stage p0 start 2026-09-25T14:28:17+08:00 ===
+=== stage p0 exit 1 2026-09-25T14:28:22+08:00 ===
+=== stage screen start 2026-09-25T14:28:22+08:00 ===
+=== stage screen exit 1 2026-09-25T14:28:27+08:00 ===
+=== stage optimize start 2026-09-25T14:28:27+08:00 ===
+=== chain start 2026-09-25T14:30:32+08:00 ===
+=== stage smoke start 2026-09-25T14:30:32+08:00 ===
+=== stage smoke exit 0 2026-09-25T14:30:37+08:00 ===
+=== stage p0 start 2026-09-25T14:30:37+08:00 ===
+=== chain start 2026-09-25T14:31:34+08:00 ===
+=== stage smoke start 2026-09-25T14:31:34+08:00 ===
+=== stage smoke exit 0 2026-09-25T14:31:45+08:00 ===
+=== stage p0 start 2026-09-25T14:31:45+08:00 ===
+=== stage p0 exit 0 2026-09-25T14:33:27+08:00 ===
+=== stage screen start 2026-09-25T14:33:27+08:00 ===
+=== stage screen exit 0 2026-09-25T14:36:46+08:00 ===
+=== stage optimize start 2026-09-25T14:36:46+08:00 ===
+=== stage optimize exit 0 2026-09-25T14:44:09+08:00 ===
+=== stage losses start 2026-09-25T14:44:09+08:00 ===
+=== stage losses exit 0 2026-09-25T14:49:19+08:00 ===
+=== stage multiseed start 2026-09-25T14:49:19+08:00 ===
+=== stage multiseed exit 0 2026-09-25T14:54:12+08:00 ===
+=== select exit 0 2026-09-25T14:54:12+08:00 ===
+=== freeze exit 1 2026-09-25T14:54:12+08:00 ===
+=== chain done 2026-09-25T14:54:12+08:00 ===

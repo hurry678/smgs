@@ -1,0 +1,71 @@
+{
+  "run_id": "s6_B2_baseline_seed43",
+  "architecture": "three_modality_masked_mean_concat_mlp",
+  "seed": 43,
+  "config": {
+    "loss": "L1",
+    "optimizer": "O1",
+    "regression_weight": 1.0,
+    "huber_beta": 0.5
+  },
+  "summary": {
+    "accuracy": 0.5687903366474796,
+    "macro_f1": 0.512892227172295,
+    "worst_condition_macro_f1": 0.5264254184317642,
+    "mae": 0.6664935941672058,
+    "worst_condition_mae": 0.7006641084013151,
+    "pearson": 0.482364588603874,
+    "raw_mae": 0.6781918585010462,
+    "raw_pearson": 0.47947790978506677
+  },
+  "clean": {
+    "accuracy": 0.5796703296703297,
+    "macro_f1": 0.5189754919262651,
+    "mae": 0.6516894942622181,
+    "pearson": 0.5042924801883595,
+    "raw_mae": 0.6636580746479532,
+    "raw_pearson": 0.4981432003004274,
+    "per_class_f1": {
+      "Negative": 0.5769230769230769,
+      "Neutral": 0.2949640287769784,
+      "Positive": 0.6850393700787402
+    },
+    "support": {
+      "Negative": 206,
+      "Neutral": 184,
+      "Positive": 338
+    },
+    "confusion": [
+      [
+        120,
+        22,
+        64
+      ],
+      [
+        44,
+        41,
+        99
+      ],
+      [
+        46,
+        31,
+        261
+      ]
+    ],
+    "raw_sign_conflict_rate": 0.1662087912087912,
+    "published_sign_conflict_rate": 0.0,
+    "mean_projection_magnitude": 0.025150019671878993,
+    "argmax_agreement_with_published": 1.0,
+    "actual_missing_ratio": 0.020685516934361863,
+    "samples_with_new_masking": 0
+  },
+  "train": {
+    "best_epoch": 12,
+    "epochs_run": 18,
+    "total_seconds": 33.1169376373291,
+    "peak_gpu_bytes": 153068544,
+    "trainable_params": 15492,
+    "non_encoder_params": 15492
+  },
+  "checkpoint_sha256": "6f1efcab6cd5596125022c0f40a535e88a4659a48cd515cd30c831c6dd4a55ad"
+}

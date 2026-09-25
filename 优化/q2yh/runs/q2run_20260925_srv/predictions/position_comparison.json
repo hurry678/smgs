@@ -1,0 +1,63 @@
+{
+  "schema": "q2-paired-video-bootstrap-1",
+  "reference": "p0_B2_seed42",
+  "candidate": "frozen",
+  "samples": 728,
+  "video_groups": 239,
+  "seeds": [
+    "42"
+  ],
+  "cells_per_candidate": 27,
+  "resamples": 10000,
+  "seed": 20260925,
+  "metrics": {
+    "accuracy": {
+      "reference": 0.5729039479039479,
+      "candidate": 0.5773809523809523,
+      "candidate_minus_reference": 0.004477004477004387,
+      "paired_95pct": [
+        -0.014181135924776229,
+        0.02333924899265603
+      ],
+      "defined_bootstrap_draws": 10000,
+      "better_direction": "higher"
+    },
+    "macro_f1": {
+      "reference": 0.5168098400841642,
+      "candidate": 0.5537098576055823,
+      "candidate_minus_reference": 0.03690001752141814,
+      "paired_95pct": [
+        0.015991257142252156,
+        0.05949909046791941
+      ],
+      "defined_bootstrap_draws": 10000,
+      "better_direction": "higher"
+    },
+    "mae": {
+      "reference": 0.652745680860806,
+      "candidate": 0.6504595063593814,
+      "candidate_minus_reference": -0.0022861745014245427,
+      "paired_95pct": [
+        -0.014877075774406778,
+        0.010513323925680962
+      ],
+      "defined_bootstrap_draws": 10000,
+      "better_direction": "lower"
+    },
+    "pearson": {
+      "reference": 0.5167201174532196,
+      "candidate": 0.5097771970923474,
+      "candidate_minus_reference": -0.0069429203608721846,
+      "paired_95pct": [
+        -0.026000985419184917,
+        0.011556078455503315
+      ],
+      "defined_bootstrap_draws": 10000,
+      "better_direction": "higher"
+    }
+  },
+  "method": "resample video groups jointly across all cells; average metrics within each draw then take quantiles",
+  "limitations": "Conditional on frozen models and this validation set; no refitting; not independent training-data uncertainty.",
+  "bank": "position",
+  "status": "completed"
+}

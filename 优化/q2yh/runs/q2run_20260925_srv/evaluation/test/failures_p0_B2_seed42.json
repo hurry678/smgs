@@ -1,0 +1,455 @@
+{
+  "worst_condition": "select:012:0.50:random:independent:1",
+  "rows": [
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "79356$_$7",
+      "video_id": "79356",
+      "y_class": 2,
+      "y_reg": 2.6666667461395264,
+      "published_class": 0,
+      "raw_intensity": -0.9843948483467102,
+      "published_intensity": -0.9843948483467102,
+      "abs_error": 3.6510615944862366,
+      "mask_sha256": "7c93bd949799332b5b0292275df3d83b8d7930ff68c05af5e39d1ccc4498c4c4"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "198112$_$9",
+      "video_id": "198112",
+      "y_class": 2,
+      "y_reg": 2.3333332538604736,
+      "published_class": 0,
+      "raw_intensity": -1.277572751045227,
+      "published_intensity": -1.277572751045227,
+      "abs_error": 3.6109060049057007,
+      "mask_sha256": "010432578831a99176602e619c99f6a8c75dabb1db55957ef500426622104b88"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "167521$_$17",
+      "video_id": "167521",
+      "y_class": 2,
+      "y_reg": 1.3333333730697632,
+      "published_class": 0,
+      "raw_intensity": -1.7203336954116821,
+      "published_intensity": -1.7203336954116821,
+      "abs_error": 3.0536670684814453,
+      "mask_sha256": "17e070b8dfbd5ae441ed06cb88484825624dfa6ef73a65acc06db15fa185f9a4"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "NocexkPXja8$_$4",
+      "video_id": "NocexkPXja8",
+      "y_class": 0,
+      "y_reg": -2.3333332538604736,
+      "published_class": 2,
+      "raw_intensity": 0.6918053030967712,
+      "published_intensity": 0.6918053030967712,
+      "abs_error": 3.025138556957245,
+      "mask_sha256": "fd5e9410e225e8dcc36e26499886824503bf6ef3d08a900dcd313eeae78fc357"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "2W-U94hXuK0$_$3",
+      "video_id": "2W-U94hXuK0",
+      "y_class": 0,
+      "y_reg": -3.0,
+      "published_class": 0,
+      "raw_intensity": 0.053168684244155884,
+      "published_intensity": -0.0001,
+      "abs_error": 2.9999,
+      "mask_sha256": "c62be82a56bb0de5e77570076b4a5d365af0d325f9dcbf68ba6a5300badea53b"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "28006$_$0",
+      "video_id": "28006",
+      "y_class": 0,
+      "y_reg": -2.6666667461395264,
+      "published_class": 2,
+      "raw_intensity": 0.28412503004074097,
+      "published_intensity": 0.28412503004074097,
+      "abs_error": 2.9507917761802673,
+      "mask_sha256": "faa62136590e28d303f95269634e17c7e3cbe68bd821ded71d7102014d543725"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "fsBzpr4k3rY$_$0",
+      "video_id": "fsBzpr4k3rY",
+      "y_class": 2,
+      "y_reg": 2.0,
+      "published_class": 0,
+      "raw_intensity": -0.8836919069290161,
+      "published_intensity": -0.8836919069290161,
+      "abs_error": 2.883691906929016,
+      "mask_sha256": "2bcab51035de89e752ce98d37537094a3f4e6b84e5571acfa69ad31f168ee010"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "92496$_$0",
+      "video_id": "92496",
+      "y_class": 0,
+      "y_reg": -2.6666667461395264,
+      "published_class": 2,
+      "raw_intensity": 0.14976507425308228,
+      "published_intensity": 0.14976507425308228,
+      "abs_error": 2.8164318203926086,
+      "mask_sha256": "46d4d5dd6ab17de21c018972cfcfbef8e8882aa30c28c89b808eabc10c55e354"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "91844$_$5",
+      "video_id": "91844",
+      "y_class": 2,
+      "y_reg": 3.0,
+      "published_class": 2,
+      "raw_intensity": 0.19504746794700623,
+      "published_intensity": 0.19504746794700623,
+      "abs_error": 2.8049525320529938,
+      "mask_sha256": "3b1ba0e660f6a668f7bbe27a597a514aafee02124d88fd2b884f48c242a3aa96"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "yCpHmPSshKY$_$1",
+      "video_id": "yCpHmPSshKY",
+      "y_class": 2,
+      "y_reg": 1.6666666269302368,
+      "published_class": 0,
+      "raw_intensity": -1.0844563245773315,
+      "published_intensity": -1.0844563245773315,
+      "abs_error": 2.7511229515075684,
+      "mask_sha256": "c749b6cbe8d8c296f31e3af3340a7cafce73867dcf7e81d963bfb7363a1f2ede"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "224263$_$14",
+      "video_id": "224263",
+      "y_class": 0,
+      "y_reg": -2.3333332538604736,
+      "published_class": 2,
+      "raw_intensity": 0.39132773876190186,
+      "published_intensity": 0.39132773876190186,
+      "abs_error": 2.7246609926223755,
+      "mask_sha256": "b200e5829e3a51a07b90a75682157ca149a6e74377f30c58a8360fee4ad54af0"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "d-Uw_uZyUys$_$1",
+      "video_id": "d-Uw_uZyUys",
+      "y_class": 0,
+      "y_reg": -2.3333332538604736,
+      "published_class": 2,
+      "raw_intensity": 0.3349818289279938,
+      "published_intensity": 0.3349818289279938,
+      "abs_error": 2.6683150827884674,
+      "mask_sha256": "bf0dee2aaa9b657c2a74e18b7ea1d1963f0006c050bb4b4e7b853ef22b5081aa"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "94481$_$4",
+      "video_id": "94481",
+      "y_class": 2,
+      "y_reg": 2.6666667461395264,
+      "published_class": 1,
+      "raw_intensity": -0.3013390302658081,
+      "published_intensity": 0.0,
+      "abs_error": 2.6666667461395264,
+      "mask_sha256": "76b650556e952b5888f76e949063729c1870cd2ef2ed500581b95cc7fbbc5a74"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "69824$_$5",
+      "video_id": "69824",
+      "y_class": 0,
+      "y_reg": -2.6666667461395264,
+      "published_class": 0,
+      "raw_intensity": -0.14172931015491486,
+      "published_intensity": -0.14172931015491486,
+      "abs_error": 2.5249374359846115,
+      "mask_sha256": "086a49c0c3f248705f86c25d0fb4342e90d4d57dfd0887edb22e7bc78a25d60b"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "wnL3ld9bM2o$_$25",
+      "video_id": "wnL3ld9bM2o",
+      "y_class": 2,
+      "y_reg": 2.0,
+      "published_class": 0,
+      "raw_intensity": -0.48319077491760254,
+      "published_intensity": -0.48319077491760254,
+      "abs_error": 2.4831907749176025,
+      "mask_sha256": "4f3148083e5ca1f082b3e75463ab1acce46bab657b28487e8929a3a6ca76d2d3"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "213327$_$6",
+      "video_id": "213327",
+      "y_class": 0,
+      "y_reg": -2.3333332538604736,
+      "published_class": 2,
+      "raw_intensity": 0.12424533069133759,
+      "published_intensity": 0.12424533069133759,
+      "abs_error": 2.457578584551811,
+      "mask_sha256": "b8aeca950a0112c8c3f6da796cf8491e6e57659c7d531afa72e20bf1f055a157"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "uogwnZGb-iE$_$13",
+      "video_id": "uogwnZGb-iE",
+      "y_class": 2,
+      "y_reg": 2.3333332538604736,
+      "published_class": 0,
+      "raw_intensity": -0.0598941296339035,
+      "published_intensity": -0.0598941296339035,
+      "abs_error": 2.393227383494377,
+      "mask_sha256": "e7aae30f09e9887f2cc631d06855888c9707b097393fc2f3dad4f961ba73a97c"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "cW-aX4dPVfk$_$32",
+      "video_id": "cW-aX4dPVfk",
+      "y_class": 2,
+      "y_reg": 1.6666666269302368,
+      "published_class": 0,
+      "raw_intensity": -0.7251829504966736,
+      "published_intensity": -0.7251829504966736,
+      "abs_error": 2.3918495774269104,
+      "mask_sha256": "9b7476e57483dd1e3ef7ecf8e0e8c78658a0cb73d8a18fbaf29ad1471f446c31"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "111881$_$7",
+      "video_id": "111881",
+      "y_class": 0,
+      "y_reg": -2.0,
+      "published_class": 2,
+      "raw_intensity": 0.3585735559463501,
+      "published_intensity": 0.3585735559463501,
+      "abs_error": 2.35857355594635,
+      "mask_sha256": "68c683379380aa7cda69376cf426342beae0e6f7f72e65a85a4abe4b95016e89"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "d-Uw_uZyUys$_$6",
+      "video_id": "d-Uw_uZyUys",
+      "y_class": 0,
+      "y_reg": -2.3333332538604736,
+      "published_class": 2,
+      "raw_intensity": 0.01951451599597931,
+      "published_intensity": 0.01951451599597931,
+      "abs_error": 2.352847769856453,
+      "mask_sha256": "3dc8e855180d2398e488466d461c2423324635351d2735ffe43bca81b6259843"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "224370$_$5",
+      "video_id": "224370",
+      "y_class": 0,
+      "y_reg": -2.6666667461395264,
+      "published_class": 0,
+      "raw_intensity": -0.3182867169380188,
+      "published_intensity": -0.3182867169380188,
+      "abs_error": 2.3483800292015076,
+      "mask_sha256": "136beb1f68b873e44574e62d181ba1570e2885e2c4c7012f8a71762775fa4965"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "273250$_$16",
+      "video_id": "273250",
+      "y_class": 0,
+      "y_reg": -2.3333332538604736,
+      "published_class": 2,
+      "raw_intensity": 0.006962716579437256,
+      "published_intensity": 0.006962716579437256,
+      "abs_error": 2.340295970439911,
+      "mask_sha256": "b8df9b356cb21435121c100f7b287a7d083443993f1f5e2f6163d095a678f1ae"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "238063$_$15",
+      "video_id": "238063",
+      "y_class": 0,
+      "y_reg": -1.3333333730697632,
+      "published_class": 2,
+      "raw_intensity": 1.0059504508972168,
+      "published_intensity": 1.0059504508972168,
+      "abs_error": 2.33928382396698,
+      "mask_sha256": "74f265955593594ab172fddb5aad3e7ac3478d38f07ae711a4c901f762fc803a"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "208322$_$12",
+      "video_id": "208322",
+      "y_class": 0,
+      "y_reg": -2.3333332538604736,
+      "published_class": 2,
+      "raw_intensity": -0.0653114765882492,
+      "published_intensity": 0.0001,
+      "abs_error": 2.333433253860474,
+      "mask_sha256": "987831425c6c5502eec11ea58a5519f06052138c4262a1ea67c604933520edfc"
+    },
+    {
+      "condition_id": "select:012:0.50:random:independent:1",
+      "subset": [
+        0,
+        1,
+        2
+      ],
+      "ratio": 0.5,
+      "sample_id": "243981$_$10",
+      "video_id": "243981",
+      "y_class": 0,
+      "y_reg": -2.3333332538604736,
+      "published_class": 2,
+      "raw_intensity": -0.1311386376619339,
+      "published_intensity": 0.0001,
+      "abs_error": 2.333433253860474,
+      "mask_sha256": "be0a2aadcde01b388a837d85784a990799b1b990177653a2b7c0adc8e183bf0c"
+    }
+  ]
+}

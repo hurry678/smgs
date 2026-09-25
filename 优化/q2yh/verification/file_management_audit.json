@@ -1,0 +1,15 @@
+{
+  "schema": "q2-file-management-audit-1",
+  "baseline_commit": "aacd3ee8e1e227229468872e86c9046b082e2ea2",
+  "baseline_tracked_files": 1200,
+  "changed_tracked_files_outside_question2": [],
+  "new_files_scope": "问题二/",
+  "original_dataset_files_rehashed": 31,
+  "original_dataset_hashes_unchanged": true,
+  "q1_final_zip_sha256": "37091d6e957c704afcf56703f8050025951b8881eef2a3e2aaccf7a6b1295d5c",
+  "q1_final_zip_unchanged": true,
+  "protocol_tests_passed": 16,
+  "neural_training_status": "not_run",
+  "test_model_evaluation_status": "not_run",
+  "attachment3_model_inference_status": "not_run"
+}

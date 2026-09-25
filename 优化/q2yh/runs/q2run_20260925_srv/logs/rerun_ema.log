@@ -1,0 +1,3 @@
+{"archived_invalidated_arm": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/runs/_invalidated/s5_B3_EMA_seed42__20260925T065639Z"}
+{"run_id": "s5_B3_EMA_seed42", "select_R_MAE": 0.6655668386353608, "select_R_F1": 0.5027873459399791, "clean_F1": 0.5231949400499339, "clean_MAE": 0.6471813771218716, "stage_summary": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/stage_summaries/losses.json", "stage_completed": 5}
+=== rerun_ema exit 0 2026-09-25T14:57:43+08:00 ===

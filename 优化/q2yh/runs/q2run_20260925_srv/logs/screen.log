@@ -1,0 +1,5 @@
+{"run_id": "s3_B1_seed42", "select_R_MAE": 0.6628411416462754, "select_R_F1": 0.5020685514748096, "clean_F1": 0.5080466958515739, "clean_MAE": 0.6481374372643592, "best_epoch": 17}
+{"run_id": "s3_B3_seed42", "select_R_MAE": 0.6646836389514658, "select_R_F1": 0.5028179698950169, "clean_F1": 0.5386042615463099, "clean_MAE": 0.6442214902067087, "best_epoch": 3}
+{"run_id": "s3_M2_seed42", "select_R_MAE": 0.67288117466267, "select_R_F1": 0.5053056737826281, "clean_F1": 0.548540606811529, "clean_MAE": 0.655406640067541, "best_epoch": 3}
+{"run_id": "s3_M3_seed42", "select_R_MAE": 0.6767459468236838, "select_R_F1": 0.48531113905455425, "clean_F1": 0.5086849979141521, "clean_MAE": 0.6554764573649391, "best_epoch": 4}
+{"stage": "screen", "completed": 4, "summary": "/data2/hy/cts/e_problem/q2yh/runs/q2run_20260925_srv/stage_summaries/screen.json"}

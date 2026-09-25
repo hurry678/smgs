@@ -1,0 +1,71 @@
+{
+  "run_id": "p0_B0_seed42",
+  "architecture": "training_prior",
+  "seed": 42,
+  "config": {
+    "loss": "L1",
+    "optimizer": "O1",
+    "regression_weight": 1.0,
+    "huber_beta": 0.5
+  },
+  "summary": {
+    "accuracy": 0.46428571428571414,
+    "macro_f1": 0.2113821138211382,
+    "worst_condition_macro_f1": 0.21138211382113822,
+    "mae": 0.7808469928350749,
+    "worst_condition_mae": 0.780846992835075,
+    "pearson": null,
+    "raw_mae": 0.7808469928350749,
+    "raw_pearson": null
+  },
+  "clean": {
+    "accuracy": 0.4642857142857143,
+    "macro_f1": 0.21138211382113822,
+    "mae": 0.780846992835075,
+    "pearson": null,
+    "raw_mae": 0.780846992835075,
+    "raw_pearson": null,
+    "per_class_f1": {
+      "Negative": 0.0,
+      "Neutral": 0.0,
+      "Positive": 0.6341463414634146
+    },
+    "support": {
+      "Negative": 206,
+      "Neutral": 184,
+      "Positive": 338
+    },
+    "confusion": [
+      [
+        0,
+        0,
+        206
+      ],
+      [
+        0,
+        0,
+        184
+      ],
+      [
+        0,
+        0,
+        338
+      ]
+    ],
+    "raw_sign_conflict_rate": 0.0,
+    "published_sign_conflict_rate": 0.0,
+    "mean_projection_magnitude": 0.0,
+    "argmax_agreement_with_published": 1.0,
+    "actual_missing_ratio": 0.020685516934361863,
+    "samples_with_new_masking": 0
+  },
+  "train": {
+    "best_epoch": -1,
+    "epochs_run": 0,
+    "total_seconds": 0.0,
+    "peak_gpu_bytes": 0,
+    "trainable_params": 0,
+    "non_encoder_params": 0
+  },
+  "checkpoint_sha256": "32e4c95902f54d5ef23261d3996c803e75e91c02537aef02653106ca1569dd6c"
+}

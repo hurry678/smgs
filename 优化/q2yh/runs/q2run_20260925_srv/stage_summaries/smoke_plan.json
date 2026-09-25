@@ -1,0 +1,32 @@
+{
+  "stage": "smoke",
+  "runs": 2,
+  "max_hours": 11.0,
+  "selection_tolerance": {
+    "mae_tie_tolerance": 0.005,
+    "f1_tie_tolerance": 0.005,
+    "worst_mae_tie_tolerance": 0.005,
+    "max_clean_f1_drop_vs_B2": 0.02,
+    "max_clean_mae_increase_vs_B2": 0.02,
+    "max_missing_f1_drop_vs_B2": 0.01,
+    "max_worst_mae_increase_vs_B2": 0.03
+  },
+  "environment": {
+    "python": "3.10.20",
+    "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+    "torch": "2.5.1+cu121",
+    "torch_cuda": "12.1",
+    "cudnn": 90100,
+    "numpy": "1.26.4",
+    "cuda_available": true,
+    "device": "cuda:1",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "threads": 8,
+    "amp": false,
+    "tf32": false,
+    "deterministic": false,
+    "cwd": "/data2/hy/cts/e_problem/q2yh",
+    "git_commit": null
+  },
+  "note": "written before the first parameter update of this stage"
+}
