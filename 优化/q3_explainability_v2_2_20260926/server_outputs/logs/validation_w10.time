@@ -1,0 +1,23 @@
+	Command being timed: "/data2/hy/anaconda3/envs/secgpt-vllm/bin/python /data2/hy/smgs/问题三/q3_explainability_v2_2_20260926/scripts/q3_explain_core_v2.py --mode validation --data /data2/hy/cts/e_problem/data/q2/q2_data.npz --offsets /data2/hy/q3_runs/q3_explainability_v2_2_20260926/q2_valid_offsets.npz --model-dir /data2/hy/cts/e_problem/models/all-MiniLM-L6-v2 --checkpoints /data2/hy/cts/e_problem/artifacts/q2/final/M0_seed42.pt /data2/hy/cts/e_problem/artifacts/q2/final/M0_seed43.pt /data2/hy/cts/e_problem/artifacts/q2/final/M0_seed44.pt /data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed45.pt /data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed46.pt /data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add/M0_seed47.pt /data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed48.pt /data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed49.pt /data2/hy/cts/e_problem/artifacts/q2/v2_m0_ensemble_add2/M0_seed50.pt --freeze-manifest /data2/hy/smgs/ds/artifacts/q2/v3_m3_ensemble9/version_manifest.json --out-dir /data2/hy/q3_runs/q3_explainability_v2_2_20260926/validation/w10 --split valid --n 728 --window-size 10 --stride 10 --point-n 128 --top-k 2 --batch-size 64 --seed 2026 --device cuda:2"
+	User time (seconds): 199.57
+	System time (seconds): 9.26
+	Percent of CPU this job got: 114%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:02.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1839620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 766512
+	Voluntary context switches: 3415
+	Involuntary context switches: 1055
+	Swaps: 0
+	File system inputs: 32
+	File system outputs: 12040
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

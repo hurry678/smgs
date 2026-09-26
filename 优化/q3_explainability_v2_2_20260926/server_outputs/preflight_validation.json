@@ -1,0 +1,177 @@
+{
+  "schema": "q3v2-preflight-v1",
+  "scope": "validation",
+  "status": "PASS",
+  "protocol_sha256": "831d0079b543b7280ea51a3770de11d9a96920ab096aca498e1c264b97769637",
+  "checks": [
+    {
+      "label": "protocol",
+      "file": "protocol.json",
+      "exists": true,
+      "expected_sha256": null,
+      "actual_sha256": "831d0079b543b7280ea51a3770de11d9a96920ab096aca498e1c264b97769637",
+      "passed": true
+    },
+    {
+      "label": "repo:优化/q2yhv2_1/server_results_20260925/freeze_manifest.json",
+      "file": "freeze_manifest.json",
+      "exists": true,
+      "expected_sha256": "a4a27ee302749b0db79b71bb670a1215f663e2c1cb80a0c98e868db135507b49",
+      "actual_sha256": "a4a27ee302749b0db79b71bb670a1215f663e2c1cb80a0c98e868db135507b49",
+      "passed": true
+    },
+    {
+      "label": "repo:ds/artifacts/q2/v3_m3_ensemble9/version_manifest.json",
+      "file": "version_manifest.json",
+      "exists": true,
+      "expected_sha256": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+      "actual_sha256": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+      "passed": true
+    },
+    {
+      "label": "repo:ds/scripts/q2_models.py",
+      "file": "q2_models.py",
+      "exists": true,
+      "expected_sha256": "659cac7d0cc5b4c39c0f4b71d736dbc59fc54d48b2565b06a10fef356d367700",
+      "actual_sha256": "659cac7d0cc5b4c39c0f4b71d736dbc59fc54d48b2565b06a10fef356d367700",
+      "passed": true
+    },
+    {
+      "label": "repo:ds/scripts/q2_train.py",
+      "file": "q2_train.py",
+      "exists": true,
+      "expected_sha256": "ee5383dee5378d9ecad21779cc3926aae4635ae5c2d9d486299728da93aef8d6",
+      "actual_sha256": "ee5383dee5378d9ecad21779cc3926aae4635ae5c2d9d486299728da93aef8d6",
+      "passed": true
+    },
+    {
+      "label": "repo:ds/scripts/q2_eval.py",
+      "file": "q2_eval.py",
+      "exists": true,
+      "expected_sha256": "35611c5882c7c52db100d135499c2604ebf4ffa3f3bb6627baeb88a5d53e0dea",
+      "actual_sha256": "35611c5882c7c52db100d135499c2604ebf4ffa3f3bb6627baeb88a5d53e0dea",
+      "passed": true
+    },
+    {
+      "label": "repo:ds/scripts/q2_ensemble_publish.py",
+      "file": "q2_ensemble_publish.py",
+      "exists": true,
+      "expected_sha256": "8c99326ac82dfce1186012683b18b2a3623405a6f257b00328ac58bd645333c3",
+      "actual_sha256": "8c99326ac82dfce1186012683b18b2a3623405a6f257b00328ac58bd645333c3",
+      "passed": true
+    },
+    {
+      "label": "legacy:data/q2/q2_data.npz",
+      "file": "q2_data.npz",
+      "exists": true,
+      "expected_sha256": "2bad10a2913ec3a0a03e3999d36e59117e0efbcc480f379dc61c8bcd4de36c38",
+      "actual_sha256": "2bad10a2913ec3a0a03e3999d36e59117e0efbcc480f379dc61c8bcd4de36c38",
+      "passed": true
+    },
+    {
+      "label": "legacy:models/all-MiniLM-L6-v2/pytorch_model.bin",
+      "file": "pytorch_model.bin",
+      "exists": true,
+      "expected_sha256": "c3a85f238711653950f6a79ece63eb0ea93d76f6a6284be04019c53733baf256",
+      "actual_sha256": "c3a85f238711653950f6a79ece63eb0ea93d76f6a6284be04019c53733baf256",
+      "passed": true
+    },
+    {
+      "label": "legacy:artifacts/q2/final/M0_seed42.pt",
+      "file": "M0_seed42.pt",
+      "exists": true,
+      "expected_sha256": "57aebf736398ab1f4a7a5cded627fb10dfb9b6d514bffa7d95f48ec1b2bd49b7",
+      "actual_sha256": "57aebf736398ab1f4a7a5cded627fb10dfb9b6d514bffa7d95f48ec1b2bd49b7",
+      "passed": true
+    },
+    {
+      "label": "legacy:artifacts/q2/final/M0_seed43.pt",
+      "file": "M0_seed43.pt",
+      "exists": true,
+      "expected_sha256": "8036d8f3d4023eb774d50c88c8170c57d59b87a1dd8b86c2a8548c341c915f89",
+      "actual_sha256": "8036d8f3d4023eb774d50c88c8170c57d59b87a1dd8b86c2a8548c341c915f89",
+      "passed": true
+    },
+    {
+      "label": "legacy:artifacts/q2/final/M0_seed44.pt",
+      "file": "M0_seed44.pt",
+      "exists": true,
+      "expected_sha256": "70701bf103314b3505927f040664d7422f6e08a43ce319610deac0619afbfa42",
+      "actual_sha256": "70701bf103314b3505927f040664d7422f6e08a43ce319610deac0619afbfa42",
+      "passed": true
+    },
+    {
+      "label": "legacy:artifacts/q2/v2_m0_ensemble_add/M0_seed45.pt",
+      "file": "M0_seed45.pt",
+      "exists": true,
+      "expected_sha256": "5908d207e5453ba7f0f8b293dfac307134c31f0dcd7e70bf09d12b2730e59cd7",
+      "actual_sha256": "5908d207e5453ba7f0f8b293dfac307134c31f0dcd7e70bf09d12b2730e59cd7",
+      "passed": true
+    },
+    {
+      "label": "legacy:artifacts/q2/v2_m0_ensemble_add/M0_seed46.pt",
+      "file": "M0_seed46.pt",
+      "exists": true,
+      "expected_sha256": "e1b7c504f952cc543259c03d83f24b28eb356924f671c898c4bced4ce35693a6",
+      "actual_sha256": "e1b7c504f952cc543259c03d83f24b28eb356924f671c898c4bced4ce35693a6",
+      "passed": true
+    },
+    {
+      "label": "legacy:artifacts/q2/v2_m0_ensemble_add/M0_seed47.pt",
+      "file": "M0_seed47.pt",
+      "exists": true,
+      "expected_sha256": "af70760dc8e84d347345c855c629574a2dd531ba4479ce70126044ea6211eb73",
+      "actual_sha256": "af70760dc8e84d347345c855c629574a2dd531ba4479ce70126044ea6211eb73",
+      "passed": true
+    },
+    {
+      "label": "legacy:artifacts/q2/v2_m0_ensemble_add2/M0_seed48.pt",
+      "file": "M0_seed48.pt",
+      "exists": true,
+      "expected_sha256": "35e1712d260e5e53def76dffb1f0092f2b811d03b22e2109e593cf9a1cdc5145",
+      "actual_sha256": "35e1712d260e5e53def76dffb1f0092f2b811d03b22e2109e593cf9a1cdc5145",
+      "passed": true
+    },
+    {
+      "label": "legacy:artifacts/q2/v2_m0_ensemble_add2/M0_seed49.pt",
+      "file": "M0_seed49.pt",
+      "exists": true,
+      "expected_sha256": "02e1697affb1478d4e910136bf093cdda99899da3598d662bb45d6eae57165e3",
+      "actual_sha256": "02e1697affb1478d4e910136bf093cdda99899da3598d662bb45d6eae57165e3",
+      "passed": true
+    },
+    {
+      "label": "legacy:artifacts/q2/v2_m0_ensemble_add2/M0_seed50.pt",
+      "file": "M0_seed50.pt",
+      "exists": true,
+      "expected_sha256": "85ef923221c11684fa52ae3b3bc3ac6147c9b13a969cecd0dd30b1291270fdb0",
+      "actual_sha256": "85ef923221c11684fa52ae3b3bc3ac6147c9b13a969cecd0dd30b1291270fdb0",
+      "passed": true
+    }
+  ],
+  "tools": [],
+  "imports": [
+    {
+      "package": "numpy",
+      "version": "1.26.4",
+      "passed": true
+    },
+    {
+      "package": "torch",
+      "version": "2.3.0+cu121",
+      "passed": true
+    },
+    {
+      "package": "transformers",
+      "version": "4.41.2",
+      "passed": true
+    }
+  ],
+  "failure_count": 0,
+  "forbidden_selection_inputs": [
+    "official_test",
+    "attachment3",
+    "attachment4"
+  ],
+  "selection_input": "validation_only"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "csv": "/data2/hy/q3_runs/q3_explainability_v2_2_20260926/submission/q3_predictions_explanations.csv",
+  "jsonl": "/data2/hy/q3_runs/q3_explainability_v2_2_20260926/submission/q3_evidence.jsonl",
+  "validation_report": "/data2/hy/q3_runs/q3_explainability_v2_2_20260926/submission/q3_validation_report.json",
+  "attachment4_report": "/data2/hy/q3_runs/q3_explainability_v2_2_20260926/submission/q3_attachment4_report.json",
+  "manifest": "/data2/hy/q3_runs/q3_explainability_v2_2_20260926/submission/q3_freeze_manifest.json",
+  "n": 20
+}
