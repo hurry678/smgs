@@ -1,0 +1,65 @@
+{
+  "schema": "isolated-extension-file-audit-v1",
+  "extension": "问题三/q3_explainability_v2_2_20260926",
+  "created_on": "2026-09-26",
+  "baseline_commit": "b3a74471371dfe9ff65c485d7eb3e74d6015ab66",
+  "policy": {
+    "new_files_only_under_extension": true,
+    "protected_paths": [
+      "ds/",
+      "优化/q2yhv2_1/",
+      "问题三/q3_explainability_v2_20260925/",
+      "优化/q3_explainability_v2_20260925/"
+    ],
+    "server_write_scope": "/data2/hy/q3_runs/q3_explainability_v2_2_20260926",
+    "server_results_committed_automatically": false
+  },
+  "baseline_audit": {
+    "tracked_ds_files": 467,
+    "git_diff_against_head_for_ds": [],
+    "git_diff_against_head_for_q2_v2_1": [],
+    "git_diff_against_head_for_q3_v2": [],
+    "git_diff_against_head_for_q3_v2_results": [],
+    "status": "PASS"
+  },
+  "source_classes": {
+    "configuration": [
+      "configs/protocol.json"
+    ],
+    "documentation": [
+      "README.md",
+      "SERVER_PROMPT.md",
+      "docs/v2结果审查与v2.2修正记录.md",
+      "docs/问题三_v2.2建模与验收方案.md"
+    ],
+    "implementation": [
+      "scripts/compare_q3v2_2_results.py",
+      "scripts/export_q3v2_audit.py",
+      "scripts/prepare_q3_data_v2.py",
+      "scripts/q3_build_outputs_v2.py",
+      "scripts/q3_explain_core_v2.py",
+      "scripts/q3_preflight_v2.py",
+      "scripts/q3_prepare_alignment_v2.py",
+      "scripts/q3_prepare_offsets_v2.py",
+      "scripts/q3_select_freeze_v2.py",
+      "scripts/q3v2_math.py",
+      "scripts/verify_q3v2.py"
+    ],
+    "tests": [
+      "tests/test_alignment_mapping.py",
+      "tests/test_output_validation.py",
+      "tests/test_protocol.py",
+      "tests/test_q3v2_math.py",
+      "tests/test_result_comparison.py",
+      "tests/test_selection.py"
+    ]
+  },
+  "server_artifact_policy": {
+    "revision_scope": "symmetric top-vs-top fidelity and canonical MFA parser fix",
+    "local_source_tree_contains_model_weights": false,
+    "local_source_tree_contains_attachment_data": false,
+    "q2_weights_referenced_by_sha256": true,
+    "mfa_resources_referenced_by_sha256": true,
+    "results_must_be_returned_as_versioned_audit_archive": true
+  }
+}
