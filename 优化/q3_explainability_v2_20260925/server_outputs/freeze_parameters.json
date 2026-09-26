@@ -1,0 +1,138 @@
+{
+  "schema": "q3v2-explanation-freeze-v1",
+  "status": "frozen",
+  "frozen_at": "2026-09-26T09:19:18+08:00",
+  "selection_split": "validation_only",
+  "attachment4_used_for_selection": false,
+  "candidate_windows": [
+    3,
+    5,
+    10
+  ],
+  "selection_metric": "mean_budget_normalized_top_support",
+  "selection_gate": "lower bound of video-group clustered 95% CI > 0 against both same-budget random-contiguous and point-scatter controls",
+  "selection_mode": "clustered_ci_eligible_best_score",
+  "selection_reason": "Both video-group clustered 95% CI lower bounds exceed zero; selected the largest budget-normalized top-support score.",
+  "selected_window_size": 3,
+  "selected_stride": 3,
+  "point_scan_n": 128,
+  "top_k_per_modality": 2,
+  "batch_size": 64,
+  "seed": 2026,
+  "expected_validation_n": 728,
+  "predictor": {
+    "name": "M3-ensemble9 + C2",
+    "q2_freeze_manifest": "freeze_manifest.json",
+    "q2_freeze_manifest_sha256": "a4a27ee302749b0db79b71bb670a1215f663e2c1cb80a0c98e868db135507b49",
+    "q2_version_manifest": "version_manifest.json",
+    "q2_version_manifest_sha256": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+    "full_validation_metrics": {
+      "accuracy": 0.6208791208791209,
+      "macro_f1": 0.5997068114591327,
+      "mae": 0.5799670219421387,
+      "pearson": 0.6635369958302701,
+      "n": 728
+    }
+  },
+  "candidates": [
+    {
+      "window_size": 3,
+      "stride": 3,
+      "report": "window_3/q3_validation_report.json",
+      "report_sha256": "8fa527e41afa660a3e3f537670e39ade351d9483e528799538e5e3234c8075ba",
+      "mean_budget_normalized_top_support": 0.052497771007112046,
+      "top_support_vs_random_contiguous": {
+        "n_observations": 2169,
+        "n_groups": 239,
+        "mean_difference": 0.11378102507974666,
+        "bootstrap_95_ci": [
+          0.10354289217703677,
+          0.1242166932060886
+        ],
+        "resamples": 5000,
+        "seed": 33027
+      },
+      "top_support_vs_point_scatter": {
+        "n_observations": 2169,
+        "n_groups": 239,
+        "mean_difference": 0.11211734034555568,
+        "bootstrap_95_ci": [
+          0.10150457210500133,
+          0.12395618418486895
+        ],
+        "resamples": 5000,
+        "seed": 33028
+      },
+      "eligible_by_clustered_ci": true
+    },
+    {
+      "window_size": 5,
+      "stride": 5,
+      "report": "window_5/q3_validation_report.json",
+      "report_sha256": "1d771a2e361e820d97a3bc6d9e28807e1752d3c444625620bd5227501c9deaf2",
+      "mean_budget_normalized_top_support": 0.035553980840367774,
+      "top_support_vs_random_contiguous": {
+        "n_observations": 2169,
+        "n_groups": 239,
+        "mean_difference": 0.11114726177987386,
+        "bootstrap_95_ci": [
+          0.09977586930232095,
+          0.12312638275198352
+        ],
+        "resamples": 5000,
+        "seed": 33027
+      },
+      "top_support_vs_point_scatter": {
+        "n_observations": 2169,
+        "n_groups": 239,
+        "mean_difference": 0.10965613166832976,
+        "bootstrap_95_ci": [
+          0.0991517223785123,
+          0.1204367502674332
+        ],
+        "resamples": 5000,
+        "seed": 33028
+      },
+      "eligible_by_clustered_ci": true
+    },
+    {
+      "window_size": 10,
+      "stride": 10,
+      "report": "window_10/q3_validation_report.json",
+      "report_sha256": "a6dfea0dbc761c77e9ce9a08bf73739f2432d986235eab364a4ebce0b80ed27e",
+      "mean_budget_normalized_top_support": 0.01994128653714701,
+      "top_support_vs_random_contiguous": {
+        "n_observations": 2169,
+        "n_groups": 239,
+        "mean_difference": 0.08189517256678003,
+        "bootstrap_95_ci": [
+          0.07117899767655614,
+          0.09358520864777979
+        ],
+        "resamples": 5000,
+        "seed": 33027
+      },
+      "top_support_vs_point_scatter": {
+        "n_observations": 2169,
+        "n_groups": 239,
+        "mean_difference": 0.07391304870893077,
+        "bootstrap_95_ci": [
+          0.0624274221055862,
+          0.08565500476840299
+        ],
+        "resamples": 5000,
+        "seed": 33028
+      },
+      "eligible_by_clustered_ci": true
+    }
+  ],
+  "selected_report": "window_3/q3_validation_report.json",
+  "selected_report_sha256": "8fa527e41afa660a3e3f537670e39ade351d9483e528799538e5e3234c8075ba",
+  "rules": {
+    "modality": "exact three-player Shapley in integer bit-mask order",
+    "primary": "largest positive predicted-class Shapley contribution",
+    "primary_no_positive_fallback": "largest absolute predicted-class Shapley contribution with support_modality=null",
+    "local_rank": "0.7 signed-class percentile + 0.3 class-oriented intensity percentile",
+    "bootstrap_unit": "video_id"
+  }
+}
