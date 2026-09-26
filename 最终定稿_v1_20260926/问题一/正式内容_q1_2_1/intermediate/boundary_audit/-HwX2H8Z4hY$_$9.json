@@ -1,0 +1,206 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$9",
+  "fingerprint": "b58ab21d864f936d008044e81c3194c2b608ea0d39d3adbd31a5a325d4f50e7a",
+  "audio_sha256": "68cdf8d5ed8548a3de6cca22c0834796d8b9d42e71fdf9908fb94a4616108be3",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.8888811659999192,
+  "text": " It is a word with which the administrator uses when he turns around anything which he doesn't like the teacher is doing. He says you",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.6,
+      "text": " It is a word with which the administrator uses when he turns around anything which he doesn't like the teacher is doing. He says you",
+      "tokens": [
+        50363,
+        632,
+        318,
+        257,
+        1573,
+        351,
+        543,
+        262,
+        18382,
+        3544,
+        618,
+        339,
+        4962,
+        1088,
+        1997,
+        543,
+        339,
+        1595,
+        470,
+        588,
+        262,
+        4701,
+        318,
+        1804,
+        13,
+        679,
+        1139,
+        345,
+        50742
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3168316841125488,
+      "compression_ratio": 1.2815533980582525,
+      "no_speech_prob": 0.1955333948135376,
+      "words": [
+        {
+          "word": " It",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.573987603187561
+        },
+        {
+          "word": " is",
+          "start": 0.62,
+          "end": 0.8,
+          "probability": 0.9695879220962524
+        },
+        {
+          "word": " a",
+          "start": 0.8,
+          "end": 0.9,
+          "probability": 0.9285258650779724
+        },
+        {
+          "word": " word",
+          "start": 0.9,
+          "end": 1.2,
+          "probability": 0.9852457642555237
+        },
+        {
+          "word": " with",
+          "start": 1.2,
+          "end": 1.48,
+          "probability": 0.8141862154006958
+        },
+        {
+          "word": " which",
+          "start": 1.48,
+          "end": 3.18,
+          "probability": 0.8760315179824829
+        },
+        {
+          "word": " the",
+          "start": 3.18,
+          "end": 3.32,
+          "probability": 0.986641526222229
+        },
+        {
+          "word": " administrator",
+          "start": 3.32,
+          "end": 3.82,
+          "probability": 0.954868733882904
+        },
+        {
+          "word": " uses",
+          "start": 3.82,
+          "end": 4.2,
+          "probability": 0.47808709740638733
+        },
+        {
+          "word": " when",
+          "start": 4.2,
+          "end": 4.42,
+          "probability": 0.7169206738471985
+        },
+        {
+          "word": " he",
+          "start": 4.42,
+          "end": 4.56,
+          "probability": 0.8314601182937622
+        },
+        {
+          "word": " turns",
+          "start": 4.56,
+          "end": 4.76,
+          "probability": 0.9907405376434326
+        },
+        {
+          "word": " around",
+          "start": 4.76,
+          "end": 5.14,
+          "probability": 0.8575056195259094
+        },
+        {
+          "word": " anything",
+          "start": 5.14,
+          "end": 5.44,
+          "probability": 0.7329432964324951
+        },
+        {
+          "word": " which",
+          "start": 5.44,
+          "end": 5.66,
+          "probability": 0.4915549159049988
+        },
+        {
+          "word": " he",
+          "start": 5.66,
+          "end": 5.78,
+          "probability": 0.9780052304267883
+        },
+        {
+          "word": " doesn't",
+          "start": 5.78,
+          "end": 6.0,
+          "probability": 0.9940295517444611
+        },
+        {
+          "word": " like",
+          "start": 6.0,
+          "end": 6.26,
+          "probability": 0.9890751242637634
+        },
+        {
+          "word": " the",
+          "start": 6.26,
+          "end": 6.44,
+          "probability": 0.6537359952926636
+        },
+        {
+          "word": " teacher",
+          "start": 6.44,
+          "end": 6.72,
+          "probability": 0.8238138556480408
+        },
+        {
+          "word": " is",
+          "start": 6.72,
+          "end": 6.86,
+          "probability": 0.5285681486129761
+        },
+        {
+          "word": " doing.",
+          "start": 6.86,
+          "end": 7.1,
+          "probability": 0.8735084533691406
+        },
+        {
+          "word": " He",
+          "start": 7.26,
+          "end": 7.26,
+          "probability": 0.9094780683517456
+        },
+        {
+          "word": " says",
+          "start": 7.26,
+          "end": 7.42,
+          "probability": 0.9889384508132935
+        },
+        {
+          "word": " you",
+          "start": 7.42,
+          "end": 7.6,
+          "probability": 0.578216016292572
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

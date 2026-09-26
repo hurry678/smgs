@@ -1,0 +1,18 @@
+{
+  "schema": "q3v2.2-final-verification-v1",
+  "status": "PASS",
+  "source_manifest": {
+    "files": 26,
+    "manifest_sha256": "400028a469ac40255250428f151921eb910c512e211840b124ab1b53f307224b"
+  },
+  "output_hashes": {
+    "files": 4
+  },
+  "submission_bytes": 321284,
+  "maximum_submission_bytes": 50000000,
+  "attachment4_samples": 20,
+  "mfa_aligned_samples": 20,
+  "fallback_samples": 0,
+  "selected_window_size": 3,
+  "protected_baseline_diff": "clean"
+}

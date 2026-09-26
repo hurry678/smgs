@@ -1,0 +1,93 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$5",
+  "fingerprint": "772f258385c416131bf96822b0b429f2682b334f4a800a1d0cb35da736e9df04",
+  "audio_sha256": "afb6d2f5ebb11d88836d2d7ab5e7e7b585e15438684e0b6165cd15b79df8620a",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.5574743328616023,
+  "text": " President Ronald Reagan blamed the professional bureaucracy of education.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.94,
+      "text": " President Ronald Reagan blamed the professional bureaucracy of education.",
+      "tokens": [
+        50363,
+        1992,
+        14430,
+        12823,
+        13772,
+        262,
+        4708,
+        25250,
+        286,
+        3707,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2350312929887038,
+      "compression_ratio": 1.0138888888888888,
+      "no_speech_prob": 0.016463443636894226,
+      "words": [
+        {
+          "word": " President",
+          "start": 0.0,
+          "end": 1.18,
+          "probability": 0.9313636422157288
+        },
+        {
+          "word": " Ronald",
+          "start": 1.18,
+          "end": 1.58,
+          "probability": 0.991561233997345
+        },
+        {
+          "word": " Reagan",
+          "start": 1.58,
+          "end": 2.08,
+          "probability": 0.9785232543945312
+        },
+        {
+          "word": " blamed",
+          "start": 2.08,
+          "end": 2.54,
+          "probability": 0.9789047837257385
+        },
+        {
+          "word": " the",
+          "start": 2.54,
+          "end": 2.76,
+          "probability": 0.9917491674423218
+        },
+        {
+          "word": " professional",
+          "start": 2.76,
+          "end": 3.34,
+          "probability": 0.8234652876853943
+        },
+        {
+          "word": " bureaucracy",
+          "start": 3.34,
+          "end": 4.02,
+          "probability": 0.9976527094841003
+        },
+        {
+          "word": " of",
+          "start": 4.02,
+          "end": 4.42,
+          "probability": 0.997869610786438
+        },
+        {
+          "word": " education.",
+          "start": 4.42,
+          "end": 4.94,
+          "probability": 0.9897729754447937
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

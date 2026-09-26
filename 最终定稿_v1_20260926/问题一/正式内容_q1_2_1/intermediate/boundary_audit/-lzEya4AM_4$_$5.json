@@ -1,0 +1,174 @@
+{
+  "sample_id": "-lzEya4AM_4$_$5",
+  "fingerprint": "01afcb4a87984054121d475f5fb04648329051ffe581b8a642c0f780c94a0b13",
+  "audio_sha256": "35f6c17abffdb046c8ba8595864bdc5653d9b5ca13f160666b455233c2d3f84e",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.8236408329103142,
+  "text": " If it falls into any of those three categories, inducing nausea and vomiting would be your next step.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.36,
+      "text": " If it falls into any of those three categories,",
+      "tokens": [
+        50363,
+        1002,
+        340,
+        8953,
+        656,
+        597,
+        286,
+        883,
+        1115,
+        9376,
+        11,
+        50522
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38810226440429685,
+      "compression_ratio": 1.10989010989011,
+      "no_speech_prob": 0.005479329265654087,
+      "words": [
+        {
+          "word": " If",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.7702537775039673
+        },
+        {
+          "word": " it",
+          "start": 0.64,
+          "end": 0.74,
+          "probability": 0.9943333864212036
+        },
+        {
+          "word": " falls",
+          "start": 0.74,
+          "end": 0.98,
+          "probability": 0.9968262910842896
+        },
+        {
+          "word": " into",
+          "start": 0.98,
+          "end": 1.26,
+          "probability": 0.9316447973251343
+        },
+        {
+          "word": " any",
+          "start": 1.26,
+          "end": 1.78,
+          "probability": 0.9729036688804626
+        },
+        {
+          "word": " of",
+          "start": 1.78,
+          "end": 1.92,
+          "probability": 0.9983227849006653
+        },
+        {
+          "word": " those",
+          "start": 1.92,
+          "end": 2.14,
+          "probability": 0.9940856695175171
+        },
+        {
+          "word": " three",
+          "start": 2.14,
+          "end": 2.3,
+          "probability": 0.9245277047157288
+        },
+        {
+          "word": " categories,",
+          "start": 2.3,
+          "end": 3.36,
+          "probability": 0.9987919926643372
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.36,
+      "end": 7.08,
+      "text": " inducing nausea and vomiting would be your next step.",
+      "tokens": [
+        50522,
+        44561,
+        32122,
+        290,
+        30874,
+        561,
+        307,
+        534,
+        1306,
+        2239,
+        13,
+        50727
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.38810226440429685,
+      "compression_ratio": 1.10989010989011,
+      "no_speech_prob": 0.005479329265654087,
+      "words": [
+        {
+          "word": " inducing",
+          "start": 3.36,
+          "end": 4.3,
+          "probability": 0.96926349401474
+        },
+        {
+          "word": " nausea",
+          "start": 4.3,
+          "end": 5.34,
+          "probability": 0.1873532235622406
+        },
+        {
+          "word": " and",
+          "start": 5.34,
+          "end": 5.64,
+          "probability": 0.9795181155204773
+        },
+        {
+          "word": " vomiting",
+          "start": 5.64,
+          "end": 5.96,
+          "probability": 0.9995512366294861
+        },
+        {
+          "word": " would",
+          "start": 5.96,
+          "end": 6.34,
+          "probability": 0.8904685378074646
+        },
+        {
+          "word": " be",
+          "start": 6.34,
+          "end": 6.48,
+          "probability": 0.998909592628479
+        },
+        {
+          "word": " your",
+          "start": 6.48,
+          "end": 6.6,
+          "probability": 0.9932148456573486
+        },
+        {
+          "word": " next",
+          "start": 6.6,
+          "end": 6.8,
+          "probability": 0.9990705847740173
+        },
+        {
+          "word": " step.",
+          "start": 6.8,
+          "end": 7.08,
+          "probability": 0.9891197681427002
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

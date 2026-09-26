@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "out": "/data2/hy/q3_runs/q3_explainability_v2_2_20260926/q2_valid_offsets.npz",
+  "audit": "/data2/hy/q3_runs/q3_explainability_v2_2_20260926/q2_valid_offsets_audit.json",
+  "splits": {
+    "valid": {
+      "n": 728,
+      "tokenizer_match_count": 728,
+      "tokenizer_match_rate": 1.0,
+      "errors": []
+    }
+  }
+}

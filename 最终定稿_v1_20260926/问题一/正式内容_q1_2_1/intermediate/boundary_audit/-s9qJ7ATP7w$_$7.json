@@ -1,0 +1,291 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$7",
+  "fingerprint": "2191bff0f2ce2a6b3104a5057ebfc6754d7af3a4708b48d88434242281d6363f",
+  "audio_sha256": "ab01d177be1332c04b78b7b16cefe77027fa6bddc32660a7fd720b142ceea2aa",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.9055314159486443,
+  "text": " I used to work for Warren Avis, the guy who started Avis Renekar, and he said to me one day, Robert, what's the purpose of business? And I said, oh-",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.96,
+      "text": " I used to work for Warren Avis, the guy who started Avis Renekar, and he said to me one",
+      "tokens": [
+        50363,
+        314,
+        973,
+        284,
+        670,
+        329,
+        11328,
+        317,
+        4703,
+        11,
+        262,
+        3516,
+        508,
+        2067,
+        317,
+        4703,
+        7152,
+        988,
+        283,
+        11,
+        290,
+        339,
+        531,
+        284,
+        502,
+        530,
+        50559
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3690441287293726,
+      "compression_ratio": 1.2436974789915967,
+      "no_speech_prob": 0.06545738875865936,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.6415926218032837
+        },
+        {
+          "word": " used",
+          "start": 0.58,
+          "end": 0.74,
+          "probability": 0.9886055588722229
+        },
+        {
+          "word": " to",
+          "start": 0.74,
+          "end": 0.88,
+          "probability": 0.9982574582099915
+        },
+        {
+          "word": " work",
+          "start": 0.88,
+          "end": 1.02,
+          "probability": 0.9959837198257446
+        },
+        {
+          "word": " for",
+          "start": 1.02,
+          "end": 1.2,
+          "probability": 0.9853698015213013
+        },
+        {
+          "word": " Warren",
+          "start": 1.2,
+          "end": 1.36,
+          "probability": 0.9969622492790222
+        },
+        {
+          "word": " Avis,",
+          "start": 1.36,
+          "end": 1.7,
+          "probability": 0.6853865385055542
+        },
+        {
+          "word": " the",
+          "start": 1.96,
+          "end": 2.04,
+          "probability": 0.9438230991363525
+        },
+        {
+          "word": " guy",
+          "start": 2.04,
+          "end": 2.16,
+          "probability": 0.9602038860321045
+        },
+        {
+          "word": " who",
+          "start": 2.16,
+          "end": 2.32,
+          "probability": 0.9606270790100098
+        },
+        {
+          "word": " started",
+          "start": 2.32,
+          "end": 2.5,
+          "probability": 0.9797929525375366
+        },
+        {
+          "word": " Avis",
+          "start": 2.5,
+          "end": 2.76,
+          "probability": 0.9212604463100433
+        },
+        {
+          "word": " Renekar,",
+          "start": 2.76,
+          "end": 3.2,
+          "probability": 0.6117677291234335
+        },
+        {
+          "word": " and",
+          "start": 3.32,
+          "end": 3.32,
+          "probability": 0.9651399850845337
+        },
+        {
+          "word": " he",
+          "start": 3.32,
+          "end": 3.38,
+          "probability": 0.9955665469169617
+        },
+        {
+          "word": " said",
+          "start": 3.38,
+          "end": 3.54,
+          "probability": 0.7658987641334534
+        },
+        {
+          "word": " to",
+          "start": 3.54,
+          "end": 3.7,
+          "probability": 0.993324339389801
+        },
+        {
+          "word": " me",
+          "start": 3.7,
+          "end": 3.84,
+          "probability": 0.9980779886245728
+        },
+        {
+          "word": " one",
+          "start": 3.84,
+          "end": 3.96,
+          "probability": 0.9715446829795837
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.96,
+      "end": 6.22,
+      "text": " day, Robert, what's the purpose of business?",
+      "tokens": [
+        50559,
+        1110,
+        11,
+        5199,
+        11,
+        644,
+        338,
+        262,
+        4007,
+        286,
+        1597,
+        30,
+        50683
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3690441287293726,
+      "compression_ratio": 1.2436974789915967,
+      "no_speech_prob": 0.06545738875865936,
+      "words": [
+        {
+          "word": " day,",
+          "start": 3.96,
+          "end": 4.34,
+          "probability": 0.9981912970542908
+        },
+        {
+          "word": " Robert,",
+          "start": 4.86,
+          "end": 5.04,
+          "probability": 0.064031682908535
+        },
+        {
+          "word": " what's",
+          "start": 5.22,
+          "end": 5.36,
+          "probability": 0.9369054734706879
+        },
+        {
+          "word": " the",
+          "start": 5.36,
+          "end": 5.48,
+          "probability": 0.9969569444656372
+        },
+        {
+          "word": " purpose",
+          "start": 5.48,
+          "end": 5.72,
+          "probability": 0.9980432987213135
+        },
+        {
+          "word": " of",
+          "start": 5.72,
+          "end": 5.98,
+          "probability": 0.9970057606697083
+        },
+        {
+          "word": " business?",
+          "start": 5.98,
+          "end": 6.22,
+          "probability": 0.8652060627937317
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.38,
+      "end": 6.8,
+      "text": " And I said, oh-",
+      "tokens": [
+        50683,
+        843,
+        314,
+        531,
+        11,
+        11752,
+        12,
+        50708
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3690441287293726,
+      "compression_ratio": 1.2436974789915967,
+      "no_speech_prob": 0.06545738875865936,
+      "words": [
+        {
+          "word": " And",
+          "start": 6.38,
+          "end": 6.42,
+          "probability": 0.9119949340820312
+        },
+        {
+          "word": " I",
+          "start": 6.42,
+          "end": 6.56,
+          "probability": 0.9834232330322266
+        },
+        {
+          "word": " said,",
+          "start": 6.56,
+          "end": 6.7,
+          "probability": 0.995327353477478
+        },
+        {
+          "word": " oh",
+          "start": 6.8,
+          "end": 6.8,
+          "probability": 0.5361832976341248
+        },
+        {
+          "word": "-",
+          "start": 6.8,
+          "end": 6.8,
+          "probability": 0.029520561918616295
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

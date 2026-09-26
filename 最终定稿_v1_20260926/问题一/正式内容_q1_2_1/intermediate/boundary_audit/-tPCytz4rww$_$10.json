@@ -1,0 +1,136 @@
+{
+  "sample_id": "-tPCytz4rww$_$10",
+  "fingerprint": "9e249fc7c6869f06ac18b552ae74466f99cdb4e278ddc56b63b0f590e88040e2",
+  "audio_sha256": "732e0f69eaf0c6d21c311b312b20f272dd36e57f1050c66585fd845da2c3a02f",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7064799580257386,
+  "text": " footage say 20 percent. So if you've got a thousand square foot condo make sure",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.64,
+      "text": " footage say 20 percent. So if you've got a thousand square foot condo make sure",
+      "tokens": [
+        50363,
+        9640,
+        910,
+        1160,
+        1411,
+        13,
+        1406,
+        611,
+        345,
+        1053,
+        1392,
+        257,
+        7319,
+        6616,
+        2366,
+        32119,
+        787,
+        1654,
+        50599
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3702343702316284,
+      "compression_ratio": 1.0128205128205128,
+      "no_speech_prob": 0.07735643535852432,
+      "words": [
+        {
+          "word": " footage",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.5598564147949219
+        },
+        {
+          "word": " say",
+          "start": 0.58,
+          "end": 0.72,
+          "probability": 0.748981237411499
+        },
+        {
+          "word": " 20",
+          "start": 0.72,
+          "end": 1.12,
+          "probability": 0.9401516914367676
+        },
+        {
+          "word": " percent.",
+          "start": 1.12,
+          "end": 1.58,
+          "probability": 0.2954425811767578
+        },
+        {
+          "word": " So",
+          "start": 1.78,
+          "end": 1.78,
+          "probability": 0.9215427041053772
+        },
+        {
+          "word": " if",
+          "start": 1.78,
+          "end": 2.06,
+          "probability": 0.8641997575759888
+        },
+        {
+          "word": " you've",
+          "start": 2.06,
+          "end": 2.32,
+          "probability": 0.9819058179855347
+        },
+        {
+          "word": " got",
+          "start": 2.32,
+          "end": 2.38,
+          "probability": 0.9976387023925781
+        },
+        {
+          "word": " a",
+          "start": 2.38,
+          "end": 2.5,
+          "probability": 0.6165037155151367
+        },
+        {
+          "word": " thousand",
+          "start": 2.5,
+          "end": 2.72,
+          "probability": 0.8324168920516968
+        },
+        {
+          "word": " square",
+          "start": 2.72,
+          "end": 2.98,
+          "probability": 0.9754261374473572
+        },
+        {
+          "word": " foot",
+          "start": 2.98,
+          "end": 3.54,
+          "probability": 0.9364659190177917
+        },
+        {
+          "word": " condo",
+          "start": 3.54,
+          "end": 4.06,
+          "probability": 0.9244651794433594
+        },
+        {
+          "word": " make",
+          "start": 4.06,
+          "end": 4.54,
+          "probability": 0.3190787136554718
+        },
+        {
+          "word": " sure",
+          "start": 4.54,
+          "end": 4.64,
+          "probability": 0.9167006015777588
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

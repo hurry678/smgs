@@ -1,0 +1,93 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$6",
+  "fingerprint": "48bcdd8e42e8cd1f4c87fae527dcd2b94937a4bc7dd0a406bd25d3124486fe41",
+  "audio_sha256": "8fe1e77875ee7b9f818f46edc4cf05918804f9fb9cc65fa475126cc4e0a368e1",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.5642637088894844,
+  "text": " help you if you have an English job interview.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.34,
+      "text": " help you if you have an English job interview.",
+      "tokens": [
+        50363,
+        1037,
+        345,
+        611,
+        345,
+        423,
+        281,
+        3594,
+        1693,
+        2720,
+        13,
+        50493
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3379240036010742,
+      "compression_ratio": 0.92,
+      "no_speech_prob": 0.009759420529007912,
+      "words": [
+        {
+          "word": " help",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.639280378818512
+        },
+        {
+          "word": " you",
+          "start": 0.2,
+          "end": 0.4,
+          "probability": 0.9965721368789673
+        },
+        {
+          "word": " if",
+          "start": 0.4,
+          "end": 0.54,
+          "probability": 0.9095834493637085
+        },
+        {
+          "word": " you",
+          "start": 0.54,
+          "end": 0.66,
+          "probability": 0.9986831545829773
+        },
+        {
+          "word": " have",
+          "start": 0.66,
+          "end": 0.8,
+          "probability": 0.998137354850769
+        },
+        {
+          "word": " an",
+          "start": 0.8,
+          "end": 0.94,
+          "probability": 0.9955376386642456
+        },
+        {
+          "word": " English",
+          "start": 0.94,
+          "end": 1.26,
+          "probability": 0.9759770631790161
+        },
+        {
+          "word": " job",
+          "start": 1.26,
+          "end": 1.78,
+          "probability": 0.8705089092254639
+        },
+        {
+          "word": " interview.",
+          "start": 1.78,
+          "end": 2.34,
+          "probability": 0.9973657727241516
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

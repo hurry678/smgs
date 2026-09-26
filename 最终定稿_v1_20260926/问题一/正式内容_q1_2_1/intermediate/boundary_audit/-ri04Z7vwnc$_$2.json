@@ -1,0 +1,54 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$2",
+  "fingerprint": "caa74679dfae1bfbcfab03412c3e4c98debcc8431d228f6afd1806d7cf158b88",
+  "audio_sha256": "737c084383f362ba3b0645461bf8a555f360c9d310bd0bb292f8a0d23d7559ba",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.5855294589418918,
+  "text": " Hi, I'm Ajanta.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 3.919999999999998,
+      "end": 5.32,
+      "text": " Hi, I'm Ajanta.",
+      "tokens": [
+        50363,
+        15902,
+        11,
+        314,
+        1101,
+        22028,
+        4910,
+        13,
+        50713
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5772139549255371,
+      "compression_ratio": 0.6521739130434783,
+      "no_speech_prob": 0.04550076648592949,
+      "words": [
+        {
+          "word": " Hi,",
+          "start": 3.919999999999998,
+          "end": 4.52,
+          "probability": 0.8398769497871399
+        },
+        {
+          "word": " I'm",
+          "start": 4.82,
+          "end": 5.04,
+          "probability": 0.9499332010746002
+        },
+        {
+          "word": " Ajanta.",
+          "start": 5.04,
+          "end": 5.32,
+          "probability": 0.912405252456665
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

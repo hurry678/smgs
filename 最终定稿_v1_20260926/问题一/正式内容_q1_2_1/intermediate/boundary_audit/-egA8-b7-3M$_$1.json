@@ -1,0 +1,195 @@
+{
+  "sample_id": "-egA8-b7-3M$_$1",
+  "fingerprint": "2fead0508ecdd529db591d044f369c427d1e7bed3d16fdb51e9a0ab5b67c4d81",
+  "audio_sha256": "8b21fc2cb66f56c11d974f842e0f94488425766c971695517e31b642349748ca",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.8582311251666397,
+  "text": " I have started a successful legal nurse consulting business in 1989. I mentor nurses who want to become legal nurse consultants.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.68,
+      "text": " I have started a successful legal nurse consulting business in 1989.",
+      "tokens": [
+        50363,
+        314,
+        423,
+        2067,
+        257,
+        4388,
+        2742,
+        15849,
+        18158,
+        1597,
+        287,
+        11104,
+        13,
+        50663
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1996579340526036,
+      "compression_ratio": 1.3195876288659794,
+      "no_speech_prob": 0.008677362464368343,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.6508033871650696
+        },
+        {
+          "word": " have",
+          "start": 0.64,
+          "end": 0.98,
+          "probability": 0.7748439908027649
+        },
+        {
+          "word": " started",
+          "start": 0.98,
+          "end": 1.62,
+          "probability": 0.9893231987953186
+        },
+        {
+          "word": " a",
+          "start": 1.62,
+          "end": 1.86,
+          "probability": 0.993665337562561
+        },
+        {
+          "word": " successful",
+          "start": 1.86,
+          "end": 2.4,
+          "probability": 0.9822225570678711
+        },
+        {
+          "word": " legal",
+          "start": 2.4,
+          "end": 2.68,
+          "probability": 0.9067792892456055
+        },
+        {
+          "word": " nurse",
+          "start": 2.68,
+          "end": 3.06,
+          "probability": 0.9890165328979492
+        },
+        {
+          "word": " consulting",
+          "start": 3.06,
+          "end": 3.4,
+          "probability": 0.9859511852264404
+        },
+        {
+          "word": " business",
+          "start": 3.4,
+          "end": 4.04,
+          "probability": 0.9878875017166138
+        },
+        {
+          "word": " in",
+          "start": 4.04,
+          "end": 4.72,
+          "probability": 0.9914928078651428
+        },
+        {
+          "word": " 1989.",
+          "start": 4.72,
+          "end": 5.68,
+          "probability": 0.9958242177963257
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.42,
+      "end": 9.34,
+      "text": " I mentor nurses who want to become legal nurse consultants.",
+      "tokens": [
+        50663,
+        314,
+        22387,
+        20669,
+        508,
+        765,
+        284,
+        1716,
+        2742,
+        15849,
+        29597,
+        13,
+        50863
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1996579340526036,
+      "compression_ratio": 1.3195876288659794,
+      "no_speech_prob": 0.008677362464368343,
+      "words": [
+        {
+          "word": " I",
+          "start": 6.42,
+          "end": 6.42,
+          "probability": 0.9946647882461548
+        },
+        {
+          "word": " mentor",
+          "start": 6.42,
+          "end": 6.8,
+          "probability": 0.7939576506614685
+        },
+        {
+          "word": " nurses",
+          "start": 6.8,
+          "end": 7.24,
+          "probability": 0.9964740872383118
+        },
+        {
+          "word": " who",
+          "start": 7.24,
+          "end": 7.56,
+          "probability": 0.9954373240470886
+        },
+        {
+          "word": " want",
+          "start": 7.56,
+          "end": 7.8,
+          "probability": 0.9975265860557556
+        },
+        {
+          "word": " to",
+          "start": 7.8,
+          "end": 7.94,
+          "probability": 0.9972366094589233
+        },
+        {
+          "word": " become",
+          "start": 7.94,
+          "end": 8.22,
+          "probability": 0.9979715943336487
+        },
+        {
+          "word": " legal",
+          "start": 8.22,
+          "end": 8.5,
+          "probability": 0.9479862451553345
+        },
+        {
+          "word": " nurse",
+          "start": 8.5,
+          "end": 8.86,
+          "probability": 0.9955881834030151
+        },
+        {
+          "word": " consultants.",
+          "start": 8.86,
+          "end": 9.34,
+          "probability": 0.9887704849243164
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "q3v2.2-result-comparison-v1",
+  "status": "PASS",
+  "old_raw_sha256": "a15978c4ee057617ef057a684712dac84aa7d8886d09ea18fce79379ff0687f3",
+  "new_raw_sha256": "e3f6e79023e819a67614ebcb615f09ae4310cd4131476d047f9b166c0729b5ae",
+  "sample_count": 20,
+  "old_window_size": 3,
+  "new_window_size": 3,
+  "predictor_invariance": {
+    "polarity_change_count": 0,
+    "polarity_change_ids": [],
+    "maximum_intensity_difference": 0.0,
+    "maximum_log_probability_difference": 0.0,
+    "tolerance": 1e-07
+  },
+  "explanation_changes": {
+    "primary_modality_change_count": 0,
+    "primary_modality_changes": [],
+    "evidence_change_count": 0,
+    "evidence_change_ids": [],
+    "old_primary_counts": {
+      "text": 16,
+      "audio": 1,
+      "vision": 3
+    },
+    "new_primary_counts": {
+      "text": 16,
+      "audio": 1,
+      "vision": 3
+    },
+    "old_key_evidence_counts": {
+      "text": 40,
+      "audio": 31,
+      "vision": 33
+    },
+    "new_key_evidence_counts": {
+      "text": 40,
+      "audio": 31,
+      "vision": 33
+    }
+  }
+}

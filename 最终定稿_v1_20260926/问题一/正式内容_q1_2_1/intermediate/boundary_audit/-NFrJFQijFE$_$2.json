@@ -1,0 +1,103 @@
+{
+  "sample_id": "-NFrJFQijFE$_$2",
+  "fingerprint": "b53a097d72c394887ed3f5a6ab7743828be9c28eaa959f3aee2bc12c84050b5c",
+  "audio_sha256": "0e64039e6fd2f92da3f8d72b648bcba2a2767ddb7b2964730c3840e4ebfbab18",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.6188096250407398,
+  "text": " Hogs' sense of hearing is excellent, and their eyes are...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 3.4200000000000013,
+      "end": 6.66,
+      "text": " Hogs' sense of hearing is excellent, and their eyes are...",
+      "tokens": [
+        50363,
+        367,
+        18463,
+        6,
+        2565,
+        286,
+        4854,
+        318,
+        6275,
+        11,
+        290,
+        511,
+        2951,
+        389,
+        986,
+        50695
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.6015832003425149,
+      "compression_ratio": 0.90625,
+      "no_speech_prob": 0.1764284074306488,
+      "words": [
+        {
+          "word": " Hogs'",
+          "start": 3.4200000000000013,
+          "end": 3.98,
+          "probability": 0.19751180708408356
+        },
+        {
+          "word": " sense",
+          "start": 4.28,
+          "end": 4.28,
+          "probability": 0.9819627404212952
+        },
+        {
+          "word": " of",
+          "start": 4.28,
+          "end": 4.56,
+          "probability": 0.9985743761062622
+        },
+        {
+          "word": " hearing",
+          "start": 4.56,
+          "end": 4.72,
+          "probability": 0.9949448704719543
+        },
+        {
+          "word": " is",
+          "start": 4.72,
+          "end": 5.06,
+          "probability": 0.9951744675636292
+        },
+        {
+          "word": " excellent,",
+          "start": 5.06,
+          "end": 5.58,
+          "probability": 0.9854689240455627
+        },
+        {
+          "word": " and",
+          "start": 6.08,
+          "end": 6.16,
+          "probability": 0.9603092670440674
+        },
+        {
+          "word": " their",
+          "start": 6.16,
+          "end": 6.36,
+          "probability": 0.9909833669662476
+        },
+        {
+          "word": " eyes",
+          "start": 6.36,
+          "end": 6.6,
+          "probability": 0.9823355078697205
+        },
+        {
+          "word": " are...",
+          "start": 6.6,
+          "end": 6.66,
+          "probability": 0.383154034614563
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

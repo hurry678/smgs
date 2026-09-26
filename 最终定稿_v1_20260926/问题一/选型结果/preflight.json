@@ -1,0 +1,69 @@
+{
+  "protocol_version": "q1-comparison-1.0",
+  "generated_at": "2026-09-25T04:46:33.406154+00:00",
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-111-generic-x86_64-with-glibc2.35",
+  "executable": "/data2/hy/anaconda3/envs/secgpt-vllm/bin/python",
+  "dataset_preflight_required": false,
+  "mfa_required_for_frozen_comparison": false,
+  "e_root": null,
+  "resolved_data": {},
+  "current_q1_dir": "/data2/hy/cts/e_problem/benchmark_runs/q1_ab_frozen_20260925/full/materialized/A_current_audited",
+  "checks": [
+    {
+      "name": "git_formal_features",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "git_formal_metadata",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "git_formal_alignment",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "current_q1_features",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "current_q1_alignment",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "current_q1_boundary_audit",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "current_q1_validation",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "python_module_numpy",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "python_module_sklearn",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    }
+  ],
+  "passed": true
+}

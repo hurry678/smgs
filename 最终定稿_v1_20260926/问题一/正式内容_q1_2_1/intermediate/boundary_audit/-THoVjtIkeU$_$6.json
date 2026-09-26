@@ -1,0 +1,252 @@
+{
+  "sample_id": "-THoVjtIkeU$_$6",
+  "fingerprint": "168a40392927a227a1c33d38589f1a5153972417aa8f220ae137aa1383b8cfd3",
+  "audio_sha256": "3033c300cebbceab9386a9b52f1b1beca38d6dc3f1f0b439d6e25285cfec49eb",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.1527009170968086,
+  "text": " You know, I think that listening to young people taking in what they have to say because what we've seen all around the world is the power of youth.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.46,
+      "text": " You know, I think that listening to young people taking in what they have to say because",
+      "tokens": [
+        50363,
+        921,
+        760,
+        11,
+        314,
+        892,
+        326,
+        8680,
+        284,
+        1862,
+        661,
+        2263,
+        287,
+        644,
+        484,
+        423,
+        284,
+        910,
+        780,
+        50599
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2609411703573691,
+      "compression_ratio": 1.2869565217391303,
+      "no_speech_prob": 0.051014747470617294,
+      "words": [
+        {
+          "word": " You",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.29162362217903137
+        },
+        {
+          "word": " know,",
+          "start": 0.56,
+          "end": 0.72,
+          "probability": 0.995227575302124
+        },
+        {
+          "word": " I",
+          "start": 0.86,
+          "end": 0.86,
+          "probability": 0.994741678237915
+        },
+        {
+          "word": " think",
+          "start": 0.86,
+          "end": 1.18,
+          "probability": 0.9975051283836365
+        },
+        {
+          "word": " that",
+          "start": 1.18,
+          "end": 1.5,
+          "probability": 0.971068263053894
+        },
+        {
+          "word": " listening",
+          "start": 1.5,
+          "end": 1.78,
+          "probability": 0.9888622164726257
+        },
+        {
+          "word": " to",
+          "start": 1.78,
+          "end": 2.04,
+          "probability": 0.9985748529434204
+        },
+        {
+          "word": " young",
+          "start": 2.04,
+          "end": 2.2,
+          "probability": 0.991192638874054
+        },
+        {
+          "word": " people",
+          "start": 2.2,
+          "end": 2.58,
+          "probability": 0.99921715259552
+        },
+        {
+          "word": " taking",
+          "start": 2.58,
+          "end": 2.94,
+          "probability": 0.5613940358161926
+        },
+        {
+          "word": " in",
+          "start": 2.94,
+          "end": 3.22,
+          "probability": 0.99062180519104
+        },
+        {
+          "word": " what",
+          "start": 3.22,
+          "end": 3.34,
+          "probability": 0.9962431192398071
+        },
+        {
+          "word": " they",
+          "start": 3.34,
+          "end": 3.56,
+          "probability": 0.9979225993156433
+        },
+        {
+          "word": " have",
+          "start": 3.56,
+          "end": 3.78,
+          "probability": 0.9947865009307861
+        },
+        {
+          "word": " to",
+          "start": 3.78,
+          "end": 3.9,
+          "probability": 0.9929643869400024
+        },
+        {
+          "word": " say",
+          "start": 3.9,
+          "end": 4.12,
+          "probability": 0.9994018077850342
+        },
+        {
+          "word": " because",
+          "start": 4.12,
+          "end": 4.46,
+          "probability": 0.5114675164222717
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.46,
+      "end": 7.54,
+      "text": " what we've seen all around the world is the power of youth.",
+      "tokens": [
+        50599,
+        644,
+        356,
+        1053,
+        1775,
+        477,
+        1088,
+        262,
+        995,
+        318,
+        262,
+        1176,
+        286,
+        6205,
+        13,
+        50749
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2609411703573691,
+      "compression_ratio": 1.2869565217391303,
+      "no_speech_prob": 0.051014747470617294,
+      "words": [
+        {
+          "word": " what",
+          "start": 4.46,
+          "end": 4.98,
+          "probability": 0.976768970489502
+        },
+        {
+          "word": " we've",
+          "start": 4.98,
+          "end": 5.24,
+          "probability": 0.9845289587974548
+        },
+        {
+          "word": " seen",
+          "start": 5.24,
+          "end": 5.42,
+          "probability": 0.979836642742157
+        },
+        {
+          "word": " all",
+          "start": 5.42,
+          "end": 5.66,
+          "probability": 0.9953120946884155
+        },
+        {
+          "word": " around",
+          "start": 5.66,
+          "end": 5.88,
+          "probability": 0.9974911212921143
+        },
+        {
+          "word": " the",
+          "start": 5.88,
+          "end": 6.06,
+          "probability": 0.9988100528717041
+        },
+        {
+          "word": " world",
+          "start": 6.06,
+          "end": 6.34,
+          "probability": 0.9985015392303467
+        },
+        {
+          "word": " is",
+          "start": 6.34,
+          "end": 6.62,
+          "probability": 0.9851149916648865
+        },
+        {
+          "word": " the",
+          "start": 6.62,
+          "end": 6.76,
+          "probability": 0.9965860843658447
+        },
+        {
+          "word": " power",
+          "start": 6.76,
+          "end": 7.04,
+          "probability": 0.9810194373130798
+        },
+        {
+          "word": " of",
+          "start": 7.04,
+          "end": 7.28,
+          "probability": 0.9946264624595642
+        },
+        {
+          "word": " youth.",
+          "start": 7.28,
+          "end": 7.54,
+          "probability": 0.9919530749320984
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

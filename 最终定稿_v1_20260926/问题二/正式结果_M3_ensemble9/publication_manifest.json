@@ -1,0 +1,162 @@
+{
+  "manifest_version": 1,
+  "question": "问题二",
+  "model_version": "M3-ensemble9",
+  "status": "final",
+  "frozen_at": "2026-09-24T18:12:54+08:00",
+  "published_at": "2026-09-24T18:15:39+08:00",
+  "recorded_at": "2026-09-24T18:16:12+08:00",
+  "selected_model": {
+    "kind": "M0",
+    "ensemble_size": 9,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "ensemble_rule": "mean softmax probabilities; mean raw intensity",
+    "publish_strategy": "C2",
+    "checkpoints": [
+      "artifacts/q2/final/M0_seed42.pt",
+      "artifacts/q2/final/M0_seed43.pt",
+      "artifacts/q2/final/M0_seed44.pt",
+      "artifacts/q2/v2_m0_ensemble_add/M0_seed45.pt",
+      "artifacts/q2/v2_m0_ensemble_add/M0_seed46.pt",
+      "artifacts/q2/v2_m0_ensemble_add/M0_seed47.pt",
+      "artifacts/q2/v2_m0_ensemble_add2/M0_seed48.pt",
+      "artifacts/q2/v2_m0_ensemble_add2/M0_seed49.pt",
+      "artifacts/q2/v2_m0_ensemble_add2/M0_seed50.pt"
+    ],
+    "checkpoint_sha256": [
+      "57aebf736398ab1f4a7a5cded627fb10dfb9b6d514bffa7d95f48ec1b2bd49b7",
+      "8036d8f3d4023eb774d50c88c8170c57d59b87a1dd8b86c2a8548c341c915f89",
+      "70701bf103314b3505927f040664d7422f6e08a43ce319610deac0619afbfa42",
+      "5908d207e5453ba7f0f8b293dfac307134c31f0dcd7e70bf09d12b2730e59cd7",
+      "e1b7c504f952cc543259c03d83f24b28eb356924f671c898c4bced4ce35693a6",
+      "af70760dc8e84d347345c855c629574a2dd531ba4479ce70126044ea6211eb73",
+      "35e1712d260e5e53def76dffb1f0092f2b811d03b22e2109e593cf9a1cdc5145",
+      "02e1697affb1478d4e910136bf093cdda99899da3598d662bb45d6eae57165e3",
+      "85ef923221c11684fa52ae3b3bc3ac6147c9b13a969cecd0dd30b1291270fdb0"
+    ]
+  },
+  "selection": {
+    "split": "valid_only",
+    "primary_metric": "equal-weight R_MAE over 21 subset-ratio conditions",
+    "validation_R_MAE": 0.6045225739479066,
+    "validation_mean_macro_f1": 0.572749119845546,
+    "validation_worst_condition_MAE": 0.6504661917686463,
+    "validation_full_c2": {
+      "accuracy": 0.6208791208791209,
+      "macro_f1": 0.5997068114591327,
+      "mae": 0.5799670219421387,
+      "pearson": 0.663537037304278,
+      "n": 728
+    },
+    "selected_scale": 9,
+    "reason": "9 models improved missing-condition Macro-F1, worst-condition MAE and full-input metrics relative to 6 models; 12 models regressed."
+  },
+  "official_test": {
+    "evaluated_once_after_freeze": true,
+    "n": 727,
+    "C2": {
+      "accuracy": 0.6354883081155434,
+      "macro_f1": 0.5963369211523178,
+      "mae": 0.6433492302894592,
+      "pearson": 0.6575168135405691,
+      "n": 727
+    },
+    "C3_reference": {
+      "accuracy": 0.6451169188445667,
+      "macro_f1": 0.6157145697271916,
+      "mae": 0.6372330784797668,
+      "pearson": 0.6645578050903576,
+      "n": 727
+    },
+    "old_M0_C2": {
+      "accuracy": 0.6396148555708391,
+      "macro_f1": 0.609116771957518,
+      "mae": 0.6530081033706665,
+      "pearson": 0.6435911430361764,
+      "n": 727
+    },
+    "posthoc_pairwise_reporting": {
+      "mae_improvement_mean": 0.009658820025425178,
+      "mae_improvement_CI95": [
+        -0.006669302811796374,
+        0.02596310136450452
+      ],
+      "mae_win_count": 302,
+      "mae_loss_count": 293,
+      "mae_tie_count": 132,
+      "accuracy_delta_mean": -0.0041265474552957355,
+      "accuracy_delta_CI95": [
+        -0.024759284731774415,
+        0.017881705639614855
+      ],
+      "accuracy_win_count": 30,
+      "accuracy_loss_count": 33,
+      "accuracy_tie_count": 664,
+      "note": "Post-hoc reporting only; test was not used for model or strategy selection."
+    }
+  },
+  "submission": {
+    "path": "submission/q2_predictions.csv",
+    "sha256": "7a03dc3243e9bdc6397642afa18119f352a946b512c528f3f4a80018419b616e",
+    "rows": 30,
+    "unique_sample_ids": 30,
+    "polarity_counts": {
+      "Negative": 6,
+      "Neutral": 9,
+      "Positive": 15
+    },
+    "csv_json_consistent": true,
+    "version_csv": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\v3_m3_ensemble9\\submission\\attachment3_predictions.csv",
+    "version_csv_sha256": "7a03dc3243e9bdc6397642afa18119f352a946b512c528f3f4a80018419b616e",
+    "version_json": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\v3_m3_ensemble9\\submission\\attachment3_predictions.json",
+    "version_json_sha256": "879a4bdb20ce71170bc7d55aded3d45e692feb1f1fb9e08eb7cc752bae0fa928",
+    "change_report": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\v3_m3_ensemble9\\attachment3_change_report.json",
+    "changed_row_count": 21,
+    "polarity_changed_count": 1
+  },
+  "version_artifacts": {
+    "version_manifest": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\v3_m3_ensemble9\\version_manifest.json",
+    "version_manifest_sha256": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+    "validation_json": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\v3_m3_ensemble9\\valid_valid_evaluation.json",
+    "validation_json_sha256": "b86b6a061002155e233e484cc90cffb8f18df5d6898369cdf3183d90531228f2",
+    "test_json": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\v3_m3_ensemble9\\test\\test_test_evaluation.json",
+    "test_json_sha256": "bab90f8ae673236690ea4dfde80192639bf27174ff581d215a56c7772bcb42a7",
+    "test_npz": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\v3_m3_ensemble9\\test\\test_test_full.npz",
+    "test_npz_sha256": "b2cd48f575ba206278a5b1cbfd5827486559ab9b29a6a790c0514fbc6a86ede9",
+    "publish_script": "scripts/q2_ensemble_publish.py",
+    "publish_script_sha256": "8c99326ac82dfce1186012683b18b2a3623405a6f257b00328ac58bd645333c3"
+  },
+  "archive": {
+    "version": "M0_seed42-C2",
+    "directory": "artifacts/q2/archive/M0_seed42_C2",
+    "submission_csv": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\archive\\M0_seed42_C2\\submission\\q2_predictions.csv",
+    "submission_csv_sha256": "eb6a14c3737460470fa3be1f5e761e2d5a01a2ed976e7e8f3bba2820619a3c7e",
+    "test_json": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\archive\\M0_seed42_C2\\test_final\\test_test_evaluation.json",
+    "test_json_sha256": "0586124adb52d3c66e4ee3285d83cce76bbb4c5214bccd28dab5ca91a788dd7c"
+  },
+  "verification": {
+    "old_version_preserved": true,
+    "test_evaluated_once_after_freeze": true,
+    "attachment3_used_for_tuning": false,
+    "current_submission_is_m3": true,
+    "attachment3_rows_30": true,
+    "attachment3_ids_unique": true
+  },
+  "audit_correction": {
+    "corrected_at": "2026-09-24T18:17:15+08:00",
+    "field": "submission.polarity_changed_count",
+    "old_value": 6,
+    "new_value": 1,
+    "reason": "PowerShell pipeline count field was inconsistent with explicit row audit; explicit loop gives one polarity change, 附件3_12 Neutral -> Negative."
+  }
+}

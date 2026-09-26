@@ -1,0 +1,129 @@
+{
+  "sample_id": "-tPCytz4rww$_$16",
+  "fingerprint": "a81488404d132fabba90ebd83422723aaf824f2d4aa60136f134fa0b4fe2322b",
+  "audio_sha256": "fa7b7953997d80000cbdafe850f713a5870e9d2884583f5abc92f3e4acabbd14",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7307862499728799,
+  "text": " So, make sure to do a thorough cleaning of the property if you need.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.1,
+      "text": " So, make sure to do a thorough cleaning of the property if you need.",
+      "tokens": [
+        50363,
+        1406,
+        11,
+        787,
+        1654,
+        284,
+        466,
+        257,
+        9321,
+        12724,
+        286,
+        262,
+        3119,
+        611,
+        345,
+        761,
+        13,
+        50713
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3758127814845035,
+      "compression_ratio": 0.9714285714285714,
+      "no_speech_prob": 0.01937970332801342,
+      "words": [
+        {
+          "word": " So,",
+          "start": 0.0,
+          "end": 0.78,
+          "probability": 0.7828044891357422
+        },
+        {
+          "word": " make",
+          "start": 0.92,
+          "end": 1.08,
+          "probability": 0.9951340556144714
+        },
+        {
+          "word": " sure",
+          "start": 1.08,
+          "end": 1.44,
+          "probability": 0.998445451259613
+        },
+        {
+          "word": " to",
+          "start": 1.44,
+          "end": 4.4,
+          "probability": 0.9940978288650513
+        },
+        {
+          "word": " do",
+          "start": 4.4,
+          "end": 4.48,
+          "probability": 0.8105880618095398
+        },
+        {
+          "word": " a",
+          "start": 4.48,
+          "end": 4.8,
+          "probability": 0.9790720343589783
+        },
+        {
+          "word": " thorough",
+          "start": 4.8,
+          "end": 5.02,
+          "probability": 0.9953857064247131
+        },
+        {
+          "word": " cleaning",
+          "start": 5.02,
+          "end": 5.52,
+          "probability": 0.9943369030952454
+        },
+        {
+          "word": " of",
+          "start": 5.52,
+          "end": 6.0,
+          "probability": 0.989072859287262
+        },
+        {
+          "word": " the",
+          "start": 6.0,
+          "end": 6.12,
+          "probability": 0.9955481290817261
+        },
+        {
+          "word": " property",
+          "start": 6.12,
+          "end": 6.48,
+          "probability": 0.9973559379577637
+        },
+        {
+          "word": " if",
+          "start": 6.48,
+          "end": 6.92,
+          "probability": 0.34562572836875916
+        },
+        {
+          "word": " you",
+          "start": 6.92,
+          "end": 7.04,
+          "probability": 0.9932681918144226
+        },
+        {
+          "word": " need.",
+          "start": 7.04,
+          "end": 7.1,
+          "probability": 0.9820154905319214
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

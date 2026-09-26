@@ -1,0 +1,143 @@
+{
+  "sample_id": "-3g5yACwYnA$_$2",
+  "fingerprint": "a0c4409693e0a49e36fed61e59ca8661c67b5ef9d2d3f03079b1fd57afd094f1",
+  "audio_sha256": "984859c407a6f38112602472a0a21bdbef023be0a61e9d6e2ed20eb85f398b55",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.799141916912049,
+  "text": " Keep on where it brings a technical aspect to our operation that we don't have internally.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.6999999999999984,
+      "end": 7.66,
+      "text": " Keep on where it brings a technical aspect to our operation that we don't have internally.",
+      "tokens": [
+        50363,
+        9175,
+        319,
+        810,
+        340,
+        6774,
+        257,
+        6276,
+        4843,
+        284,
+        674,
+        4905,
+        326,
+        356,
+        836,
+        470,
+        423,
+        20947,
+        13,
+        50713
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.43023381914411274,
+      "compression_ratio": 1.1111111111111112,
+      "no_speech_prob": 0.0922718346118927,
+      "words": [
+        {
+          "word": " Keep",
+          "start": 1.6999999999999984,
+          "end": 2.479999999999999,
+          "probability": 0.08720200508832932
+        },
+        {
+          "word": " on",
+          "start": 2.479999999999999,
+          "end": 3.26,
+          "probability": 0.3585771322250366
+        },
+        {
+          "word": " where",
+          "start": 3.26,
+          "end": 3.42,
+          "probability": 0.2777418792247772
+        },
+        {
+          "word": " it",
+          "start": 3.42,
+          "end": 3.42,
+          "probability": 0.8717470169067383
+        },
+        {
+          "word": " brings",
+          "start": 3.42,
+          "end": 3.58,
+          "probability": 0.9896864295005798
+        },
+        {
+          "word": " a",
+          "start": 3.58,
+          "end": 3.78,
+          "probability": 0.5310371518135071
+        },
+        {
+          "word": " technical",
+          "start": 3.78,
+          "end": 4.12,
+          "probability": 0.9964339733123779
+        },
+        {
+          "word": " aspect",
+          "start": 4.12,
+          "end": 4.58,
+          "probability": 0.9903843402862549
+        },
+        {
+          "word": " to",
+          "start": 4.58,
+          "end": 5.4,
+          "probability": 0.9881487488746643
+        },
+        {
+          "word": " our",
+          "start": 5.4,
+          "end": 5.92,
+          "probability": 0.9440196752548218
+        },
+        {
+          "word": " operation",
+          "start": 5.92,
+          "end": 6.38,
+          "probability": 0.9679785966873169
+        },
+        {
+          "word": " that",
+          "start": 6.38,
+          "end": 6.7,
+          "probability": 0.9544541835784912
+        },
+        {
+          "word": " we",
+          "start": 6.7,
+          "end": 6.8,
+          "probability": 0.9988258481025696
+        },
+        {
+          "word": " don't",
+          "start": 6.8,
+          "end": 7.08,
+          "probability": 0.9898537993431091
+        },
+        {
+          "word": " have",
+          "start": 7.08,
+          "end": 7.22,
+          "probability": 0.9844235777854919
+        },
+        {
+          "word": " internally.",
+          "start": 7.22,
+          "end": 7.66,
+          "probability": 0.9950900077819824
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,107 @@
+{
+  "sample_id": "-wny0OAz3g8$_$0",
+  "fingerprint": "a3b79fc8233139222425152b6b6b7a48a785d91256db020db559493816578225",
+  "audio_sha256": "3a359f912e08050a92d62ff492209b5ddda6a0bc7cd7bd3356bd172bb144d077",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7315981250721961,
+  "text": " Trade labor unions didn't allow black workers to join and because",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.1,
+      "text": " Trade labor unions didn't allow black workers to join and because",
+      "tokens": [
+        50363,
+        9601,
+        4827,
+        11936,
+        1422,
+        470,
+        1249,
+        2042,
+        3259,
+        284,
+        4654,
+        290,
+        780,
+        50521
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2856852213541667,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.0077702971175313,
+      "words": [
+        {
+          "word": " Trade",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.9023798704147339
+        },
+        {
+          "word": " labor",
+          "start": 0.46,
+          "end": 0.7,
+          "probability": 0.8277842998504639
+        },
+        {
+          "word": " unions",
+          "start": 0.7,
+          "end": 1.06,
+          "probability": 0.9956939220428467
+        },
+        {
+          "word": " didn't",
+          "start": 1.06,
+          "end": 1.44,
+          "probability": 0.9905889928340912
+        },
+        {
+          "word": " allow",
+          "start": 1.44,
+          "end": 1.68,
+          "probability": 0.9980227947235107
+        },
+        {
+          "word": " black",
+          "start": 1.68,
+          "end": 1.88,
+          "probability": 0.8155903220176697
+        },
+        {
+          "word": " workers",
+          "start": 1.88,
+          "end": 2.24,
+          "probability": 0.9816362857818604
+        },
+        {
+          "word": " to",
+          "start": 2.24,
+          "end": 2.46,
+          "probability": 0.9988518953323364
+        },
+        {
+          "word": " join",
+          "start": 2.46,
+          "end": 2.7,
+          "probability": 0.9987040758132935
+        },
+        {
+          "word": " and",
+          "start": 2.7,
+          "end": 2.9,
+          "probability": 0.27026525139808655
+        },
+        {
+          "word": " because",
+          "start": 2.9,
+          "end": 3.1,
+          "probability": 0.9915550351142883
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

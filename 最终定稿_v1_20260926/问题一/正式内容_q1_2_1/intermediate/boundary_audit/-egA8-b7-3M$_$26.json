@@ -1,0 +1,136 @@
+{
+  "sample_id": "-egA8-b7-3M$_$26",
+  "fingerprint": "b9d5c5db6da9408ae607a5a045e1a4a225f6967892674bb6e33f02e8680a88df",
+  "audio_sha256": "4a71127d3c752f5dbdc0fbe54348d2fa1d5294df2a32b6377480f438127c0006",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7292247500736266,
+  "text": " We're updating it all the time and looking forward to your comments on our videos.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.1,
+      "text": " We're updating it all the time and looking forward to your comments on our videos.",
+      "tokens": [
+        50363,
+        775,
+        821,
+        19698,
+        340,
+        477,
+        262,
+        640,
+        290,
+        2045,
+        2651,
+        284,
+        534,
+        3651,
+        319,
+        674,
+        5861,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23826076984405517,
+      "compression_ratio": 1.0789473684210527,
+      "no_speech_prob": 0.030887598171830177,
+      "words": [
+        {
+          "word": " We're",
+          "start": 0.0,
+          "end": 0.8,
+          "probability": 0.7549287974834442
+        },
+        {
+          "word": " updating",
+          "start": 0.8,
+          "end": 1.1,
+          "probability": 0.9965671300888062
+        },
+        {
+          "word": " it",
+          "start": 1.1,
+          "end": 1.38,
+          "probability": 0.9939577579498291
+        },
+        {
+          "word": " all",
+          "start": 1.38,
+          "end": 1.58,
+          "probability": 0.9979238510131836
+        },
+        {
+          "word": " the",
+          "start": 1.58,
+          "end": 1.72,
+          "probability": 0.9953573346138
+        },
+        {
+          "word": " time",
+          "start": 1.72,
+          "end": 2.06,
+          "probability": 0.9994788765907288
+        },
+        {
+          "word": " and",
+          "start": 2.06,
+          "end": 2.6,
+          "probability": 0.83058100938797
+        },
+        {
+          "word": " looking",
+          "start": 2.6,
+          "end": 2.86,
+          "probability": 0.975021481513977
+        },
+        {
+          "word": " forward",
+          "start": 2.86,
+          "end": 3.24,
+          "probability": 0.9977951049804688
+        },
+        {
+          "word": " to",
+          "start": 3.24,
+          "end": 3.52,
+          "probability": 0.997803270816803
+        },
+        {
+          "word": " your",
+          "start": 3.52,
+          "end": 3.7,
+          "probability": 0.9943547248840332
+        },
+        {
+          "word": " comments",
+          "start": 3.7,
+          "end": 4.18,
+          "probability": 0.9940563440322876
+        },
+        {
+          "word": " on",
+          "start": 4.18,
+          "end": 4.56,
+          "probability": 0.9938408136367798
+        },
+        {
+          "word": " our",
+          "start": 4.56,
+          "end": 4.74,
+          "probability": 0.9981240630149841
+        },
+        {
+          "word": " videos.",
+          "start": 4.74,
+          "end": 5.1,
+          "probability": 0.9891223311424255
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

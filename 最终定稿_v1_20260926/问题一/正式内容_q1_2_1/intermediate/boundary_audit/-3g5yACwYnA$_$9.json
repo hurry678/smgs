@@ -1,0 +1,226 @@
+{
+  "sample_id": "-3g5yACwYnA$_$9",
+  "fingerprint": "71fb2be52be0a07310915a06818d98e2690047cd934642b71ffca657409398de",
+  "audio_sha256": "1b0845bbca96370607d77a57d537d27c930d6f10cdd9e0eaf9cd559043fbcc4a",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.3606014589313418,
+  "text": " Like, we have many new opportunities through the way things have changed through the years, looking for new niche high-end value added products, and...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.22,
+      "text": " Like, we have many new opportunities through the way things have changed through the years,",
+      "tokens": [
+        50363,
+        4525,
+        11,
+        356,
+        423,
+        867,
+        649,
+        6443,
+        832,
+        262,
+        835,
+        1243,
+        423,
+        3421,
+        832,
+        262,
+        812,
+        11,
+        50651
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.45432668262057835,
+      "compression_ratio": 1.3245614035087718,
+      "no_speech_prob": 0.014613749459385872,
+      "words": [
+        {
+          "word": " Like,",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.2066846638917923
+        },
+        {
+          "word": " we",
+          "start": 0.34,
+          "end": 0.9,
+          "probability": 0.992043673992157
+        },
+        {
+          "word": " have",
+          "start": 0.9,
+          "end": 1.1,
+          "probability": 0.9935737252235413
+        },
+        {
+          "word": " many",
+          "start": 1.1,
+          "end": 1.36,
+          "probability": 0.9434629082679749
+        },
+        {
+          "word": " new",
+          "start": 1.36,
+          "end": 1.88,
+          "probability": 0.9119223952293396
+        },
+        {
+          "word": " opportunities",
+          "start": 1.88,
+          "end": 2.36,
+          "probability": 0.9724655151367188
+        },
+        {
+          "word": " through",
+          "start": 2.36,
+          "end": 3.02,
+          "probability": 0.8024533987045288
+        },
+        {
+          "word": " the",
+          "start": 3.02,
+          "end": 3.48,
+          "probability": 0.9127447605133057
+        },
+        {
+          "word": " way",
+          "start": 3.48,
+          "end": 3.66,
+          "probability": 0.9901105761528015
+        },
+        {
+          "word": " things",
+          "start": 3.66,
+          "end": 3.86,
+          "probability": 0.9890602827072144
+        },
+        {
+          "word": " have",
+          "start": 3.86,
+          "end": 4.02,
+          "probability": 0.9412857890129089
+        },
+        {
+          "word": " changed",
+          "start": 4.02,
+          "end": 4.26,
+          "probability": 0.995453953742981
+        },
+        {
+          "word": " through",
+          "start": 4.26,
+          "end": 4.46,
+          "probability": 0.8408644199371338
+        },
+        {
+          "word": " the",
+          "start": 4.46,
+          "end": 4.56,
+          "probability": 0.9899212121963501
+        },
+        {
+          "word": " years,",
+          "start": 4.56,
+          "end": 5.22,
+          "probability": 0.9966475367546082
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.46,
+      "end": 8.66,
+      "text": " looking for new niche high-end value added products, and...",
+      "tokens": [
+        50651,
+        2045,
+        329,
+        649,
+        21404,
+        1029,
+        12,
+        437,
+        1988,
+        2087,
+        3186,
+        11,
+        290,
+        986,
+        50783
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.45432668262057835,
+      "compression_ratio": 1.3245614035087718,
+      "no_speech_prob": 0.014613749459385872,
+      "words": [
+        {
+          "word": " looking",
+          "start": 5.46,
+          "end": 5.8,
+          "probability": 0.7672877311706543
+        },
+        {
+          "word": " for",
+          "start": 5.8,
+          "end": 6.1,
+          "probability": 0.9966907501220703
+        },
+        {
+          "word": " new",
+          "start": 6.1,
+          "end": 6.26,
+          "probability": 0.988815426826477
+        },
+        {
+          "word": " niche",
+          "start": 6.26,
+          "end": 6.68,
+          "probability": 0.9938486218452454
+        },
+        {
+          "word": " high",
+          "start": 6.68,
+          "end": 6.88,
+          "probability": 0.6695106029510498
+        },
+        {
+          "word": "-end",
+          "start": 6.88,
+          "end": 7.08,
+          "probability": 0.8062598407268524
+        },
+        {
+          "word": " value",
+          "start": 7.08,
+          "end": 7.44,
+          "probability": 0.9934107661247253
+        },
+        {
+          "word": " added",
+          "start": 7.44,
+          "end": 7.56,
+          "probability": 0.31771907210350037
+        },
+        {
+          "word": " products,",
+          "start": 7.56,
+          "end": 8.0,
+          "probability": 0.9964148998260498
+        },
+        {
+          "word": " and...",
+          "start": 8.24,
+          "end": 8.66,
+          "probability": 0.6480579227209091
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

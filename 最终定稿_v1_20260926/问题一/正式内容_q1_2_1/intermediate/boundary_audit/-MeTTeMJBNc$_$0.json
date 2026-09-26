@@ -1,0 +1,179 @@
+{
+  "sample_id": "-MeTTeMJBNc$_$0",
+  "fingerprint": "15b7f61facbfa5a2e2b6d0524866266ff793fbc254ad27661f9fda9f50b74f1b",
+  "audio_sha256": "81aad410a672b3bbf6fb205e0d64820cd5524c7a89f5d635b3dd58be1bc1c17a",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9151362078264356,
+  "text": " Okay, what happens at this point after we've taken this brief walk down memory lane is the presentation of the gift.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 8.68,
+      "text": " Okay, what happens at this point after we've taken this brief walk down memory lane is the presentation of the gift.",
+      "tokens": [
+        50363,
+        16805,
+        11,
+        644,
+        4325,
+        379,
+        428,
+        966,
+        706,
+        356,
+        1053,
+        2077,
+        428,
+        4506,
+        2513,
+        866,
+        4088,
+        11193,
+        318,
+        262,
+        10470,
+        286,
+        262,
+        6979,
+        13,
+        50813
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24393855200873482,
+      "compression_ratio": 1.1958762886597938,
+      "no_speech_prob": 0.008724509738385677,
+      "words": [
+        {
+          "word": " Okay,",
+          "start": 0.0,
+          "end": 1.22,
+          "probability": 0.6227698922157288
+        },
+        {
+          "word": " what",
+          "start": 1.4,
+          "end": 1.54,
+          "probability": 0.9906489253044128
+        },
+        {
+          "word": " happens",
+          "start": 1.54,
+          "end": 2.0,
+          "probability": 0.9953449368476868
+        },
+        {
+          "word": " at",
+          "start": 2.0,
+          "end": 2.24,
+          "probability": 0.9826799631118774
+        },
+        {
+          "word": " this",
+          "start": 2.24,
+          "end": 2.56,
+          "probability": 0.9987590312957764
+        },
+        {
+          "word": " point",
+          "start": 2.56,
+          "end": 2.92,
+          "probability": 0.9979515671730042
+        },
+        {
+          "word": " after",
+          "start": 2.92,
+          "end": 3.38,
+          "probability": 0.8474590182304382
+        },
+        {
+          "word": " we've",
+          "start": 3.38,
+          "end": 3.72,
+          "probability": 0.9809805452823639
+        },
+        {
+          "word": " taken",
+          "start": 3.72,
+          "end": 3.96,
+          "probability": 0.9965139031410217
+        },
+        {
+          "word": " this",
+          "start": 3.96,
+          "end": 4.5,
+          "probability": 0.9960975050926208
+        },
+        {
+          "word": " brief",
+          "start": 4.5,
+          "end": 4.74,
+          "probability": 0.9979815483093262
+        },
+        {
+          "word": " walk",
+          "start": 4.74,
+          "end": 5.14,
+          "probability": 0.9803774952888489
+        },
+        {
+          "word": " down",
+          "start": 5.14,
+          "end": 5.54,
+          "probability": 0.6538501977920532
+        },
+        {
+          "word": " memory",
+          "start": 5.54,
+          "end": 5.84,
+          "probability": 0.9769836068153381
+        },
+        {
+          "word": " lane",
+          "start": 5.84,
+          "end": 6.34,
+          "probability": 0.9826152324676514
+        },
+        {
+          "word": " is",
+          "start": 6.34,
+          "end": 6.92,
+          "probability": 0.7723976373672485
+        },
+        {
+          "word": " the",
+          "start": 6.92,
+          "end": 7.14,
+          "probability": 0.9967029690742493
+        },
+        {
+          "word": " presentation",
+          "start": 7.14,
+          "end": 7.68,
+          "probability": 0.9981282353401184
+        },
+        {
+          "word": " of",
+          "start": 7.68,
+          "end": 8.1,
+          "probability": 0.9982555508613586
+        },
+        {
+          "word": " the",
+          "start": 8.1,
+          "end": 8.24,
+          "probability": 0.9951956868171692
+        },
+        {
+          "word": " gift.",
+          "start": 8.24,
+          "end": 8.68,
+          "probability": 0.891943097114563
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

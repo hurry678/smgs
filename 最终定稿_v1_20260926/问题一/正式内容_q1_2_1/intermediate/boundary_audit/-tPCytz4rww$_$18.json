@@ -1,0 +1,192 @@
+{
+  "sample_id": "-tPCytz4rww$_$18",
+  "fingerprint": "793c3f90b94673b20386c46a5cf6d9a220cdd973fbe9ae9c6b02b57e74f75aaa",
+  "audio_sha256": "e66859829fa7ec06d505a0927227f736a53fcfd272b09d3a3ae331976fb674fe",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9447444579564035,
+  "text": " out, do so. And as well, you'll also want to remove any clutter from the home that you've accumulated over.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.44,
+      "text": " out, do so. And as well, you'll also want to remove any clutter from the home that you've",
+      "tokens": [
+        50363,
+        503,
+        11,
+        466,
+        523,
+        13,
+        843,
+        355,
+        880,
+        11,
+        345,
+        1183,
+        635,
+        765,
+        284,
+        4781,
+        597,
+        45343,
+        422,
+        262,
+        1363,
+        326,
+        345,
+        1053,
+        50627
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30006885528564453,
+      "compression_ratio": 1.1758241758241759,
+      "no_speech_prob": 0.07283784449100494,
+      "words": [
+        {
+          "word": " out,",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.810001790523529
+        },
+        {
+          "word": " do",
+          "start": 0.36,
+          "end": 0.66,
+          "probability": 0.9808601140975952
+        },
+        {
+          "word": " so.",
+          "start": 0.66,
+          "end": 1.08,
+          "probability": 0.9930644631385803
+        },
+        {
+          "word": " And",
+          "start": 1.52,
+          "end": 1.68,
+          "probability": 0.8408523797988892
+        },
+        {
+          "word": " as",
+          "start": 1.68,
+          "end": 1.84,
+          "probability": 0.9143763780593872
+        },
+        {
+          "word": " well,",
+          "start": 1.84,
+          "end": 2.14,
+          "probability": 0.9964099526405334
+        },
+        {
+          "word": " you'll",
+          "start": 2.34,
+          "end": 2.78,
+          "probability": 0.9133345782756805
+        },
+        {
+          "word": " also",
+          "start": 2.78,
+          "end": 3.06,
+          "probability": 0.9988861680030823
+        },
+        {
+          "word": " want",
+          "start": 3.06,
+          "end": 3.38,
+          "probability": 0.9958226680755615
+        },
+        {
+          "word": " to",
+          "start": 3.38,
+          "end": 3.66,
+          "probability": 0.9984857439994812
+        },
+        {
+          "word": " remove",
+          "start": 3.66,
+          "end": 3.88,
+          "probability": 0.99945467710495
+        },
+        {
+          "word": " any",
+          "start": 3.88,
+          "end": 4.24,
+          "probability": 0.9974486231803894
+        },
+        {
+          "word": " clutter",
+          "start": 4.24,
+          "end": 4.46,
+          "probability": 0.9969509840011597
+        },
+        {
+          "word": " from",
+          "start": 4.46,
+          "end": 4.72,
+          "probability": 0.989443302154541
+        },
+        {
+          "word": " the",
+          "start": 4.72,
+          "end": 4.88,
+          "probability": 0.9954696893692017
+        },
+        {
+          "word": " home",
+          "start": 4.88,
+          "end": 5.0,
+          "probability": 0.9573908448219299
+        },
+        {
+          "word": " that",
+          "start": 5.0,
+          "end": 5.18,
+          "probability": 0.9788322448730469
+        },
+        {
+          "word": " you've",
+          "start": 5.18,
+          "end": 5.44,
+          "probability": 0.9902774393558502
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.44,
+      "end": 6.54,
+      "text": " accumulated over.",
+      "tokens": [
+        50627,
+        22425,
+        625,
+        13,
+        50689
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.30006885528564453,
+      "compression_ratio": 1.1758241758241759,
+      "no_speech_prob": 0.07283784449100494,
+      "words": [
+        {
+          "word": " accumulated",
+          "start": 5.44,
+          "end": 5.88,
+          "probability": 0.9949960708618164
+        },
+        {
+          "word": " over.",
+          "start": 5.88,
+          "end": 6.54,
+          "probability": 0.8345227837562561
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

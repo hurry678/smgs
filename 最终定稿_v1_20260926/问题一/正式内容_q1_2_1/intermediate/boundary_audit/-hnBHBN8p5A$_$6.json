@@ -1,0 +1,126 @@
+{
+  "sample_id": "-hnBHBN8p5A$_$6",
+  "fingerprint": "f6966e2c7a1d04da53cf57775f3503f47c233cd3b7ccc478bdb35241019f8702",
+  "audio_sha256": "833d2917aa5ee43b5e7cdadc1b7cef6c7c9a87bebfb8692c21880d8226242bea",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.6806273330003023,
+  "text": " to follow just one vision. I've never wondered how a single...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.36,
+      "text": " to follow just one vision.",
+      "tokens": [
+        50363,
+        284,
+        1061,
+        655,
+        530,
+        5761,
+        13,
+        50513
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5235110835025185,
+      "compression_ratio": 0.9393939393939394,
+      "no_speech_prob": 0.1211136057972908,
+      "words": [
+        {
+          "word": " to",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.6480696797370911
+        },
+        {
+          "word": " follow",
+          "start": 0.66,
+          "end": 0.92,
+          "probability": 0.986957311630249
+        },
+        {
+          "word": " just",
+          "start": 0.92,
+          "end": 1.48,
+          "probability": 0.987982988357544
+        },
+        {
+          "word": " one",
+          "start": 1.48,
+          "end": 1.74,
+          "probability": 0.9828417897224426
+        },
+        {
+          "word": " vision.",
+          "start": 1.74,
+          "end": 2.36,
+          "probability": 0.8331200480461121
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.26,
+      "end": 6.3,
+      "text": " I've never wondered how a single...",
+      "tokens": [
+        50513,
+        314,
+        1053,
+        1239,
+        14028,
+        703,
+        257,
+        2060,
+        986,
+        50663
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5235110835025185,
+      "compression_ratio": 0.9393939393939394,
+      "no_speech_prob": 0.1211136057972908,
+      "words": [
+        {
+          "word": " I've",
+          "start": 3.26,
+          "end": 4.0,
+          "probability": 0.8399495184421539
+        },
+        {
+          "word": " never",
+          "start": 4.0,
+          "end": 4.18,
+          "probability": 0.6012535691261292
+        },
+        {
+          "word": " wondered",
+          "start": 4.18,
+          "end": 4.5,
+          "probability": 0.9982520937919617
+        },
+        {
+          "word": " how",
+          "start": 4.5,
+          "end": 5.1,
+          "probability": 0.9933632612228394
+        },
+        {
+          "word": " a",
+          "start": 5.1,
+          "end": 5.92,
+          "probability": 0.9285122752189636
+        },
+        {
+          "word": " single...",
+          "start": 5.92,
+          "end": 6.3,
+          "probability": 0.5373990647494793
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

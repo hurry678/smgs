@@ -1,0 +1,31 @@
+test_mfa_bracket_label_accepts_parenthesized_source (test_alignment_mapping.AlignmentMappingTests) ... ok
+test_mfa_words_map_back_to_original_punctuation (test_alignment_mapping.AlignmentMappingTests) ... ok
+test_proportional_fallback_is_explicit (test_alignment_mapping.AlignmentMappingTests) ... ok
+test_punctuation_only_mfa_token_is_consumed_literally (test_alignment_mapping.AlignmentMappingTests) ... ok
+test_token_mapping_uses_word_union_and_frames (test_alignment_mapping.AlignmentMappingTests) ... ok
+test_rejects_absolute_influence_as_primary_support (test_output_validation.OutputValidationTests) ... ok
+test_rejects_relative_only_attachment_mapping (test_output_validation.OutputValidationTests) ... ok
+test_valid_sample (test_output_validation.OutputValidationTests) ... ok
+test_alignment_claim_matches_implementation (test_protocol.ProtocolTests) ... ok
+test_immutable_repo_hashes (test_protocol.ProtocolTests) ... ok
+test_validation_and_attachment_policies (test_protocol.ProtocolTests) ... ok
+test_additive_shapley_and_loo_oracle (test_q3v2_math.CoalitionTests) ... ok
+test_character_span_uses_token_axis_not_sample_count (test_q3v2_math.CoalitionTests) ... ok
+test_integer_bit_mask_order (test_q3v2_math.CoalitionTests) ... ok
+test_legacy_order_is_rejected (test_q3v2_math.CoalitionTests) ... ok
+test_pair_interaction_oracle (test_q3v2_math.CoalitionTests) ... ok
+test_directional_intensity (test_q3v2_math.SemanticsTests) ... ok
+test_group_bootstrap_is_deterministic (test_q3v2_math.SemanticsTests) ... ok
+test_primary_positive_support_and_absolute_fallback (test_q3v2_math.SemanticsTests) ... ok
+test_symmetric_top_control_removes_one_sided_selection_bias (test_q3v2_math.SemanticsTests) ... ok
+test_symmetric_top_uses_budget_normalized_ranking (test_q3v2_math.SemanticsTests) ... ok
+test_accepts_explanation_only_change (test_result_comparison.ResultComparisonTests) ... ok
+test_rejects_predictor_change (test_result_comparison.ResultComparisonTests) ... ok
+test_rejects_legacy_asymmetric_report (test_selection.SelectionTests) ... ok
+test_selects_best_eligible_budget_normalized_score (test_selection.SelectionTests) ... ok
+test_uses_preregistered_fallback_if_no_candidate_passes (test_selection.SelectionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.576s
+
+OK

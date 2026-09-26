@@ -1,0 +1,167 @@
+{
+  "sample_id": "-UUCSKoHeMA$_$0",
+  "fingerprint": "194f716c827d7c9f77691138f92044bdfd534b75e612750b6d4bca65fd0bb2f7",
+  "audio_sha256": "dba15d559b187053b2db1f1fe66a06651755177c582236f25d7259ada8d99f0e",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.1480713749770075,
+  "text": " Okay, I mentioned a word in the last clip called monotone, and I want to talk about that briefly.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.9199999999999986,
+      "end": 7.14,
+      "text": " Okay, I mentioned a word in the last clip called monotone, and I want to talk about that briefly.",
+      "tokens": [
+        50363,
+        16805,
+        11,
+        314,
+        4750,
+        257,
+        1573,
+        287,
+        262,
+        938,
+        10651,
+        1444,
+        937,
+        313,
+        505,
+        11,
+        290,
+        314,
+        765,
+        284,
+        1561,
+        546,
+        326,
+        11589,
+        13,
+        50713
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.33857133653428817,
+      "compression_ratio": 1.1149425287356323,
+      "no_speech_prob": 0.03767615929245949,
+      "words": [
+        {
+          "word": " Okay,",
+          "start": 0.9199999999999986,
+          "end": 1.44,
+          "probability": 0.6562479734420776
+        },
+        {
+          "word": " I",
+          "start": 1.6,
+          "end": 1.6,
+          "probability": 0.9952210783958435
+        },
+        {
+          "word": " mentioned",
+          "start": 1.6,
+          "end": 1.96,
+          "probability": 0.9822794795036316
+        },
+        {
+          "word": " a",
+          "start": 1.96,
+          "end": 2.18,
+          "probability": 0.6990713477134705
+        },
+        {
+          "word": " word",
+          "start": 2.18,
+          "end": 2.5,
+          "probability": 0.9989069700241089
+        },
+        {
+          "word": " in",
+          "start": 2.5,
+          "end": 2.78,
+          "probability": 0.9871201515197754
+        },
+        {
+          "word": " the",
+          "start": 2.78,
+          "end": 2.92,
+          "probability": 0.994633674621582
+        },
+        {
+          "word": " last",
+          "start": 2.92,
+          "end": 3.24,
+          "probability": 0.9990310668945312
+        },
+        {
+          "word": " clip",
+          "start": 3.24,
+          "end": 3.72,
+          "probability": 0.9993676543235779
+        },
+        {
+          "word": " called",
+          "start": 3.72,
+          "end": 4.08,
+          "probability": 0.9369722008705139
+        },
+        {
+          "word": " monotone,",
+          "start": 4.08,
+          "end": 5.12,
+          "probability": 0.7359034170707067
+        },
+        {
+          "word": " and",
+          "start": 5.2,
+          "end": 5.52,
+          "probability": 0.9923593401908875
+        },
+        {
+          "word": " I",
+          "start": 5.52,
+          "end": 5.62,
+          "probability": 0.9952211976051331
+        },
+        {
+          "word": " want",
+          "start": 5.62,
+          "end": 5.78,
+          "probability": 0.9574346542358398
+        },
+        {
+          "word": " to",
+          "start": 5.78,
+          "end": 5.9,
+          "probability": 0.9987043142318726
+        },
+        {
+          "word": " talk",
+          "start": 5.9,
+          "end": 6.14,
+          "probability": 0.9981770515441895
+        },
+        {
+          "word": " about",
+          "start": 6.14,
+          "end": 6.4,
+          "probability": 0.9992282390594482
+        },
+        {
+          "word": " that",
+          "start": 6.4,
+          "end": 6.64,
+          "probability": 0.9962615370750427
+        },
+        {
+          "word": " briefly.",
+          "start": 6.64,
+          "end": 7.14,
+          "probability": 0.9965165853500366
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

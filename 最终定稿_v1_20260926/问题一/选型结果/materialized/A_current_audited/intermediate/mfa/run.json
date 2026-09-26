@@ -1,0 +1,1094 @@
+{
+  "execution_schema": "mfa-execution-2",
+  "run_id": "a3484a3c10154173ba38f7df5b97f528",
+  "started_at": "2026-09-24T19:51:36+0800",
+  "finished_at": "2026-09-24T19:53:41+0800",
+  "wall_seconds": 125.02172758383676,
+  "executions": [
+    {
+      "stage": "align",
+      "sample_id": null,
+      "command": [
+        "./.mfa/bin/mfa",
+        "align",
+        "./intermediate/mfa/corpus",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output",
+        "--output_format",
+        "json",
+        "--include_original_text",
+        "--clean",
+        "--overwrite",
+        "--num_jobs",
+        "1",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip",
+        "--single_speaker"
+      ],
+      "returncode": 1,
+      "seconds": 32.75840891711414,
+      "output_excerpt": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40/40  [ 0:00:03 < 0:00:00 , 12 it/s ]\n 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98/98  [ 0:00:05 < 0:00:00 , ? it/s ]\n 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98/98  [ 0:00:01 < 0:00:00 , ? it/s ]\n 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98/98  [ 0:00:01 < 0:00:00 , ? it/s ]\n 100% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98/98  [ 0:00:02 < 0:00:00 , ? it/s ]\n  99% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 97/98  [ 0:00:01 < -:--:-- , ? it/s ]\n  99% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ 97/98  [ 0:00:02 < -:--:-- , ? it/s ]\n  91% ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━    89/98  [ 0:00:00 < 0:00:01 , 1,099 it/s ]\n\n INFO     Setting up corpus information...                                      \n INFO     Loading corpus from source files...                                   \n INFO     Found 37 speakers across 98 files, average number of utterances per   \n          speaker: 2.6486486486486487                                           \n INFO     Initializing multiprocessing jobs...                                  \n INFO     Normalizing text...                                                   \n INFO     Generating pronunciations...                                          \n INFO     Generating MFCCs...                                                   \n INFO     Calculating CMVN...                                                   \n INFO     Generating final features...                                          \n INFO     Creating corpus split...                                              \n INFO     Compiling training graphs...                                          \n INFO     Performing first-pass alignment...                                    \n INFO     Generating alignments...                                              \n INFO     Collecting phone and word alignments from alignment lattices...       \n INFO     Analyzing alignment quality...                                        \n INFO     Exporting alignment TextGrids to                                      \n          ./intermediate/mfa/ou\n          tput...                                                               \n ERROR    There was an error in the run, please see the log.                    \nException ignored in atexit callback <bound method ExitHooks.history_save_handler of <montreal_forced_aligner.command_line.utils.ExitHooks object at 0x16a71d400>>:\nTraceback (most recent call last):\n  File \"./.mfa/lib/python3.14/site-packages/montreal_forced_aligner/command_line/utils.py\", line 686, in history_save_handler\n    raise self.exception\n  File \"./.mfa/bin/mfa\", line 10, in <module>\n    sys.exit(mfa_cli())\n  File \"./.mfa/lib/python3.14/site-packages/rich_click/rich_command.py\", line 401, in __call__\n    return super().__call__(*args, **kwargs)\n  File \"./.mfa/lib/python3.14/site-packages/click/core.py\", line 1631, in __call__\n    return self.main(*args, **kwargs)\n  File \"./.mfa/lib/python3.14/site-packages/rich_click/rich_command.py\", line 215, in main\n    rv = self.invoke(ctx)\n  File \"./.mfa/lib/python3.14/site-packages/click/core.py\", line 2032, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"./.mfa/lib/python3.14/site-packages/click/core.py\", line 1415, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"./.mfa/lib/python3.14/site-packages/click/core.py\", line 910, in invoke\n    return callback(*args, **kwargs)\n  File \"./.mfa/lib/python3.14/site-packages/click/decorators.py\", line 34, in new_func\n    return f(get_current_context(), *args, **kwargs)\n  File \"./.mfa/lib/python3.14/site-packages/montreal_forced_aligner/command_line/align.py\", line 145, in align_corpus_cli\n    aligner.export_files(\n  File \"./.mfa/lib/python3.14/site-packages/montreal_forced_aligner/alignment/base.py\", line 1196, in export_files\n    self.export_textgrids(output_format, include_original_text)\n  File \"./.mfa/lib/python3.14/site-packages/montreal_forced_aligner/alignment/base.py\", line 1138, in export_textgrids\n    for _ in construct_textgrid_output(\n  File \"./.mfa/lib/python3.14/site-packages/montreal_forced_aligner/textgrid.py\", line 507, in construct_textgrid_output\n    process_utterance_data()\n  File \"./.mfa/lib/python3.14/site-packages/montreal_forced_aligner/textgrid.py\", line 469, in process_utterance_data\n    data[speaker_name][\"utterances\"].append(CtmInterval(beg, end, u))\nKeyError: 'speaker_010'\n",
+      "stdout_sha256": "6f65492579c4104641e78b62b897473ed9b410c81e640b81489b5bdecc757dff",
+      "stderr_sha256": "4f94f2a9c376ee9406174aa396398b616b23b85892ce6bc0dfa49cc5f5ca62dc"
+    },
+    {
+      "stage": "align_one",
+      "sample_id": "-NFrJFQijFE$_$1",
+      "command": [
+        "./.mfa/bin/mfa",
+        "align_one",
+        "./intermediate/mfa/corpus/speaker_010/sample_022.wav",
+        "./intermediate/mfa/corpus/speaker_010/sample_022.lab",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output/speaker_010/sample_022.json",
+        "--output_format",
+        "json",
+        "--clean",
+        "--overwrite",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip"
+      ],
+      "returncode": 1,
+      "seconds": 8.373662917176262,
+      "output_excerpt": "\nException ignored in atexit callback <bound method ExitHooks.history_save_handler of <montreal_forced_aligner.command_line.utils.ExitHooks object at 0x303169400>>:\nTraceback (most recent call last):\n  File \"./.mfa/lib/python3.14/site-packages/montreal_forced_aligner/command_line/utils.py\", line 686, in history_save_handler\n    raise self.exception\n  File \"./.mfa/bin/mfa\", line 10, in <module>\n    sys.exit(mfa_cli())\n  File \"./.mfa/lib/python3.14/site-packages/rich_click/rich_command.py\", line 401, in __call__\n    return super().__call__(*args, **kwargs)\n  File \"./.mfa/lib/python3.14/site-packages/click/core.py\", line 1631, in __call__\n    return self.main(*args, **kwargs)\n  File \"./.mfa/lib/python3.14/site-packages/rich_click/rich_command.py\", line 215, in main\n    rv = self.invoke(ctx)\n  File \"./.mfa/lib/python3.14/site-packages/click/core.py\", line 2032, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"./.mfa/lib/python3.14/site-packages/click/core.py\", line 1415, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"./.mfa/lib/python3.14/site-packages/click/core.py\", line 910, in invoke\n    return callback(*args, **kwargs)\n  File \"./.mfa/lib/python3.14/site-packages/click/decorators.py\", line 34, in new_func\n    return f(get_current_context(), *args, **kwargs)\n  File \"./.mfa/lib/python3.14/site-packages/montreal_forced_aligner/command_line/align_one.py\", line 222, in align_one_cli\n    align_one_function(context, kwargs, acoustic_model, dictionary, g2p_model)\n  File \"./.mfa/lib/python3.14/site-packages/montreal_forced_aligner/command_line/align_one.py\", line 154, in align_one_function\n    ctm = kalpy_aligner.align_utterance(utt)\n  File \"./.mfa/lib/python3.14/site-packages/kalpy/aligner.py\", line 211, in align_utterance\n    alignment = self._align_utterance(utterance, cmvn, fmllr_trans, dictionary_id)\n  File \"./.mfa/lib/python3.14/site-packages/kalpy/aligner.py\", line 168, in _align_utterance\n    raise AlignerError(\nkalpy.exceptions.AlignerError: AlignerError:\n\nCould not align the file with the current beam size (10, please try increasing the beam size via `--beam X`\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "15401fb63901e0b9e4bcca8d95754dd841c4c443aa88b0f13b76813d74fc4586",
+      "output_created": false
+    },
+    {
+      "stage": "align_one",
+      "sample_id": "-aNfi7CP8vM$_$7",
+      "command": [
+        "./.mfa/bin/mfa",
+        "align_one",
+        "./intermediate/mfa/corpus/speaker_017/sample_038.wav",
+        "./intermediate/mfa/corpus/speaker_017/sample_038.lab",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output/speaker_017/sample_038.json",
+        "--output_format",
+        "json",
+        "--clean",
+        "--overwrite",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip"
+      ],
+      "returncode": 0,
+      "seconds": 8.083715749904513,
+      "output_excerpt": "\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_created": true
+    },
+    {
+      "stage": "align_one",
+      "sample_id": "-s9qJ7ATP7w$_$0",
+      "command": [
+        "./.mfa/bin/mfa",
+        "align_one",
+        "./intermediate/mfa/corpus/speaker_028/sample_070.wav",
+        "./intermediate/mfa/corpus/speaker_028/sample_070.lab",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output/speaker_028/sample_070.json",
+        "--output_format",
+        "json",
+        "--clean",
+        "--overwrite",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip"
+      ],
+      "returncode": 0,
+      "seconds": 8.05980991688557,
+      "output_excerpt": "\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_created": true
+    },
+    {
+      "stage": "align_one",
+      "sample_id": "-s9qJ7ATP7w$_$1",
+      "command": [
+        "./.mfa/bin/mfa",
+        "align_one",
+        "./intermediate/mfa/corpus/speaker_028/sample_071.wav",
+        "./intermediate/mfa/corpus/speaker_028/sample_071.lab",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output/speaker_028/sample_071.json",
+        "--output_format",
+        "json",
+        "--clean",
+        "--overwrite",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip"
+      ],
+      "returncode": 0,
+      "seconds": 8.04381062486209,
+      "output_excerpt": "\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_created": true
+    },
+    {
+      "stage": "align_one",
+      "sample_id": "-s9qJ7ATP7w$_$4",
+      "command": [
+        "./.mfa/bin/mfa",
+        "align_one",
+        "./intermediate/mfa/corpus/speaker_028/sample_072.wav",
+        "./intermediate/mfa/corpus/speaker_028/sample_072.lab",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output/speaker_028/sample_072.json",
+        "--output_format",
+        "json",
+        "--clean",
+        "--overwrite",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip"
+      ],
+      "returncode": 0,
+      "seconds": 8.071445666952059,
+      "output_excerpt": "\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_created": true
+    },
+    {
+      "stage": "align_one",
+      "sample_id": "-s9qJ7ATP7w$_$5",
+      "command": [
+        "./.mfa/bin/mfa",
+        "align_one",
+        "./intermediate/mfa/corpus/speaker_028/sample_073.wav",
+        "./intermediate/mfa/corpus/speaker_028/sample_073.lab",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output/speaker_028/sample_073.json",
+        "--output_format",
+        "json",
+        "--clean",
+        "--overwrite",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip"
+      ],
+      "returncode": 0,
+      "seconds": 7.85474650003016,
+      "output_excerpt": "\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_created": true
+    },
+    {
+      "stage": "align_one",
+      "sample_id": "-s9qJ7ATP7w$_$6",
+      "command": [
+        "./.mfa/bin/mfa",
+        "align_one",
+        "./intermediate/mfa/corpus/speaker_028/sample_074.wav",
+        "./intermediate/mfa/corpus/speaker_028/sample_074.lab",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output/speaker_028/sample_074.json",
+        "--output_format",
+        "json",
+        "--clean",
+        "--overwrite",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip"
+      ],
+      "returncode": 0,
+      "seconds": 7.883319125045091,
+      "output_excerpt": "\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_created": true
+    },
+    {
+      "stage": "align_one",
+      "sample_id": "-s9qJ7ATP7w$_$7",
+      "command": [
+        "./.mfa/bin/mfa",
+        "align_one",
+        "./intermediate/mfa/corpus/speaker_028/sample_075.wav",
+        "./intermediate/mfa/corpus/speaker_028/sample_075.lab",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output/speaker_028/sample_075.json",
+        "--output_format",
+        "json",
+        "--clean",
+        "--overwrite",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip"
+      ],
+      "returncode": 0,
+      "seconds": 7.616763166850433,
+      "output_excerpt": "\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_created": true
+    },
+    {
+      "stage": "align_one",
+      "sample_id": "-s9qJ7ATP7w$_$8",
+      "command": [
+        "./.mfa/bin/mfa",
+        "align_one",
+        "./intermediate/mfa/corpus/speaker_028/sample_076.wav",
+        "./intermediate/mfa/corpus/speaker_028/sample_076.lab",
+        "./resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+        "./resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+        "./intermediate/mfa/output/speaker_028/sample_076.json",
+        "--output_format",
+        "json",
+        "--clean",
+        "--overwrite",
+        "--g2p_model_path",
+        "./resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip"
+      ],
+      "returncode": 0,
+      "seconds": 7.244143333053216,
+      "output_excerpt": "\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_created": true
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "-3g5yACwYnA$_$13",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_000/sample_000.json",
+      "sha256": "eda4db90b83fee4eacb838cab905adf97f15a65bbed081082cf0bbdf9ca5161f"
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_000/sample_001.json",
+      "sha256": "3ab564fc7498aa00c5b7fd88a1d7be1b666e904123f65aea8cb97639f3f57475"
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$3",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_000/sample_002.json",
+      "sha256": "8c538103c8543eefb942fa94b11494d16c3480f937a929ea525847007f13239f"
+    },
+    {
+      "sample_id": "-3g5yACwYnA$_$9",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_000/sample_003.json",
+      "sha256": "8627d4a30c5a1f5477833bb4b85b4d6f9041fdc3642e9df33ee14d1e6202724b"
+    },
+    {
+      "sample_id": "-3nNcZdcdvU$_$5",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_001/sample_004.json",
+      "sha256": "adbe88e0f9ec064f47334992708bf2ed60a12b80c5d858fa603d183ecbb97614"
+    },
+    {
+      "sample_id": "-571d8cVauQ$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_002/sample_005.json",
+      "sha256": "acff0f954c7ecf5e5f545bc53c8dd9e1c4b2acbc8054eda8e81f75c00a2d99ab"
+    },
+    {
+      "sample_id": "-571d8cVauQ$_$5",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_002/sample_006.json",
+      "sha256": "ad9ed5cf01af0ccd37106657bb124279939524b707db6378b4b826b696e939c0"
+    },
+    {
+      "sample_id": "-6rXp3zJ3kc$_$8",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_003/sample_007.json",
+      "sha256": "af32f2f077abb2137f0b9c6787e7bf1135e18690acd288576b4f5b0fa2534798"
+    },
+    {
+      "sample_id": "-9y-fZ3swSY$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_004/sample_008.json",
+      "sha256": "dea22f5a58d71360797f5bab42028000c069dbdeeb186cbdce17ce4e7adfae49"
+    },
+    {
+      "sample_id": "-9y-fZ3swSY$_$4",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_004/sample_009.json",
+      "sha256": "17f5883bda58c43088c0cab614d38006091312b133703fa6318a39a7c6e71f71"
+    },
+    {
+      "sample_id": "-9y-fZ3swSY$_$8",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_004/sample_010.json",
+      "sha256": "057ac6a227ca5ec94dde81d78c162bfcd29398f8bb62e3cda2a6d7a3a3f932c8"
+    },
+    {
+      "sample_id": "-AUZQgSxyPQ$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_005/sample_011.json",
+      "sha256": "64c1a3753a3b44df8343e431022916d5053a9d28051304e26ffcfa726a2c02c7"
+    },
+    {
+      "sample_id": "-HeZS2-Prhc$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_006/sample_012.json",
+      "sha256": "ec090e4da1db460fd229faae2717716c601941dc68649499e8c252a513fcda64"
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_007/sample_013.json",
+      "sha256": "1fd7c9739b2f64b53de9e17692dd6e79909eb2c743f082d0a8f1295d131f726a"
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$5",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_007/sample_014.json",
+      "sha256": "b811cd2e049850cd2d41cd4c50393a6ff7cf85f721c3935cb6e7a86e6a270574"
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_007/sample_015.json",
+      "sha256": "d7bc2ab4bd7100491e4188a580c12a9fa61941802fc274084c69c3fdecc35171"
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$9",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_007/sample_016.json",
+      "sha256": "29b1ab84df5eb53e34c8128c01864239ebd1451c4fa3487008f9dd62f1002ba1"
+    },
+    {
+      "sample_id": "-I_e4mIh0yE$_$1",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_008/sample_017.json",
+      "sha256": "43b6c12398b79354f82f4705c7b3f3a6eaceceb231a0868d1cdd14a9cec61546"
+    },
+    {
+      "sample_id": "-I_e4mIh0yE$_$3",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_008/sample_018.json",
+      "sha256": "41c5b516c78be17c070abcf589b0c5062b2166b87ea06aae8be8e2d84cace54d"
+    },
+    {
+      "sample_id": "-MeTTeMJBNc$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_009/sample_019.json",
+      "sha256": "37f134afde0ac71443a2ceb893eaf2036936a066e5a6fe810c61a52d608b044d"
+    },
+    {
+      "sample_id": "-MeTTeMJBNc$_$13",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_009/sample_020.json",
+      "sha256": "5494b3a9cb9e9bc556afd00ff061a7529ca64240902a562558c1996a2b406361"
+    },
+    {
+      "sample_id": "-MeTTeMJBNc$_$7",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_009/sample_021.json",
+      "sha256": "87bbdbcdfff67b1cf89f0631f6fb28639371a47ac64dcf79c4b51633ea9347ca"
+    },
+    {
+      "sample_id": "-NFrJFQijFE$_$1",
+      "result": "failed",
+      "route": "align_one",
+      "output": null,
+      "sha256": null
+    },
+    {
+      "sample_id": "-NFrJFQijFE$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_010/sample_023.json",
+      "sha256": "13c576f0a8191dbdfac80771fd53f5c5f5fe5ac862979c3369315682141d58dd"
+    },
+    {
+      "sample_id": "-RfYyzHpjk4$_$11",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_011/sample_024.json",
+      "sha256": "19b67cf6d38af78a508e99d6a1175d2b05aa3781de68b605312cd575fe8d1fa0"
+    },
+    {
+      "sample_id": "-RfYyzHpjk4$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_011/sample_025.json",
+      "sha256": "a240d602ab8fbea0d1ac95bbb7a97a95d3c197a1760f70903a35f200c52e0aa5"
+    },
+    {
+      "sample_id": "-RfYyzHpjk4$_$8",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_011/sample_026.json",
+      "sha256": "32c8f8bb1a59d401d35fbc16eb75a5ac23b80b8a71f2c5162999ae7a8f4387d7"
+    },
+    {
+      "sample_id": "-THoVjtIkeU$_$12",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_012/sample_027.json",
+      "sha256": "0d193e277c62a2153716596585ea12f6eac4f059a7a8098a016560921df5a56d"
+    },
+    {
+      "sample_id": "-THoVjtIkeU$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_012/sample_028.json",
+      "sha256": "6dda5e3aacebec378ca818f3f0dfaf47206b263db317ea6c462e437d9fd16f6f"
+    },
+    {
+      "sample_id": "-THoVjtIkeU$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_012/sample_029.json",
+      "sha256": "705d96e288a86b1380019f42656e5094749669d61d81e05babefb3588a3ac987"
+    },
+    {
+      "sample_id": "-UUCSKoHeMA$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_013/sample_030.json",
+      "sha256": "3a984df830cea33aeb94226bd8baf66430002192439669733910ad11c61f9a83"
+    },
+    {
+      "sample_id": "-UacrmKiTn4$_$10",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_014/sample_031.json",
+      "sha256": "18c69be32a6c7ef89e50f20bb6cef9d9e5207f416b75c6470e17991fb479e76b"
+    },
+    {
+      "sample_id": "-UacrmKiTn4$_$4",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_014/sample_032.json",
+      "sha256": "8bac0e9fe275564b3942eadda3bb0864191b1a3f68b043cde6ba659f5ae25f7a"
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_015/sample_033.json",
+      "sha256": "15d6245d608435525d6f4570be2de5d87d0cafaebfd144b13ea8ecc1131de2de"
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$1",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_015/sample_034.json",
+      "sha256": "4d4a5dd44620cab3b44d77b5e6bc0624ae3a057bfca3431084fe312ada45bd8c"
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$3",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_015/sample_035.json",
+      "sha256": "8d86241258ee3bac6e34d06aaf9f15a1fc057f8f9c9889b05b538b9f556fb399"
+    },
+    {
+      "sample_id": "-UuX1xuaiiE$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_015/sample_036.json",
+      "sha256": "bbf99e469d56122bbe55dc0bc35078a01d352ffbcebc23c1ee7e9d5893727513"
+    },
+    {
+      "sample_id": "-a55Q6RWvTA$_$3",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_016/sample_037.json",
+      "sha256": "9acb96cfc77437acbd34f38435d3790ea333212688c2a54bbcee418a534650ce"
+    },
+    {
+      "sample_id": "-aNfi7CP8vM$_$7",
+      "result": "aligned",
+      "route": "align_one",
+      "output": "intermediate/mfa/output/speaker_017/sample_038.json",
+      "sha256": "00dc265496f4d4a5d160537ac06aae419ef2bb4586a6f26bc8697aafe2b1e2f1"
+    },
+    {
+      "sample_id": "-aqamKhZ1Ec$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_018/sample_039.json",
+      "sha256": "e6f760386d7673342cebb6af71e4d49c43a1c3f5b962199ef049f92c95c1aed6"
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_019/sample_040.json",
+      "sha256": "67d57e20de73342ba20a74a8dd1c7030f04bf15236762045793485cc8c49292d"
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$1",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_019/sample_041.json",
+      "sha256": "8be40299c5590383e231c6ba9ccda5e62f355fac1db3fcd07b5523bbed36e358"
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_019/sample_042.json",
+      "sha256": "da1b1c5d324e35c306ca59718df0999de3ba6d3522ff8a5d39258099182a6e55"
+    },
+    {
+      "sample_id": "-dxfTGcXJoc$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_019/sample_043.json",
+      "sha256": "0f4a8c2df5451c0b9b0b0748e98f386e700945fea69294a465e8acf3b7de01c5"
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$1",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_020/sample_044.json",
+      "sha256": "7b36e846425a1197e891d8cc092f8b5d5992decc3d6ecf2df6e869c7f5530cff"
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$13",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_020/sample_045.json",
+      "sha256": "eedb82932875718bdd31f8a0ddabb04479d9ef40726489a7a4497db3fd29a446"
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$16",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_020/sample_046.json",
+      "sha256": "4a1d8ea249abf275f80fbc83733aeb2ec1ef48051d68e1265c630ba98ba63ddf"
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$17",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_020/sample_047.json",
+      "sha256": "11c39619f8aaee438902d81ef305ac3b4083077856edae1bd18914d01a6a8184"
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$18",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_020/sample_048.json",
+      "sha256": "08e7b6a4492170c76f8d69374c3d7dcb9bd6b686cd544a061c8167424f5f4084"
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$20",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_020/sample_049.json",
+      "sha256": "f753346ebfdb90748c24277e2f535f55e05d9d269b7a9c1bd565518e1c543711"
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$26",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_020/sample_050.json",
+      "sha256": "2b13026d6d46e6a112e488fa34782516b99430616eccfcfe6aa86a9bb94e46fe"
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_020/sample_051.json",
+      "sha256": "c6ba29dec2d68c12117ca7af8d609aac9a45ce60416f1287614ef984cfa1d9c7"
+    },
+    {
+      "sample_id": "-egA8-b7-3M$_$9",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_020/sample_052.json",
+      "sha256": "ab5dd7b06d284d9be0d226fc32a0a488d58b59b41fb07f4006f4767940c62db8"
+    },
+    {
+      "sample_id": "-hnBHBN8p5A$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_021/sample_053.json",
+      "sha256": "3d53fc23d9ed6b20db843ef1237f6c823af2e8b46477e30a8f8362403fbace35"
+    },
+    {
+      "sample_id": "-hnBHBN8p5A$_$7",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_021/sample_054.json",
+      "sha256": "db8a4372061f6bbd52a5921027a857832aed7094287da25bcf02e5279b5da639"
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$3",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_022/sample_055.json",
+      "sha256": "f913d0315f51774f666a753dc2e662a0e3278393f069bdcb0ea0e18fb5191dc2"
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_022/sample_056.json",
+      "sha256": "0ca1b420d3dbb31ad5c87709e176b42c7a5fa160a24a70b7b36c1d27d3a32f43"
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$7",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_022/sample_057.json",
+      "sha256": "4776c83b5cb20eb0aa592ea7c8582a431ab7c0f250e6fc579bc6a65d2a4193f2"
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$8",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_022/sample_058.json",
+      "sha256": "a33b67f99d5afeabd80edb359f34b43046fd4ac1acd2a0126b0f1a14387b58e7"
+    },
+    {
+      "sample_id": "-iRBcNs9oI8$_$9",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_022/sample_059.json",
+      "sha256": "6c2dd19dbec2e8c0e11fd040762697677719076ca9ac5223245868643f611107"
+    },
+    {
+      "sample_id": "-lzEya4AM_4$_$5",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_023/sample_060.json",
+      "sha256": "5a9064d189e79012688ce50d5f73f2aab62b20e35fe425814661477f55d903ef"
+    },
+    {
+      "sample_id": "-lzEya4AM_4$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_023/sample_061.json",
+      "sha256": "09ffdd9993b7dc4c39ef3fe547f5def85d5869292a842974f451efa34edc558a"
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_024/sample_062.json",
+      "sha256": "5d6a60b638e8eca6f7d5fdb8b111cfe1f642cf8317637a9fa75ee99914e99d0e"
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$8",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_024/sample_063.json",
+      "sha256": "b20f361992b699f0889617727ed53dd2ec6a29758660f1308d7e40fd5c0dd88f"
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$9",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_024/sample_064.json",
+      "sha256": "5f1841d3009b165c8e68988c33e770edd04a0dc89cf6db464f0c711cedc97287"
+    },
+    {
+      "sample_id": "-mqbVkbCndg$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_025/sample_065.json",
+      "sha256": "1f1ab81363bd5329716aa9715b78aa448741d825ca0efb8f8c23fd1cc634a64e"
+    },
+    {
+      "sample_id": "-qDkUB0GgYY$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_026/sample_066.json",
+      "sha256": "342a789ec884726bec0eb13d476918ec310fafc3421006e5e4bbbdb57af552f9"
+    },
+    {
+      "sample_id": "-ri04Z7vwnc$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_027/sample_067.json",
+      "sha256": "4a4543a575d4e7aa6dc4fe376c3c1a98ad83f5e84697bdc91aad0bc485cb743d"
+    },
+    {
+      "sample_id": "-ri04Z7vwnc$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_027/sample_068.json",
+      "sha256": "1b2f2d0e927118738a8693e35957acd8bf7512322842c790a1c49fef15f2db69"
+    },
+    {
+      "sample_id": "-ri04Z7vwnc$_$5",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_027/sample_069.json",
+      "sha256": "0e1004acb32adbcda1da241fd549d8009b65215bfa4ba20cb58fe6eb16cda1ad"
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$0",
+      "result": "aligned",
+      "route": "align_one",
+      "output": "intermediate/mfa/output/speaker_028/sample_070.json",
+      "sha256": "811b24e7cb9427c5363f1dc3a2826f4dce3895d2c627cd88c2dd1466957e996c"
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$1",
+      "result": "aligned",
+      "route": "align_one",
+      "output": "intermediate/mfa/output/speaker_028/sample_071.json",
+      "sha256": "5343192f24997c7de966c90049112c69a4c79ddde3f2a03d99696c528ce1a030"
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$4",
+      "result": "aligned",
+      "route": "align_one",
+      "output": "intermediate/mfa/output/speaker_028/sample_072.json",
+      "sha256": "34c1512a409dbb558d2bee7e6a7098232057f0eced89f6331f6a1917a7fd5f0f"
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$5",
+      "result": "aligned",
+      "route": "align_one",
+      "output": "intermediate/mfa/output/speaker_028/sample_073.json",
+      "sha256": "a4aee050dae81a7a76a9cbea5f82077daa60e4d6cbbfcaa371546073b319780f"
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$6",
+      "result": "aligned",
+      "route": "align_one",
+      "output": "intermediate/mfa/output/speaker_028/sample_074.json",
+      "sha256": "e15eb142d8e4fdf9b3ce809048dcd1f33a39dc68b0663c6e2cb42ed338d2a1a7"
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$7",
+      "result": "aligned",
+      "route": "align_one",
+      "output": "intermediate/mfa/output/speaker_028/sample_075.json",
+      "sha256": "3c954502f7c32a00f29ad3e92d260bd9f8ce63724512615809fc49041bb519c6"
+    },
+    {
+      "sample_id": "-s9qJ7ATP7w$_$8",
+      "result": "aligned",
+      "route": "align_one",
+      "output": "intermediate/mfa/output/speaker_028/sample_076.json",
+      "sha256": "cae4bc89c85d78258361232be1036160f9f6c37eeb45bf0aba34624d63a7045a"
+    },
+    {
+      "sample_id": "-t217m2on-s$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_029/sample_077.json",
+      "sha256": "cdde99cc35c0b9818bd4d270e4c4303220be720d4191857f37d7dc717ea64c9f"
+    },
+    {
+      "sample_id": "-t217m2on-s$_$7",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_029/sample_078.json",
+      "sha256": "8e635fcad45e375b594a0c20b1c6ac1238f4c63cd45e56f59d3ee8d8df39a304"
+    },
+    {
+      "sample_id": "-tANM6ETl_M$_$3",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_030/sample_079.json",
+      "sha256": "77924b1e21956d786f6905b09156a47b58d393cd669443e542bf4a08329c8037"
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$10",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_031/sample_080.json",
+      "sha256": "ea46bf33d6c8e7496baaba91e814b2af1bdc1a9fd2025624448c5922e2b5245d"
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$11",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_031/sample_081.json",
+      "sha256": "e6424081d27b72c91254144f58cbf7e91b30c0966f7292c1b27651d8eba28f88"
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$12",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_031/sample_082.json",
+      "sha256": "bdb74692b5fbdeceb0b7b12d44f79bbee8665414a25a64a16b14a1943c776dbf"
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$16",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_031/sample_083.json",
+      "sha256": "6c1a529a5e9f781131cbf16d8ccba02285ab8dcedf1f00e2323a1b5c6e726020"
+    },
+    {
+      "sample_id": "-tPCytz4rww$_$18",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_031/sample_084.json",
+      "sha256": "2828ea88117e9d625fa9217e9bf19d06958d4ce7ee8e30d66d67143debd841e9"
+    },
+    {
+      "sample_id": "-uywlfIYOS8$_$4",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_032/sample_085.json",
+      "sha256": "6c287f7cf82d403ff2cab780743fbe74e7d447d5391f436d2e07edf4f1a1bd35"
+    },
+    {
+      "sample_id": "-vxjVxOeScU$_$4",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_033/sample_086.json",
+      "sha256": "2c52ac37a5651d78780ebf8862a1f722edc5321647357a09f130abc441f8c3a8"
+    },
+    {
+      "sample_id": "-wMB_hJL-3o$_$7",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_034/sample_087.json",
+      "sha256": "778b1c1cb61f8343cf5a35ca76218e0f38f2608c7e75294ac3009d366d97b0c4"
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$0",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_035/sample_088.json",
+      "sha256": "20d282fea5f1ba942297447e502e56ef58a5dd31e6a284ab4f63406392df42a4"
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$1",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_035/sample_089.json",
+      "sha256": "e4e75d1af81d42df8506c5f725c69b0017c4cb44676c636261de6fff8db30736"
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$2",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_035/sample_090.json",
+      "sha256": "47b6ddbbb3ee5887210355535a82c27e173a8be5c51aa069b7fb90a13986db10"
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$3",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_035/sample_091.json",
+      "sha256": "f2bf99784b7876b01fbb430673dcef38455e7265250137a75f6be3661ecbda8e"
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$5",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_035/sample_092.json",
+      "sha256": "a6651de1d98d5378da77429b3071fe2ccea765c49c807f68963360b071c3b037"
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$7",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_035/sample_093.json",
+      "sha256": "b190b0f0d63f9351a405d1d7fdffa22112db9ad6595240c25e0e20ca9db39814"
+    },
+    {
+      "sample_id": "-wny0OAz3g8$_$9",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_035/sample_094.json",
+      "sha256": "a9c1882cb80436138364902bce207340a8e71537e5a83804bd2ca4505c2ad3a2"
+    },
+    {
+      "sample_id": "-yRb-Jum7EQ$_$1",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_036/sample_095.json",
+      "sha256": "6577c4d445eec3f87fd006bf6c0c117c0972d7346f5f18c545baf20f73082104"
+    },
+    {
+      "sample_id": "-yRb-Jum7EQ$_$5",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_036/sample_096.json",
+      "sha256": "b6cabef516c5120500945732ddb2bd90a60c0c2607fed085cc412f2e865401c4"
+    },
+    {
+      "sample_id": "-yRb-Jum7EQ$_$6",
+      "result": "aligned",
+      "route": "batch",
+      "output": "intermediate/mfa/output/speaker_036/sample_097.json",
+      "sha256": "07ab01f949b8670d70a76a8f85b6262b56f13ca4c74c17f8adbd963e8b3f0ab2"
+    }
+  ],
+  "output_sha256": {
+    "-3g5yACwYnA$_$13": "eda4db90b83fee4eacb838cab905adf97f15a65bbed081082cf0bbdf9ca5161f",
+    "-3g5yACwYnA$_$2": "3ab564fc7498aa00c5b7fd88a1d7be1b666e904123f65aea8cb97639f3f57475",
+    "-3g5yACwYnA$_$3": "8c538103c8543eefb942fa94b11494d16c3480f937a929ea525847007f13239f",
+    "-3g5yACwYnA$_$9": "8627d4a30c5a1f5477833bb4b85b4d6f9041fdc3642e9df33ee14d1e6202724b",
+    "-3nNcZdcdvU$_$5": "adbe88e0f9ec064f47334992708bf2ed60a12b80c5d858fa603d183ecbb97614",
+    "-571d8cVauQ$_$0": "acff0f954c7ecf5e5f545bc53c8dd9e1c4b2acbc8054eda8e81f75c00a2d99ab",
+    "-571d8cVauQ$_$5": "ad9ed5cf01af0ccd37106657bb124279939524b707db6378b4b826b696e939c0",
+    "-6rXp3zJ3kc$_$8": "af32f2f077abb2137f0b9c6787e7bf1135e18690acd288576b4f5b0fa2534798",
+    "-9y-fZ3swSY$_$0": "dea22f5a58d71360797f5bab42028000c069dbdeeb186cbdce17ce4e7adfae49",
+    "-9y-fZ3swSY$_$4": "17f5883bda58c43088c0cab614d38006091312b133703fa6318a39a7c6e71f71",
+    "-9y-fZ3swSY$_$8": "057ac6a227ca5ec94dde81d78c162bfcd29398f8bb62e3cda2a6d7a3a3f932c8",
+    "-AUZQgSxyPQ$_$2": "64c1a3753a3b44df8343e431022916d5053a9d28051304e26ffcfa726a2c02c7",
+    "-HeZS2-Prhc$_$2": "ec090e4da1db460fd229faae2717716c601941dc68649499e8c252a513fcda64",
+    "-HwX2H8Z4hY$_$2": "1fd7c9739b2f64b53de9e17692dd6e79909eb2c743f082d0a8f1295d131f726a",
+    "-HwX2H8Z4hY$_$5": "b811cd2e049850cd2d41cd4c50393a6ff7cf85f721c3935cb6e7a86e6a270574",
+    "-HwX2H8Z4hY$_$6": "d7bc2ab4bd7100491e4188a580c12a9fa61941802fc274084c69c3fdecc35171",
+    "-HwX2H8Z4hY$_$9": "29b1ab84df5eb53e34c8128c01864239ebd1451c4fa3487008f9dd62f1002ba1",
+    "-I_e4mIh0yE$_$1": "43b6c12398b79354f82f4705c7b3f3a6eaceceb231a0868d1cdd14a9cec61546",
+    "-I_e4mIh0yE$_$3": "41c5b516c78be17c070abcf589b0c5062b2166b87ea06aae8be8e2d84cace54d",
+    "-MeTTeMJBNc$_$0": "37f134afde0ac71443a2ceb893eaf2036936a066e5a6fe810c61a52d608b044d",
+    "-MeTTeMJBNc$_$13": "5494b3a9cb9e9bc556afd00ff061a7529ca64240902a562558c1996a2b406361",
+    "-MeTTeMJBNc$_$7": "87bbdbcdfff67b1cf89f0631f6fb28639371a47ac64dcf79c4b51633ea9347ca",
+    "-NFrJFQijFE$_$2": "13c576f0a8191dbdfac80771fd53f5c5f5fe5ac862979c3369315682141d58dd",
+    "-RfYyzHpjk4$_$11": "19b67cf6d38af78a508e99d6a1175d2b05aa3781de68b605312cd575fe8d1fa0",
+    "-RfYyzHpjk4$_$2": "a240d602ab8fbea0d1ac95bbb7a97a95d3c197a1760f70903a35f200c52e0aa5",
+    "-RfYyzHpjk4$_$8": "32c8f8bb1a59d401d35fbc16eb75a5ac23b80b8a71f2c5162999ae7a8f4387d7",
+    "-THoVjtIkeU$_$12": "0d193e277c62a2153716596585ea12f6eac4f059a7a8098a016560921df5a56d",
+    "-THoVjtIkeU$_$2": "6dda5e3aacebec378ca818f3f0dfaf47206b263db317ea6c462e437d9fd16f6f",
+    "-THoVjtIkeU$_$6": "705d96e288a86b1380019f42656e5094749669d61d81e05babefb3588a3ac987",
+    "-UUCSKoHeMA$_$0": "3a984df830cea33aeb94226bd8baf66430002192439669733910ad11c61f9a83",
+    "-UacrmKiTn4$_$10": "18c69be32a6c7ef89e50f20bb6cef9d9e5207f416b75c6470e17991fb479e76b",
+    "-UacrmKiTn4$_$4": "8bac0e9fe275564b3942eadda3bb0864191b1a3f68b043cde6ba659f5ae25f7a",
+    "-UuX1xuaiiE$_$0": "15d6245d608435525d6f4570be2de5d87d0cafaebfd144b13ea8ecc1131de2de",
+    "-UuX1xuaiiE$_$1": "4d4a5dd44620cab3b44d77b5e6bc0624ae3a057bfca3431084fe312ada45bd8c",
+    "-UuX1xuaiiE$_$3": "8d86241258ee3bac6e34d06aaf9f15a1fc057f8f9c9889b05b538b9f556fb399",
+    "-UuX1xuaiiE$_$6": "bbf99e469d56122bbe55dc0bc35078a01d352ffbcebc23c1ee7e9d5893727513",
+    "-a55Q6RWvTA$_$3": "9acb96cfc77437acbd34f38435d3790ea333212688c2a54bbcee418a534650ce",
+    "-aNfi7CP8vM$_$7": "00dc265496f4d4a5d160537ac06aae419ef2bb4586a6f26bc8697aafe2b1e2f1",
+    "-aqamKhZ1Ec$_$0": "e6f760386d7673342cebb6af71e4d49c43a1c3f5b962199ef049f92c95c1aed6",
+    "-dxfTGcXJoc$_$0": "67d57e20de73342ba20a74a8dd1c7030f04bf15236762045793485cc8c49292d",
+    "-dxfTGcXJoc$_$1": "8be40299c5590383e231c6ba9ccda5e62f355fac1db3fcd07b5523bbed36e358",
+    "-dxfTGcXJoc$_$2": "da1b1c5d324e35c306ca59718df0999de3ba6d3522ff8a5d39258099182a6e55",
+    "-dxfTGcXJoc$_$6": "0f4a8c2df5451c0b9b0b0748e98f386e700945fea69294a465e8acf3b7de01c5",
+    "-egA8-b7-3M$_$1": "7b36e846425a1197e891d8cc092f8b5d5992decc3d6ecf2df6e869c7f5530cff",
+    "-egA8-b7-3M$_$13": "eedb82932875718bdd31f8a0ddabb04479d9ef40726489a7a4497db3fd29a446",
+    "-egA8-b7-3M$_$16": "4a1d8ea249abf275f80fbc83733aeb2ec1ef48051d68e1265c630ba98ba63ddf",
+    "-egA8-b7-3M$_$17": "11c39619f8aaee438902d81ef305ac3b4083077856edae1bd18914d01a6a8184",
+    "-egA8-b7-3M$_$18": "08e7b6a4492170c76f8d69374c3d7dcb9bd6b686cd544a061c8167424f5f4084",
+    "-egA8-b7-3M$_$20": "f753346ebfdb90748c24277e2f535f55e05d9d269b7a9c1bd565518e1c543711",
+    "-egA8-b7-3M$_$26": "2b13026d6d46e6a112e488fa34782516b99430616eccfcfe6aa86a9bb94e46fe",
+    "-egA8-b7-3M$_$6": "c6ba29dec2d68c12117ca7af8d609aac9a45ce60416f1287614ef984cfa1d9c7",
+    "-egA8-b7-3M$_$9": "ab5dd7b06d284d9be0d226fc32a0a488d58b59b41fb07f4006f4767940c62db8",
+    "-hnBHBN8p5A$_$6": "3d53fc23d9ed6b20db843ef1237f6c823af2e8b46477e30a8f8362403fbace35",
+    "-hnBHBN8p5A$_$7": "db8a4372061f6bbd52a5921027a857832aed7094287da25bcf02e5279b5da639",
+    "-iRBcNs9oI8$_$3": "f913d0315f51774f666a753dc2e662a0e3278393f069bdcb0ea0e18fb5191dc2",
+    "-iRBcNs9oI8$_$6": "0ca1b420d3dbb31ad5c87709e176b42c7a5fa160a24a70b7b36c1d27d3a32f43",
+    "-iRBcNs9oI8$_$7": "4776c83b5cb20eb0aa592ea7c8582a431ab7c0f250e6fc579bc6a65d2a4193f2",
+    "-iRBcNs9oI8$_$8": "a33b67f99d5afeabd80edb359f34b43046fd4ac1acd2a0126b0f1a14387b58e7",
+    "-iRBcNs9oI8$_$9": "6c2dd19dbec2e8c0e11fd040762697677719076ca9ac5223245868643f611107",
+    "-lzEya4AM_4$_$5": "5a9064d189e79012688ce50d5f73f2aab62b20e35fe425814661477f55d903ef",
+    "-lzEya4AM_4$_$6": "09ffdd9993b7dc4c39ef3fe547f5def85d5869292a842974f451efa34edc558a",
+    "-mJ2ud6oKI8$_$6": "5d6a60b638e8eca6f7d5fdb8b111cfe1f642cf8317637a9fa75ee99914e99d0e",
+    "-mJ2ud6oKI8$_$8": "b20f361992b699f0889617727ed53dd2ec6a29758660f1308d7e40fd5c0dd88f",
+    "-mJ2ud6oKI8$_$9": "5f1841d3009b165c8e68988c33e770edd04a0dc89cf6db464f0c711cedc97287",
+    "-mqbVkbCndg$_$0": "1f1ab81363bd5329716aa9715b78aa448741d825ca0efb8f8c23fd1cc634a64e",
+    "-qDkUB0GgYY$_$6": "342a789ec884726bec0eb13d476918ec310fafc3421006e5e4bbbdb57af552f9",
+    "-ri04Z7vwnc$_$0": "4a4543a575d4e7aa6dc4fe376c3c1a98ad83f5e84697bdc91aad0bc485cb743d",
+    "-ri04Z7vwnc$_$2": "1b2f2d0e927118738a8693e35957acd8bf7512322842c790a1c49fef15f2db69",
+    "-ri04Z7vwnc$_$5": "0e1004acb32adbcda1da241fd549d8009b65215bfa4ba20cb58fe6eb16cda1ad",
+    "-s9qJ7ATP7w$_$0": "811b24e7cb9427c5363f1dc3a2826f4dce3895d2c627cd88c2dd1466957e996c",
+    "-s9qJ7ATP7w$_$1": "5343192f24997c7de966c90049112c69a4c79ddde3f2a03d99696c528ce1a030",
+    "-s9qJ7ATP7w$_$4": "34c1512a409dbb558d2bee7e6a7098232057f0eced89f6331f6a1917a7fd5f0f",
+    "-s9qJ7ATP7w$_$5": "a4aee050dae81a7a76a9cbea5f82077daa60e4d6cbbfcaa371546073b319780f",
+    "-s9qJ7ATP7w$_$6": "e15eb142d8e4fdf9b3ce809048dcd1f33a39dc68b0663c6e2cb42ed338d2a1a7",
+    "-s9qJ7ATP7w$_$7": "3c954502f7c32a00f29ad3e92d260bd9f8ce63724512615809fc49041bb519c6",
+    "-s9qJ7ATP7w$_$8": "cae4bc89c85d78258361232be1036160f9f6c37eeb45bf0aba34624d63a7045a",
+    "-t217m2on-s$_$2": "cdde99cc35c0b9818bd4d270e4c4303220be720d4191857f37d7dc717ea64c9f",
+    "-t217m2on-s$_$7": "8e635fcad45e375b594a0c20b1c6ac1238f4c63cd45e56f59d3ee8d8df39a304",
+    "-tANM6ETl_M$_$3": "77924b1e21956d786f6905b09156a47b58d393cd669443e542bf4a08329c8037",
+    "-tPCytz4rww$_$10": "ea46bf33d6c8e7496baaba91e814b2af1bdc1a9fd2025624448c5922e2b5245d",
+    "-tPCytz4rww$_$11": "e6424081d27b72c91254144f58cbf7e91b30c0966f7292c1b27651d8eba28f88",
+    "-tPCytz4rww$_$12": "bdb74692b5fbdeceb0b7b12d44f79bbee8665414a25a64a16b14a1943c776dbf",
+    "-tPCytz4rww$_$16": "6c1a529a5e9f781131cbf16d8ccba02285ab8dcedf1f00e2323a1b5c6e726020",
+    "-tPCytz4rww$_$18": "2828ea88117e9d625fa9217e9bf19d06958d4ce7ee8e30d66d67143debd841e9",
+    "-uywlfIYOS8$_$4": "6c287f7cf82d403ff2cab780743fbe74e7d447d5391f436d2e07edf4f1a1bd35",
+    "-vxjVxOeScU$_$4": "2c52ac37a5651d78780ebf8862a1f722edc5321647357a09f130abc441f8c3a8",
+    "-wMB_hJL-3o$_$7": "778b1c1cb61f8343cf5a35ca76218e0f38f2608c7e75294ac3009d366d97b0c4",
+    "-wny0OAz3g8$_$0": "20d282fea5f1ba942297447e502e56ef58a5dd31e6a284ab4f63406392df42a4",
+    "-wny0OAz3g8$_$1": "e4e75d1af81d42df8506c5f725c69b0017c4cb44676c636261de6fff8db30736",
+    "-wny0OAz3g8$_$2": "47b6ddbbb3ee5887210355535a82c27e173a8be5c51aa069b7fb90a13986db10",
+    "-wny0OAz3g8$_$3": "f2bf99784b7876b01fbb430673dcef38455e7265250137a75f6be3661ecbda8e",
+    "-wny0OAz3g8$_$5": "a6651de1d98d5378da77429b3071fe2ccea765c49c807f68963360b071c3b037",
+    "-wny0OAz3g8$_$7": "b190b0f0d63f9351a405d1d7fdffa22112db9ad6595240c25e0e20ca9db39814",
+    "-wny0OAz3g8$_$9": "a9c1882cb80436138364902bce207340a8e71537e5a83804bd2ca4505c2ad3a2",
+    "-yRb-Jum7EQ$_$1": "6577c4d445eec3f87fd006bf6c0c117c0972d7346f5f18c545baf20f73082104",
+    "-yRb-Jum7EQ$_$5": "b6cabef516c5120500945732ddb2bd90a60c0c2607fed085cc412f2e865401c4",
+    "-yRb-Jum7EQ$_$6": "07ab01f949b8670d70a76a8f85b6262b56f13ca4c74c17f8adbd963e8b3f0ab2"
+  },
+  "recovered_sample_ids": [
+    "-aNfi7CP8vM$_$7",
+    "-s9qJ7ATP7w$_$0",
+    "-s9qJ7ATP7w$_$1",
+    "-s9qJ7ATP7w$_$4",
+    "-s9qJ7ATP7w$_$5",
+    "-s9qJ7ATP7w$_$6",
+    "-s9qJ7ATP7w$_$7",
+    "-s9qJ7ATP7w$_$8"
+  ],
+  "fingerprint": "f2c194989b944e9ee1f85c6d5618442e1cb7ba702b3cb7156a80f6ccc0e40f6a",
+  "policy": "mfa-primary-stable-vad-2",
+  "mfa_version": "3.4.1",
+  "mfa_acoustic_model": "resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+  "mfa_acoustic_sha256": "2c08bd4f82c3943dd57ac09aeac99dbce17a1e1bfe9fd932c8d95cd13d971068",
+  "mfa_dictionary": "resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+  "mfa_dictionary_sha256": "975bf9c7791535c5aec57995e0bd2b77eb7ca364d1d974c2134e07bb0f16b079",
+  "mfa_g2p_model": "resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip",
+  "mfa_g2p_sha256": "9923b38d59a8b3e3e322f225c52523c2a6248e5ffc9fd89be151ade2dc97cb02",
+  "mfa_num_jobs": 1,
+  "mfa_single_speaker_mode": true,
+  "mfa_batch_returncode": 1,
+  "aligned_samples": 97,
+  "mfa_failed_samples": [
+    "-NFrJFQijFE$_$1"
+  ],
+  "mfa_individual_fallback_samples": 8,
+  "excluded_digital_silence_samples": 2,
+  "command": [
+    ".mfa/bin/mfa",
+    "align",
+    "intermediate/mfa/corpus",
+    "resources/models/mfa/english_mfa_dictionary_v3.1.0.dict",
+    "resources/models/mfa/english_mfa_acoustic_v3.1.0.zip",
+    "intermediate/mfa/output",
+    "--output_format",
+    "json",
+    "--include_original_text",
+    "--clean",
+    "--overwrite",
+    "--num_jobs",
+    "1",
+    "--g2p_model_path",
+    "resources/models/mfa/english_us_mfa_g2p_v3.0.0.zip",
+    "--single_speaker"
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$0",
+  "fingerprint": "0f68362e588ac283851b5506142bc62fc17a9fd7265235b0b1ed1187301b0e7a",
+  "audio_sha256": "2c630ce800e86039a24d01f6701d4402d1253633f13603b41f07da769dbf7c9a",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.659861583961174,
+  "text": " This is Governor Steve Beshear, about Kentucky. Our state is home to more than 1,500 bioscience and life science companies and more than 100,000 people who work for these firms, in areas from nutrigenomics and pharmaceuticals to nanotechnology and medical devices.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.4,
+      "text": " This is Governor Steve Beshear, about Kentucky.",
+      "tokens": [
+        50363,
+        770,
+        318,
+        10807,
+        6542,
+        30837,
+        258,
+        283,
+        11,
+        546,
+        11867,
+        13,
+        50563
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24134018926909476,
+      "compression_ratio": 1.3968253968253967,
+      "no_speech_prob": 0.010829946957528591,
+      "words": [
+        {
+          "word": " This",
+          "start": 0.0,
+          "end": 0.74,
+          "probability": 0.5265130996704102
+        },
+        {
+          "word": " is",
+          "start": 0.74,
+          "end": 0.92,
+          "probability": 0.9954337477684021
+        },
+        {
+          "word": " Governor",
+          "start": 0.92,
+          "end": 1.16,
+          "probability": 0.9534949064254761
+        },
+        {
+          "word": " Steve",
+          "start": 1.16,
+          "end": 1.58,
+          "probability": 0.9810152053833008
+        },
+        {
+          "word": " Beshear,",
+          "start": 1.58,
+          "end": 2.1,
+          "probability": 0.9073517521222433
+        },
+        {
+          "word": " about",
+          "start": 2.6,
+          "end": 2.82,
+          "probability": 0.7081727981567383
+        },
+        {
+          "word": " Kentucky.",
+          "start": 2.82,
+          "end": 3.4,
+          "probability": 0.9946354031562805
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.44,
+      "end": 9.46,
+      "text": " Our state is home to more than 1,500 bioscience and life science companies",
+      "tokens": [
+        50563,
+        3954,
+        1181,
+        318,
+        1363,
+        284,
+        517,
+        621,
+        352,
+        11,
+        4059,
+        37140,
+        4234,
+        290,
+        1204,
+        3783,
+        2706,
+        50863
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24134018926909476,
+      "compression_ratio": 1.3968253968253967,
+      "no_speech_prob": 0.010829946957528591,
+      "words": [
+        {
+          "word": " Our",
+          "start": 4.44,
+          "end": 4.52,
+          "probability": 0.9940024018287659
+        },
+        {
+          "word": " state",
+          "start": 4.52,
+          "end": 4.84,
+          "probability": 0.9410000443458557
+        },
+        {
+          "word": " is",
+          "start": 4.84,
+          "end": 5.12,
+          "probability": 0.9980372786521912
+        },
+        {
+          "word": " home",
+          "start": 5.12,
+          "end": 5.44,
+          "probability": 0.9977770447731018
+        },
+        {
+          "word": " to",
+          "start": 5.44,
+          "end": 5.72,
+          "probability": 0.9982574582099915
+        },
+        {
+          "word": " more",
+          "start": 5.72,
+          "end": 5.98,
+          "probability": 0.9963480830192566
+        },
+        {
+          "word": " than",
+          "start": 5.98,
+          "end": 6.12,
+          "probability": 0.9934965372085571
+        },
+        {
+          "word": " 1",
+          "start": 6.12,
+          "end": 6.28,
+          "probability": 0.7623344659805298
+        },
+        {
+          "word": ",500",
+          "start": 6.28,
+          "end": 7.06,
+          "probability": 0.988531768321991
+        },
+        {
+          "word": " bioscience",
+          "start": 7.06,
+          "end": 8.06,
+          "probability": 0.7443764507770538
+        },
+        {
+          "word": " and",
+          "start": 8.06,
+          "end": 8.44,
+          "probability": 0.8875741362571716
+        },
+        {
+          "word": " life",
+          "start": 8.44,
+          "end": 8.66,
+          "probability": 0.9144598245620728
+        },
+        {
+          "word": " science",
+          "start": 8.66,
+          "end": 9.04,
+          "probability": 0.9029411673545837
+        },
+        {
+          "word": " companies",
+          "start": 9.04,
+          "end": 9.46,
+          "probability": 0.9980456829071045
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 10.0,
+      "end": 13.24,
+      "text": " and more than 100,000 people who work for these firms,",
+      "tokens": [
+        50863,
+        290,
+        517,
+        621,
+        1802,
+        11,
+        830,
+        661,
+        508,
+        670,
+        329,
+        777,
+        9611,
+        11,
+        51063
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24134018926909476,
+      "compression_ratio": 1.3968253968253967,
+      "no_speech_prob": 0.010829946957528591,
+      "words": [
+        {
+          "word": " and",
+          "start": 9.8,
+          "end": 10.18,
+          "probability": 0.6706423759460449
+        },
+        {
+          "word": " more",
+          "start": 10.18,
+          "end": 10.4,
+          "probability": 0.9931641221046448
+        },
+        {
+          "word": " than",
+          "start": 10.4,
+          "end": 10.56,
+          "probability": 0.9955037236213684
+        },
+        {
+          "word": " 100",
+          "start": 10.56,
+          "end": 11.1,
+          "probability": 0.6620898246765137
+        },
+        {
+          "word": ",000",
+          "start": 11.1,
+          "end": 11.48,
+          "probability": 0.9916840493679047
+        },
+        {
+          "word": " people",
+          "start": 11.48,
+          "end": 11.92,
+          "probability": 0.9903102517127991
+        },
+        {
+          "word": " who",
+          "start": 11.92,
+          "end": 12.24,
+          "probability": 0.9922828078269958
+        },
+        {
+          "word": " work",
+          "start": 12.24,
+          "end": 12.44,
+          "probability": 0.9708205461502075
+        },
+        {
+          "word": " for",
+          "start": 12.44,
+          "end": 12.64,
+          "probability": 0.9963721036911011
+        },
+        {
+          "word": " these",
+          "start": 12.64,
+          "end": 12.78,
+          "probability": 0.9954900145530701
+        },
+        {
+          "word": " firms,",
+          "start": 12.78,
+          "end": 13.24,
+          "probability": 0.993835985660553
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 13.88,
+      "end": 19.72,
+      "text": " in areas from nutrigenomics and pharmaceuticals to nanotechnology and medical devices.",
+      "tokens": [
+        51063,
+        287,
+        3006,
+        422,
+        6701,
+        4359,
+        268,
+        31994,
+        290,
+        18423,
+        82,
+        284,
+        15709,
+        31201,
+        290,
+        3315,
+        4410,
+        13,
+        51363
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24134018926909476,
+      "compression_ratio": 1.3968253968253967,
+      "no_speech_prob": 0.010829946957528591,
+      "words": [
+        {
+          "word": " in",
+          "start": 13.88,
+          "end": 14.02,
+          "probability": 0.9946789741516113
+        },
+        {
+          "word": " areas",
+          "start": 14.02,
+          "end": 14.4,
+          "probability": 0.9978437423706055
+        },
+        {
+          "word": " from",
+          "start": 14.4,
+          "end": 15.0,
+          "probability": 0.9952308535575867
+        },
+        {
+          "word": " nutrigenomics",
+          "start": 15.0,
+          "end": 16.08,
+          "probability": 0.6415710113942623
+        },
+        {
+          "word": " and",
+          "start": 16.08,
+          "end": 16.46,
+          "probability": 0.9775062799453735
+        },
+        {
+          "word": " pharmaceuticals",
+          "start": 16.46,
+          "end": 17.76,
+          "probability": 0.9980011284351349
+        },
+        {
+          "word": " to",
+          "start": 17.76,
+          "end": 17.76,
+          "probability": 0.8382354974746704
+        },
+        {
+          "word": " nanotechnology",
+          "start": 17.76,
+          "end": 18.66,
+          "probability": 0.9379758834838867
+        },
+        {
+          "word": " and",
+          "start": 18.66,
+          "end": 18.94,
+          "probability": 0.9892359375953674
+        },
+        {
+          "word": " medical",
+          "start": 18.94,
+          "end": 19.2,
+          "probability": 0.9967918992042542
+        },
+        {
+          "word": " devices.",
+          "start": 19.2,
+          "end": 19.72,
+          "probability": 0.9984777569770813
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

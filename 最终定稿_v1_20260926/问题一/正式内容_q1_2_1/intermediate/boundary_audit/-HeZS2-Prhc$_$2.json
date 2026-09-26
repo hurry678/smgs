@@ -1,0 +1,188 @@
+{
+  "sample_id": "-HeZS2-Prhc$_$2",
+  "fingerprint": "2a99ed4df15a10f068ae69e104627d1c6f867c06ec5b95740c2a92158f62a46a",
+  "audio_sha256": "c51ea6175410f6e5939902af5de8d28ab5d4487f7e1348cd5ff4c21b87d95896",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9249559158924967,
+  "text": " it today. The August jobs report is out and it was seen overall as solid but not great. The report",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.64,
+      "text": " it today. The August jobs report is out and it was seen overall as solid but not great.",
+      "tokens": [
+        50363,
+        340,
+        1909,
+        13,
+        383,
+        2932,
+        3946,
+        989,
+        318,
+        503,
+        290,
+        340,
+        373,
+        1775,
+        4045,
+        355,
+        4735,
+        475,
+        407,
+        1049,
+        13,
+        50749
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32183428163881656,
+      "compression_ratio": 1.1529411764705881,
+      "no_speech_prob": 0.10432519763708115,
+      "words": [
+        {
+          "word": " it",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.4764801263809204
+        },
+        {
+          "word": " today.",
+          "start": 0.14,
+          "end": 0.5,
+          "probability": 0.974538266658783
+        },
+        {
+          "word": " The",
+          "start": 1.64,
+          "end": 1.88,
+          "probability": 0.9640289545059204
+        },
+        {
+          "word": " August",
+          "start": 1.88,
+          "end": 2.1,
+          "probability": 0.9586222171783447
+        },
+        {
+          "word": " jobs",
+          "start": 2.1,
+          "end": 2.68,
+          "probability": 0.3764083981513977
+        },
+        {
+          "word": " report",
+          "start": 2.68,
+          "end": 2.94,
+          "probability": 0.9410941004753113
+        },
+        {
+          "word": " is",
+          "start": 2.94,
+          "end": 3.2,
+          "probability": 0.9892488718032837
+        },
+        {
+          "word": " out",
+          "start": 3.2,
+          "end": 3.48,
+          "probability": 0.9970542192459106
+        },
+        {
+          "word": " and",
+          "start": 3.48,
+          "end": 4.08,
+          "probability": 0.6820544004440308
+        },
+        {
+          "word": " it",
+          "start": 4.08,
+          "end": 4.3,
+          "probability": 0.9915771484375
+        },
+        {
+          "word": " was",
+          "start": 4.3,
+          "end": 4.44,
+          "probability": 0.9921209812164307
+        },
+        {
+          "word": " seen",
+          "start": 4.44,
+          "end": 4.84,
+          "probability": 0.9888145327568054
+        },
+        {
+          "word": " overall",
+          "start": 4.84,
+          "end": 5.64,
+          "probability": 0.9337188601493835
+        },
+        {
+          "word": " as",
+          "start": 5.64,
+          "end": 6.4,
+          "probability": 0.602634847164154
+        },
+        {
+          "word": " solid",
+          "start": 6.4,
+          "end": 6.68,
+          "probability": 0.9745665788650513
+        },
+        {
+          "word": " but",
+          "start": 6.68,
+          "end": 7.06,
+          "probability": 0.796610414981842
+        },
+        {
+          "word": " not",
+          "start": 7.06,
+          "end": 7.28,
+          "probability": 0.9982932209968567
+        },
+        {
+          "word": " great.",
+          "start": 7.28,
+          "end": 7.64,
+          "probability": 0.8819466233253479
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.84,
+      "end": 8.06,
+      "text": " The report",
+      "tokens": [
+        50749,
+        383,
+        989,
+        50771
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32183428163881656,
+      "compression_ratio": 1.1529411764705881,
+      "no_speech_prob": 0.10432519763708115,
+      "words": [
+        {
+          "word": " The",
+          "start": 7.84,
+          "end": 7.84,
+          "probability": 0.9764055013656616
+        },
+        {
+          "word": " report",
+          "start": 7.84,
+          "end": 8.06,
+          "probability": 0.9701621532440186
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

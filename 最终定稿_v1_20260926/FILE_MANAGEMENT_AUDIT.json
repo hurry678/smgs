@@ -1,0 +1,147 @@
+{
+  "schema": "e-problem-final-package-file-audit-v1",
+  "created_date": "2026-09-26",
+  "source_git_commit": "7fdef6b2b1cd99f54a7d2cb13a6e08d971edf830",
+  "source_git_status_before_copy": "clean",
+  "policy": {
+    "mode": "copy-only",
+    "original_directories_modified": false,
+    "superseded_versions_included": false,
+    "runtime_caches_included": false
+  },
+  "copy_checks": [
+    {
+      "id": "q1_delivery_zip",
+      "source": "../第一问交付包.zip",
+      "destination": "问题一/交付包/第一问交付包.zip",
+      "files": 1,
+      "bytes": 24015744,
+      "verification": "SHA-256 identical",
+      "matched": true
+    },
+    {
+      "id": "q1_extracted_content",
+      "source": "../第一问交付包.zip",
+      "destination": "问题一/正式内容_q1_2_1",
+      "files": 300,
+      "bytes": 31028684,
+      "verification": "all ZIP members matched extracted relative paths, sizes and SHA-256",
+      "matched": true
+    },
+    {
+      "id": "q1_selection_protocol",
+      "source": "ds/q1_comparison_extension",
+      "destination": "问题一/选型协议",
+      "files": 19,
+      "bytes": 1182896,
+      "verification": "recursive relative-path and SHA-256 comparison",
+      "matched": true
+    },
+    {
+      "id": "q1_selection_results",
+      "source": "优化/benchmark_runs/q1_ab_frozen_20260925/full",
+      "destination": "问题一/选型结果",
+      "files": 173,
+      "bytes": 6922760,
+      "verification": "recursive relative-path and SHA-256 comparison",
+      "matched": true
+    },
+    {
+      "id": "q2_predictor_code",
+      "source": "ds/scripts/*q2*.py",
+      "destination": "问题二/正式预测器代码",
+      "files": 14,
+      "bytes": 145721,
+      "verification": "filename and SHA-256 comparison",
+      "matched": true
+    },
+    {
+      "id": "q2_final_results",
+      "source": "ds/artifacts/q2/v3_m3_ensemble9",
+      "destination": "问题二/正式结果_M3_ensemble9",
+      "files": 21,
+      "bytes": 3137494,
+      "verification": "recursive relative-path and SHA-256 comparison",
+      "matched": true
+    },
+    {
+      "id": "q2_decision_code",
+      "source": "问题二/q2_ds_optimization_v2_1_20260925",
+      "destination": "问题二/定稿决策代码",
+      "files": 14,
+      "bytes": 180146,
+      "verification": "recursive relative-path and SHA-256 comparison after excluding runtime cache",
+      "excluded": [
+        ".ruff_cache",
+        "__pycache__",
+        "*.pyc"
+      ],
+      "matched": true
+    },
+    {
+      "id": "q2_decision_audit",
+      "source": "优化/q2yhv2_1/server_results_20260925",
+      "destination": "问题二/定稿决策审计",
+      "files": 26,
+      "bytes": 207147010,
+      "verification": "recursive relative-path and SHA-256 comparison",
+      "matched": true
+    },
+    {
+      "id": "q2_submission",
+      "source": "ds/submission/q2_predictions.csv and q2_predictions.json",
+      "destination": "问题二/正式提交",
+      "files": 2,
+      "bytes": 53162,
+      "verification": "SHA-256 identical",
+      "matched": true
+    },
+    {
+      "id": "q3_final_code",
+      "source": "问题三/q3_explainability_v2_2_20260926",
+      "destination": "问题三/定稿代码_v2_2",
+      "files": 27,
+      "bytes": 237333,
+      "verification": "recursive relative-path and SHA-256 comparison",
+      "matched": true
+    },
+    {
+      "id": "q3_final_results",
+      "source": "优化/q3_explainability_v2_2_20260926",
+      "destination": "问题三/定稿结果_v2_2",
+      "files": 64,
+      "bytes": 30218345,
+      "verification": "recursive relative-path and SHA-256 comparison",
+      "matched": true
+    }
+  ],
+  "archive_checks": {
+    "zip_files_checked": 8,
+    "zip_crc_status": "PASS",
+    "q2_frozen_checkpoint_count_in_archives": 9,
+    "q2_shared_encoder_in_archives": true
+  },
+  "generated_files": [
+    "README.md",
+    "问题一/README.md",
+    "问题二/README.md",
+    "问题三/README.md",
+    "FINAL_INDEX.json",
+    "FILE_MANAGEMENT_AUDIT.json",
+    "MANIFEST_SHA256.txt",
+    "共享说明/外部依赖与未纳入项.md",
+    "共享说明/verify_final_package.py"
+  ],
+  "deliberately_not_included": [
+    "竞赛原始附件1至附件4和原始视频",
+    "Python/Conda/MFA/CUDA运行环境与缓存",
+    "问题一旧 DS/DP 基线作为独立定稿副本",
+    "问题二被否决候选作为正式模型",
+    "问题三 v2 和旧 DS 解释结果作为正式结果"
+  ],
+  "notes": [
+    "问题二被否决候选的训练与选择证据仍保存在三卷审计 ZIP 中，不作为正式模型。",
+    "问题二 v2.1 回放 CSV 与历史正式 CSV 仅有一处 1e-6 舍入差，权威提交已单独固定。",
+    "MANIFEST_SHA256.txt 不包含自身摘要；其余文件全部纳入。"
+  ]
+}

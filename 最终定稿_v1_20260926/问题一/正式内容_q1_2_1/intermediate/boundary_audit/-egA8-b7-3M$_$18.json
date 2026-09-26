@@ -1,0 +1,203 @@
+{
+  "sample_id": "-egA8-b7-3M$_$18",
+  "fingerprint": "240b412329d3faff472651e3de6eed60de5a091741e4811280b1b2f81da0c9bb",
+  "audio_sha256": "f0b9d3f1a390776e00ab338ce9dc9eb4dfe74a65ef99848501530253ce47fa43",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.8853662500623614,
+  "text": " It becomes easier at each one of these conferences to connect with people that you've met or that you're doing business with.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.42,
+      "text": " It becomes easier at each one of these conferences to connect with people that",
+      "tokens": [
+        50363,
+        632,
+        4329,
+        4577,
+        379,
+        1123,
+        530,
+        286,
+        777,
+        19993,
+        284,
+        2018,
+        351,
+        661,
+        326,
+        50629
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20460090637207032,
+      "compression_ratio": 1.2755102040816326,
+      "no_speech_prob": 0.00493360823020339,
+      "words": [
+        {
+          "word": " It",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.7565214037895203
+        },
+        {
+          "word": " becomes",
+          "start": 0.66,
+          "end": 1.06,
+          "probability": 0.9924288392066956
+        },
+        {
+          "word": " easier",
+          "start": 1.06,
+          "end": 1.76,
+          "probability": 0.9979225993156433
+        },
+        {
+          "word": " at",
+          "start": 1.76,
+          "end": 2.08,
+          "probability": 0.9676783084869385
+        },
+        {
+          "word": " each",
+          "start": 2.08,
+          "end": 2.4,
+          "probability": 0.9975167512893677
+        },
+        {
+          "word": " one",
+          "start": 2.4,
+          "end": 2.62,
+          "probability": 0.9877648949623108
+        },
+        {
+          "word": " of",
+          "start": 2.62,
+          "end": 2.64,
+          "probability": 0.9989388585090637
+        },
+        {
+          "word": " these",
+          "start": 2.64,
+          "end": 2.92,
+          "probability": 0.9934529066085815
+        },
+        {
+          "word": " conferences",
+          "start": 2.92,
+          "end": 3.54,
+          "probability": 0.9945790767669678
+        },
+        {
+          "word": " to",
+          "start": 3.54,
+          "end": 4.24,
+          "probability": 0.9331021308898926
+        },
+        {
+          "word": " connect",
+          "start": 4.24,
+          "end": 4.52,
+          "probability": 0.9993021488189697
+        },
+        {
+          "word": " with",
+          "start": 4.52,
+          "end": 4.88,
+          "probability": 0.9967170357704163
+        },
+        {
+          "word": " people",
+          "start": 4.88,
+          "end": 5.18,
+          "probability": 0.9981557726860046
+        },
+        {
+          "word": " that",
+          "start": 5.18,
+          "end": 5.42,
+          "probability": 0.9840703010559082
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.42,
+      "end": 7.84,
+      "text": " you've met or that you're doing business with.",
+      "tokens": [
+        50629,
+        345,
+        1053,
+        1138,
+        393,
+        326,
+        345,
+        821,
+        1804,
+        1597,
+        351,
+        13,
+        50851
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20460090637207032,
+      "compression_ratio": 1.2755102040816326,
+      "no_speech_prob": 0.00493360823020339,
+      "words": [
+        {
+          "word": " you've",
+          "start": 5.42,
+          "end": 5.68,
+          "probability": 0.9826182126998901
+        },
+        {
+          "word": " met",
+          "start": 5.68,
+          "end": 5.94,
+          "probability": 0.9993575215339661
+        },
+        {
+          "word": " or",
+          "start": 5.94,
+          "end": 6.58,
+          "probability": 0.8228159546852112
+        },
+        {
+          "word": " that",
+          "start": 6.58,
+          "end": 6.68,
+          "probability": 0.9855901598930359
+        },
+        {
+          "word": " you're",
+          "start": 6.68,
+          "end": 6.82,
+          "probability": 0.989114373922348
+        },
+        {
+          "word": " doing",
+          "start": 6.82,
+          "end": 7.08,
+          "probability": 0.9993280172348022
+        },
+        {
+          "word": " business",
+          "start": 7.08,
+          "end": 7.42,
+          "probability": 0.9908925294876099
+        },
+        {
+          "word": " with.",
+          "start": 7.42,
+          "end": 7.84,
+          "probability": 0.9906389713287354
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

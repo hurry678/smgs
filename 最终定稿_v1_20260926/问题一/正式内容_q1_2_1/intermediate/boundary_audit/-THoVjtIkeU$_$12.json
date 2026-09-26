@@ -1,0 +1,332 @@
+{
+  "sample_id": "-THoVjtIkeU$_$12",
+  "fingerprint": "7e13377fbac934469a5b883d2fd83bbc8ec7840b239bc40907fadab5e7790b4b",
+  "audio_sha256": "e3d012ced5a77af54a91627da2fec444b249f2096db4615a16b6b0cc4c2a84e6",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.2531907921656966,
+  "text": " whatever we turn our attention to is what grows and so if we believe that anything is possible, if we believe that social justice can be achieved and if we believe in youth, they will believe in themselves.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.2999999999999996,
+      "end": 5.84,
+      "text": " whatever we turn our attention to is what grows and so if we believe that",
+      "tokens": [
+        50363,
+        4232,
+        356,
+        1210,
+        674,
+        3241,
+        284,
+        318,
+        644,
+        13676,
+        290,
+        523,
+        611,
+        356,
+        1975,
+        326,
+        50649
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21214115619659424,
+      "compression_ratio": 1.6349206349206349,
+      "no_speech_prob": 0.017549850046634674,
+      "words": [
+        {
+          "word": " whatever",
+          "start": 1.2999999999999996,
+          "end": 1.86,
+          "probability": 0.47561952471733093
+        },
+        {
+          "word": " we",
+          "start": 1.86,
+          "end": 2.1,
+          "probability": 0.9958434700965881
+        },
+        {
+          "word": " turn",
+          "start": 2.1,
+          "end": 2.28,
+          "probability": 0.994513988494873
+        },
+        {
+          "word": " our",
+          "start": 2.28,
+          "end": 2.44,
+          "probability": 0.9946141839027405
+        },
+        {
+          "word": " attention",
+          "start": 2.44,
+          "end": 2.7,
+          "probability": 0.999337375164032
+        },
+        {
+          "word": " to",
+          "start": 2.7,
+          "end": 3.14,
+          "probability": 0.9945858716964722
+        },
+        {
+          "word": " is",
+          "start": 3.14,
+          "end": 3.34,
+          "probability": 0.9402877688407898
+        },
+        {
+          "word": " what",
+          "start": 3.34,
+          "end": 3.48,
+          "probability": 0.9976125955581665
+        },
+        {
+          "word": " grows",
+          "start": 3.48,
+          "end": 3.92,
+          "probability": 0.9955646991729736
+        },
+        {
+          "word": " and",
+          "start": 3.92,
+          "end": 4.54,
+          "probability": 0.2641168236732483
+        },
+        {
+          "word": " so",
+          "start": 4.54,
+          "end": 4.68,
+          "probability": 0.9924507737159729
+        },
+        {
+          "word": " if",
+          "start": 4.68,
+          "end": 4.88,
+          "probability": 0.971611738204956
+        },
+        {
+          "word": " we",
+          "start": 4.88,
+          "end": 4.98,
+          "probability": 0.9991418123245239
+        },
+        {
+          "word": " believe",
+          "start": 4.98,
+          "end": 5.56,
+          "probability": 0.9906993508338928
+        },
+        {
+          "word": " that",
+          "start": 5.56,
+          "end": 5.84,
+          "probability": 0.9846789240837097
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.84,
+      "end": 11.3,
+      "text": " anything is possible, if we believe that social justice can be achieved and if we",
+      "tokens": [
+        50649,
+        1997,
+        318,
+        1744,
+        11,
+        611,
+        356,
+        1975,
+        326,
+        1919,
+        5316,
+        460,
+        307,
+        8793,
+        290,
+        611,
+        356,
+        50925
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21214115619659424,
+      "compression_ratio": 1.6349206349206349,
+      "no_speech_prob": 0.017549850046634674,
+      "words": [
+        {
+          "word": " anything",
+          "start": 5.84,
+          "end": 6.08,
+          "probability": 0.9968661665916443
+        },
+        {
+          "word": " is",
+          "start": 6.08,
+          "end": 6.28,
+          "probability": 0.994270920753479
+        },
+        {
+          "word": " possible,",
+          "start": 6.28,
+          "end": 6.68,
+          "probability": 0.9986950755119324
+        },
+        {
+          "word": " if",
+          "start": 6.96,
+          "end": 6.96,
+          "probability": 0.9522174000740051
+        },
+        {
+          "word": " we",
+          "start": 6.96,
+          "end": 7.16,
+          "probability": 0.9993033409118652
+        },
+        {
+          "word": " believe",
+          "start": 7.16,
+          "end": 8.14,
+          "probability": 0.9972670078277588
+        },
+        {
+          "word": " that",
+          "start": 8.14,
+          "end": 8.88,
+          "probability": 0.9951700568199158
+        },
+        {
+          "word": " social",
+          "start": 8.88,
+          "end": 9.64,
+          "probability": 0.9627036452293396
+        },
+        {
+          "word": " justice",
+          "start": 9.64,
+          "end": 10.08,
+          "probability": 0.9986333250999451
+        },
+        {
+          "word": " can",
+          "start": 10.08,
+          "end": 10.38,
+          "probability": 0.9986292123794556
+        },
+        {
+          "word": " be",
+          "start": 10.38,
+          "end": 10.54,
+          "probability": 0.9997156262397766
+        },
+        {
+          "word": " achieved",
+          "start": 10.54,
+          "end": 10.92,
+          "probability": 0.9994300007820129
+        },
+        {
+          "word": " and",
+          "start": 10.92,
+          "end": 11.1,
+          "probability": 0.7649072408676147
+        },
+        {
+          "word": " if",
+          "start": 11.1,
+          "end": 11.2,
+          "probability": 0.9889911413192749
+        },
+        {
+          "word": " we",
+          "start": 11.2,
+          "end": 11.3,
+          "probability": 0.9986122846603394
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 11.3,
+      "end": 14.02,
+      "text": " believe in youth, they will believe in themselves.",
+      "tokens": [
+        50925,
+        1975,
+        287,
+        6205,
+        11,
+        484,
+        481,
+        1975,
+        287,
+        2405,
+        13,
+        51163
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21214115619659424,
+      "compression_ratio": 1.6349206349206349,
+      "no_speech_prob": 0.017549850046634674,
+      "words": [
+        {
+          "word": " believe",
+          "start": 11.3,
+          "end": 11.74,
+          "probability": 0.9977230429649353
+        },
+        {
+          "word": " in",
+          "start": 11.74,
+          "end": 12.1,
+          "probability": 0.9984548091888428
+        },
+        {
+          "word": " youth,",
+          "start": 12.1,
+          "end": 12.46,
+          "probability": 0.9906285405158997
+        },
+        {
+          "word": " they",
+          "start": 12.86,
+          "end": 13.2,
+          "probability": 0.9940746426582336
+        },
+        {
+          "word": " will",
+          "start": 13.2,
+          "end": 13.34,
+          "probability": 0.9881027340888977
+        },
+        {
+          "word": " believe",
+          "start": 13.34,
+          "end": 13.56,
+          "probability": 0.9688315987586975
+        },
+        {
+          "word": " in",
+          "start": 13.56,
+          "end": 13.68,
+          "probability": 0.9875171780586243
+        },
+        {
+          "word": " themselves.",
+          "start": 13.68,
+          "end": 14.02,
+          "probability": 0.9991762042045593
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

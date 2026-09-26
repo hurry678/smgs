@@ -1,0 +1,152 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$3",
+  "fingerprint": "9497b1a3bed9dbafafd55eca0a32a8e6f96e16e2b6a65e1eb797d01c2f7d9f69",
+  "audio_sha256": "339eb2c8e55f0d8d0e70ed28b6203fb0ff20dfc68796b717b09203209c84c0f3",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.8578847080934793,
+  "text": " is going to help you on your tests, such as TOEFL, IELTS, or university.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.74,
+      "text": " is going to help you on your tests,",
+      "tokens": [
+        50363,
+        318,
+        1016,
+        284,
+        1037,
+        345,
+        319,
+        534,
+        5254,
+        11,
+        50528
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3407042821248372,
+      "compression_ratio": 0.935064935064935,
+      "no_speech_prob": 0.05008301883935928,
+      "words": [
+        {
+          "word": " is",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.6971454620361328
+        },
+        {
+          "word": " going",
+          "start": 0.52,
+          "end": 0.7,
+          "probability": 0.995263934135437
+        },
+        {
+          "word": " to",
+          "start": 0.7,
+          "end": 0.88,
+          "probability": 0.999238133430481
+        },
+        {
+          "word": " help",
+          "start": 0.88,
+          "end": 1.06,
+          "probability": 0.9990799427032471
+        },
+        {
+          "word": " you",
+          "start": 1.06,
+          "end": 1.5,
+          "probability": 0.999115526676178
+        },
+        {
+          "word": " on",
+          "start": 1.5,
+          "end": 2.08,
+          "probability": 0.9907413721084595
+        },
+        {
+          "word": " your",
+          "start": 2.08,
+          "end": 2.26,
+          "probability": 0.9976152181625366
+        },
+        {
+          "word": " tests,",
+          "start": 2.26,
+          "end": 2.74,
+          "probability": 0.8552073240280151
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.22,
+      "end": 5.28,
+      "text": " such as TOEFL, IELTS, or university.",
+      "tokens": [
+        50528,
+        884,
+        355,
+        5390,
+        36,
+        3697,
+        11,
+        314,
+        3698,
+        4694,
+        11,
+        393,
+        6403,
+        13,
+        50646
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3407042821248372,
+      "compression_ratio": 0.935064935064935,
+      "no_speech_prob": 0.05008301883935928,
+      "words": [
+        {
+          "word": " such",
+          "start": 3.22,
+          "end": 3.54,
+          "probability": 0.9979240894317627
+        },
+        {
+          "word": " as",
+          "start": 3.54,
+          "end": 3.74,
+          "probability": 0.998586893081665
+        },
+        {
+          "word": " TOEFL,",
+          "start": 3.74,
+          "end": 4.34,
+          "probability": 0.887111226717631
+        },
+        {
+          "word": " IELTS,",
+          "start": 4.48,
+          "end": 4.78,
+          "probability": 0.9424641132354736
+        },
+        {
+          "word": " or",
+          "start": 4.94,
+          "end": 4.96,
+          "probability": 0.9929595589637756
+        },
+        {
+          "word": " university.",
+          "start": 4.96,
+          "end": 5.28,
+          "probability": 0.41520074009895325
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

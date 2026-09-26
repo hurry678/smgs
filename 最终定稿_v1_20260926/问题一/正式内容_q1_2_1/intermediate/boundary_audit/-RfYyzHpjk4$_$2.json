@@ -1,0 +1,222 @@
+{
+  "sample_id": "-RfYyzHpjk4$_$2",
+  "fingerprint": "3ff895a7f700c8e1ee2c7fc279c04c5a098d93d3bfaf31d7e7afb4c67268bca3",
+  "audio_sha256": "7ead7ffaa4938cec1419720efc0e119f50616fd5489714c3079f996e3ca78423",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.8935940419323742,
+  "text": " You can make a conference call, but it takes quite a bit of planning, well not a lot of planning, it's pretty easy to do.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.92,
+      "text": " You can make a conference call, but it takes quite a bit of planning, well not a lot of planning, it's pretty easy to do.",
+      "tokens": [
+        50363,
+        921,
+        460,
+        787,
+        257,
+        4495,
+        869,
+        11,
+        475,
+        340,
+        2753,
+        2407,
+        257,
+        1643,
+        286,
+        5410,
+        11,
+        880,
+        407,
+        257,
+        1256,
+        286,
+        5410,
+        11,
+        340,
+        338,
+        2495,
+        2562,
+        284,
+        466,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2835278791539809,
+      "compression_ratio": 1.3010752688172043,
+      "no_speech_prob": 0.03231842443346977,
+      "words": [
+        {
+          "word": " You",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.48059719800949097
+        },
+        {
+          "word": " can",
+          "start": 0.6,
+          "end": 0.76,
+          "probability": 0.9949604272842407
+        },
+        {
+          "word": " make",
+          "start": 0.76,
+          "end": 0.88,
+          "probability": 0.9961842894554138
+        },
+        {
+          "word": " a",
+          "start": 0.88,
+          "end": 0.98,
+          "probability": 0.9115609526634216
+        },
+        {
+          "word": " conference",
+          "start": 0.98,
+          "end": 1.3,
+          "probability": 0.715996503829956
+        },
+        {
+          "word": " call,",
+          "start": 1.3,
+          "end": 1.58,
+          "probability": 0.9978858828544617
+        },
+        {
+          "word": " but",
+          "start": 1.72,
+          "end": 1.72,
+          "probability": 0.9945524334907532
+        },
+        {
+          "word": " it",
+          "start": 1.72,
+          "end": 1.8,
+          "probability": 0.7708368897438049
+        },
+        {
+          "word": " takes",
+          "start": 1.8,
+          "end": 1.94,
+          "probability": 0.9503791332244873
+        },
+        {
+          "word": " quite",
+          "start": 1.94,
+          "end": 2.26,
+          "probability": 0.9792459011077881
+        },
+        {
+          "word": " a",
+          "start": 2.26,
+          "end": 2.28,
+          "probability": 0.9973074197769165
+        },
+        {
+          "word": " bit",
+          "start": 2.28,
+          "end": 2.44,
+          "probability": 0.9916343688964844
+        },
+        {
+          "word": " of",
+          "start": 2.44,
+          "end": 2.6,
+          "probability": 0.9881515502929688
+        },
+        {
+          "word": " planning,",
+          "start": 2.6,
+          "end": 2.8,
+          "probability": 0.9900758862495422
+        },
+        {
+          "word": " well",
+          "start": 2.9,
+          "end": 2.96,
+          "probability": 0.6512576937675476
+        },
+        {
+          "word": " not",
+          "start": 2.96,
+          "end": 3.12,
+          "probability": 0.7123581767082214
+        },
+        {
+          "word": " a",
+          "start": 3.12,
+          "end": 3.14,
+          "probability": 0.9904024600982666
+        },
+        {
+          "word": " lot",
+          "start": 3.14,
+          "end": 3.36,
+          "probability": 0.9938808679580688
+        },
+        {
+          "word": " of",
+          "start": 3.36,
+          "end": 3.38,
+          "probability": 0.9916915893554688
+        },
+        {
+          "word": " planning,",
+          "start": 3.38,
+          "end": 3.68,
+          "probability": 0.9985874891281128
+        },
+        {
+          "word": " it's",
+          "start": 3.86,
+          "end": 3.98,
+          "probability": 0.9648068249225616
+        },
+        {
+          "word": " pretty",
+          "start": 3.98,
+          "end": 4.18,
+          "probability": 0.9943763017654419
+        },
+        {
+          "word": " easy",
+          "start": 4.18,
+          "end": 4.44,
+          "probability": 0.996231734752655
+        },
+        {
+          "word": " to",
+          "start": 4.44,
+          "end": 4.58,
+          "probability": 0.9980801343917847
+        },
+        {
+          "word": " do.",
+          "start": 4.58,
+          "end": 4.92,
+          "probability": 0.9985958933830261
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 492,
+      "start": 4.92,
+      "end": 4.92,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -1.0826959609985352,
+      "compression_ratio": 0.5555555555555556,
+      "no_speech_prob": 0.2004835158586502,
+      "words": []
+    }
+  ],
+  "language": "en"
+}

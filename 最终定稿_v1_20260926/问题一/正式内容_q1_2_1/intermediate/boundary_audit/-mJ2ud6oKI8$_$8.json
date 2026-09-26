@@ -1,0 +1,137 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$8",
+  "fingerprint": "bfa9cd519413ef7aec19b3d59d9d81e741966b2f2bd731c43495e14ac13806fa",
+  "audio_sha256": "029e0958d976b4459430ec5103919f88dbacd467b5032a15a1ddfda0a00fec57",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7382099160458893,
+  "text": " We want to evaluate them, you know, give them a full thorough evaluation to find.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.5600000000000002,
+      "end": 4.14,
+      "text": " We want to evaluate them, you know, give them a full thorough evaluation to find.",
+      "tokens": [
+        50363,
+        775,
+        765,
+        284,
+        13446,
+        606,
+        11,
+        345,
+        760,
+        11,
+        1577,
+        606,
+        257,
+        1336,
+        9321,
+        12660,
+        284,
+        1064,
+        13,
+        50563
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3610178629557292,
+      "compression_ratio": 1.0945945945945945,
+      "no_speech_prob": 0.06746774911880493,
+      "words": [
+        {
+          "word": " We",
+          "start": 0.5600000000000002,
+          "end": 0.88,
+          "probability": 0.5042534470558167
+        },
+        {
+          "word": " want",
+          "start": 0.88,
+          "end": 1.1,
+          "probability": 0.9020054936408997
+        },
+        {
+          "word": " to",
+          "start": 1.1,
+          "end": 1.18,
+          "probability": 0.9956538677215576
+        },
+        {
+          "word": " evaluate",
+          "start": 1.18,
+          "end": 1.52,
+          "probability": 0.9681443572044373
+        },
+        {
+          "word": " them,",
+          "start": 1.52,
+          "end": 2.0,
+          "probability": 0.9442464709281921
+        },
+        {
+          "word": " you",
+          "start": 2.02,
+          "end": 2.02,
+          "probability": 0.42917966842651367
+        },
+        {
+          "word": " know,",
+          "start": 2.02,
+          "end": 2.14,
+          "probability": 0.9948078989982605
+        },
+        {
+          "word": " give",
+          "start": 2.24,
+          "end": 2.26,
+          "probability": 0.9865788817405701
+        },
+        {
+          "word": " them",
+          "start": 2.26,
+          "end": 2.54,
+          "probability": 0.9671981334686279
+        },
+        {
+          "word": " a",
+          "start": 2.54,
+          "end": 2.66,
+          "probability": 0.9872341156005859
+        },
+        {
+          "word": " full",
+          "start": 2.66,
+          "end": 2.8,
+          "probability": 0.8825065493583679
+        },
+        {
+          "word": " thorough",
+          "start": 2.8,
+          "end": 3.16,
+          "probability": 0.9701164960861206
+        },
+        {
+          "word": " evaluation",
+          "start": 3.16,
+          "end": 3.82,
+          "probability": 0.9980986714363098
+        },
+        {
+          "word": " to",
+          "start": 3.82,
+          "end": 3.98,
+          "probability": 0.6528871059417725
+        },
+        {
+          "word": " find.",
+          "start": 3.98,
+          "end": 4.14,
+          "probability": 0.8946534395217896
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

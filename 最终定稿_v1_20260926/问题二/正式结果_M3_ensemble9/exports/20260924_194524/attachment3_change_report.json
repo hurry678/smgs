@@ -1,0 +1,180 @@
+{
+  "generated_at": "2026-09-24T18:16:12+08:00",
+  "comparison": "M3-ensemble9 C2 vs archived M0_seed42 C2",
+  "old_csv": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\archive\\M0_seed42_C2\\submission\\q2_predictions.csv",
+  "new_csv": "C:\\work\\数模\\中文题目\\E题\\artifacts\\q2\\v3_m3_ensemble9\\submission\\attachment3_predictions.csv",
+  "changed_row_count": 21,
+  "polarity_changed_count": 1,
+  "intensity_changed_count": 21,
+  "changed_rows": [
+    {
+      "sample_id": "附件3_01",
+      "old_polarity": "Negative",
+      "new_polarity": "Negative",
+      "old_intensity": -1.254824,
+      "new_intensity": -0.660395,
+      "intensity_delta": 0.594429
+    },
+    {
+      "sample_id": "附件3_04",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.373319,
+      "new_intensity": 0.419522,
+      "intensity_delta": 0.046202999999999994
+    },
+    {
+      "sample_id": "附件3_05",
+      "old_polarity": "Negative",
+      "new_polarity": "Negative",
+      "old_intensity": -0.794689,
+      "new_intensity": -0.641094,
+      "intensity_delta": 0.15359499999999993
+    },
+    {
+      "sample_id": "附件3_06",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 1.232057,
+      "new_intensity": 1.230528,
+      "intensity_delta": -0.0015289999999998916
+    },
+    {
+      "sample_id": "附件3_08",
+      "old_polarity": "Negative",
+      "new_polarity": "Negative",
+      "old_intensity": -0.527265,
+      "new_intensity": -0.638937,
+      "intensity_delta": -0.111672
+    },
+    {
+      "sample_id": "附件3_09",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 1.054608,
+      "new_intensity": 1.318589,
+      "intensity_delta": 0.263981
+    },
+    {
+      "sample_id": "附件3_11",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 1.193103,
+      "new_intensity": 1.181241,
+      "intensity_delta": -0.01186200000000004
+    },
+    {
+      "sample_id": "附件3_12",
+      "old_polarity": "Neutral",
+      "new_polarity": "Negative",
+      "old_intensity": 0.0,
+      "new_intensity": -0.0001,
+      "intensity_delta": -0.0001
+    },
+    {
+      "sample_id": "附件3_13",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.310693,
+      "new_intensity": 0.527965,
+      "intensity_delta": 0.21727200000000002
+    },
+    {
+      "sample_id": "附件3_14",
+      "old_polarity": "Negative",
+      "new_polarity": "Negative",
+      "old_intensity": -1.369635,
+      "new_intensity": -1.013771,
+      "intensity_delta": 0.35586399999999996
+    },
+    {
+      "sample_id": "附件3_15",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.976464,
+      "new_intensity": 0.949729,
+      "intensity_delta": -0.026734999999999953
+    },
+    {
+      "sample_id": "附件3_16",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 1.236475,
+      "new_intensity": 1.482133,
+      "intensity_delta": 0.24565799999999993
+    },
+    {
+      "sample_id": "附件3_18",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.759615,
+      "new_intensity": 0.75521,
+      "intensity_delta": -0.004404999999999992
+    },
+    {
+      "sample_id": "附件3_21",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.510447,
+      "new_intensity": 0.47021,
+      "intensity_delta": -0.04023699999999997
+    },
+    {
+      "sample_id": "附件3_22",
+      "old_polarity": "Negative",
+      "new_polarity": "Negative",
+      "old_intensity": -0.443647,
+      "new_intensity": -0.067438,
+      "intensity_delta": 0.376209
+    },
+    {
+      "sample_id": "附件3_23",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.679483,
+      "new_intensity": 0.864538,
+      "intensity_delta": 0.18505500000000008
+    },
+    {
+      "sample_id": "附件3_24",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.323082,
+      "new_intensity": 0.489082,
+      "intensity_delta": 0.16600000000000004
+    },
+    {
+      "sample_id": "附件3_25",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.537962,
+      "new_intensity": 0.588516,
+      "intensity_delta": 0.05055399999999999
+    },
+    {
+      "sample_id": "附件3_26",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.932548,
+      "new_intensity": 0.892754,
+      "intensity_delta": -0.039793999999999996
+    },
+    {
+      "sample_id": "附件3_29",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 1.169302,
+      "new_intensity": 1.490388,
+      "intensity_delta": 0.321086
+    },
+    {
+      "sample_id": "附件3_30",
+      "old_polarity": "Positive",
+      "new_polarity": "Positive",
+      "old_intensity": 0.664822,
+      "new_intensity": 0.752001,
+      "intensity_delta": 0.087179
+    }
+  ],
+  "corrected_at": "2026-09-24T18:17:15+08:00"
+}

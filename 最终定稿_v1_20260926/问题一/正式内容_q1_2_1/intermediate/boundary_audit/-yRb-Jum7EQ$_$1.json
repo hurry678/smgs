@@ -1,0 +1,788 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$1",
+  "fingerprint": "04189ed5be846ed37c5691b6d0fafecf9a66269239962d36e04638851947da9f",
+  "audio_sha256": "89f4412885e2d7fa32c86f732809fb52a391ccd0369867c8e4148dc56fd4c83c",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 3.778904792154208,
+  "text": " I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you and I am very proud of you",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 12.46,
+      "text": " I am very proud of you and I am very proud of you and I am very proud of you and I am",
+      "tokens": [
+        50363,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        50863
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.47149478912353515,
+      "compression_ratio": 8.65,
+      "no_speech_prob": 0.6253185272216797,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 1.04,
+          "probability": 0.0359228178858757
+        },
+        {
+          "word": " am",
+          "start": 1.04,
+          "end": 1.04,
+          "probability": 0.10059407353401184
+        },
+        {
+          "word": " very",
+          "start": 1.04,
+          "end": 1.04,
+          "probability": 0.11136509478092194
+        },
+        {
+          "word": " proud",
+          "start": 1.04,
+          "end": 1.16,
+          "probability": 0.17672044038772583
+        },
+        {
+          "word": " of",
+          "start": 1.16,
+          "end": 1.16,
+          "probability": 0.623194694519043
+        },
+        {
+          "word": " you",
+          "start": 1.16,
+          "end": 1.24,
+          "probability": 0.48454126715660095
+        },
+        {
+          "word": " and",
+          "start": 1.24,
+          "end": 4.5,
+          "probability": 0.12400124967098236
+        },
+        {
+          "word": " I",
+          "start": 4.5,
+          "end": 5.64,
+          "probability": 0.2963723838329315
+        },
+        {
+          "word": " am",
+          "start": 5.64,
+          "end": 6.48,
+          "probability": 0.2273162305355072
+        },
+        {
+          "word": " very",
+          "start": 6.48,
+          "end": 6.48,
+          "probability": 0.26106563210487366
+        },
+        {
+          "word": " proud",
+          "start": 6.48,
+          "end": 6.48,
+          "probability": 0.5579961538314819
+        },
+        {
+          "word": " of",
+          "start": 6.48,
+          "end": 6.48,
+          "probability": 0.7372971773147583
+        },
+        {
+          "word": " you",
+          "start": 6.48,
+          "end": 6.48,
+          "probability": 0.8370227217674255
+        },
+        {
+          "word": " and",
+          "start": 6.48,
+          "end": 6.54,
+          "probability": 0.233848437666893
+        },
+        {
+          "word": " I",
+          "start": 6.54,
+          "end": 7.44,
+          "probability": 0.2724585235118866
+        },
+        {
+          "word": " am",
+          "start": 7.44,
+          "end": 8.08,
+          "probability": 0.37281861901283264
+        },
+        {
+          "word": " very",
+          "start": 8.08,
+          "end": 9.88,
+          "probability": 0.4344908595085144
+        },
+        {
+          "word": " proud",
+          "start": 9.88,
+          "end": 9.88,
+          "probability": 0.7717113494873047
+        },
+        {
+          "word": " of",
+          "start": 9.88,
+          "end": 10.2,
+          "probability": 0.8385696411132812
+        },
+        {
+          "word": " you",
+          "start": 10.2,
+          "end": 10.2,
+          "probability": 0.9552013874053955
+        },
+        {
+          "word": " and",
+          "start": 10.2,
+          "end": 10.2,
+          "probability": 0.4849437177181244
+        },
+        {
+          "word": " I",
+          "start": 10.2,
+          "end": 10.2,
+          "probability": 0.32631465792655945
+        },
+        {
+          "word": " am",
+          "start": 10.2,
+          "end": 12.46,
+          "probability": 0.5274467468261719
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 12.46,
+      "end": 17.98,
+      "text": " very proud of you and I am very proud of you and I am very proud of you and I am very",
+      "tokens": [
+        50863,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        51263
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.47149478912353515,
+      "compression_ratio": 8.65,
+      "no_speech_prob": 0.6253185272216797,
+      "words": [
+        {
+          "word": " very",
+          "start": 12.46,
+          "end": 13.48,
+          "probability": 0.5630849599838257
+        },
+        {
+          "word": " proud",
+          "start": 13.48,
+          "end": 13.48,
+          "probability": 0.8762189149856567
+        },
+        {
+          "word": " of",
+          "start": 13.48,
+          "end": 13.48,
+          "probability": 0.8978105187416077
+        },
+        {
+          "word": " you",
+          "start": 13.48,
+          "end": 13.48,
+          "probability": 0.9786736369132996
+        },
+        {
+          "word": " and",
+          "start": 13.48,
+          "end": 13.48,
+          "probability": 0.7072219252586365
+        },
+        {
+          "word": " I",
+          "start": 13.48,
+          "end": 14.36,
+          "probability": 0.40912187099456787
+        },
+        {
+          "word": " am",
+          "start": 14.36,
+          "end": 14.36,
+          "probability": 0.6752092242240906
+        },
+        {
+          "word": " very",
+          "start": 14.36,
+          "end": 14.72,
+          "probability": 0.6810534000396729
+        },
+        {
+          "word": " proud",
+          "start": 14.72,
+          "end": 14.72,
+          "probability": 0.9118704199790955
+        },
+        {
+          "word": " of",
+          "start": 14.72,
+          "end": 15.4,
+          "probability": 0.9230599403381348
+        },
+        {
+          "word": " you",
+          "start": 15.4,
+          "end": 16.04,
+          "probability": 0.9851910471916199
+        },
+        {
+          "word": " and",
+          "start": 16.04,
+          "end": 16.18,
+          "probability": 0.8261823654174805
+        },
+        {
+          "word": " I",
+          "start": 16.18,
+          "end": 16.18,
+          "probability": 0.4928254783153534
+        },
+        {
+          "word": " am",
+          "start": 16.18,
+          "end": 16.18,
+          "probability": 0.7125170826911926
+        },
+        {
+          "word": " very",
+          "start": 16.18,
+          "end": 16.44,
+          "probability": 0.767344057559967
+        },
+        {
+          "word": " proud",
+          "start": 16.44,
+          "end": 16.44,
+          "probability": 0.9255914092063904
+        },
+        {
+          "word": " of",
+          "start": 16.44,
+          "end": 17.72,
+          "probability": 0.9386781454086304
+        },
+        {
+          "word": " you",
+          "start": 17.72,
+          "end": 17.72,
+          "probability": 0.9878473281860352
+        },
+        {
+          "word": " and",
+          "start": 17.72,
+          "end": 17.72,
+          "probability": 0.8754744529724121
+        },
+        {
+          "word": " I",
+          "start": 17.72,
+          "end": 17.72,
+          "probability": 0.5682086944580078
+        },
+        {
+          "word": " am",
+          "start": 17.72,
+          "end": 17.82,
+          "probability": 0.7271218299865723
+        },
+        {
+          "word": " very",
+          "start": 17.82,
+          "end": 17.98,
+          "probability": 0.7981486916542053
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 17.98,
+      "end": 23.28,
+      "text": " proud of you and I am very proud of you and I am very proud of you and I am very proud",
+      "tokens": [
+        51263,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        51513
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.47149478912353515,
+      "compression_ratio": 8.65,
+      "no_speech_prob": 0.6253185272216797,
+      "words": [
+        {
+          "word": " proud",
+          "start": 17.98,
+          "end": 18.8,
+          "probability": 0.9343861937522888
+        },
+        {
+          "word": " of",
+          "start": 18.8,
+          "end": 19.22,
+          "probability": 0.9447980523109436
+        },
+        {
+          "word": " you",
+          "start": 19.22,
+          "end": 19.24,
+          "probability": 0.9882794618606567
+        },
+        {
+          "word": " and",
+          "start": 19.24,
+          "end": 19.34,
+          "probability": 0.8958386182785034
+        },
+        {
+          "word": " I",
+          "start": 19.34,
+          "end": 19.34,
+          "probability": 0.6291414499282837
+        },
+        {
+          "word": " am",
+          "start": 19.34,
+          "end": 19.34,
+          "probability": 0.7246826887130737
+        },
+        {
+          "word": " very",
+          "start": 19.34,
+          "end": 21.9,
+          "probability": 0.8215854167938232
+        },
+        {
+          "word": " proud",
+          "start": 21.9,
+          "end": 21.9,
+          "probability": 0.9407063722610474
+        },
+        {
+          "word": " of",
+          "start": 21.9,
+          "end": 22.1,
+          "probability": 0.949946403503418
+        },
+        {
+          "word": " you",
+          "start": 22.1,
+          "end": 22.8,
+          "probability": 0.988075852394104
+        },
+        {
+          "word": " and",
+          "start": 22.8,
+          "end": 22.86,
+          "probability": 0.9033909440040588
+        },
+        {
+          "word": " I",
+          "start": 22.86,
+          "end": 22.86,
+          "probability": 0.6447356343269348
+        },
+        {
+          "word": " am",
+          "start": 22.86,
+          "end": 22.86,
+          "probability": 0.7151214480400085
+        },
+        {
+          "word": " very",
+          "start": 22.86,
+          "end": 22.92,
+          "probability": 0.8552888631820679
+        },
+        {
+          "word": " proud",
+          "start": 22.92,
+          "end": 22.92,
+          "probability": 0.9505693316459656
+        },
+        {
+          "word": " of",
+          "start": 22.92,
+          "end": 23.0,
+          "probability": 0.9561808705329895
+        },
+        {
+          "word": " you",
+          "start": 23.0,
+          "end": 23.28,
+          "probability": 0.9897276759147644
+        },
+        {
+          "word": " and",
+          "start": 23.28,
+          "end": 23.28,
+          "probability": 0.8993229269981384
+        },
+        {
+          "word": " I",
+          "start": 23.28,
+          "end": 23.28,
+          "probability": 0.6574462056159973
+        },
+        {
+          "word": " am",
+          "start": 23.28,
+          "end": 23.28,
+          "probability": 0.6610152125358582
+        },
+        {
+          "word": " very",
+          "start": 23.28,
+          "end": 23.28,
+          "probability": 0.8796399235725403
+        },
+        {
+          "word": " proud",
+          "start": 23.28,
+          "end": 23.28,
+          "probability": 0.9503633975982666
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 23.28,
+      "end": 29.08,
+      "text": " of you and I am very proud of you and I am very proud of you and I am very proud of you",
+      "tokens": [
+        51513,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        290,
+        314,
+        716,
+        845,
+        6613,
+        286,
+        345,
+        51813
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.47149478912353515,
+      "compression_ratio": 8.65,
+      "no_speech_prob": 0.6253185272216797,
+      "words": [
+        {
+          "word": " of",
+          "start": 23.28,
+          "end": 23.82,
+          "probability": 0.9564180374145508
+        },
+        {
+          "word": " you",
+          "start": 23.82,
+          "end": 24.2,
+          "probability": 0.9898192286491394
+        },
+        {
+          "word": " and",
+          "start": 24.2,
+          "end": 24.2,
+          "probability": 0.9095296859741211
+        },
+        {
+          "word": " I",
+          "start": 24.2,
+          "end": 24.2,
+          "probability": 0.7138104438781738
+        },
+        {
+          "word": " am",
+          "start": 24.2,
+          "end": 24.2,
+          "probability": 0.6602885127067566
+        },
+        {
+          "word": " very",
+          "start": 24.2,
+          "end": 24.2,
+          "probability": 0.8967977166175842
+        },
+        {
+          "word": " proud",
+          "start": 24.2,
+          "end": 24.2,
+          "probability": 0.9533696174621582
+        },
+        {
+          "word": " of",
+          "start": 24.2,
+          "end": 24.2,
+          "probability": 0.9662725329399109
+        },
+        {
+          "word": " you",
+          "start": 24.2,
+          "end": 25.42,
+          "probability": 0.9914221167564392
+        },
+        {
+          "word": " and",
+          "start": 25.42,
+          "end": 25.42,
+          "probability": 0.9140423536300659
+        },
+        {
+          "word": " I",
+          "start": 25.42,
+          "end": 25.7,
+          "probability": 0.7635087370872498
+        },
+        {
+          "word": " am",
+          "start": 25.7,
+          "end": 25.7,
+          "probability": 0.7128071188926697
+        },
+        {
+          "word": " very",
+          "start": 25.7,
+          "end": 27.52,
+          "probability": 0.9126582741737366
+        },
+        {
+          "word": " proud",
+          "start": 27.52,
+          "end": 27.52,
+          "probability": 0.9574844241142273
+        },
+        {
+          "word": " of",
+          "start": 27.52,
+          "end": 27.52,
+          "probability": 0.9733560085296631
+        },
+        {
+          "word": " you",
+          "start": 27.52,
+          "end": 27.52,
+          "probability": 0.9927229285240173
+        },
+        {
+          "word": " and",
+          "start": 27.52,
+          "end": 27.52,
+          "probability": 0.9143825769424438
+        },
+        {
+          "word": " I",
+          "start": 27.52,
+          "end": 27.52,
+          "probability": 0.8187261819839478
+        },
+        {
+          "word": " am",
+          "start": 27.52,
+          "end": 27.52,
+          "probability": 0.8026870489120483
+        },
+        {
+          "word": " very",
+          "start": 27.52,
+          "end": 27.96,
+          "probability": 0.9226201176643372
+        },
+        {
+          "word": " proud",
+          "start": 27.96,
+          "end": 28.06,
+          "probability": 0.96272212266922
+        },
+        {
+          "word": " of",
+          "start": 28.06,
+          "end": 29.08,
+          "probability": 0.97690749168396
+        },
+        {
+          "word": " you",
+          "start": 29.08,
+          "end": 29.08,
+          "probability": 0.9929907321929932
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2908,
+      "start": 29.06,
+      "end": 29.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5352010726928711,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7030544877052307,
+      "words": []
+    },
+    {
+      "id": 5,
+      "seek": 2908,
+      "start": 29.06,
+      "end": 29.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5352010726928711,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7030544877052307,
+      "words": []
+    },
+    {
+      "id": 6,
+      "seek": 2908,
+      "start": 29.06,
+      "end": 29.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5352010726928711,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7030544877052307,
+      "words": []
+    },
+    {
+      "id": 7,
+      "seek": 2908,
+      "start": 29.06,
+      "end": 29.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5352010726928711,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7030544877052307,
+      "words": []
+    },
+    {
+      "id": 8,
+      "seek": 2908,
+      "start": 29.06,
+      "end": 29.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5352010726928711,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7030544877052307,
+      "words": []
+    },
+    {
+      "id": 9,
+      "seek": 2908,
+      "start": 29.06,
+      "end": 29.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5352010726928711,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7030544877052307,
+      "words": []
+    }
+  ],
+  "language": "en"
+}

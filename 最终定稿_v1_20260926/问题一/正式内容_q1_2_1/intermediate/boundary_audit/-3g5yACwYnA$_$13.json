@@ -1,0 +1,158 @@
+{
+  "sample_id": "-3g5yACwYnA$_$13",
+  "fingerprint": "c6b295136e9ea40270abeb0005db0955a92ba2cfb4436328561cee511abbfaa5",
+  "audio_sha256": "ababc854848d1474aeb4a1b2373fea585468447e0108dc815a6d065bb2994858",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 2.116468000225723,
+  "text": " that we do, they've been able to find solutions or at least bring some answers to the table.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.82,
+      "text": " that we do, they've been able to find solutions or at least bring some answers to the table.",
+      "tokens": [
+        50363,
+        326,
+        356,
+        466,
+        11,
+        484,
+        1053,
+        587,
+        1498,
+        284,
+        1064,
+        8136,
+        393,
+        379,
+        1551,
+        2222,
+        617,
+        7429,
+        284,
+        262,
+        3084,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.25806307792663574,
+      "compression_ratio": 1.1358024691358024,
+      "no_speech_prob": 0.0038313400000333786,
+      "words": [
+        {
+          "word": " that",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.8809203505516052
+        },
+        {
+          "word": " we",
+          "start": 0.2,
+          "end": 0.42,
+          "probability": 0.9900514483451843
+        },
+        {
+          "word": " do,",
+          "start": 0.42,
+          "end": 0.96,
+          "probability": 0.9929636120796204
+        },
+        {
+          "word": " they've",
+          "start": 1.18,
+          "end": 1.64,
+          "probability": 0.9188826680183411
+        },
+        {
+          "word": " been",
+          "start": 1.64,
+          "end": 1.72,
+          "probability": 0.9978849291801453
+        },
+        {
+          "word": " able",
+          "start": 1.72,
+          "end": 1.9,
+          "probability": 0.9993554949760437
+        },
+        {
+          "word": " to",
+          "start": 1.9,
+          "end": 2.1,
+          "probability": 0.9983200430870056
+        },
+        {
+          "word": " find",
+          "start": 2.1,
+          "end": 2.36,
+          "probability": 0.9963417649269104
+        },
+        {
+          "word": " solutions",
+          "start": 2.36,
+          "end": 2.8,
+          "probability": 0.9861505627632141
+        },
+        {
+          "word": " or",
+          "start": 2.8,
+          "end": 3.22,
+          "probability": 0.6187095046043396
+        },
+        {
+          "word": " at",
+          "start": 3.22,
+          "end": 3.22,
+          "probability": 0.9802451729774475
+        },
+        {
+          "word": " least",
+          "start": 3.22,
+          "end": 3.46,
+          "probability": 0.9959956407546997
+        },
+        {
+          "word": " bring",
+          "start": 3.46,
+          "end": 3.7,
+          "probability": 0.9904270172119141
+        },
+        {
+          "word": " some",
+          "start": 3.7,
+          "end": 4.0,
+          "probability": 0.9920365214347839
+        },
+        {
+          "word": " answers",
+          "start": 4.0,
+          "end": 4.26,
+          "probability": 0.8918231725692749
+        },
+        {
+          "word": " to",
+          "start": 4.26,
+          "end": 4.5,
+          "probability": 0.9960668683052063
+        },
+        {
+          "word": " the",
+          "start": 4.5,
+          "end": 4.58,
+          "probability": 0.9942196607589722
+        },
+        {
+          "word": " table.",
+          "start": 4.58,
+          "end": 4.82,
+          "probability": 0.9966710209846497
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

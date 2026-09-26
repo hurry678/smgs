@@ -1,0 +1,128 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$5",
+  "fingerprint": "a0931c1ba08fbb3b17f55edc7dc5aadafa331745e90fc0da799aff59bf1a9f65",
+  "audio_sha256": "d8ceb242afdd24ed02103603c348df6e328d32583a03675e20589938c8873924",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7374448331538588,
+  "text": " and a lot of people who are working you know money is very important.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.4,
+      "text": " and a lot of people who are working you know money is very important.",
+      "tokens": [
+        50363,
+        290,
+        257,
+        1256,
+        286,
+        661,
+        508,
+        389,
+        1762,
+        345,
+        760,
+        1637,
+        318,
+        845,
+        1593,
+        13,
+        50535
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3637193308936225,
+      "compression_ratio": 1.0298507462686568,
+      "no_speech_prob": 0.16064943373203278,
+      "words": [
+        {
+          "word": " and",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.48733872175216675
+        },
+        {
+          "word": " a",
+          "start": 0.34,
+          "end": 0.58,
+          "probability": 0.9273779988288879
+        },
+        {
+          "word": " lot",
+          "start": 0.58,
+          "end": 0.76,
+          "probability": 0.9981287121772766
+        },
+        {
+          "word": " of",
+          "start": 0.76,
+          "end": 0.9,
+          "probability": 0.9944248199462891
+        },
+        {
+          "word": " people",
+          "start": 0.9,
+          "end": 1.1,
+          "probability": 0.9935756325721741
+        },
+        {
+          "word": " who",
+          "start": 1.1,
+          "end": 1.24,
+          "probability": 0.9107237458229065
+        },
+        {
+          "word": " are",
+          "start": 1.24,
+          "end": 1.28,
+          "probability": 0.9875139594078064
+        },
+        {
+          "word": " working",
+          "start": 1.28,
+          "end": 1.76,
+          "probability": 0.9975706934928894
+        },
+        {
+          "word": " you",
+          "start": 1.76,
+          "end": 1.98,
+          "probability": 0.23671327531337738
+        },
+        {
+          "word": " know",
+          "start": 1.98,
+          "end": 2.52,
+          "probability": 0.9962762594223022
+        },
+        {
+          "word": " money",
+          "start": 2.52,
+          "end": 2.7,
+          "probability": 0.8034499287605286
+        },
+        {
+          "word": " is",
+          "start": 2.7,
+          "end": 2.9,
+          "probability": 0.9958081245422363
+        },
+        {
+          "word": " very",
+          "start": 2.9,
+          "end": 3.04,
+          "probability": 0.9968926906585693
+        },
+        {
+          "word": " important.",
+          "start": 3.04,
+          "end": 3.4,
+          "probability": 0.9930536150932312
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

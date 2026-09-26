@@ -1,0 +1,154 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$8",
+  "fingerprint": "9a987bf1f921d41e0c2380a063809e9f3839a010e6084d24b8cd2d5621275b64",
+  "audio_sha256": "c5c4f170aec16fe4c07cf52c693517fb2896b2f63970fa72badda145bd467bb4",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9795517500024289,
+  "text": " business. And I said, oh, make a profit and all these other things. And he said, no.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.16,
+      "text": " business. And I said, oh, make a profit and all these other things. And he said, no.",
+      "tokens": [
+        50363,
+        1597,
+        13,
+        843,
+        314,
+        531,
+        11,
+        11752,
+        11,
+        787,
+        257,
+        7630,
+        290,
+        477,
+        777,
+        584,
+        1243,
+        13,
+        843,
+        339,
+        531,
+        11,
+        645,
+        13,
+        50523
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3890715745779184,
+      "compression_ratio": 1.105263157894737,
+      "no_speech_prob": 0.05945424363017082,
+      "words": [
+        {
+          "word": " business.",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.29312312602996826
+        },
+        {
+          "word": " And",
+          "start": 0.54,
+          "end": 0.6,
+          "probability": 0.846389889717102
+        },
+        {
+          "word": " I",
+          "start": 0.6,
+          "end": 0.72,
+          "probability": 0.9746923446655273
+        },
+        {
+          "word": " said,",
+          "start": 0.72,
+          "end": 0.9,
+          "probability": 0.9913836717605591
+        },
+        {
+          "word": " oh,",
+          "start": 0.9,
+          "end": 1.06,
+          "probability": 0.3940289616584778
+        },
+        {
+          "word": " make",
+          "start": 1.28,
+          "end": 1.28,
+          "probability": 0.9579815864562988
+        },
+        {
+          "word": " a",
+          "start": 1.28,
+          "end": 1.42,
+          "probability": 0.9977319240570068
+        },
+        {
+          "word": " profit",
+          "start": 1.42,
+          "end": 1.82,
+          "probability": 0.9967514276504517
+        },
+        {
+          "word": " and",
+          "start": 1.82,
+          "end": 2.0,
+          "probability": 0.6950596570968628
+        },
+        {
+          "word": " all",
+          "start": 2.0,
+          "end": 2.06,
+          "probability": 0.9971157312393188
+        },
+        {
+          "word": " these",
+          "start": 2.06,
+          "end": 2.2,
+          "probability": 0.9955450296401978
+        },
+        {
+          "word": " other",
+          "start": 2.2,
+          "end": 2.38,
+          "probability": 0.9994403719902039
+        },
+        {
+          "word": " things.",
+          "start": 2.38,
+          "end": 2.68,
+          "probability": 0.9986333250999451
+        },
+        {
+          "word": " And",
+          "start": 2.8,
+          "end": 2.8,
+          "probability": 0.8480702638626099
+        },
+        {
+          "word": " he",
+          "start": 2.8,
+          "end": 2.8,
+          "probability": 0.8367367386817932
+        },
+        {
+          "word": " said,",
+          "start": 2.8,
+          "end": 2.94,
+          "probability": 0.984872043132782
+        },
+        {
+          "word": " no.",
+          "start": 3.06,
+          "end": 3.16,
+          "probability": 0.9083386063575745
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

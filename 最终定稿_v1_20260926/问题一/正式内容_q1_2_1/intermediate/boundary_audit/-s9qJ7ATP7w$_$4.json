@@ -1,0 +1,124 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$4",
+  "fingerprint": "caa2cea04916db71087acad42bd937435e5e7f8ec065d8d1a064eff60942ceb6",
+  "audio_sha256": "8d6d4ca8e06a324b224465c951cf6114d4aa411cb8ad47e10cad3d6881b28de7",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7816657910589129,
+  "text": " keep going. I have lost at everything you can imagine. Seriously, we have...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.22,
+      "text": " keep going. I have lost at everything you can imagine. Seriously, we have...",
+      "tokens": [
+        50363,
+        1394,
+        1016,
+        13,
+        314,
+        423,
+        2626,
+        379,
+        2279,
+        345,
+        460,
+        5967,
+        13,
+        27777,
+        11,
+        356,
+        423,
+        986,
+        50657
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2753854990005493,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.030865060165524483,
+      "words": [
+        {
+          "word": " keep",
+          "start": 0.0,
+          "end": 0.16,
+          "probability": 0.7143264412879944
+        },
+        {
+          "word": " going.",
+          "start": 0.16,
+          "end": 0.42,
+          "probability": 0.9934830069541931
+        },
+        {
+          "word": " I",
+          "start": 0.62,
+          "end": 0.68,
+          "probability": 0.9640986919403076
+        },
+        {
+          "word": " have",
+          "start": 0.68,
+          "end": 0.88,
+          "probability": 0.9828906655311584
+        },
+        {
+          "word": " lost",
+          "start": 0.88,
+          "end": 1.2,
+          "probability": 0.9891290068626404
+        },
+        {
+          "word": " at",
+          "start": 1.2,
+          "end": 1.46,
+          "probability": 0.7214740514755249
+        },
+        {
+          "word": " everything",
+          "start": 1.46,
+          "end": 2.04,
+          "probability": 0.9938936829566956
+        },
+        {
+          "word": " you",
+          "start": 2.04,
+          "end": 2.24,
+          "probability": 0.9779325723648071
+        },
+        {
+          "word": " can",
+          "start": 2.24,
+          "end": 2.44,
+          "probability": 0.9962095022201538
+        },
+        {
+          "word": " imagine.",
+          "start": 2.44,
+          "end": 2.82,
+          "probability": 0.996177077293396
+        },
+        {
+          "word": " Seriously,",
+          "start": 2.98,
+          "end": 3.26,
+          "probability": 0.9794711470603943
+        },
+        {
+          "word": " we",
+          "start": 3.7,
+          "end": 3.7,
+          "probability": 0.9909618496894836
+        },
+        {
+          "word": " have...",
+          "start": 3.7,
+          "end": 4.22,
+          "probability": 0.7167601734399796
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

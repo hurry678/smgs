@@ -1,0 +1,321 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$1",
+  "fingerprint": "c7c0dfda5b04cd3cbcd955ae72a3a3ab7c1cea7791b3a096e37af0373122f1b3",
+  "audio_sha256": "a28397214d2aa15433172cab69b0609b8aa4e393f306c4b6cf416333dc6548d9",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.336449917173013,
+  "text": " For the 10th straight year, some of Kentucky's best and most innovative biotech companies and technologies were on display at the annual BIO International Convention, which I and other state officials attended this week in Chicago.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.96,
+      "text": " For the 10th straight year, some of Kentucky's best and most innovative biotech companies",
+      "tokens": [
+        50363,
+        1114,
+        262,
+        838,
+        400,
+        3892,
+        614,
+        11,
+        617,
+        286,
+        11867,
+        338,
+        1266,
+        290,
+        749,
+        13097,
+        47693,
+        2706,
+        50661
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2081069751661651,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 0.009661320596933365,
+      "words": [
+        {
+          "word": " For",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.7392652034759521
+        },
+        {
+          "word": " the",
+          "start": 0.64,
+          "end": 0.8,
+          "probability": 0.9952144622802734
+        },
+        {
+          "word": " 10th",
+          "start": 0.8,
+          "end": 1.08,
+          "probability": 0.8036775887012482
+        },
+        {
+          "word": " straight",
+          "start": 1.08,
+          "end": 1.34,
+          "probability": 0.9483864307403564
+        },
+        {
+          "word": " year,",
+          "start": 1.34,
+          "end": 1.96,
+          "probability": 0.9489778280258179
+        },
+        {
+          "word": " some",
+          "start": 2.34,
+          "end": 2.58,
+          "probability": 0.995020866394043
+        },
+        {
+          "word": " of",
+          "start": 2.58,
+          "end": 2.7,
+          "probability": 0.9948716163635254
+        },
+        {
+          "word": " Kentucky's",
+          "start": 2.7,
+          "end": 3.46,
+          "probability": 0.9916648268699646
+        },
+        {
+          "word": " best",
+          "start": 3.46,
+          "end": 3.88,
+          "probability": 0.9900273680686951
+        },
+        {
+          "word": " and",
+          "start": 3.88,
+          "end": 3.98,
+          "probability": 0.9620594382286072
+        },
+        {
+          "word": " most",
+          "start": 3.98,
+          "end": 4.6,
+          "probability": 0.994674563407898
+        },
+        {
+          "word": " innovative",
+          "start": 4.6,
+          "end": 4.92,
+          "probability": 0.945034384727478
+        },
+        {
+          "word": " biotech",
+          "start": 4.92,
+          "end": 5.34,
+          "probability": 0.9570919871330261
+        },
+        {
+          "word": " companies",
+          "start": 5.34,
+          "end": 5.96,
+          "probability": 0.9981245398521423
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.96,
+      "end": 12.68,
+      "text": " and technologies were on display at the annual BIO International Convention, which I and",
+      "tokens": [
+        50661,
+        290,
+        8514,
+        547,
+        319,
+        3359,
+        379,
+        262,
+        5079,
+        347,
+        9399,
+        4037,
+        11680,
+        11,
+        543,
+        314,
+        290,
+        50999
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2081069751661651,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 0.009661320596933365,
+      "words": [
+        {
+          "word": " and",
+          "start": 5.96,
+          "end": 6.18,
+          "probability": 0.9922937154769897
+        },
+        {
+          "word": " technologies",
+          "start": 6.18,
+          "end": 6.82,
+          "probability": 0.9865198135375977
+        },
+        {
+          "word": " were",
+          "start": 6.82,
+          "end": 7.48,
+          "probability": 0.987589418888092
+        },
+        {
+          "word": " on",
+          "start": 7.48,
+          "end": 7.86,
+          "probability": 0.997921884059906
+        },
+        {
+          "word": " display",
+          "start": 7.86,
+          "end": 8.36,
+          "probability": 0.9994081258773804
+        },
+        {
+          "word": " at",
+          "start": 8.36,
+          "end": 8.8,
+          "probability": 0.9952693581581116
+        },
+        {
+          "word": " the",
+          "start": 8.8,
+          "end": 9.04,
+          "probability": 0.9958446621894836
+        },
+        {
+          "word": " annual",
+          "start": 9.04,
+          "end": 9.42,
+          "probability": 0.8825502991676331
+        },
+        {
+          "word": " BIO",
+          "start": 9.42,
+          "end": 10.0,
+          "probability": 0.4414239674806595
+        },
+        {
+          "word": " International",
+          "start": 10.0,
+          "end": 10.72,
+          "probability": 0.8599714040756226
+        },
+        {
+          "word": " Convention,",
+          "start": 10.72,
+          "end": 11.32,
+          "probability": 0.9531832933425903
+        },
+        {
+          "word": " which",
+          "start": 11.9,
+          "end": 12.06,
+          "probability": 0.9978353381156921
+        },
+        {
+          "word": " I",
+          "start": 12.06,
+          "end": 12.42,
+          "probability": 0.9684126377105713
+        },
+        {
+          "word": " and",
+          "start": 12.42,
+          "end": 12.68,
+          "probability": 0.9881105422973633
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 12.68,
+      "end": 15.4,
+      "text": " other state officials attended this week in Chicago.",
+      "tokens": [
+        50999,
+        584,
+        1181,
+        2828,
+        9141,
+        428,
+        1285,
+        287,
+        4842,
+        13,
+        51139
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2081069751661651,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 0.009661320596933365,
+      "words": [
+        {
+          "word": " other",
+          "start": 12.68,
+          "end": 12.96,
+          "probability": 0.9939268231391907
+        },
+        {
+          "word": " state",
+          "start": 12.96,
+          "end": 13.18,
+          "probability": 0.9705433249473572
+        },
+        {
+          "word": " officials",
+          "start": 13.18,
+          "end": 13.64,
+          "probability": 0.999273955821991
+        },
+        {
+          "word": " attended",
+          "start": 13.64,
+          "end": 14.04,
+          "probability": 0.9813489317893982
+        },
+        {
+          "word": " this",
+          "start": 14.04,
+          "end": 14.38,
+          "probability": 0.9976686835289001
+        },
+        {
+          "word": " week",
+          "start": 14.38,
+          "end": 14.66,
+          "probability": 0.998984158039093
+        },
+        {
+          "word": " in",
+          "start": 14.66,
+          "end": 14.98,
+          "probability": 0.9882165789604187
+        },
+        {
+          "word": " Chicago.",
+          "start": 14.98,
+          "end": 15.4,
+          "probability": 0.9994045495986938
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

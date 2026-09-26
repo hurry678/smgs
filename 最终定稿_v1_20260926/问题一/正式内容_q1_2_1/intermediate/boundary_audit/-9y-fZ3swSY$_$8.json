@@ -1,0 +1,115 @@
+{
+  "sample_id": "-9y-fZ3swSY$_$8",
+  "fingerprint": "8d743d67914fd013dde901c85a8b8c6ca615a48ea3c2ed78c3b2524e8ed33804",
+  "audio_sha256": "bf48922aaa76f500a8d1c510baaf8430c2d4690cd5f4d1351e3d60902105292a",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.6752113339025527,
+  "text": " That's a more decent and more polite way to call a lady.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.38,
+      "text": " That's a more decent and more polite way to call a lady.",
+      "tokens": [
+        50363,
+        1320,
+        338,
+        257,
+        517,
+        7709,
+        290,
+        517,
+        23507,
+        835,
+        284,
+        869,
+        257,
+        10846,
+        13,
+        50603
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31824546701767864,
+      "compression_ratio": 0.9655172413793104,
+      "no_speech_prob": 0.03853379935026169,
+      "words": [
+        {
+          "word": " That's",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.699561357498169
+        },
+        {
+          "word": " a",
+          "start": 0.56,
+          "end": 0.68,
+          "probability": 0.8880234956741333
+        },
+        {
+          "word": " more",
+          "start": 0.68,
+          "end": 1.16,
+          "probability": 0.9822313189506531
+        },
+        {
+          "word": " decent",
+          "start": 1.16,
+          "end": 1.94,
+          "probability": 0.9882445335388184
+        },
+        {
+          "word": " and",
+          "start": 1.94,
+          "end": 2.22,
+          "probability": 0.8709536194801331
+        },
+        {
+          "word": " more",
+          "start": 2.22,
+          "end": 2.36,
+          "probability": 0.9073900580406189
+        },
+        {
+          "word": " polite",
+          "start": 2.36,
+          "end": 2.72,
+          "probability": 0.9977445602416992
+        },
+        {
+          "word": " way",
+          "start": 2.72,
+          "end": 3.18,
+          "probability": 0.988555371761322
+        },
+        {
+          "word": " to",
+          "start": 3.18,
+          "end": 3.3,
+          "probability": 0.9953674077987671
+        },
+        {
+          "word": " call",
+          "start": 3.3,
+          "end": 3.68,
+          "probability": 0.9988622665405273
+        },
+        {
+          "word": " a",
+          "start": 3.68,
+          "end": 4.08,
+          "probability": 0.9543346166610718
+        },
+        {
+          "word": " lady.",
+          "start": 4.08,
+          "end": 4.38,
+          "probability": 0.9715216755867004
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

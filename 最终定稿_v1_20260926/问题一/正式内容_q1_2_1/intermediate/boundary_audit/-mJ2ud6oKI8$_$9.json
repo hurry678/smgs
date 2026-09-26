@@ -1,0 +1,203 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$9",
+  "fingerprint": "b20ca24b87aa2f91ddb5513edb66ed44da2a34370be0bb64d66a7b83570bb230",
+  "audio_sha256": "fc0ab1082f6efe365d6d23a1ccbc3802cc8c816bc78f3a91b5d452d5ac514c39",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9471210001502186,
+  "text": " to find out because you might have hip ulcer arthritis but then you could also have other you know dysfunctions around your",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.88,
+      "text": " to find out because you might have hip ulcer arthritis but then you could also have other",
+      "tokens": [
+        50363,
+        284,
+        1064,
+        503,
+        780,
+        345,
+        1244,
+        423,
+        10359,
+        14856,
+        2189,
+        37954,
+        475,
+        788,
+        345,
+        714,
+        635,
+        423,
+        584,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5577455520629883,
+      "compression_ratio": 1.2947368421052632,
+      "no_speech_prob": 0.19179722666740417,
+      "words": [
+        {
+          "word": " to",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.44966816902160645
+        },
+        {
+          "word": " find",
+          "start": 0.44,
+          "end": 0.72,
+          "probability": 0.9884545803070068
+        },
+        {
+          "word": " out",
+          "start": 0.72,
+          "end": 1.06,
+          "probability": 0.9981503486633301
+        },
+        {
+          "word": " because",
+          "start": 1.06,
+          "end": 1.28,
+          "probability": 0.6888183951377869
+        },
+        {
+          "word": " you",
+          "start": 1.28,
+          "end": 1.44,
+          "probability": 0.9970097541809082
+        },
+        {
+          "word": " might",
+          "start": 1.44,
+          "end": 1.6,
+          "probability": 0.995733916759491
+        },
+        {
+          "word": " have",
+          "start": 1.6,
+          "end": 1.84,
+          "probability": 0.9935630559921265
+        },
+        {
+          "word": " hip",
+          "start": 1.84,
+          "end": 1.96,
+          "probability": 0.8729737997055054
+        },
+        {
+          "word": " ulcer",
+          "start": 1.96,
+          "end": 2.26,
+          "probability": 0.49155960232019424
+        },
+        {
+          "word": " arthritis",
+          "start": 2.26,
+          "end": 2.66,
+          "probability": 0.23924292623996735
+        },
+        {
+          "word": " but",
+          "start": 2.66,
+          "end": 3.08,
+          "probability": 0.5880922079086304
+        },
+        {
+          "word": " then",
+          "start": 3.08,
+          "end": 3.22,
+          "probability": 0.31181851029396057
+        },
+        {
+          "word": " you",
+          "start": 3.22,
+          "end": 3.28,
+          "probability": 0.9906214475631714
+        },
+        {
+          "word": " could",
+          "start": 3.28,
+          "end": 3.4,
+          "probability": 0.6773684024810791
+        },
+        {
+          "word": " also",
+          "start": 3.4,
+          "end": 3.64,
+          "probability": 0.9968135952949524
+        },
+        {
+          "word": " have",
+          "start": 3.64,
+          "end": 3.98,
+          "probability": 0.9946818947792053
+        },
+        {
+          "word": " other",
+          "start": 3.98,
+          "end": 4.88,
+          "probability": 0.9938114285469055
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.88,
+      "end": 6.88,
+      "text": " you know dysfunctions around your",
+      "tokens": [
+        50613,
+        345,
+        760,
+        13147,
+        12543,
+        2733,
+        1088,
+        534,
+        50708
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5577455520629883,
+      "compression_ratio": 1.2947368421052632,
+      "no_speech_prob": 0.19179722666740417,
+      "words": [
+        {
+          "word": " you",
+          "start": 4.88,
+          "end": 4.96,
+          "probability": 0.3123883605003357
+        },
+        {
+          "word": " know",
+          "start": 4.96,
+          "end": 6.2,
+          "probability": 0.9975023865699768
+        },
+        {
+          "word": " dysfunctions",
+          "start": 6.2,
+          "end": 6.56,
+          "probability": 0.8344027400016785
+        },
+        {
+          "word": " around",
+          "start": 6.56,
+          "end": 6.78,
+          "probability": 0.9944207072257996
+        },
+        {
+          "word": " your",
+          "start": 6.78,
+          "end": 6.88,
+          "probability": 0.9365654587745667
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

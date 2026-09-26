@@ -1,0 +1,635 @@
+{
+  "sample_id": "-wny0OAz3g8$_$5",
+  "fingerprint": "3cc2f1684e507334391110ee396fbd659438a8b41ca8497441dc486f12def460",
+  "audio_sha256": "630f25702374013d62a6c674e4b6fea51cd8be32b35d56cff8a9c136f7995e1a",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 5.385855125030503,
+  "text": " themselves. This is what's now known as racial formation theory, a theory formalized by modern sociologist Michael Omi and Howard Wannand. Racial formation theory.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 0.42,
+      "text": " themselves.",
+      "tokens": [
+        50363,
+        2405,
+        13,
+        50413
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": [
+        {
+          "word": " themselves.",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.5184098482131958
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.62,
+      "end": 4.94,
+      "text": " This is what's now known as racial formation theory, a theory formalized by modern sociologist",
+      "tokens": [
+        50413,
+        770,
+        318,
+        644,
+        338,
+        783,
+        1900,
+        355,
+        8425,
+        9978,
+        4583,
+        11,
+        257,
+        4583,
+        8766,
+        1143,
+        416,
+        3660,
+        1307,
+        31599,
+        50608
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": [
+        {
+          "word": " This",
+          "start": 0.62,
+          "end": 0.74,
+          "probability": 0.9869820475578308
+        },
+        {
+          "word": " is",
+          "start": 0.74,
+          "end": 0.9,
+          "probability": 0.9921837449073792
+        },
+        {
+          "word": " what's",
+          "start": 0.9,
+          "end": 1.02,
+          "probability": 0.9151048362255096
+        },
+        {
+          "word": " now",
+          "start": 1.02,
+          "end": 1.28,
+          "probability": 0.9910974502563477
+        },
+        {
+          "word": " known",
+          "start": 1.28,
+          "end": 1.54,
+          "probability": 0.9949343800544739
+        },
+        {
+          "word": " as",
+          "start": 1.54,
+          "end": 1.7,
+          "probability": 0.997306227684021
+        },
+        {
+          "word": " racial",
+          "start": 1.7,
+          "end": 1.92,
+          "probability": 0.7130093574523926
+        },
+        {
+          "word": " formation",
+          "start": 1.92,
+          "end": 2.42,
+          "probability": 0.9813576340675354
+        },
+        {
+          "word": " theory,",
+          "start": 2.42,
+          "end": 2.78,
+          "probability": 0.9985199570655823
+        },
+        {
+          "word": " a",
+          "start": 3.04,
+          "end": 3.14,
+          "probability": 0.9968324303627014
+        },
+        {
+          "word": " theory",
+          "start": 3.14,
+          "end": 3.38,
+          "probability": 0.9990707635879517
+        },
+        {
+          "word": " formalized",
+          "start": 3.38,
+          "end": 3.92,
+          "probability": 0.9371513724327087
+        },
+        {
+          "word": " by",
+          "start": 3.92,
+          "end": 4.1,
+          "probability": 0.9982507824897766
+        },
+        {
+          "word": " modern",
+          "start": 4.1,
+          "end": 4.3,
+          "probability": 0.9663669466972351
+        },
+        {
+          "word": " sociologist",
+          "start": 4.3,
+          "end": 4.94,
+          "probability": 0.9743918478488922
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.94,
+      "end": 6.16,
+      "text": " Michael Omi and Howard Wannand.",
+      "tokens": [
+        50608,
+        3899,
+        440,
+        11632,
+        290,
+        8442,
+        370,
+        1236,
+        392,
+        13,
+        50688
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": [
+        {
+          "word": " Michael",
+          "start": 4.94,
+          "end": 5.14,
+          "probability": 0.9309398531913757
+        },
+        {
+          "word": " Omi",
+          "start": 5.14,
+          "end": 5.46,
+          "probability": 0.5738377869129181
+        },
+        {
+          "word": " and",
+          "start": 5.46,
+          "end": 5.68,
+          "probability": 0.9544354677200317
+        },
+        {
+          "word": " Howard",
+          "start": 5.68,
+          "end": 5.92,
+          "probability": 0.9895422458648682
+        },
+        {
+          "word": " Wannand.",
+          "start": 5.92,
+          "end": 6.16,
+          "probability": 0.5191748241583506
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.28,
+      "end": 6.72,
+      "text": " Racial formation theory.",
+      "tokens": [
+        50688,
+        42318,
+        9978,
+        4583,
+        13,
+        50738
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": [
+        {
+          "word": " Racial",
+          "start": 6.28,
+          "end": 6.52,
+          "probability": 0.908963143825531
+        },
+        {
+          "word": " formation",
+          "start": 6.52,
+          "end": 6.72,
+          "probability": 0.6171502470970154
+        },
+        {
+          "word": " theory.",
+          "start": 6.72,
+          "end": 6.72,
+          "probability": 0.6540773510932922
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 14,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 15,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 16,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 17,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 18,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 19,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 20,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 21,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 22,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 23,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 24,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 25,
+      "seek": 0,
+      "start": 6.72,
+      "end": 6.72,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.16679502993213888,
+      "compression_ratio": 6.076923076923077,
+      "no_speech_prob": 0.011678927578032017,
+      "words": []
+    },
+    {
+      "id": 26,
+      "seek": 672,
+      "start": 6.7,
+      "end": 6.7,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.4859778777412746,
+      "compression_ratio": 1.0833333333333333,
+      "no_speech_prob": 0.6483412384986877,
+      "words": []
+    },
+    {
+      "id": 27,
+      "seek": 672,
+      "start": 6.7,
+      "end": 6.7,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.4859778777412746,
+      "compression_ratio": 1.0833333333333333,
+      "no_speech_prob": 0.6483412384986877,
+      "words": []
+    },
+    {
+      "id": 28,
+      "seek": 672,
+      "start": 6.7,
+      "end": 6.7,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.4859778777412746,
+      "compression_ratio": 1.0833333333333333,
+      "no_speech_prob": 0.6483412384986877,
+      "words": []
+    },
+    {
+      "id": 29,
+      "seek": 672,
+      "start": 6.7,
+      "end": 6.7,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.4859778777412746,
+      "compression_ratio": 1.0833333333333333,
+      "no_speech_prob": 0.6483412384986877,
+      "words": []
+    },
+    {
+      "id": 30,
+      "seek": 672,
+      "start": 6.7,
+      "end": 6.7,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.4859778777412746,
+      "compression_ratio": 1.0833333333333333,
+      "no_speech_prob": 0.6483412384986877,
+      "words": []
+    },
+    {
+      "id": 31,
+      "seek": 672,
+      "start": 6.7,
+      "end": 6.7,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.4859778777412746,
+      "compression_ratio": 1.0833333333333333,
+      "no_speech_prob": 0.6483412384986877,
+      "words": []
+    },
+    {
+      "id": 32,
+      "seek": 672,
+      "start": 6.7,
+      "end": 6.7,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.4859778777412746,
+      "compression_ratio": 1.0833333333333333,
+      "no_speech_prob": 0.6483412384986877,
+      "words": []
+    }
+  ],
+  "language": "en"
+}

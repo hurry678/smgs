@@ -1,0 +1,154 @@
+{
+  "sample_id": "-UacrmKiTn4$_$4",
+  "fingerprint": "77d3d18236375a9eeeea2b07cc2993a0a3f31162053d215993505039a8305679",
+  "audio_sha256": "c9868c2f097f5d7476bcef159800d0a07c492fe6b4c56d99fef1e79b5ccfca29",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.210552959004417,
+  "text": " Just given to their own devices, they are not going to read the textbook. And...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.02,
+      "text": " Just given to their own devices, they are not going to read the textbook.",
+      "tokens": [
+        50363,
+        2329,
+        1813,
+        284,
+        511,
+        898,
+        4410,
+        11,
+        484,
+        389,
+        407,
+        1016,
+        284,
+        1100,
+        262,
+        28979,
+        13,
+        50563
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3696499586105347,
+      "compression_ratio": 1.028169014084507,
+      "no_speech_prob": 0.06962776184082031,
+      "words": [
+        {
+          "word": " Just",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.17459459602832794
+        },
+        {
+          "word": " given",
+          "start": 0.68,
+          "end": 0.92,
+          "probability": 0.8524002432823181
+        },
+        {
+          "word": " to",
+          "start": 0.92,
+          "end": 1.14,
+          "probability": 0.993898868560791
+        },
+        {
+          "word": " their",
+          "start": 1.14,
+          "end": 1.32,
+          "probability": 0.9960896968841553
+        },
+        {
+          "word": " own",
+          "start": 1.32,
+          "end": 1.6,
+          "probability": 0.9979169964790344
+        },
+        {
+          "word": " devices,",
+          "start": 1.6,
+          "end": 2.0,
+          "probability": 0.9865263104438782
+        },
+        {
+          "word": " they",
+          "start": 2.0,
+          "end": 2.3,
+          "probability": 0.9953165054321289
+        },
+        {
+          "word": " are",
+          "start": 2.3,
+          "end": 2.44,
+          "probability": 0.8747188448905945
+        },
+        {
+          "word": " not",
+          "start": 2.44,
+          "end": 2.74,
+          "probability": 0.9981492757797241
+        },
+        {
+          "word": " going",
+          "start": 2.74,
+          "end": 2.98,
+          "probability": 0.9971278309822083
+        },
+        {
+          "word": " to",
+          "start": 2.98,
+          "end": 3.2,
+          "probability": 0.996877908706665
+        },
+        {
+          "word": " read",
+          "start": 3.2,
+          "end": 3.38,
+          "probability": 0.9991401433944702
+        },
+        {
+          "word": " the",
+          "start": 3.38,
+          "end": 3.56,
+          "probability": 0.996338963508606
+        },
+        {
+          "word": " textbook.",
+          "start": 3.56,
+          "end": 4.02,
+          "probability": 0.9461795091629028
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 402,
+      "start": 4.02,
+      "end": 4.66,
+      "text": " And...",
+      "tokens": [
+        50363,
+        843,
+        986,
+        50413
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -1.2112424850463868,
+      "compression_ratio": 0.42857142857142855,
+      "no_speech_prob": 0.21779313683509827,
+      "words": [
+        {
+          "word": " And...",
+          "start": 4.02,
+          "end": 4.66,
+          "probability": 0.1480933614075184
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,116 @@
+{
+  "sample_id": "-t217m2on-s$_$2",
+  "fingerprint": "a344f054bdf8fa2b9656c30b870aef371bfc98d2d467e16854dd65c5ff2fc41e",
+  "audio_sha256": "3315c49752ee993f73943b18a07f35b451c789ca10aa676e368efbdb2e4b4a2e",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7780510000884533,
+  "text": " but a good thing to do is yawning, chewing gum is effective.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.94,
+      "text": " but a good thing to do is yawning, chewing gum is effective.",
+      "tokens": [
+        50363,
+        475,
+        257,
+        922,
+        1517,
+        284,
+        466,
+        318,
+        40908,
+        278,
+        11,
+        36615,
+        27142,
+        318,
+        4050,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.28171414799160427,
+      "compression_ratio": 0.9836065573770492,
+      "no_speech_prob": 0.009562605060636997,
+      "words": [
+        {
+          "word": " but",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.17722558975219727
+        },
+        {
+          "word": " a",
+          "start": 0.72,
+          "end": 1.4,
+          "probability": 0.9485085010528564
+        },
+        {
+          "word": " good",
+          "start": 1.4,
+          "end": 1.58,
+          "probability": 0.9972370862960815
+        },
+        {
+          "word": " thing",
+          "start": 1.58,
+          "end": 1.76,
+          "probability": 0.9944698810577393
+        },
+        {
+          "word": " to",
+          "start": 1.76,
+          "end": 1.88,
+          "probability": 0.9813807606697083
+        },
+        {
+          "word": " do",
+          "start": 1.88,
+          "end": 1.96,
+          "probability": 0.9973543882369995
+        },
+        {
+          "word": " is",
+          "start": 1.96,
+          "end": 2.14,
+          "probability": 0.9861838221549988
+        },
+        {
+          "word": " yawning,",
+          "start": 2.14,
+          "end": 3.16,
+          "probability": 0.8756974041461945
+        },
+        {
+          "word": " chewing",
+          "start": 3.46,
+          "end": 3.84,
+          "probability": 0.9896026253700256
+        },
+        {
+          "word": " gum",
+          "start": 3.84,
+          "end": 4.26,
+          "probability": 0.9969009160995483
+        },
+        {
+          "word": " is",
+          "start": 4.26,
+          "end": 4.42,
+          "probability": 0.9924831986427307
+        },
+        {
+          "word": " effective.",
+          "start": 4.42,
+          "end": 4.94,
+          "probability": 0.9782209992408752
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,101 @@
+{
+  "sample_id": "-egA8-b7-3M$_$9",
+  "fingerprint": "27eee2d47804743bbdd882fbf3e745854b4a64db1db40158a7bc229a23fc7350",
+  "audio_sha256": "1e1a0a5b0b43f2fc7e981fd4382226cb2a912f89033ce859e4214d700fd87d28",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.60622787498869,
+  "text": " Secondly, another goal of exhibiting is building your company image.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.34,
+      "text": " Secondly, another goal of exhibiting is building your company image.",
+      "tokens": [
+        50363,
+        34276,
+        11,
+        1194,
+        3061,
+        286,
+        46017,
+        318,
+        2615,
+        534,
+        1664,
+        2939,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2973244349161784,
+      "compression_ratio": 0.9577464788732394,
+      "no_speech_prob": 0.002808605320751667,
+      "words": [
+        {
+          "word": " Secondly,",
+          "start": 0.0,
+          "end": 0.98,
+          "probability": 0.9721783399581909
+        },
+        {
+          "word": " another",
+          "start": 1.26,
+          "end": 1.58,
+          "probability": 0.9896211624145508
+        },
+        {
+          "word": " goal",
+          "start": 1.58,
+          "end": 2.0,
+          "probability": 0.9980676770210266
+        },
+        {
+          "word": " of",
+          "start": 2.0,
+          "end": 2.08,
+          "probability": 0.9954590797424316
+        },
+        {
+          "word": " exhibiting",
+          "start": 2.08,
+          "end": 2.52,
+          "probability": 0.9960256814956665
+        },
+        {
+          "word": " is",
+          "start": 2.52,
+          "end": 2.88,
+          "probability": 0.9950563907623291
+        },
+        {
+          "word": " building",
+          "start": 2.88,
+          "end": 3.2,
+          "probability": 0.9900844097137451
+        },
+        {
+          "word": " your",
+          "start": 3.2,
+          "end": 3.52,
+          "probability": 0.9956520199775696
+        },
+        {
+          "word": " company",
+          "start": 3.52,
+          "end": 3.84,
+          "probability": 0.9927055239677429
+        },
+        {
+          "word": " image.",
+          "start": 3.84,
+          "end": 4.34,
+          "probability": 0.9922945499420166
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

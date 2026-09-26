@@ -1,0 +1,100 @@
+{
+  "sample_id": "-THoVjtIkeU$_$2",
+  "fingerprint": "46fde68ace231222e46480b551fe51d7b8985a24370d6c94ed0269df429dcd5c",
+  "audio_sha256": "04a09828126df6dd6177f0ba8d1fd3dbe46e2a62e0eb86ba2f1042e71bdbb9fe",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.5961924579460174,
+  "text": " I think social justice is extremely important for young people.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.66,
+      "text": " I think social justice is extremely important for young people.",
+      "tokens": [
+        50363,
+        314,
+        892,
+        1919,
+        5316,
+        318,
+        4457,
+        1593,
+        329,
+        1862,
+        661,
+        13,
+        50551
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27445915767124723,
+      "compression_ratio": 0.9545454545454546,
+      "no_speech_prob": 0.0014988997718319297,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.18,
+          "probability": 0.925258994102478
+        },
+        {
+          "word": " think",
+          "start": 0.18,
+          "end": 0.52,
+          "probability": 0.9983649849891663
+        },
+        {
+          "word": " social",
+          "start": 0.52,
+          "end": 1.36,
+          "probability": 0.9437744617462158
+        },
+        {
+          "word": " justice",
+          "start": 1.36,
+          "end": 1.78,
+          "probability": 0.998902440071106
+        },
+        {
+          "word": " is",
+          "start": 1.78,
+          "end": 1.98,
+          "probability": 0.9990660548210144
+        },
+        {
+          "word": " extremely",
+          "start": 1.98,
+          "end": 2.32,
+          "probability": 0.9974452257156372
+        },
+        {
+          "word": " important",
+          "start": 2.32,
+          "end": 2.76,
+          "probability": 0.9992765784263611
+        },
+        {
+          "word": " for",
+          "start": 2.76,
+          "end": 2.98,
+          "probability": 0.994820237159729
+        },
+        {
+          "word": " young",
+          "start": 2.98,
+          "end": 3.22,
+          "probability": 0.9947587847709656
+        },
+        {
+          "word": " people.",
+          "start": 3.22,
+          "end": 3.66,
+          "probability": 0.9992566704750061
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

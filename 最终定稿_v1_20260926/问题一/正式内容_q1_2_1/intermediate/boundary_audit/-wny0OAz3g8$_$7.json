@@ -1,0 +1,276 @@
+{
+  "sample_id": "-wny0OAz3g8$_$7",
+  "fingerprint": "e7b115eda41e05a7d29d15d150a4c68a4dc3f98f3be9e616bfd35576a28328a1",
+  "audio_sha256": "ca662e285769daaee58f51722026572cdd707102670c5045d25607a0c6558366",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.1456777090206742,
+  "text": " forces. Omen when it argued that the concept of race came about as a tool to justify and maintain the economic and political power held by those of European descent.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 0.48,
+      "text": " forces.",
+      "tokens": [
+        50363,
+        3386,
+        13,
+        50413
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26110570430755614,
+      "compression_ratio": 1.3306451612903225,
+      "no_speech_prob": 0.016077479347586632,
+      "words": [
+        {
+          "word": " forces.",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.9127981662750244
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.6,
+      "end": 4.38,
+      "text": " Omen when it argued that the concept of race came about as a tool to justify and maintain",
+      "tokens": [
+        50413,
+        440,
+        3653,
+        618,
+        340,
+        7189,
+        326,
+        262,
+        3721,
+        286,
+        3234,
+        1625,
+        546,
+        355,
+        257,
+        2891,
+        284,
+        12051,
+        290,
+        5529,
+        50585
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26110570430755614,
+      "compression_ratio": 1.3306451612903225,
+      "no_speech_prob": 0.016077479347586632,
+      "words": [
+        {
+          "word": " Omen",
+          "start": 0.6,
+          "end": 0.76,
+          "probability": 0.3576529994606972
+        },
+        {
+          "word": " when",
+          "start": 0.76,
+          "end": 0.94,
+          "probability": 0.11676294356584549
+        },
+        {
+          "word": " it",
+          "start": 0.94,
+          "end": 1.02,
+          "probability": 0.8142474293708801
+        },
+        {
+          "word": " argued",
+          "start": 1.02,
+          "end": 1.26,
+          "probability": 0.9895283579826355
+        },
+        {
+          "word": " that",
+          "start": 1.26,
+          "end": 1.54,
+          "probability": 0.9823979735374451
+        },
+        {
+          "word": " the",
+          "start": 1.54,
+          "end": 1.54,
+          "probability": 0.9772059917449951
+        },
+        {
+          "word": " concept",
+          "start": 1.54,
+          "end": 1.84,
+          "probability": 0.9902138113975525
+        },
+        {
+          "word": " of",
+          "start": 1.84,
+          "end": 2.08,
+          "probability": 0.9971601963043213
+        },
+        {
+          "word": " race",
+          "start": 2.08,
+          "end": 2.24,
+          "probability": 0.9905141592025757
+        },
+        {
+          "word": " came",
+          "start": 2.24,
+          "end": 2.44,
+          "probability": 0.9902352690696716
+        },
+        {
+          "word": " about",
+          "start": 2.44,
+          "end": 2.68,
+          "probability": 0.9958741068840027
+        },
+        {
+          "word": " as",
+          "start": 2.68,
+          "end": 2.84,
+          "probability": 0.995724081993103
+        },
+        {
+          "word": " a",
+          "start": 2.84,
+          "end": 2.98,
+          "probability": 0.989251434803009
+        },
+        {
+          "word": " tool",
+          "start": 2.98,
+          "end": 3.12,
+          "probability": 0.9915221929550171
+        },
+        {
+          "word": " to",
+          "start": 3.12,
+          "end": 3.32,
+          "probability": 0.9896803498268127
+        },
+        {
+          "word": " justify",
+          "start": 3.32,
+          "end": 3.68,
+          "probability": 0.9951280355453491
+        },
+        {
+          "word": " and",
+          "start": 3.68,
+          "end": 3.96,
+          "probability": 0.9874100089073181
+        },
+        {
+          "word": " maintain",
+          "start": 3.96,
+          "end": 4.38,
+          "probability": 0.9948019981384277
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4.38,
+      "end": 7.38,
+      "text": " the economic and political power held by those of European descent.",
+      "tokens": [
+        50585,
+        262,
+        3034,
+        290,
+        1964,
+        1176,
+        2714,
+        416,
+        883,
+        286,
+        3427,
+        18598,
+        13,
+        50755
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26110570430755614,
+      "compression_ratio": 1.3306451612903225,
+      "no_speech_prob": 0.016077479347586632,
+      "words": [
+        {
+          "word": " the",
+          "start": 4.38,
+          "end": 4.64,
+          "probability": 0.9030052423477173
+        },
+        {
+          "word": " economic",
+          "start": 4.64,
+          "end": 5.02,
+          "probability": 0.9965423941612244
+        },
+        {
+          "word": " and",
+          "start": 5.02,
+          "end": 5.24,
+          "probability": 0.9942213296890259
+        },
+        {
+          "word": " political",
+          "start": 5.24,
+          "end": 5.5,
+          "probability": 0.995851993560791
+        },
+        {
+          "word": " power",
+          "start": 5.5,
+          "end": 6.0,
+          "probability": 0.9983478784561157
+        },
+        {
+          "word": " held",
+          "start": 6.0,
+          "end": 6.18,
+          "probability": 0.9921810626983643
+        },
+        {
+          "word": " by",
+          "start": 6.18,
+          "end": 6.42,
+          "probability": 0.9968879818916321
+        },
+        {
+          "word": " those",
+          "start": 6.42,
+          "end": 6.56,
+          "probability": 0.9781856536865234
+        },
+        {
+          "word": " of",
+          "start": 6.56,
+          "end": 6.7,
+          "probability": 0.9911305904388428
+        },
+        {
+          "word": " European",
+          "start": 6.7,
+          "end": 7.0,
+          "probability": 0.9330299496650696
+        },
+        {
+          "word": " descent.",
+          "start": 7.0,
+          "end": 7.38,
+          "probability": 0.9612515568733215
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

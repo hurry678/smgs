@@ -1,0 +1,82 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$6",
+  "fingerprint": "53b4e488434c57c10b4e6c4918ec87918ac4a1c38eb469d3b404c06b3c106867",
+  "audio_sha256": "bff6837803631bea2e5ea121a4b409ec1a80f98f4ca756d714ee3ad2d597e0fe",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.5668923328630626,
+  "text": " And in part, Al Shanker did too.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.74,
+      "text": " And in part, Al Shanker did too.",
+      "tokens": [
+        50363,
+        843,
+        287,
+        636,
+        11,
+        978,
+        911,
+        962,
+        263,
+        750,
+        1165,
+        13,
+        50513
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4907277992793492,
+      "compression_ratio": 0.8,
+      "no_speech_prob": 0.014224794693291187,
+      "words": [
+        {
+          "word": " And",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.3991464078426361
+        },
+        {
+          "word": " in",
+          "start": 0.64,
+          "end": 0.72,
+          "probability": 0.8951435685157776
+        },
+        {
+          "word": " part,",
+          "start": 0.72,
+          "end": 1.24,
+          "probability": 0.9906788468360901
+        },
+        {
+          "word": " Al",
+          "start": 1.56,
+          "end": 1.62,
+          "probability": 0.919600248336792
+        },
+        {
+          "word": " Shanker",
+          "start": 1.62,
+          "end": 2.26,
+          "probability": 0.6551181177298228
+        },
+        {
+          "word": " did",
+          "start": 2.26,
+          "end": 2.38,
+          "probability": 0.9939470291137695
+        },
+        {
+          "word": " too.",
+          "start": 2.38,
+          "end": 2.74,
+          "probability": 0.6125149726867676
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

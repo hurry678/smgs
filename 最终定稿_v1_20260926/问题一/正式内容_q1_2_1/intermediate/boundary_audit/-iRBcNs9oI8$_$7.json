@@ -1,0 +1,107 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$7",
+  "fingerprint": "24923b20e05b04ca7a25b072b538f8a3ff055bcc2b751d6be0e834f4e50e5ac0",
+  "audio_sha256": "04f3c71306fbd41571119377eba5f11b8405758a2525207c9c7b03c6d64b7c7b",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.6108365829568356,
+  "text": " interview. And this secret will also help you if you have",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.98,
+      "text": " interview. And this secret will also help you if you have",
+      "tokens": [
+        50363,
+        2720,
+        13,
+        843,
+        428,
+        3200,
+        481,
+        635,
+        1037,
+        345,
+        611,
+        345,
+        423,
+        50563
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4899561564127604,
+      "compression_ratio": 0.9344262295081968,
+      "no_speech_prob": 0.07692558318376541,
+      "words": [
+        {
+          "word": " interview.",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.14191631972789764
+        },
+        {
+          "word": " And",
+          "start": 1.36,
+          "end": 1.48,
+          "probability": 0.8772635459899902
+        },
+        {
+          "word": " this",
+          "start": 1.48,
+          "end": 1.64,
+          "probability": 0.4818432331085205
+        },
+        {
+          "word": " secret",
+          "start": 1.64,
+          "end": 1.9,
+          "probability": 0.9652326107025146
+        },
+        {
+          "word": " will",
+          "start": 1.9,
+          "end": 2.54,
+          "probability": 0.994161069393158
+        },
+        {
+          "word": " also",
+          "start": 2.54,
+          "end": 2.84,
+          "probability": 0.9951379895210266
+        },
+        {
+          "word": " help",
+          "start": 2.84,
+          "end": 3.1,
+          "probability": 0.9993404746055603
+        },
+        {
+          "word": " you",
+          "start": 3.1,
+          "end": 3.48,
+          "probability": 0.9951390027999878
+        },
+        {
+          "word": " if",
+          "start": 3.48,
+          "end": 3.7,
+          "probability": 0.9502180814743042
+        },
+        {
+          "word": " you",
+          "start": 3.7,
+          "end": 3.86,
+          "probability": 0.9949883222579956
+        },
+        {
+          "word": " have",
+          "start": 3.86,
+          "end": 3.98,
+          "probability": 0.14328598976135254
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

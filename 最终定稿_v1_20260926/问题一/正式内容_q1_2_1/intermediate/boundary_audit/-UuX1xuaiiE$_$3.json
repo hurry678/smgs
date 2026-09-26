@@ -1,0 +1,93 @@
+{
+  "sample_id": "-UuX1xuaiiE$_$3",
+  "fingerprint": "daf0c044b61793e770165cb4d66a4d9a8bb8c43f4d3f7e9afc9c70680055ca7c",
+  "audio_sha256": "f55bbdd511223ac6e8608d31b84473b7a284a8c8677d79ba676e964e76a6835a",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.5782940830104053,
+  "text": " My goal is to become a human rights lawyer.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.58,
+      "text": " My goal is to become a human rights lawyer.",
+      "tokens": [
+        50363,
+        2011,
+        3061,
+        318,
+        284,
+        1716,
+        257,
+        1692,
+        2489,
+        6853,
+        13,
+        50563
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29198116522568923,
+      "compression_ratio": 0.8431372549019608,
+      "no_speech_prob": 0.019952451810240746,
+      "words": [
+        {
+          "word": " My",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.29562893509864807
+        },
+        {
+          "word": " goal",
+          "start": 0.62,
+          "end": 0.92,
+          "probability": 0.9984434247016907
+        },
+        {
+          "word": " is",
+          "start": 0.92,
+          "end": 1.36,
+          "probability": 0.9940124154090881
+        },
+        {
+          "word": " to",
+          "start": 1.36,
+          "end": 1.72,
+          "probability": 0.9955087900161743
+        },
+        {
+          "word": " become",
+          "start": 1.72,
+          "end": 2.12,
+          "probability": 0.9952309727668762
+        },
+        {
+          "word": " a",
+          "start": 2.12,
+          "end": 2.74,
+          "probability": 0.9929724931716919
+        },
+        {
+          "word": " human",
+          "start": 2.74,
+          "end": 2.88,
+          "probability": 0.9777452945709229
+        },
+        {
+          "word": " rights",
+          "start": 2.88,
+          "end": 3.22,
+          "probability": 0.9937883019447327
+        },
+        {
+          "word": " lawyer.",
+          "start": 3.22,
+          "end": 3.58,
+          "probability": 0.9991108775138855
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

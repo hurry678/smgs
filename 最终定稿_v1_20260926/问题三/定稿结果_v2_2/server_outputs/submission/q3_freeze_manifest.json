@@ -1,0 +1,213 @@
+{
+  "manifest_version": 3,
+  "question": "问题三",
+  "version": "q3_explainability_v2_2_20260926",
+  "status": "completed_with_frozen_attachment4_inference",
+  "created_at": "2026-09-26T10:34:27+08:00",
+  "model_manifest": "repo://ds/artifacts/q2/v3_m3_ensemble9/version_manifest.json",
+  "model_manifest_sha256": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+  "explanation_script": "extension://scripts/q3_explain_core_v2.py",
+  "explanation_script_sha256": "a38bf215f0010539d11814137058710302dca0ef8ed76bc27e087e33e973e3ed",
+  "alignment_script": "extension://scripts/q3_prepare_alignment_v2.py",
+  "alignment_script_sha256": "d335e728c9fb3b061251d9de93cccd6d759f0550aeeefad9145250ece006fd9f",
+  "math_script": "extension://scripts/q3v2_math.py",
+  "math_script_sha256": "5a761aeb886f841028a41229ab7499db2a8cbc2ae72f7605e7521fa7f9639dc7",
+  "packager_script": "extension://scripts/q3_build_outputs_v2.py",
+  "packager_script_sha256": "a2aecd3e5406a6fe5db0c50f7849753837ab79c1241c95c022eb76e08c9f587e",
+  "explanation_parameters": "external://freeze_parameters.json",
+  "explanation_parameters_sha256": "9f46fa035a0251c8ba105445d485a17d4a3c7696cee74a01b40bcd93d86d4564",
+  "inputs": {
+    "data": "external://q2_data.npz",
+    "data_sha256": "2bad10a2913ec3a0a03e3999d36e59117e0efbcc480f379dc61c8bcd4de36c38",
+    "offsets": "external://attachment4_offsets.npz",
+    "offsets_sha256": "36b8ec63d87e063c9598590e114d40e7ee4ea2ed45e9d4fd97f75be1d6630c5b",
+    "audit": "external://alignment_audit.json",
+    "audit_sha256": "2002a77e72809677da74151534e3f8b44f51036b258952a06efd83a0048f886d",
+    "attachment4": "external://attachment4_aligned.npz",
+    "attachment4_sha256": "7572f8bd6fdfb0e40ff0f7446894a6ace44d63a90a17c7ee2a6376d5b3b7567b"
+  },
+  "frozen_parameters": {
+    "schema": "q3v2.2-explanation-freeze-v1",
+    "version": "q3_explainability_v2_2_20260926",
+    "status": "frozen",
+    "frozen_at": "2026-09-26T10:33:57+08:00",
+    "selection_split": "validation_only",
+    "attachment4_used_for_selection": false,
+    "candidate_windows": [
+      3,
+      5,
+      10
+    ],
+    "selection_metric": "mean independently selected budget-normalized continuous top support",
+    "selection_gate": "lower bound of video-group clustered 95% CI > 0 for symmetric independent-top comparison against both control patterns",
+    "selection_mode": "clustered_ci_eligible_best_score",
+    "selection_reason": "Both video-group clustered 95% CI lower bounds exceed zero; selected the largest budget-normalized top-support score.",
+    "selected_window_size": 3,
+    "selected_stride": 3,
+    "point_scan_n": 128,
+    "top_k_per_modality": 2,
+    "batch_size": 64,
+    "seed": 2026,
+    "expected_validation_n": 728,
+    "predictor": {
+      "name": "M3-ensemble9 + C2",
+      "q2_freeze_manifest": "freeze_manifest.json",
+      "q2_freeze_manifest_sha256": "a4a27ee302749b0db79b71bb670a1215f663e2c1cb80a0c98e868db135507b49",
+      "q2_version_manifest": "version_manifest.json",
+      "q2_version_manifest_sha256": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+      "full_validation_metrics": {
+        "accuracy": 0.6208791208791209,
+        "macro_f1": 0.5997068114591327,
+        "mae": 0.5799670219421387,
+        "pearson": 0.6635369958302701,
+        "n": 728
+      }
+    },
+    "candidates": [
+      {
+        "window_size": 3,
+        "stride": 3,
+        "report": "window_3/q3_validation_report.json",
+        "report_sha256": "ef54ca4a65249c77623600dd4614fe2533a49c72907273dd15df80073455e77e",
+        "mean_budget_normalized_top_support": 0.053386397863017875,
+        "mean_budget_normalized_top_random_contiguous": 0.04202510709329737,
+        "mean_budget_normalized_top_point_scatter": 0.04423371006939197,
+        "top_support_vs_random_contiguous": {
+          "n_observations": 2169,
+          "n_groups": 239,
+          "mean_difference": 0.011361290769720518,
+          "bootstrap_95_ci": [
+            0.008098506908349401,
+            0.014758199750378854
+          ],
+          "resamples": 5000,
+          "seed": 33027
+        },
+        "top_support_vs_point_scatter": {
+          "n_observations": 2169,
+          "n_groups": 239,
+          "mean_difference": 0.009152687793625918,
+          "bootstrap_95_ci": [
+            0.004684681667907746,
+            0.014318634709801025
+          ],
+          "resamples": 5000,
+          "seed": 33028
+        },
+        "eligible_by_clustered_ci": true
+      },
+      {
+        "window_size": 5,
+        "stride": 5,
+        "report": "window_5/q3_validation_report.json",
+        "report_sha256": "da7f252a0113a43a4a2816b9149607744fe5981ce8cc4b93a0340b8b41a2c564",
+        "mean_budget_normalized_top_support": 0.036516363897233624,
+        "mean_budget_normalized_top_random_contiguous": 0.030037903027601547,
+        "mean_budget_normalized_top_point_scatter": 0.033294696823331846,
+        "top_support_vs_random_contiguous": {
+          "n_observations": 2169,
+          "n_groups": 239,
+          "mean_difference": 0.006478460869632074,
+          "bootstrap_95_ci": [
+            0.004103997697817101,
+            0.008764402492685548
+          ],
+          "resamples": 5000,
+          "seed": 33027
+        },
+        "top_support_vs_point_scatter": {
+          "n_observations": 2169,
+          "n_groups": 239,
+          "mean_difference": 0.0032216670739017767,
+          "bootstrap_95_ci": [
+            -0.0006959137712652495,
+            0.006301216831072192
+          ],
+          "resamples": 5000,
+          "seed": 33028
+        },
+        "eligible_by_clustered_ci": false
+      },
+      {
+        "window_size": 10,
+        "stride": 10,
+        "report": "window_10/q3_validation_report.json",
+        "report_sha256": "b7b326ca063e34de6f2cd69d5d05f2b3717a7706951a6809c78b6459d38a5e46",
+        "mean_budget_normalized_top_support": 0.020923288929501127,
+        "mean_budget_normalized_top_random_contiguous": 0.01912397106061157,
+        "mean_budget_normalized_top_point_scatter": 0.019480478667992084,
+        "top_support_vs_random_contiguous": {
+          "n_observations": 2169,
+          "n_groups": 239,
+          "mean_difference": 0.0017993178688895577,
+          "bootstrap_95_ci": [
+            0.00019689033650811645,
+            0.0033859033855972095
+          ],
+          "resamples": 5000,
+          "seed": 33027
+        },
+        "top_support_vs_point_scatter": {
+          "n_observations": 2169,
+          "n_groups": 239,
+          "mean_difference": 0.0014428102615090424,
+          "bootstrap_95_ci": [
+            -5.1999747196204575e-05,
+            0.0029712869349022312
+          ],
+          "resamples": 5000,
+          "seed": 33028
+        },
+        "eligible_by_clustered_ci": false
+      }
+    ],
+    "selected_report": "window_3/q3_validation_report.json",
+    "selected_report_sha256": "ef54ca4a65249c77623600dd4614fe2533a49c72907273dd15df80073455e77e",
+    "rules": {
+      "modality": "exact three-player Shapley in integer bit-mask order",
+      "primary": "largest positive predicted-class Shapley contribution",
+      "primary_no_positive_fallback": "largest absolute predicted-class Shapley contribution with support_modality=null",
+      "local_rank": "0.7 signed-class percentile + 0.3 class-oriented intensity percentile",
+      "bootstrap_unit": "video_id",
+      "top_support_comparison": "each pattern independently maximizes signed class delta per actual masked position before paired comparison"
+    }
+  },
+  "validation_report": "external://q3_validation_report.json",
+  "validation_report_sha256": "ef54ca4a65249c77623600dd4614fe2533a49c72907273dd15df80073455e77e",
+  "outputs": {
+    "raw_json": "external://q3_attachment4_raw.json",
+    "raw_json_sha256": "e3f6e79023e819a67614ebcb615f09ae4310cd4131476d047f9b166c0729b5ae",
+    "csv": "external://q3_predictions_explanations.csv",
+    "csv_sha256": "aaa1dd325a8a4f09391f872d187f9443a0e039fd1f66b0dc914da2e1e6397954",
+    "jsonl": "external://q3_evidence.jsonl",
+    "jsonl_sha256": "baa2a18a48412b8593c2bd5d1fa4888a6f339e6454fdc4fd8eef8fe38120d1fb",
+    "validation_report_copy": "external://q3_validation_report.json",
+    "validation_report_copy_sha256": "ef54ca4a65249c77623600dd4614fe2533a49c72907273dd15df80073455e77e",
+    "attachment4_report": "external://q3_attachment4_report.json",
+    "attachment4_report_sha256": "6b2df4e9654867b61627e0a5fef9009fa74ee78ab98f64c8f2e3c34724c3dde7"
+  },
+  "validation_checks": {
+    "sample_count": 20,
+    "unique_sample_ids": 20,
+    "all_sample_ids_covered": true,
+    "polarity_values_valid": true,
+    "intensity_range_valid": true,
+    "shapley_sum_error_tolerance": 1e-05,
+    "text_offsets_exact_and_snippet_checked": true,
+    "audio_vision_mapping_warnings_checked": true,
+    "primary_and_support_rules_checked": true,
+    "pair_interaction_schema_checked": true,
+    "frozen_parameter_match_checked": true,
+    "alignment_audit_status_checked": true,
+    "support_evidence_positive_class_delta": true,
+    "counter_evidence_negative_class_delta": true,
+    "no_evidence_reason_present_when_empty": true,
+    "errors": []
+  },
+  "limitations": [
+    "Modality contributions are occlusion-based Shapley attributions, not physical causal effects.",
+    "Continuous-window evidence is model-intervention evidence under a fixed occlusion baseline.",
+    "All published audio/visual evidence locations use MFA-derived word timings.",
+    "Window size is selected only from validation by symmetric per-pattern top-vs-top, budget-normalized fidelity with video-group clustered confidence intervals."
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "scope": "train/valid values and labels audited; test IDs/schema only; special attachments interface only; no model fitting or predictions",
+  "source": {
+    "path": "E题数据/附件2-数据集特征文件/aligned_50.pkl",
+    "bytes": 993842861,
+    "sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+    "local_zip_files": []
+  },
+  "environment": {
+    "python": "3.9.6",
+    "os": "Darwin",
+    "macos_version": "26.4.1",
+    "machine": "arm64",
+    "cpu": "Apple M5",
+    "memory_bytes": 17179869184,
+    "torch_available": false,
+    "transformers_available": false,
+    "ffmpeg_available": false
+  },
+  "schema": {
+    "train": {
+      "raw_text": {
+        "shape": [
+          3395
+        ],
+        "dtype": "<U1662"
+      },
+      "audio": {
+        "shape": [
+          3395,
+          50,
+          74
+        ],
+        "dtype": "float64"
+      },
+      "vision": {
+        "shape": [
+          3395,
+          50,
+          35
+        ],
+        "dtype": "float64"
+      },
+      "id": {
+        "type": "list"
+      },
+      "text_bert": {
+        "shape": [
+          3395,
+          3,
+          50
+        ],
+        "dtype": "int64"
+      },
+      "classification_labels": {
+        "shape": [
+          3395
+        ],
+        "dtype": "float64"
+      },
+      "regression_labels": {
+        "shape": [
+          3395
+        ],
+        "dtype": "float64"
+      },
+      "text": {
+        "shape": [
+          3395,
+          50,
+          768
+        ],
+        "dtype": "float32"
+      }
+    },
+    "valid": {
+      "raw_text": {
+        "shape": [
+          728
+        ],
+        "dtype": "<U1570"
+      },
+      "audio": {
+        "shape": [
+          728,
+          50,
+          74
+        ],
+        "dtype": "float64"
+      },
+      "vision": {
+        "shape": [
+          728,
+          50,
+          35
+        ],
+        "dtype": "float64"
+      },
+      "id": {
+        "type": "list"
+      },
+      "text_bert": {
+        "shape": [
+          728,
+          3,
+          50
+        ],
+        "dtype": "int64"
+      },
+      "classification_labels": {
+        "shape": [
+          728
+        ],
+        "dtype": "float64"
+      },
+      "regression_labels": {
+        "shape": [
+          728
+        ],
+        "dtype": "float64"
+      },
+      "text": {
+        "shape": [
+          728,
+          50,
+          768
+        ],
+        "dtype": "float32"
+      }
+    },
+    "test": {
+      "raw_text": {
+        "shape": [
+          727
+        ],
+        "dtype": "<U1479"
+      },
+      "audio": {
+        "shape": [
+          727,
+          50,
+          74
+        ],
+        "dtype": "float64"
+      },
+      "vision": {
+        "shape": [
+          727,
+          50,
+          35
+        ],
+        "dtype": "float64"
+      },
+      "id": {
+        "type": "list"
+      },
+      "text_bert": {
+        "shape": [
+          727,
+          3,
+          50
+        ],
+        "dtype": "int64"
+      },
+      "classification_labels": {
+        "shape": [
+          727
+        ],
+        "dtype": "float64"
+      },
+      "regression_labels": {
+        "shape": [
+          727
+        ],
+        "dtype": "float64"
+      },
+      "text": {
+        "shape": [
+          727,
+          50,
+          768
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "train_valid": {
+    "train": {
+      "n": 3395,
+      "semantic_positions": 76882,
+      "label_cross_table": {
+        "0": {
+          "-1": 967,
+          "0": 0,
+          "1": 0
+        },
+        "1": {
+          "-1": 0,
+          "0": 758,
+          "1": 0
+        },
+        "2": {
+          "-1": 0,
+          "0": 0,
+          "1": 1670
+        }
+      },
+      "attention_length_quantiles": [
+        3.0,
+        16.0,
+        22.0,
+        32.0,
+        50.0
+      ],
+      "modalities": {
+        "audio": {
+          "shape": [
+            3395,
+            50,
+            74
+          ],
+          "dtype": "float64",
+          "nonfinite_values": 0,
+          "all_zero_samples": 0,
+          "zero_semantic_rows": 65,
+          "samples_with_zero_semantic_rows": 4,
+          "nonzero_outside_attention": 0,
+          "nonzero_on_attention_special_positions": 0
+        },
+        "vision": {
+          "shape": [
+            3395,
+            50,
+            35
+          ],
+          "dtype": "float64",
+          "nonfinite_values": 0,
+          "all_zero_samples": 110,
+          "zero_semantic_rows": 4249,
+          "samples_with_zero_semantic_rows": 421,
+          "nonzero_outside_attention": 0,
+          "nonzero_on_attention_special_positions": 0
+        },
+        "text": {
+          "shape": [
+            3395,
+            50,
+            768
+          ],
+          "dtype": "float32",
+          "nonfinite_values": 0,
+          "all_zero_samples": 0,
+          "zero_semantic_rows": 0,
+          "samples_with_zero_semantic_rows": 0,
+          "nonzero_outside_attention": 86078,
+          "nonzero_on_attention_special_positions": 6790
+        }
+      }
+    },
+    "valid": {
+      "n": 728,
+      "semantic_positions": 17172,
+      "label_cross_table": {
+        "0": {
+          "-1": 206,
+          "0": 0,
+          "1": 0
+        },
+        "1": {
+          "-1": 0,
+          "0": 184,
+          "1": 0
+        },
+        "2": {
+          "-1": 0,
+          "0": 0,
+          "1": 338
+        }
+      },
+      "attention_length_quantiles": [
+        3.0,
+        17.0,
+        23.5,
+        33.0,
+        50.0
+      ],
+      "modalities": {
+        "audio": {
+          "shape": [
+            728,
+            50,
+            74
+          ],
+          "dtype": "float64",
+          "nonfinite_values": 0,
+          "all_zero_samples": 0,
+          "zero_semantic_rows": 46,
+          "samples_with_zero_semantic_rows": 1,
+          "nonzero_outside_attention": 0,
+          "nonzero_on_attention_special_positions": 0
+        },
+        "vision": {
+          "shape": [
+            728,
+            50,
+            35
+          ],
+          "dtype": "float64",
+          "nonfinite_values": 0,
+          "all_zero_samples": 15,
+          "zero_semantic_rows": 980,
+          "samples_with_zero_semantic_rows": 85,
+          "nonzero_outside_attention": 0,
+          "nonzero_on_attention_special_positions": 0
+        },
+        "text": {
+          "shape": [
+            728,
+            50,
+            768
+          ],
+          "dtype": "float32",
+          "nonfinite_values": 0,
+          "all_zero_samples": 0,
+          "zero_semantic_rows": 0,
+          "samples_with_zero_semantic_rows": 0,
+          "nonzero_outside_attention": 17772,
+          "nonzero_on_attention_special_positions": 1456
+        }
+      }
+    }
+  },
+  "split_id_overlaps": {
+    "train/valid": {
+      "sample_ids": 0,
+      "video_ids": 0
+    },
+    "train/test": {
+      "sample_ids": 0,
+      "video_ids": 0
+    },
+    "valid/test": {
+      "sample_ids": 0,
+      "video_ids": 0
+    }
+  },
+  "special_interfaces": {
+    "附件3": {
+      "files": 30,
+      "schemas": [
+        {
+          "count": 30,
+          "schema": {
+            "test": {
+              "audio": {
+                "dtype": "float32",
+                "shape": [
+                  1,
+                  50,
+                  74
+                ]
+              },
+              "text_bert": {
+                "dtype": "float32",
+                "shape": [
+                  1,
+                  3,
+                  50
+                ]
+              },
+              "vision": {
+                "dtype": "float32",
+                "shape": [
+                  1,
+                  50,
+                  35
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "files_with_text_bert": 30,
+      "bert_nonfinite_or_noninteger_values": 0
+    },
+    "附件4": {
+      "files": 20,
+      "schemas": [
+        {
+          "count": 20,
+          "schema": {
+            "audio": {
+              "dtype": "float64",
+              "shape": [
+                50,
+                74
+              ]
+            },
+            "id": {
+              "type": "str"
+            },
+            "raw_text": {
+              "type": "str_"
+            },
+            "text": {
+              "dtype": "float32",
+              "shape": [
+                50,
+                768
+              ]
+            },
+            "text_bert": {
+              "dtype": "int64",
+              "shape": [
+                3,
+                50
+              ]
+            },
+            "vision": {
+              "dtype": "float64",
+              "shape": [
+                50,
+                35
+              ]
+            }
+          }
+        }
+      ],
+      "files_with_text_bert": 20,
+      "bert_nonfinite_or_noninteger_values": 0
+    }
+  },
+  "unaligned_special_interfaces": {
+    "附件3": {
+      "files": 30,
+      "schemas": [
+        {
+          "count": 30,
+          "schema": {
+            "test": {
+              "audio": {
+                "dtype": "float64",
+                "shape": [
+                  1,
+                  500,
+                  74
+                ]
+              },
+              "raw_text": {
+                "dtype": "<U1479",
+                "shape": [
+                  1
+                ]
+              },
+              "vision": {
+                "dtype": "float64",
+                "shape": [
+                  1,
+                  500,
+                  35
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "files_with_text_bert": 0,
+      "bert_nonfinite_or_noninteger_values": null
+    },
+    "附件4": {
+      "files": 20,
+      "schemas": [
+        {
+          "count": 20,
+          "schema": {
+            "audio": {
+              "dtype": "float64",
+              "shape": [
+                500,
+                74
+              ]
+            },
+            "audio_lengths": {
+              "type": "int"
+            },
+            "id": {
+              "type": "str"
+            },
+            "raw_text": {
+              "type": "str_"
+            },
+            "text": {
+              "dtype": "float32",
+              "shape": [
+                50,
+                768
+              ]
+            },
+            "text_bert": {
+              "dtype": "int64",
+              "shape": [
+                3,
+                50
+              ]
+            },
+            "vision": {
+              "dtype": "float64",
+              "shape": [
+                500,
+                35
+              ]
+            },
+            "vision_lengths": {
+              "type": "int"
+            }
+          }
+        }
+      ],
+      "files_with_text_bert": 20,
+      "bert_nonfinite_or_noninteger_values": 0
+    }
+  },
+  "q1": {
+    "samples": 100,
+    "unique_ids": 100,
+    "overlap_by_sample_id": {
+      "train": 11,
+      "valid": 0,
+      "test": 7
+    },
+    "usable_train_ids_for_mapping_development": [
+      "-HwX2H8Z4hY$_$9",
+      "-THoVjtIkeU$_$2",
+      "-a55Q6RWvTA$_$3",
+      "-aqamKhZ1Ec$_$0",
+      "-dxfTGcXJoc$_$0",
+      "-dxfTGcXJoc$_$6",
+      "-lzEya4AM_4$_$6",
+      "-mJ2ud6oKI8$_$9",
+      "-tPCytz4rww$_$16",
+      "-wny0OAz3g8$_$0",
+      "-wny0OAz3g8$_$5"
+    ],
+    "note": "Overlap uses sample IDs, not feature or audiovisual content fingerprints."
+  },
+  "limits": [
+    "Zero feature rows do not establish the physical cause of missing information.",
+    "Candidate special-token IDs do not verify the full tokenizer vocabulary.",
+    "Special-set schemas are not used to estimate a training missingness distribution.",
+    "MPS availability, training throughput and final archive size are not measured.",
+    "No timestamps are recovered and no model performance is newly measured.",
+    "The prior feasibility script requires a ZIP absent from the current directory."
+  ]
+}

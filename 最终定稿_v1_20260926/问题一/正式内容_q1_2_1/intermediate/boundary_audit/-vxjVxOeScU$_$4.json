@@ -1,0 +1,211 @@
+{
+  "sample_id": "-vxjVxOeScU$_$4",
+  "fingerprint": "ee1991c636d4373602f4d0bc6ed71585a26535aa9dd939d7074d6062dfd8cf77",
+  "audio_sha256": "fc746f785ff75056296b750e9756da996b115a66c7408e3fd1aea9fe7557bb7c",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.0366630831267685,
+  "text": " You're going to talk about their life, their marriage, and usually how amazing it is that they've stayed together this long wedding and",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.94,
+      "text": " You're going to talk about their life, their marriage, and usually how amazing it is that",
+      "tokens": [
+        50363,
+        921,
+        821,
+        1016,
+        284,
+        1561,
+        546,
+        511,
+        1204,
+        11,
+        511,
+        4845,
+        11,
+        290,
+        3221,
+        703,
+        4998,
+        340,
+        318,
+        326,
+        50709
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31471550464630127,
+      "compression_ratio": 1.2735849056603774,
+      "no_speech_prob": 0.029749305918812752,
+      "words": [
+        {
+          "word": " You're",
+          "start": 0.0,
+          "end": 0.6,
+          "probability": 0.6407237350940704
+        },
+        {
+          "word": " going",
+          "start": 0.6,
+          "end": 0.74,
+          "probability": 0.6669011116027832
+        },
+        {
+          "word": " to",
+          "start": 0.74,
+          "end": 0.76,
+          "probability": 0.9970740079879761
+        },
+        {
+          "word": " talk",
+          "start": 0.76,
+          "end": 1.08,
+          "probability": 0.994901180267334
+        },
+        {
+          "word": " about",
+          "start": 1.08,
+          "end": 1.64,
+          "probability": 0.9989223480224609
+        },
+        {
+          "word": " their",
+          "start": 1.64,
+          "end": 2.06,
+          "probability": 0.9929938912391663
+        },
+        {
+          "word": " life,",
+          "start": 2.06,
+          "end": 2.78,
+          "probability": 0.9871202111244202
+        },
+        {
+          "word": " their",
+          "start": 3.0,
+          "end": 3.12,
+          "probability": 0.995853066444397
+        },
+        {
+          "word": " marriage,",
+          "start": 3.12,
+          "end": 3.9,
+          "probability": 0.9993076324462891
+        },
+        {
+          "word": " and",
+          "start": 4.36,
+          "end": 4.88,
+          "probability": 0.9720189571380615
+        },
+        {
+          "word": " usually",
+          "start": 4.88,
+          "end": 5.34,
+          "probability": 0.9884451627731323
+        },
+        {
+          "word": " how",
+          "start": 5.34,
+          "end": 5.8,
+          "probability": 0.8387842178344727
+        },
+        {
+          "word": " amazing",
+          "start": 5.8,
+          "end": 6.3,
+          "probability": 0.9969398975372314
+        },
+        {
+          "word": " it",
+          "start": 6.3,
+          "end": 6.52,
+          "probability": 0.9962882995605469
+        },
+        {
+          "word": " is",
+          "start": 6.52,
+          "end": 6.82,
+          "probability": 0.9989556074142456
+        },
+        {
+          "word": " that",
+          "start": 6.82,
+          "end": 6.94,
+          "probability": 0.9657098650932312
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.94,
+      "end": 9.0,
+      "text": " they've stayed together this long wedding and",
+      "tokens": [
+        50709,
+        484,
+        1053,
+        9658,
+        1978,
+        428,
+        890,
+        10614,
+        290,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31471550464630127,
+      "compression_ratio": 1.2735849056603774,
+      "no_speech_prob": 0.029749305918812752,
+      "words": [
+        {
+          "word": " they've",
+          "start": 6.94,
+          "end": 7.2,
+          "probability": 0.9785551428794861
+        },
+        {
+          "word": " stayed",
+          "start": 7.2,
+          "end": 7.44,
+          "probability": 0.9954361319541931
+        },
+        {
+          "word": " together",
+          "start": 7.44,
+          "end": 7.86,
+          "probability": 0.9989871382713318
+        },
+        {
+          "word": " this",
+          "start": 7.86,
+          "end": 8.16,
+          "probability": 0.9918993711471558
+        },
+        {
+          "word": " long",
+          "start": 8.16,
+          "end": 8.5,
+          "probability": 0.9985097050666809
+        },
+        {
+          "word": " wedding",
+          "start": 8.5,
+          "end": 8.8,
+          "probability": 0.14476707577705383
+        },
+        {
+          "word": " and",
+          "start": 8.8,
+          "end": 9.0,
+          "probability": 0.4301528334617615
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

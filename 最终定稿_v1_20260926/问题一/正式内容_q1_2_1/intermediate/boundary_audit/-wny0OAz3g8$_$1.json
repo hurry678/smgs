@@ -1,0 +1,275 @@
+{
+  "sample_id": "-wny0OAz3g8$_$1",
+  "fingerprint": "497bde5fbf836d8eec1f65894fa75152a246e42fd463eb0cfa49faedac70cb37",
+  "audio_sha256": "ec0709ea4da18316d3686c1aef45aab19b37c3f23aa70d9295af4c5be4d6fa88",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.26669408287853,
+  "text": " to join. And because they couldn't join unions, many black workers couldn't get manufacturing or trade work, which paid much better than service work. And because-",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 0.44,
+      "text": " to join.",
+      "tokens": [
+        50363,
+        284,
+        4654,
+        13,
+        50413
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23720570972987584,
+      "compression_ratio": 1.3697478991596639,
+      "no_speech_prob": 0.015538816340267658,
+      "words": [
+        {
+          "word": " to",
+          "start": 0.0,
+          "end": 0.18,
+          "probability": 0.8370075225830078
+        },
+        {
+          "word": " join.",
+          "start": 0.18,
+          "end": 0.44,
+          "probability": 0.9947077035903931
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 0.56,
+      "end": 3.9,
+      "text": " And because they couldn't join unions, many black workers couldn't get manufacturing",
+      "tokens": [
+        50413,
+        843,
+        780,
+        484,
+        3521,
+        470,
+        4654,
+        11936,
+        11,
+        867,
+        2042,
+        3259,
+        3521,
+        470,
+        651,
+        9138,
+        50563
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23720570972987584,
+      "compression_ratio": 1.3697478991596639,
+      "no_speech_prob": 0.015538816340267658,
+      "words": [
+        {
+          "word": " And",
+          "start": 0.56,
+          "end": 0.64,
+          "probability": 0.9691982865333557
+        },
+        {
+          "word": " because",
+          "start": 0.64,
+          "end": 0.88,
+          "probability": 0.962806761264801
+        },
+        {
+          "word": " they",
+          "start": 0.88,
+          "end": 1.08,
+          "probability": 0.9979335069656372
+        },
+        {
+          "word": " couldn't",
+          "start": 1.08,
+          "end": 1.38,
+          "probability": 0.9903718531131744
+        },
+        {
+          "word": " join",
+          "start": 1.38,
+          "end": 1.54,
+          "probability": 0.99825519323349
+        },
+        {
+          "word": " unions,",
+          "start": 1.54,
+          "end": 1.98,
+          "probability": 0.9880638718605042
+        },
+        {
+          "word": " many",
+          "start": 2.28,
+          "end": 2.28,
+          "probability": 0.9933722019195557
+        },
+        {
+          "word": " black",
+          "start": 2.28,
+          "end": 2.5,
+          "probability": 0.8189308047294617
+        },
+        {
+          "word": " workers",
+          "start": 2.5,
+          "end": 2.84,
+          "probability": 0.9522326588630676
+        },
+        {
+          "word": " couldn't",
+          "start": 2.84,
+          "end": 3.4,
+          "probability": 0.9967652857303619
+        },
+        {
+          "word": " get",
+          "start": 3.4,
+          "end": 3.4,
+          "probability": 0.9990252256393433
+        },
+        {
+          "word": " manufacturing",
+          "start": 3.4,
+          "end": 3.9,
+          "probability": 0.9968692660331726
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3.9,
+      "end": 6.24,
+      "text": " or trade work, which paid much better than service work.",
+      "tokens": [
+        50563,
+        393,
+        3292,
+        670,
+        11,
+        543,
+        3432,
+        881,
+        1365,
+        621,
+        2139,
+        670,
+        13,
+        50681
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23720570972987584,
+      "compression_ratio": 1.3697478991596639,
+      "no_speech_prob": 0.015538816340267658,
+      "words": [
+        {
+          "word": " or",
+          "start": 3.9,
+          "end": 4.22,
+          "probability": 0.9926840662956238
+        },
+        {
+          "word": " trade",
+          "start": 4.22,
+          "end": 4.32,
+          "probability": 0.950518786907196
+        },
+        {
+          "word": " work,",
+          "start": 4.32,
+          "end": 4.6,
+          "probability": 0.9805771708488464
+        },
+        {
+          "word": " which",
+          "start": 4.7,
+          "end": 4.8,
+          "probability": 0.9970613121986389
+        },
+        {
+          "word": " paid",
+          "start": 4.8,
+          "end": 5.04,
+          "probability": 0.9927555918693542
+        },
+        {
+          "word": " much",
+          "start": 5.04,
+          "end": 5.3,
+          "probability": 0.9952489733695984
+        },
+        {
+          "word": " better",
+          "start": 5.3,
+          "end": 5.58,
+          "probability": 0.9989878535270691
+        },
+        {
+          "word": " than",
+          "start": 5.58,
+          "end": 5.8,
+          "probability": 0.9931107759475708
+        },
+        {
+          "word": " service",
+          "start": 5.8,
+          "end": 5.98,
+          "probability": 0.9662163257598877
+        },
+        {
+          "word": " work.",
+          "start": 5.98,
+          "end": 6.24,
+          "probability": 0.9026712775230408
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6.32,
+      "end": 6.7,
+      "text": " And because-",
+      "tokens": [
+        50681,
+        843,
+        780,
+        12,
+        50706
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23720570972987584,
+      "compression_ratio": 1.3697478991596639,
+      "no_speech_prob": 0.015538816340267658,
+      "words": [
+        {
+          "word": " And",
+          "start": 6.32,
+          "end": 6.42,
+          "probability": 0.9697132110595703
+        },
+        {
+          "word": " because",
+          "start": 6.42,
+          "end": 6.62,
+          "probability": 0.9927823543548584
+        },
+        {
+          "word": "-",
+          "start": 6.62,
+          "end": 6.7,
+          "probability": 0.12784527242183685
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

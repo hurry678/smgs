@@ -1,0 +1,10 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$2",
+  "fingerprint": "11fb63f19d070d63ed5a3f69f169bd54a10dea3f3aab6e3765fa62224d34a3d2",
+  "audio_sha256": "84d9bfea32e971f11eb4022e3eac741788403b24752e7b86b5978f73a9ceaa4b",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "digital_silence_not_decoded",
+  "seconds": 1.654098741710186e-05,
+  "text": "",
+  "segments": []
+}

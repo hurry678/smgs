@@ -1,0 +1,6 @@
+{
+  "status": "frozen",
+  "selected_window_size": 3,
+  "selection_mode": "clustered_ci_eligible_best_score",
+  "out": "/data2/hy/q3_runs/q3_explainability_v2_2_20260926/freeze_parameters.json"
+}

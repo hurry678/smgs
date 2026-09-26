@@ -1,0 +1,133 @@
+{
+  "schema": "e-problem-final-package-index-v1",
+  "package_name": "最终定稿_v1_20260926",
+  "frozen_date": "2026-09-26",
+  "source_git_commit": "7fdef6b2b1cd99f54a7d2cb13a6e08d971edf830",
+  "policy": "copy-only; original directories are unchanged",
+  "decisions": {
+    "q1": {
+      "version": "q1-2.1",
+      "selected": "A_current_audited",
+      "coverage": "100/100",
+      "status": "final"
+    },
+    "q2": {
+      "version": "M3-ensemble9",
+      "publish_strategy": "C2",
+      "confirmation": "candidate_rejected_baseline_retained",
+      "status": "final"
+    },
+    "q3": {
+      "version": "v2.2 symmetric top-vs-top",
+      "selected_window_size": 3,
+      "attachment4_coverage": "20/20",
+      "mfa_coverage": "20/20",
+      "verification": "PASS",
+      "status": "final"
+    }
+  },
+  "components": [
+    {
+      "id": "q1_delivery_zip",
+      "path": "问题一/交付包/第一问交付包.zip",
+      "source": "../第一问交付包.zip",
+      "files": 1,
+      "bytes": 24015744,
+      "sha256": "37091d6e957c704afcf56703f8050025951b8881eef2a3e2aaccf7a6b1295d5c"
+    },
+    {
+      "id": "q1_extracted_content",
+      "path": "问题一/正式内容_q1_2_1",
+      "source": "extracted from q1_delivery_zip",
+      "files": 300,
+      "bytes": 31028684
+    },
+    {
+      "id": "q1_selection_protocol",
+      "path": "问题一/选型协议",
+      "source": "ds/q1_comparison_extension",
+      "files": 19,
+      "bytes": 1182896
+    },
+    {
+      "id": "q1_selection_results",
+      "path": "问题一/选型结果",
+      "source": "优化/benchmark_runs/q1_ab_frozen_20260925/full",
+      "files": 173,
+      "bytes": 6922760
+    },
+    {
+      "id": "q2_predictor_code",
+      "path": "问题二/正式预测器代码",
+      "source": "ds/scripts/*q2*.py",
+      "files": 14,
+      "bytes": 145721
+    },
+    {
+      "id": "q2_final_results",
+      "path": "问题二/正式结果_M3_ensemble9",
+      "source": "ds/artifacts/q2/v3_m3_ensemble9",
+      "files": 21,
+      "bytes": 3137494
+    },
+    {
+      "id": "q2_decision_code",
+      "path": "问题二/定稿决策代码",
+      "source": "问题二/q2_ds_optimization_v2_1_20260925",
+      "files": 14,
+      "bytes": 180146,
+      "excluded": [
+        ".ruff_cache",
+        "__pycache__",
+        "*.pyc"
+      ]
+    },
+    {
+      "id": "q2_decision_audit",
+      "path": "问题二/定稿决策审计",
+      "source": "优化/q2yhv2_1/server_results_20260925",
+      "files": 26,
+      "bytes": 207147010
+    },
+    {
+      "id": "q2_submission",
+      "path": "问题二/正式提交",
+      "source": "ds/submission/q2_predictions.{csv,json}",
+      "files": 2,
+      "bytes": 53162,
+      "authoritative": true
+    },
+    {
+      "id": "q3_final_code",
+      "path": "问题三/定稿代码_v2_2",
+      "source": "问题三/q3_explainability_v2_2_20260926",
+      "files": 27,
+      "bytes": 237333
+    },
+    {
+      "id": "q3_final_results",
+      "path": "问题三/定稿结果_v2_2",
+      "source": "优化/q3_explainability_v2_2_20260926",
+      "files": 64,
+      "bytes": 30218345,
+      "audit_zip_sha256": "35e93f87d3c27aa18991f59ae085d77199d705da5ff7232befbd621ee6ff33c4"
+    }
+  ],
+  "critical_hashes": {
+    "q1_delivery_zip": "37091d6e957c704afcf56703f8050025951b8881eef2a3e2aaccf7a6b1295d5c",
+    "q1_candidate_a_zip": "653dc1e5e5fe6b1b67720f6afdad705331a996d5f0f284f473a750d0b2935058",
+    "q2_version_manifest": "3e27642384f016cb06c256ce150623aa1348b14cc8701fa8d4843b9bdb4ef018",
+    "q2_freeze_manifest": "a4a27ee302749b0db79b71bb670a1215f663e2c1cb80a0c98e868db135507b49",
+    "q2_official_submission_csv": "7a03dc3243e9bdc6397642afa18119f352a946b512c528f3f4a80018419b616e",
+    "q3_protocol": "831d0079b543b7280ea51a3770de11d9a96920ab096aca498e1c264b97769637",
+    "q3_audit_zip": "35e93f87d3c27aa18991f59ae085d77199d705da5ff7232befbd621ee6ff33c4"
+  },
+  "inventory_expectations": {
+    "total_files_including_manifest": 672,
+    "manifest_entries": 671,
+    "q1_files": 494,
+    "q2_files": 78,
+    "q3_files": 92,
+    "shared_files": 4
+  }
+}

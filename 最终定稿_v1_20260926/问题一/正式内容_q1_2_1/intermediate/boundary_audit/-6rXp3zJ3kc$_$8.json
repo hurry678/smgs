@@ -1,0 +1,302 @@
+{
+  "sample_id": "-6rXp3zJ3kc$_$8",
+  "fingerprint": "14962fdbfb5c47b83071255ec1859c356cee5f0b096d03a74fd87f5f59576775",
+  "audio_sha256": "170e22f3a2865bd9fae81b90d5d688858a050d7f5e2b19f304335e3b42f48cfc",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.2946932089980692,
+  "text": " aware of many people are not until they get to be a older age and they realize that gosh they've wasted a lot of time and money in placing bets on stock that's ultimately lost value.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.38,
+      "text": " aware of many people are not until they get to be a older age and they realize that gosh",
+      "tokens": [
+        50363,
+        3910,
+        286,
+        867,
+        661,
+        389,
+        407,
+        1566,
+        484,
+        651,
+        284,
+        307,
+        257,
+        4697,
+        2479,
+        290,
+        484,
+        6537,
+        326,
+        308,
+        3768,
+        50643
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24673540327284071,
+      "compression_ratio": 1.421875,
+      "no_speech_prob": 0.001857769675552845,
+      "words": [
+        {
+          "word": " aware",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.9137890338897705
+        },
+        {
+          "word": " of",
+          "start": 0.3,
+          "end": 0.54,
+          "probability": 0.9821372628211975
+        },
+        {
+          "word": " many",
+          "start": 0.54,
+          "end": 0.68,
+          "probability": 0.5436719059944153
+        },
+        {
+          "word": " people",
+          "start": 0.68,
+          "end": 1.02,
+          "probability": 0.984846830368042
+        },
+        {
+          "word": " are",
+          "start": 1.02,
+          "end": 1.24,
+          "probability": 0.7736244797706604
+        },
+        {
+          "word": " not",
+          "start": 1.24,
+          "end": 1.5,
+          "probability": 0.9925634264945984
+        },
+        {
+          "word": " until",
+          "start": 1.5,
+          "end": 1.84,
+          "probability": 0.8860229253768921
+        },
+        {
+          "word": " they",
+          "start": 1.84,
+          "end": 2.02,
+          "probability": 0.9790542125701904
+        },
+        {
+          "word": " get",
+          "start": 2.02,
+          "end": 2.2,
+          "probability": 0.998082160949707
+        },
+        {
+          "word": " to",
+          "start": 2.2,
+          "end": 2.42,
+          "probability": 0.9962263107299805
+        },
+        {
+          "word": " be",
+          "start": 2.42,
+          "end": 2.6,
+          "probability": 0.991532027721405
+        },
+        {
+          "word": " a",
+          "start": 2.6,
+          "end": 2.72,
+          "probability": 0.5079696774482727
+        },
+        {
+          "word": " older",
+          "start": 2.72,
+          "end": 3.48,
+          "probability": 0.9834201335906982
+        },
+        {
+          "word": " age",
+          "start": 3.48,
+          "end": 3.96,
+          "probability": 0.9983280301094055
+        },
+        {
+          "word": " and",
+          "start": 3.96,
+          "end": 4.16,
+          "probability": 0.7558223605155945
+        },
+        {
+          "word": " they",
+          "start": 4.16,
+          "end": 4.3,
+          "probability": 0.9446298480033875
+        },
+        {
+          "word": " realize",
+          "start": 4.3,
+          "end": 4.7,
+          "probability": 0.8955734372138977
+        },
+        {
+          "word": " that",
+          "start": 4.7,
+          "end": 5.12,
+          "probability": 0.9203906655311584
+        },
+        {
+          "word": " gosh",
+          "start": 5.12,
+          "end": 5.38,
+          "probability": 0.8419682681560516
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.38,
+      "end": 12.2,
+      "text": " they've wasted a lot of time and money in placing bets on stock that's ultimately lost value.",
+      "tokens": [
+        50643,
+        484,
+        1053,
+        18359,
+        257,
+        1256,
+        286,
+        640,
+        290,
+        1637,
+        287,
+        12560,
+        29222,
+        319,
+        4283,
+        326,
+        338,
+        6165,
+        2626,
+        1988,
+        13,
+        50975
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24673540327284071,
+      "compression_ratio": 1.421875,
+      "no_speech_prob": 0.001857769675552845,
+      "words": [
+        {
+          "word": " they've",
+          "start": 5.38,
+          "end": 5.94,
+          "probability": 0.7866432070732117
+        },
+        {
+          "word": " wasted",
+          "start": 5.94,
+          "end": 6.26,
+          "probability": 0.8065812587738037
+        },
+        {
+          "word": " a",
+          "start": 6.26,
+          "end": 6.36,
+          "probability": 0.9980939030647278
+        },
+        {
+          "word": " lot",
+          "start": 6.36,
+          "end": 6.66,
+          "probability": 0.9972593784332275
+        },
+        {
+          "word": " of",
+          "start": 6.66,
+          "end": 6.78,
+          "probability": 0.9977810978889465
+        },
+        {
+          "word": " time",
+          "start": 6.78,
+          "end": 7.06,
+          "probability": 0.9990718364715576
+        },
+        {
+          "word": " and",
+          "start": 7.06,
+          "end": 7.34,
+          "probability": 0.9900391697883606
+        },
+        {
+          "word": " money",
+          "start": 7.34,
+          "end": 8.18,
+          "probability": 0.9982039928436279
+        },
+        {
+          "word": " in",
+          "start": 8.18,
+          "end": 8.7,
+          "probability": 0.8537503480911255
+        },
+        {
+          "word": " placing",
+          "start": 8.7,
+          "end": 9.6,
+          "probability": 0.8761231899261475
+        },
+        {
+          "word": " bets",
+          "start": 9.6,
+          "end": 9.92,
+          "probability": 0.6972596049308777
+        },
+        {
+          "word": " on",
+          "start": 9.92,
+          "end": 10.28,
+          "probability": 0.9978324770927429
+        },
+        {
+          "word": " stock",
+          "start": 10.28,
+          "end": 10.46,
+          "probability": 0.9782696962356567
+        },
+        {
+          "word": " that's",
+          "start": 10.46,
+          "end": 10.78,
+          "probability": 0.9371319711208344
+        },
+        {
+          "word": " ultimately",
+          "start": 10.78,
+          "end": 11.3,
+          "probability": 0.9973984956741333
+        },
+        {
+          "word": " lost",
+          "start": 11.3,
+          "end": 11.7,
+          "probability": 0.9932101368904114
+        },
+        {
+          "word": " value.",
+          "start": 11.7,
+          "end": 12.2,
+          "probability": 0.9984210729598999
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

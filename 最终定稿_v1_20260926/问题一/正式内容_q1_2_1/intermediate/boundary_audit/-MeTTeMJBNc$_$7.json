@@ -1,0 +1,264 @@
+{
+  "sample_id": "-MeTTeMJBNc$_$7",
+  "fingerprint": "331685dfee40e30f79c57398365bf48e32d700fa844d871e5882ce6e5264cfc2",
+  "audio_sha256": "5bd92ae948b2024657b20ecd0ffab9752edf2deec0021a37e14eaa8a9f0cbffa",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.2045246658381075,
+  "text": " Maybe you could find a picture of the couple from their wedding or sometime in their life or maybe even a current picture and have it put in a beautiful frame.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.08,
+      "text": " Maybe you could find a picture of the couple from their wedding or sometime in their life",
+      "tokens": [
+        50363,
+        6674,
+        345,
+        714,
+        1064,
+        257,
+        4286,
+        286,
+        262,
+        3155,
+        422,
+        511,
+        10614,
+        393,
+        17291,
+        287,
+        511,
+        1204,
+        50667
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23836873028729413,
+      "compression_ratio": 1.382608695652174,
+      "no_speech_prob": 0.06470271199941635,
+      "words": [
+        {
+          "word": " Maybe",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.5204645991325378
+        },
+        {
+          "word": " you",
+          "start": 0.72,
+          "end": 0.88,
+          "probability": 0.9829741716384888
+        },
+        {
+          "word": " could",
+          "start": 0.88,
+          "end": 1.54,
+          "probability": 0.943720281124115
+        },
+        {
+          "word": " find",
+          "start": 1.54,
+          "end": 1.84,
+          "probability": 0.9766340851783752
+        },
+        {
+          "word": " a",
+          "start": 1.84,
+          "end": 2.08,
+          "probability": 0.9914641976356506
+        },
+        {
+          "word": " picture",
+          "start": 2.08,
+          "end": 2.34,
+          "probability": 0.9968223571777344
+        },
+        {
+          "word": " of",
+          "start": 2.34,
+          "end": 2.58,
+          "probability": 0.7688537240028381
+        },
+        {
+          "word": " the",
+          "start": 2.58,
+          "end": 2.66,
+          "probability": 0.923654317855835
+        },
+        {
+          "word": " couple",
+          "start": 2.66,
+          "end": 2.96,
+          "probability": 0.9863617420196533
+        },
+        {
+          "word": " from",
+          "start": 2.96,
+          "end": 3.46,
+          "probability": 0.9662796258926392
+        },
+        {
+          "word": " their",
+          "start": 3.46,
+          "end": 3.84,
+          "probability": 0.9763861298561096
+        },
+        {
+          "word": " wedding",
+          "start": 3.84,
+          "end": 4.34,
+          "probability": 0.9982506632804871
+        },
+        {
+          "word": " or",
+          "start": 4.34,
+          "end": 4.92,
+          "probability": 0.778614342212677
+        },
+        {
+          "word": " sometime",
+          "start": 4.92,
+          "end": 5.24,
+          "probability": 0.8898933529853821
+        },
+        {
+          "word": " in",
+          "start": 5.24,
+          "end": 5.52,
+          "probability": 0.9930921792984009
+        },
+        {
+          "word": " their",
+          "start": 5.52,
+          "end": 5.64,
+          "probability": 0.9915716648101807
+        },
+        {
+          "word": " life",
+          "start": 5.64,
+          "end": 6.08,
+          "probability": 0.7917874455451965
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.08,
+      "end": 9.78,
+      "text": " or maybe even a current picture and have it put in a beautiful frame.",
+      "tokens": [
+        50667,
+        393,
+        3863,
+        772,
+        257,
+        1459,
+        4286,
+        290,
+        423,
+        340,
+        1234,
+        287,
+        257,
+        4950,
+        5739,
+        13,
+        50855
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23836873028729413,
+      "compression_ratio": 1.382608695652174,
+      "no_speech_prob": 0.06470271199941635,
+      "words": [
+        {
+          "word": " or",
+          "start": 6.08,
+          "end": 6.3,
+          "probability": 0.5873467326164246
+        },
+        {
+          "word": " maybe",
+          "start": 6.3,
+          "end": 6.44,
+          "probability": 0.9405292868614197
+        },
+        {
+          "word": " even",
+          "start": 6.44,
+          "end": 6.76,
+          "probability": 0.9956154823303223
+        },
+        {
+          "word": " a",
+          "start": 6.76,
+          "end": 6.88,
+          "probability": 0.9907485842704773
+        },
+        {
+          "word": " current",
+          "start": 6.88,
+          "end": 7.26,
+          "probability": 0.9952915906906128
+        },
+        {
+          "word": " picture",
+          "start": 7.26,
+          "end": 7.8,
+          "probability": 0.995162844657898
+        },
+        {
+          "word": " and",
+          "start": 7.8,
+          "end": 8.36,
+          "probability": 0.9304061532020569
+        },
+        {
+          "word": " have",
+          "start": 8.36,
+          "end": 8.46,
+          "probability": 0.9534028172492981
+        },
+        {
+          "word": " it",
+          "start": 8.46,
+          "end": 8.6,
+          "probability": 0.9701060652732849
+        },
+        {
+          "word": " put",
+          "start": 8.6,
+          "end": 8.7,
+          "probability": 0.9860842823982239
+        },
+        {
+          "word": " in",
+          "start": 8.7,
+          "end": 8.9,
+          "probability": 0.971877932548523
+        },
+        {
+          "word": " a",
+          "start": 8.9,
+          "end": 8.94,
+          "probability": 0.9700700640678406
+        },
+        {
+          "word": " beautiful",
+          "start": 8.94,
+          "end": 9.24,
+          "probability": 0.9979966282844543
+        },
+        {
+          "word": " frame.",
+          "start": 9.24,
+          "end": 9.78,
+          "probability": 0.9958686828613281
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

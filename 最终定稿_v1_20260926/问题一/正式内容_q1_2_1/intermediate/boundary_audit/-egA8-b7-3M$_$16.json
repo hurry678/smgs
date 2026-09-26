@@ -1,0 +1,108 @@
+{
+  "sample_id": "-egA8-b7-3M$_$16",
+  "fingerprint": "367f7b24de07d3e6b819b8b4773f3a34220fb7a4e5e06fed644feb8f26222eb0",
+  "audio_sha256": "a3e78db7ec187f702896e12fc9fe86ce92168e6f7cad43933aa8793d8ce35a3d",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.6094750829506665,
+  "text": " Third, another big benefit of exhibiting is connecting with existing clients.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.76,
+      "text": " Third, another big benefit of exhibiting is connecting with existing clients.",
+      "tokens": [
+        50363,
+        10467,
+        11,
+        1194,
+        1263,
+        4414,
+        286,
+        46017,
+        318,
+        14320,
+        351,
+        4683,
+        7534,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29150521755218506,
+      "compression_ratio": 1.0845070422535212,
+      "no_speech_prob": 0.0027166050858795643,
+      "words": [
+        {
+          "word": " Third,",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.8280444145202637
+        },
+        {
+          "word": " another",
+          "start": 0.94,
+          "end": 1.24,
+          "probability": 0.9678996205329895
+        },
+        {
+          "word": " big",
+          "start": 1.24,
+          "end": 1.6,
+          "probability": 0.9426981806755066
+        },
+        {
+          "word": " benefit",
+          "start": 1.6,
+          "end": 1.94,
+          "probability": 0.994416356086731
+        },
+        {
+          "word": " of",
+          "start": 1.94,
+          "end": 2.1,
+          "probability": 0.9932202100753784
+        },
+        {
+          "word": " exhibiting",
+          "start": 2.1,
+          "end": 2.64,
+          "probability": 0.9952515363693237
+        },
+        {
+          "word": " is",
+          "start": 2.64,
+          "end": 2.96,
+          "probability": 0.9924996495246887
+        },
+        {
+          "word": " connecting",
+          "start": 2.96,
+          "end": 3.42,
+          "probability": 0.9928072690963745
+        },
+        {
+          "word": " with",
+          "start": 3.42,
+          "end": 3.76,
+          "probability": 0.9991274476051331
+        },
+        {
+          "word": " existing",
+          "start": 3.76,
+          "end": 4.22,
+          "probability": 0.9566347599029541
+        },
+        {
+          "word": " clients.",
+          "start": 4.22,
+          "end": 4.76,
+          "probability": 0.9988590478897095
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

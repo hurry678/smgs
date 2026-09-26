@@ -1,0 +1,100 @@
+[
+  {
+    "sample_id": "-HwX2H8Z4hY$_$9",
+    "file": "outputs/audit_audio/-HwX2H8Z4hY$_$9.m4a",
+    "sha256": "04a4fc304e81326c91dc160e07b2b807400517f4efe8699904d33bac61d24dbd",
+    "source_sha256": "90c18e627f27a12c14e21ba24c79edf3008762b4ac26874b490ad3f888381702",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-NFrJFQijFE$_$1",
+    "file": "outputs/audit_audio/-NFrJFQijFE$_$1.m4a",
+    "sha256": "bcb8a77b3edeca2c15e3972e1278ad74ef4ef31f74174bd9278e5071dcb9ee3f",
+    "source_sha256": "d8fcf16c6eb51c56947ec3d0549c6f3bc7a0cf1fc5f5d89e8b38d4249a08db4f",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-NFrJFQijFE$_$2",
+    "file": "outputs/audit_audio/-NFrJFQijFE$_$2.m4a",
+    "sha256": "a68ae43a53977d226cdb36b45690909d0d7a5d7162f4e290d0fb59a9427f3ddd",
+    "source_sha256": "a54a5c144a64f5abd26b19aafa6cea8142ee08e9385fa508fa70c934f6b616c1",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-RfYyzHpjk4$_$8",
+    "file": "outputs/audit_audio/-RfYyzHpjk4$_$8.m4a",
+    "sha256": "9b173dd584e0c2d794b24b0b8c2757cd4ced9eb769594b8182bfd60f33b5e0f7",
+    "source_sha256": "ed8c672c532b8c7d1c830c82d6e2c14fcb3bbd3dc1a86670a03a6c8e83c02f3c",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-THoVjtIkeU$_$12",
+    "file": "outputs/audit_audio/-THoVjtIkeU$_$12.m4a",
+    "sha256": "00a84f8b795a380b1ab0722988ae2971643628b04fc3c21f314f876c223e50d5",
+    "source_sha256": "e2f148f4f2e74724dc13b3ce870a0ce6a06740cfc224f5a9b3d0a870b196e7d4",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-a55Q6RWvTA$_$3",
+    "file": "outputs/audit_audio/-a55Q6RWvTA$_$3.m4a",
+    "sha256": "f891ca4f6a439d971509d281e4dc417f7c199fab63c48d620223b7f72c4280e0",
+    "source_sha256": "15d029fc15f50b268b98f1e8abc65e45582e638c13a018d7aa74a18373275946",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-iRBcNs9oI8$_$8",
+    "file": "outputs/audit_audio/-iRBcNs9oI8$_$8.m4a",
+    "sha256": "6ca610285e30eabcf1bb458b1362b59900dd96f7e2e0936a199719fa0618ff2c",
+    "source_sha256": "72a49e3da2862addcde033bd2fbae957d086533664ca4dcbccd3a851bcd50412",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-lzEya4AM_4$_$6",
+    "file": "outputs/audit_audio/-lzEya4AM_4$_$6.m4a",
+    "sha256": "9fa18bd309bc845a45df11bcbbdf5b5d0c0a42e05bc0d13ce61a245b60b3b56f",
+    "source_sha256": "ff5da5afb551001d58100ed2471caea51c741046d5396957efbf40082307ca18",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-mJ2ud6oKI8$_$1",
+    "file": "outputs/audit_audio/-mJ2ud6oKI8$_$1.m4a",
+    "sha256": "3caa9dd5a5f18bfd6a02ede0765a36f492849746c2483a5ba4d3b3138656f394",
+    "source_sha256": "c8e3acb4ca08679796c4c8cdfcd8c2b3cffc0465015efaffa1eccdb55ff4f45b",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-mJ2ud6oKI8$_$2",
+    "file": "outputs/audit_audio/-mJ2ud6oKI8$_$2.m4a",
+    "sha256": "659f0da4528325e26b597c4ca61f486a774a0e89a95b594447868d348e9786e1",
+    "source_sha256": "c41790f8b75f886bd1f5d6d72cbab1985306d0b715e5ae47203f3d0c8a3e7b28",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-ri04Z7vwnc$_$0",
+    "file": "outputs/audit_audio/-ri04Z7vwnc$_$0.m4a",
+    "sha256": "b78c8daa3a3d6f9f5b129735108d931cd4b2702c114323c44502ab0049417fd4",
+    "source_sha256": "93021c70c8fad20ad3fded80e7fc790a2f9c96835de58a3b694c6906de42684b",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-t217m2on-s$_$7",
+    "file": "outputs/audit_audio/-t217m2on-s$_$7.m4a",
+    "sha256": "e023c884ce76dd6cde8a69fbe5e6ec1146336eb3fe7ca8c3082e0d02b41419df",
+    "source_sha256": "41c76b8a733ecb780d56348f55d00f0ba0c07f44f46e93044e62d876710180b7",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-wny0OAz3g8$_$0",
+    "file": "outputs/audit_audio/-wny0OAz3g8$_$0.m4a",
+    "sha256": "005dbe26934373b4ca0499dff03234c93d4ca32237e2665f612519c89e87c64c",
+    "source_sha256": "1cc21b4432e2f4b592284ee40558a18acc7d208019117aebdb2f6a1b67ea198d",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  },
+  {
+    "sample_id": "-yRb-Jum7EQ$_$1",
+    "file": "outputs/audit_audio/-yRb-Jum7EQ$_$1.m4a",
+    "sha256": "2381484995d8d46fa6b54aa2f7ebfda54ee8a953dd34716b580f37a9fed2a80c",
+    "source_sha256": "2f16da1baa8660e5bfc608f5237cdd59725d16e57a19bc02c4556cd2c7129a46",
+    "scope": "Complete source audio track re-encoded for optional listening, not a human annotation."
+  }
+]

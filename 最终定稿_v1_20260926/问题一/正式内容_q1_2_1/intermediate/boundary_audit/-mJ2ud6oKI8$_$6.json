@@ -1,0 +1,104 @@
+{
+  "sample_id": "-mJ2ud6oKI8$_$6",
+  "fingerprint": "728aed8696a3e22006090830f849a6c072ff8d4933e39296f186b9c403346c07",
+  "audio_sha256": "34798265a64a6fadc30485627c05e73d0e8f40916e3b29bab5665a4fdbf1ded5",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.6161937918514013,
+  "text": " that we all want to approach. Really any.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 1.52,
+      "text": " that we all want to approach.",
+      "tokens": [
+        50363,
+        326,
+        356,
+        477,
+        765,
+        284,
+        3164,
+        13,
+        50451
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3014422098795573,
+      "compression_ratio": 0.8541666666666666,
+      "no_speech_prob": 0.010469029657542706,
+      "words": [
+        {
+          "word": " that",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.8870975971221924
+        },
+        {
+          "word": " we",
+          "start": 0.14,
+          "end": 0.46,
+          "probability": 0.9978545308113098
+        },
+        {
+          "word": " all",
+          "start": 0.46,
+          "end": 0.74,
+          "probability": 0.9988106489181519
+        },
+        {
+          "word": " want",
+          "start": 0.74,
+          "end": 0.98,
+          "probability": 0.8612548112869263
+        },
+        {
+          "word": " to",
+          "start": 0.98,
+          "end": 1.08,
+          "probability": 0.9931031465530396
+        },
+        {
+          "word": " approach.",
+          "start": 1.08,
+          "end": 1.52,
+          "probability": 0.9962121248245239
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1.66,
+      "end": 2.2,
+      "text": " Really any.",
+      "tokens": [
+        50451,
+        16123,
+        597,
+        13,
+        50493
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3014422098795573,
+      "compression_ratio": 0.8541666666666666,
+      "no_speech_prob": 0.010469029657542706,
+      "words": [
+        {
+          "word": " Really",
+          "start": 1.66,
+          "end": 1.96,
+          "probability": 0.8906723856925964
+        },
+        {
+          "word": " any.",
+          "start": 1.96,
+          "end": 2.2,
+          "probability": 0.6679032444953918
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

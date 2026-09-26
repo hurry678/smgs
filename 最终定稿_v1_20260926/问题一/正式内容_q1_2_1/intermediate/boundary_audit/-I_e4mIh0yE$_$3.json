@@ -1,0 +1,197 @@
+{
+  "sample_id": "-I_e4mIh0yE$_$3",
+  "fingerprint": "38ed97938660714906a927e8f01b946844c3c49f33feaa6ee0c2babbbdd94631",
+  "audio_sha256": "c97df472b750d89b69739fa5568fdd04a28d62dcf051239671cc20bbd2f6ab35",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.0345387500710785,
+  "text": " It's perceived that you've actually learned something over the course of your career and that you won't make the mistake twice.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.9,
+      "text": " It's perceived that you've actually learned something",
+      "tokens": [
+        50363,
+        632,
+        338,
+        11067,
+        326,
+        345,
+        1053,
+        1682,
+        4499,
+        1223,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24697340329488118,
+      "compression_ratio": 1.2574257425742574,
+      "no_speech_prob": 0.02980007603764534,
+      "words": [
+        {
+          "word": " It's",
+          "start": 0.0,
+          "end": 0.9,
+          "probability": 0.7717829644680023
+        },
+        {
+          "word": " perceived",
+          "start": 0.9,
+          "end": 1.42,
+          "probability": 0.9971421360969543
+        },
+        {
+          "word": " that",
+          "start": 1.42,
+          "end": 3.22,
+          "probability": 0.9830678105354309
+        },
+        {
+          "word": " you've",
+          "start": 3.22,
+          "end": 3.4,
+          "probability": 0.9742681980133057
+        },
+        {
+          "word": " actually",
+          "start": 3.4,
+          "end": 3.64,
+          "probability": 0.9855308532714844
+        },
+        {
+          "word": " learned",
+          "start": 3.64,
+          "end": 3.96,
+          "probability": 0.844201385974884
+        },
+        {
+          "word": " something",
+          "start": 3.96,
+          "end": 4.9,
+          "probability": 0.9933028221130371
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.9,
+      "end": 8.44,
+      "text": " over the course of your career and that you won't make the mistake twice.",
+      "tokens": [
+        50613,
+        625,
+        262,
+        1781,
+        286,
+        534,
+        3451,
+        290,
+        326,
+        345,
+        1839,
+        470,
+        787,
+        262,
+        7457,
+        5403,
+        13,
+        50813
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24697340329488118,
+      "compression_ratio": 1.2574257425742574,
+      "no_speech_prob": 0.02980007603764534,
+      "words": [
+        {
+          "word": " over",
+          "start": 4.9,
+          "end": 5.58,
+          "probability": 0.9126093983650208
+        },
+        {
+          "word": " the",
+          "start": 5.58,
+          "end": 5.68,
+          "probability": 0.9834956526756287
+        },
+        {
+          "word": " course",
+          "start": 5.68,
+          "end": 5.92,
+          "probability": 0.9993351101875305
+        },
+        {
+          "word": " of",
+          "start": 5.92,
+          "end": 6.04,
+          "probability": 0.9957133531570435
+        },
+        {
+          "word": " your",
+          "start": 6.04,
+          "end": 6.22,
+          "probability": 0.9942296743392944
+        },
+        {
+          "word": " career",
+          "start": 6.22,
+          "end": 6.44,
+          "probability": 0.9979859590530396
+        },
+        {
+          "word": " and",
+          "start": 6.44,
+          "end": 6.62,
+          "probability": 0.7239480018615723
+        },
+        {
+          "word": " that",
+          "start": 6.62,
+          "end": 6.72,
+          "probability": 0.8485376238822937
+        },
+        {
+          "word": " you",
+          "start": 6.72,
+          "end": 6.82,
+          "probability": 0.9955719709396362
+        },
+        {
+          "word": " won't",
+          "start": 6.82,
+          "end": 7.32,
+          "probability": 0.9934762120246887
+        },
+        {
+          "word": " make",
+          "start": 7.32,
+          "end": 7.46,
+          "probability": 0.9965360164642334
+        },
+        {
+          "word": " the",
+          "start": 7.46,
+          "end": 7.62,
+          "probability": 0.9687272906303406
+        },
+        {
+          "word": " mistake",
+          "start": 7.62,
+          "end": 7.92,
+          "probability": 0.9971060156822205
+        },
+        {
+          "word": " twice.",
+          "start": 7.92,
+          "end": 8.44,
+          "probability": 0.9941202998161316
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

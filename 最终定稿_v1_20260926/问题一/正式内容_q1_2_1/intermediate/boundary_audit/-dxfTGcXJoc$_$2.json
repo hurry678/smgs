@@ -1,0 +1,311 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$2",
+  "fingerprint": "8d9047983c7b80447b54e98bb764cbf2f6dfbb14efb0c1e1e9e71f42592b0d7d",
+  "audio_sha256": "8e1bf2eaa9a11c6d889c292b3af9e83367a21204d39fc7bdf516cdfb1f03ffc7",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.660291959065944,
+  "text": " An estimated 20,000 biotech scientists, executives and industry experts from more than 50 nations were at the bio conference to learn about the latest scientific advances and to exchange ideas and establish business relationships.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.82,
+      "text": " An estimated 20,000 biotech scientists, executives and industry experts from more than 50 nations",
+      "tokens": [
+        50363,
+        1052,
+        6108,
+        1160,
+        11,
+        830,
+        47693,
+        5519,
+        11,
+        12353,
+        290,
+        2831,
+        6154,
+        422,
+        517,
+        621,
+        2026,
+        7027,
+        50763
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1943410823219701,
+      "compression_ratio": 1.3777777777777778,
+      "no_speech_prob": 0.010502506978809834,
+      "words": [
+        {
+          "word": " An",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.8575773239135742
+        },
+        {
+          "word": " estimated",
+          "start": 0.72,
+          "end": 1.24,
+          "probability": 0.978783905506134
+        },
+        {
+          "word": " 20",
+          "start": 1.24,
+          "end": 1.76,
+          "probability": 0.9387638568878174
+        },
+        {
+          "word": ",000",
+          "start": 1.76,
+          "end": 2.4,
+          "probability": 0.9791446328163147
+        },
+        {
+          "word": " biotech",
+          "start": 2.4,
+          "end": 2.8,
+          "probability": 0.9156831502914429
+        },
+        {
+          "word": " scientists,",
+          "start": 2.8,
+          "end": 3.8,
+          "probability": 0.8627129793167114
+        },
+        {
+          "word": " executives",
+          "start": 3.94,
+          "end": 4.4,
+          "probability": 0.9177672266960144
+        },
+        {
+          "word": " and",
+          "start": 4.4,
+          "end": 4.9,
+          "probability": 0.465607225894928
+        },
+        {
+          "word": " industry",
+          "start": 4.9,
+          "end": 5.42,
+          "probability": 0.9989086389541626
+        },
+        {
+          "word": " experts",
+          "start": 5.42,
+          "end": 6.04,
+          "probability": 0.9992254972457886
+        },
+        {
+          "word": " from",
+          "start": 6.04,
+          "end": 6.54,
+          "probability": 0.9357016086578369
+        },
+        {
+          "word": " more",
+          "start": 6.54,
+          "end": 6.78,
+          "probability": 0.9956264495849609
+        },
+        {
+          "word": " than",
+          "start": 6.78,
+          "end": 6.94,
+          "probability": 0.9961740374565125
+        },
+        {
+          "word": " 50",
+          "start": 6.94,
+          "end": 7.26,
+          "probability": 0.9549148678779602
+        },
+        {
+          "word": " nations",
+          "start": 7.26,
+          "end": 7.82,
+          "probability": 0.9896670579910278
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.82,
+      "end": 13.34,
+      "text": " were at the bio conference to learn about the latest scientific advances and to exchange",
+      "tokens": [
+        50763,
+        547,
+        379,
+        262,
+        13401,
+        4495,
+        284,
+        2193,
+        546,
+        262,
+        3452,
+        5654,
+        14901,
+        290,
+        284,
+        5163,
+        51027
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1943410823219701,
+      "compression_ratio": 1.3777777777777778,
+      "no_speech_prob": 0.010502506978809834,
+      "words": [
+        {
+          "word": " were",
+          "start": 7.82,
+          "end": 8.18,
+          "probability": 0.9535068273544312
+        },
+        {
+          "word": " at",
+          "start": 8.18,
+          "end": 8.52,
+          "probability": 0.9984234571456909
+        },
+        {
+          "word": " the",
+          "start": 8.52,
+          "end": 8.72,
+          "probability": 0.9962868690490723
+        },
+        {
+          "word": " bio",
+          "start": 8.72,
+          "end": 8.88,
+          "probability": 0.22850069403648376
+        },
+        {
+          "word": " conference",
+          "start": 8.88,
+          "end": 9.42,
+          "probability": 0.7255942225456238
+        },
+        {
+          "word": " to",
+          "start": 9.42,
+          "end": 9.76,
+          "probability": 0.9964510202407837
+        },
+        {
+          "word": " learn",
+          "start": 9.76,
+          "end": 10.12,
+          "probability": 0.9989044666290283
+        },
+        {
+          "word": " about",
+          "start": 10.12,
+          "end": 10.38,
+          "probability": 0.9963626265525818
+        },
+        {
+          "word": " the",
+          "start": 10.38,
+          "end": 10.58,
+          "probability": 0.9969034790992737
+        },
+        {
+          "word": " latest",
+          "start": 10.58,
+          "end": 10.94,
+          "probability": 0.9991162419319153
+        },
+        {
+          "word": " scientific",
+          "start": 10.94,
+          "end": 11.44,
+          "probability": 0.9977920055389404
+        },
+        {
+          "word": " advances",
+          "start": 11.44,
+          "end": 12.1,
+          "probability": 0.9986559152603149
+        },
+        {
+          "word": " and",
+          "start": 12.1,
+          "end": 12.68,
+          "probability": 0.8399278521537781
+        },
+        {
+          "word": " to",
+          "start": 12.68,
+          "end": 12.86,
+          "probability": 0.9886397123336792
+        },
+        {
+          "word": " exchange",
+          "start": 12.86,
+          "end": 13.34,
+          "probability": 0.9978690147399902
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 1334,
+      "start": 13.34,
+      "end": 15.78,
+      "text": " ideas and establish business relationships.",
+      "tokens": [
+        50363,
+        4213,
+        290,
+        4474,
+        1597,
+        6958,
+        13,
+        50503
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5369151963127984,
+      "compression_ratio": 0.8775510204081632,
+      "no_speech_prob": 0.00424035731703043,
+      "words": [
+        {
+          "word": " ideas",
+          "start": 13.34,
+          "end": 13.92,
+          "probability": 0.911478579044342
+        },
+        {
+          "word": " and",
+          "start": 13.92,
+          "end": 14.32,
+          "probability": 0.8593738079071045
+        },
+        {
+          "word": " establish",
+          "start": 14.32,
+          "end": 14.76,
+          "probability": 0.5146199464797974
+        },
+        {
+          "word": " business",
+          "start": 14.76,
+          "end": 15.18,
+          "probability": 0.9974033236503601
+        },
+        {
+          "word": " relationships.",
+          "start": 15.18,
+          "end": 15.78,
+          "probability": 0.9913422465324402
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

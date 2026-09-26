@@ -1,0 +1,197 @@
+{
+  "sample_id": "-tANM6ETl_M$_$3",
+  "fingerprint": "03a249a8ed299e6b39500a18f04b3cb0d24705e5e5e636df513e375e1eb1d2cb",
+  "audio_sha256": "3671cff91983dd6c0088be39cc31135861ad15716b7639f2abbd31ec6749c80d",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9081889579538256,
+  "text": " The first place is either you have a prospect or a customer who's never done it before. They've never tried it.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.02,
+      "text": " The first place is either you have a prospect or a customer who's never done it before.",
+      "tokens": [
+        50363,
+        383,
+        717,
+        1295,
+        318,
+        2035,
+        345,
+        423,
+        257,
+        6034,
+        393,
+        257,
+        6491,
+        508,
+        338,
+        1239,
+        1760,
+        340,
+        878,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23410879770914714,
+      "compression_ratio": 1.1935483870967742,
+      "no_speech_prob": 0.014083974063396454,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.6751199960708618
+        },
+        {
+          "word": " first",
+          "start": 0.68,
+          "end": 0.94,
+          "probability": 0.9834205508232117
+        },
+        {
+          "word": " place",
+          "start": 0.94,
+          "end": 1.26,
+          "probability": 0.9830623865127563
+        },
+        {
+          "word": " is",
+          "start": 1.26,
+          "end": 1.48,
+          "probability": 0.992384672164917
+        },
+        {
+          "word": " either",
+          "start": 1.48,
+          "end": 1.72,
+          "probability": 0.9854824542999268
+        },
+        {
+          "word": " you",
+          "start": 1.72,
+          "end": 2.0,
+          "probability": 0.976894199848175
+        },
+        {
+          "word": " have",
+          "start": 2.0,
+          "end": 2.22,
+          "probability": 0.9957316517829895
+        },
+        {
+          "word": " a",
+          "start": 2.22,
+          "end": 2.38,
+          "probability": 0.9915174841880798
+        },
+        {
+          "word": " prospect",
+          "start": 2.38,
+          "end": 2.8,
+          "probability": 0.9942548871040344
+        },
+        {
+          "word": " or",
+          "start": 2.8,
+          "end": 3.04,
+          "probability": 0.9828271865844727
+        },
+        {
+          "word": " a",
+          "start": 3.04,
+          "end": 3.12,
+          "probability": 0.9352595210075378
+        },
+        {
+          "word": " customer",
+          "start": 3.12,
+          "end": 3.46,
+          "probability": 0.9967623949050903
+        },
+        {
+          "word": " who's",
+          "start": 3.46,
+          "end": 3.74,
+          "probability": 0.8368803560733795
+        },
+        {
+          "word": " never",
+          "start": 3.74,
+          "end": 4.14,
+          "probability": 0.9970160722732544
+        },
+        {
+          "word": " done",
+          "start": 4.14,
+          "end": 4.42,
+          "probability": 0.9986200332641602
+        },
+        {
+          "word": " it",
+          "start": 4.42,
+          "end": 4.64,
+          "probability": 0.995560884475708
+        },
+        {
+          "word": " before.",
+          "start": 4.64,
+          "end": 5.02,
+          "probability": 0.9982611536979675
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.2,
+      "end": 6.2,
+      "text": " They've never tried it.",
+      "tokens": [
+        50613,
+        1119,
+        1053,
+        1239,
+        3088,
+        340,
+        13,
+        50663
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23410879770914714,
+      "compression_ratio": 1.1935483870967742,
+      "no_speech_prob": 0.014083974063396454,
+      "words": [
+        {
+          "word": " They've",
+          "start": 5.2,
+          "end": 5.4,
+          "probability": 0.981029748916626
+        },
+        {
+          "word": " never",
+          "start": 5.4,
+          "end": 5.62,
+          "probability": 0.9983654618263245
+        },
+        {
+          "word": " tried",
+          "start": 5.62,
+          "end": 5.98,
+          "probability": 0.9966006875038147
+        },
+        {
+          "word": " it.",
+          "start": 5.98,
+          "end": 6.2,
+          "probability": 0.5476594567298889
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

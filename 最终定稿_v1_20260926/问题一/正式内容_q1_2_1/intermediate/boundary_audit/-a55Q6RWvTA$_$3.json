@@ -1,0 +1,507 @@
+{
+  "sample_id": "-a55Q6RWvTA$_$3",
+  "fingerprint": "3a8256b7154e1179161b18c4b1b67e7f7c05e03d247af11af97ede070bace074",
+  "audio_sha256": "726ccddc13345e3e96c5186540b4f9fd1d49f8120c561ded89223bb1cdb2c477",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.8945490000769496,
+  "text": " And if you clip coupons, if you don't go out for dinner and movies and things of that nature and try to take up things in life that well they always say the best things in life are free. Reading a book, going for a nice walk and of course combining exercise and various things of that nature where you're not spending money per se.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 12.1,
+      "text": " And if you clip coupons, if you don't go out for dinner and movies and things of that nature and try to take up things in life that well they always say the best things in life are free.",
+      "tokens": [
+        50363,
+        843,
+        611,
+        345,
+        10651,
+        45972,
+        11,
+        611,
+        345,
+        836,
+        470,
+        467,
+        503,
+        329,
+        8073,
+        290,
+        6918,
+        290,
+        1243,
+        286,
+        326,
+        3450,
+        290,
+        1949,
+        284,
+        1011,
+        510,
+        1243,
+        287,
+        1204,
+        326,
+        880,
+        484,
+        1464,
+        910,
+        262,
+        1266,
+        1243,
+        287,
+        1204,
+        389,
+        1479,
+        13,
+        50963
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17286660796717593,
+      "compression_ratio": 1.6717171717171717,
+      "no_speech_prob": 0.06420622766017914,
+      "words": [
+        {
+          "word": " And",
+          "start": 0.0,
+          "end": 0.92,
+          "probability": 0.397241473197937
+        },
+        {
+          "word": " if",
+          "start": 0.92,
+          "end": 1.22,
+          "probability": 0.6888113021850586
+        },
+        {
+          "word": " you",
+          "start": 1.22,
+          "end": 1.46,
+          "probability": 0.9978064894676208
+        },
+        {
+          "word": " clip",
+          "start": 1.46,
+          "end": 1.72,
+          "probability": 0.9574402570724487
+        },
+        {
+          "word": " coupons,",
+          "start": 1.72,
+          "end": 2.3,
+          "probability": 0.9720526337623596
+        },
+        {
+          "word": " if",
+          "start": 2.72,
+          "end": 2.84,
+          "probability": 0.9873430728912354
+        },
+        {
+          "word": " you",
+          "start": 2.84,
+          "end": 3.02,
+          "probability": 0.9980766773223877
+        },
+        {
+          "word": " don't",
+          "start": 3.02,
+          "end": 3.28,
+          "probability": 0.9925392270088196
+        },
+        {
+          "word": " go",
+          "start": 3.28,
+          "end": 3.46,
+          "probability": 0.9959713816642761
+        },
+        {
+          "word": " out",
+          "start": 3.46,
+          "end": 3.76,
+          "probability": 0.9862418174743652
+        },
+        {
+          "word": " for",
+          "start": 3.76,
+          "end": 3.94,
+          "probability": 0.9983569979667664
+        },
+        {
+          "word": " dinner",
+          "start": 3.94,
+          "end": 4.24,
+          "probability": 0.9967111349105835
+        },
+        {
+          "word": " and",
+          "start": 4.24,
+          "end": 4.66,
+          "probability": 0.8214567303657532
+        },
+        {
+          "word": " movies",
+          "start": 4.66,
+          "end": 5.02,
+          "probability": 0.9955013394355774
+        },
+        {
+          "word": " and",
+          "start": 5.02,
+          "end": 5.32,
+          "probability": 0.9573394060134888
+        },
+        {
+          "word": " things",
+          "start": 5.32,
+          "end": 5.64,
+          "probability": 0.9953225255012512
+        },
+        {
+          "word": " of",
+          "start": 5.64,
+          "end": 5.72,
+          "probability": 0.9925094842910767
+        },
+        {
+          "word": " that",
+          "start": 5.72,
+          "end": 5.84,
+          "probability": 0.9969955682754517
+        },
+        {
+          "word": " nature",
+          "start": 5.84,
+          "end": 6.28,
+          "probability": 0.9976633787155151
+        },
+        {
+          "word": " and",
+          "start": 6.28,
+          "end": 7.06,
+          "probability": 0.45308810472488403
+        },
+        {
+          "word": " try",
+          "start": 7.06,
+          "end": 7.34,
+          "probability": 0.9771151542663574
+        },
+        {
+          "word": " to",
+          "start": 7.34,
+          "end": 7.52,
+          "probability": 0.997639536857605
+        },
+        {
+          "word": " take",
+          "start": 7.52,
+          "end": 7.68,
+          "probability": 0.9675063490867615
+        },
+        {
+          "word": " up",
+          "start": 7.68,
+          "end": 8.0,
+          "probability": 0.9930139183998108
+        },
+        {
+          "word": " things",
+          "start": 8.0,
+          "end": 8.28,
+          "probability": 0.9942916631698608
+        },
+        {
+          "word": " in",
+          "start": 8.28,
+          "end": 8.42,
+          "probability": 0.9948568344116211
+        },
+        {
+          "word": " life",
+          "start": 8.42,
+          "end": 8.76,
+          "probability": 0.996696949005127
+        },
+        {
+          "word": " that",
+          "start": 8.76,
+          "end": 9.1,
+          "probability": 0.931684136390686
+        },
+        {
+          "word": " well",
+          "start": 9.1,
+          "end": 9.3,
+          "probability": 0.6662961840629578
+        },
+        {
+          "word": " they",
+          "start": 9.3,
+          "end": 9.62,
+          "probability": 0.6089649796485901
+        },
+        {
+          "word": " always",
+          "start": 9.62,
+          "end": 9.9,
+          "probability": 0.9944085478782654
+        },
+        {
+          "word": " say",
+          "start": 9.9,
+          "end": 10.16,
+          "probability": 0.9941040873527527
+        },
+        {
+          "word": " the",
+          "start": 10.16,
+          "end": 10.34,
+          "probability": 0.8672375082969666
+        },
+        {
+          "word": " best",
+          "start": 10.34,
+          "end": 10.54,
+          "probability": 0.9989245533943176
+        },
+        {
+          "word": " things",
+          "start": 10.54,
+          "end": 10.78,
+          "probability": 0.9865434765815735
+        },
+        {
+          "word": " in",
+          "start": 10.78,
+          "end": 10.9,
+          "probability": 0.9951686859130859
+        },
+        {
+          "word": " life",
+          "start": 10.9,
+          "end": 11.18,
+          "probability": 0.9984155893325806
+        },
+        {
+          "word": " are",
+          "start": 11.18,
+          "end": 11.38,
+          "probability": 0.9822384119033813
+        },
+        {
+          "word": " free.",
+          "start": 11.38,
+          "end": 12.1,
+          "probability": 0.9958951473236084
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 12.14,
+      "end": 21.52,
+      "text": " Reading a book, going for a nice walk and of course combining exercise and various things of that nature where you're not spending money per se.",
+      "tokens": [
+        50963,
+        11725,
+        257,
+        1492,
+        11,
+        1016,
+        329,
+        257,
+        3621,
+        2513,
+        290,
+        286,
+        1781,
+        19771,
+        5517,
+        290,
+        2972,
+        1243,
+        286,
+        326,
+        3450,
+        810,
+        345,
+        821,
+        407,
+        4581,
+        1637,
+        583,
+        384,
+        13,
+        51463
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17286660796717593,
+      "compression_ratio": 1.6717171717171717,
+      "no_speech_prob": 0.06420622766017914,
+      "words": [
+        {
+          "word": " Reading",
+          "start": 12.14,
+          "end": 12.66,
+          "probability": 0.9792118072509766
+        },
+        {
+          "word": " a",
+          "start": 12.66,
+          "end": 12.9,
+          "probability": 0.9976400136947632
+        },
+        {
+          "word": " book,",
+          "start": 12.9,
+          "end": 13.74,
+          "probability": 0.9995461106300354
+        },
+        {
+          "word": " going",
+          "start": 13.78,
+          "end": 14.56,
+          "probability": 0.9029258489608765
+        },
+        {
+          "word": " for",
+          "start": 14.56,
+          "end": 14.8,
+          "probability": 0.9970386028289795
+        },
+        {
+          "word": " a",
+          "start": 14.8,
+          "end": 14.9,
+          "probability": 0.9754894971847534
+        },
+        {
+          "word": " nice",
+          "start": 14.9,
+          "end": 15.06,
+          "probability": 0.9987385869026184
+        },
+        {
+          "word": " walk",
+          "start": 15.06,
+          "end": 15.46,
+          "probability": 0.9964725375175476
+        },
+        {
+          "word": " and",
+          "start": 15.46,
+          "end": 15.66,
+          "probability": 0.6787014007568359
+        },
+        {
+          "word": " of",
+          "start": 15.66,
+          "end": 15.68,
+          "probability": 0.913360595703125
+        },
+        {
+          "word": " course",
+          "start": 15.68,
+          "end": 15.92,
+          "probability": 0.9978116154670715
+        },
+        {
+          "word": " combining",
+          "start": 15.92,
+          "end": 16.42,
+          "probability": 0.9887973666191101
+        },
+        {
+          "word": " exercise",
+          "start": 16.42,
+          "end": 17.1,
+          "probability": 0.9336191415786743
+        },
+        {
+          "word": " and",
+          "start": 17.1,
+          "end": 17.38,
+          "probability": 0.9741429686546326
+        },
+        {
+          "word": " various",
+          "start": 17.38,
+          "end": 17.56,
+          "probability": 0.9985633492469788
+        },
+        {
+          "word": " things",
+          "start": 17.56,
+          "end": 17.86,
+          "probability": 0.997694194316864
+        },
+        {
+          "word": " of",
+          "start": 17.86,
+          "end": 18.08,
+          "probability": 0.7943421602249146
+        },
+        {
+          "word": " that",
+          "start": 18.08,
+          "end": 18.08,
+          "probability": 0.9560215473175049
+        },
+        {
+          "word": " nature",
+          "start": 18.08,
+          "end": 18.5,
+          "probability": 0.9913241863250732
+        },
+        {
+          "word": " where",
+          "start": 18.5,
+          "end": 19.08,
+          "probability": 0.5667990446090698
+        },
+        {
+          "word": " you're",
+          "start": 19.08,
+          "end": 19.22,
+          "probability": 0.9687064588069916
+        },
+        {
+          "word": " not",
+          "start": 19.22,
+          "end": 19.4,
+          "probability": 0.9993388056755066
+        },
+        {
+          "word": " spending",
+          "start": 19.4,
+          "end": 19.92,
+          "probability": 0.9983046054840088
+        },
+        {
+          "word": " money",
+          "start": 19.92,
+          "end": 20.58,
+          "probability": 0.9983987212181091
+        },
+        {
+          "word": " per",
+          "start": 20.58,
+          "end": 21.06,
+          "probability": 0.9491517543792725
+        },
+        {
+          "word": " se.",
+          "start": 21.06,
+          "end": 21.52,
+          "probability": 0.7829422950744629
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

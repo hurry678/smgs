@@ -1,0 +1,228 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$5",
+  "fingerprint": "ca9dc72784b731fed32575bfc3767334d53977d7275771e11ab84431bbace562",
+  "audio_sha256": "59d6997658a43dc49de465e783dd820b5d87e9651933c20f08f699469c2a9d8b",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.1002088328823447,
+  "text": " that we have, I have been beat up and put down, and everything that can go wrong has gone wrong for me. But.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.62,
+      "text": " that we have, I have been beat up and put down,",
+      "tokens": [
+        50363,
+        326,
+        356,
+        423,
+        11,
+        314,
+        423,
+        587,
+        4405,
+        510,
+        290,
+        1234,
+        866,
+        11,
+        50548
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31221897461835074,
+      "compression_ratio": 1.2,
+      "no_speech_prob": 0.01706666126847267,
+      "words": [
+        {
+          "word": " that",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.13408684730529785
+        },
+        {
+          "word": " we",
+          "start": 0.36,
+          "end": 0.42,
+          "probability": 0.6373018026351929
+        },
+        {
+          "word": " have,",
+          "start": 0.42,
+          "end": 0.86,
+          "probability": 0.9968178272247314
+        },
+        {
+          "word": " I",
+          "start": 0.86,
+          "end": 1.28,
+          "probability": 0.9858058094978333
+        },
+        {
+          "word": " have",
+          "start": 1.28,
+          "end": 1.46,
+          "probability": 0.9899861216545105
+        },
+        {
+          "word": " been",
+          "start": 1.46,
+          "end": 1.76,
+          "probability": 0.9974034428596497
+        },
+        {
+          "word": " beat",
+          "start": 1.76,
+          "end": 1.96,
+          "probability": 0.9899688363075256
+        },
+        {
+          "word": " up",
+          "start": 1.96,
+          "end": 2.48,
+          "probability": 0.9673810601234436
+        },
+        {
+          "word": " and",
+          "start": 2.48,
+          "end": 2.84,
+          "probability": 0.8819158673286438
+        },
+        {
+          "word": " put",
+          "start": 2.84,
+          "end": 2.98,
+          "probability": 0.9982253909111023
+        },
+        {
+          "word": " down,",
+          "start": 2.98,
+          "end": 3.62,
+          "probability": 0.9988009929656982
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.8,
+      "end": 8.0,
+      "text": " and everything that can go wrong has gone wrong for me.",
+      "tokens": [
+        50548,
+        290,
+        2279,
+        326,
+        460,
+        467,
+        2642,
+        468,
+        3750,
+        2642,
+        329,
+        502,
+        13,
+        50762
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31221897461835074,
+      "compression_ratio": 1.2,
+      "no_speech_prob": 0.01706666126847267,
+      "words": [
+        {
+          "word": " and",
+          "start": 3.8,
+          "end": 4.06,
+          "probability": 0.9867346286773682
+        },
+        {
+          "word": " everything",
+          "start": 4.06,
+          "end": 5.16,
+          "probability": 0.980250358581543
+        },
+        {
+          "word": " that",
+          "start": 5.16,
+          "end": 5.4,
+          "probability": 0.998288094997406
+        },
+        {
+          "word": " can",
+          "start": 5.4,
+          "end": 5.58,
+          "probability": 0.9972947239875793
+        },
+        {
+          "word": " go",
+          "start": 5.58,
+          "end": 5.84,
+          "probability": 0.9979189038276672
+        },
+        {
+          "word": " wrong",
+          "start": 5.84,
+          "end": 6.28,
+          "probability": 0.9994069337844849
+        },
+        {
+          "word": " has",
+          "start": 6.28,
+          "end": 6.84,
+          "probability": 0.8552497029304504
+        },
+        {
+          "word": " gone",
+          "start": 6.84,
+          "end": 7.06,
+          "probability": 0.9894965291023254
+        },
+        {
+          "word": " wrong",
+          "start": 7.06,
+          "end": 7.42,
+          "probability": 0.998173713684082
+        },
+        {
+          "word": " for",
+          "start": 7.42,
+          "end": 7.68,
+          "probability": 0.9963816404342651
+        },
+        {
+          "word": " me.",
+          "start": 7.68,
+          "end": 8.0,
+          "probability": 0.9998633861541748
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 8.08,
+      "end": 8.16,
+      "text": " But.",
+      "tokens": [
+        50762,
+        887,
+        13,
+        50804
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.31221897461835074,
+      "compression_ratio": 1.2,
+      "no_speech_prob": 0.01706666126847267,
+      "words": [
+        {
+          "word": " But.",
+          "start": 8.08,
+          "end": 8.16,
+          "probability": 0.6930462121963501
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

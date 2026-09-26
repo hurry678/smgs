@@ -1,0 +1,152 @@
+{
+  "sample_id": "-RfYyzHpjk4$_$11",
+  "fingerprint": "155cb1549cb8e4b6c52040cbd390db089356fd85ab9c8a67ca165a1d96835b0a",
+  "audio_sha256": "36495ddef418948fe00005b5cf244502d8d15d1450b00347aec95a44f40c8af3",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9646876249462366,
+  "text": " So, get your friends lined up, get your business colleagues lined up, and have a good time.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.6799999999999993,
+      "end": 4.6,
+      "text": " So, get your friends lined up, get your business colleagues lined up, and have a good time.",
+      "tokens": [
+        50363,
+        1406,
+        11,
+        651,
+        534,
+        2460,
+        16566,
+        510,
+        11,
+        651,
+        534,
+        1597,
+        7810,
+        16566,
+        510,
+        11,
+        290,
+        423,
+        257,
+        922,
+        640,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27389001846313477,
+      "compression_ratio": 1.1973684210526316,
+      "no_speech_prob": 0.006822273135185242,
+      "words": [
+        {
+          "word": " So,",
+          "start": 0.6799999999999993,
+          "end": 1.0599999999999996,
+          "probability": 0.7385324835777283
+        },
+        {
+          "word": " get",
+          "start": 1.0599999999999996,
+          "end": 1.44,
+          "probability": 0.9222570061683655
+        },
+        {
+          "word": " your",
+          "start": 1.44,
+          "end": 1.62,
+          "probability": 0.992429792881012
+        },
+        {
+          "word": " friends",
+          "start": 1.62,
+          "end": 1.9,
+          "probability": 0.9147409200668335
+        },
+        {
+          "word": " lined",
+          "start": 1.9,
+          "end": 2.08,
+          "probability": 0.9960285425186157
+        },
+        {
+          "word": " up,",
+          "start": 2.08,
+          "end": 2.38,
+          "probability": 0.9964615702629089
+        },
+        {
+          "word": " get",
+          "start": 2.52,
+          "end": 2.52,
+          "probability": 0.9789268374443054
+        },
+        {
+          "word": " your",
+          "start": 2.52,
+          "end": 2.7,
+          "probability": 0.9742611646652222
+        },
+        {
+          "word": " business",
+          "start": 2.7,
+          "end": 2.88,
+          "probability": 0.9926262497901917
+        },
+        {
+          "word": " colleagues",
+          "start": 2.88,
+          "end": 3.3,
+          "probability": 0.9795221090316772
+        },
+        {
+          "word": " lined",
+          "start": 3.3,
+          "end": 3.56,
+          "probability": 0.9950070381164551
+        },
+        {
+          "word": " up,",
+          "start": 3.56,
+          "end": 3.8,
+          "probability": 0.9986202716827393
+        },
+        {
+          "word": " and",
+          "start": 3.82,
+          "end": 3.84,
+          "probability": 0.9941786527633667
+        },
+        {
+          "word": " have",
+          "start": 3.84,
+          "end": 4.04,
+          "probability": 0.9979400038719177
+        },
+        {
+          "word": " a",
+          "start": 4.04,
+          "end": 4.1,
+          "probability": 0.9981039762496948
+        },
+        {
+          "word": " good",
+          "start": 4.1,
+          "end": 4.22,
+          "probability": 0.9985307455062866
+        },
+        {
+          "word": " time.",
+          "start": 4.22,
+          "end": 4.6,
+          "probability": 0.9982621073722839
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

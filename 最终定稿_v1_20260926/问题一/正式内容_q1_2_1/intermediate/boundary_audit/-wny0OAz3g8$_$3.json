@@ -1,0 +1,227 @@
+{
+  "sample_id": "-wny0OAz3g8$_$3",
+  "fingerprint": "d61509b9633b73ba67b2315d801d5d3e5b19e87e56fa5056a4353038bed13815",
+  "audio_sha256": "b0cebfff29198226683ae35c510266119443ee7452ba69088d34e5bf698ca12f",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9724877921398729,
+  "text": " behavior, which then allowed the white workers and unions to justify their decision to not allow black workers into their union. The prevailing...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.66,
+      "text": " behavior, which then allowed the white workers and unions to justify their decision to not",
+      "tokens": [
+        50363,
+        4069,
+        11,
+        543,
+        788,
+        3142,
+        262,
+        2330,
+        3259,
+        290,
+        11936,
+        284,
+        12051,
+        511,
+        2551,
+        284,
+        407,
+        50545
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3066738880041874,
+      "compression_ratio": 1.3153153153153154,
+      "no_speech_prob": 0.02553614415228367,
+      "words": [
+        {
+          "word": " behavior,",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.828576922416687
+        },
+        {
+          "word": " which",
+          "start": 0.56,
+          "end": 0.74,
+          "probability": 0.9932122230529785
+        },
+        {
+          "word": " then",
+          "start": 0.74,
+          "end": 0.88,
+          "probability": 0.8521213531494141
+        },
+        {
+          "word": " allowed",
+          "start": 0.88,
+          "end": 1.14,
+          "probability": 0.9524073600769043
+        },
+        {
+          "word": " the",
+          "start": 1.14,
+          "end": 1.3,
+          "probability": 0.9882264733314514
+        },
+        {
+          "word": " white",
+          "start": 1.3,
+          "end": 1.4,
+          "probability": 0.859180748462677
+        },
+        {
+          "word": " workers",
+          "start": 1.4,
+          "end": 1.74,
+          "probability": 0.9921302199363708
+        },
+        {
+          "word": " and",
+          "start": 1.74,
+          "end": 1.86,
+          "probability": 0.915571928024292
+        },
+        {
+          "word": " unions",
+          "start": 1.86,
+          "end": 2.16,
+          "probability": 0.9955865144729614
+        },
+        {
+          "word": " to",
+          "start": 2.16,
+          "end": 2.36,
+          "probability": 0.9973382353782654
+        },
+        {
+          "word": " justify",
+          "start": 2.36,
+          "end": 2.74,
+          "probability": 0.9971760511398315
+        },
+        {
+          "word": " their",
+          "start": 2.74,
+          "end": 2.98,
+          "probability": 0.971255362033844
+        },
+        {
+          "word": " decision",
+          "start": 2.98,
+          "end": 3.24,
+          "probability": 0.9952895641326904
+        },
+        {
+          "word": " to",
+          "start": 3.24,
+          "end": 3.54,
+          "probability": 0.9436215758323669
+        },
+        {
+          "word": " not",
+          "start": 3.54,
+          "end": 3.66,
+          "probability": 0.9942750334739685
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.66,
+      "end": 5.54,
+      "text": " allow black workers into their union.",
+      "tokens": [
+        50545,
+        1249,
+        2042,
+        3259,
+        656,
+        511,
+        6441,
+        13,
+        50647
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3066738880041874,
+      "compression_ratio": 1.3153153153153154,
+      "no_speech_prob": 0.02553614415228367,
+      "words": [
+        {
+          "word": " allow",
+          "start": 3.66,
+          "end": 3.96,
+          "probability": 0.9803013205528259
+        },
+        {
+          "word": " black",
+          "start": 3.96,
+          "end": 4.18,
+          "probability": 0.9058903455734253
+        },
+        {
+          "word": " workers",
+          "start": 4.18,
+          "end": 4.6,
+          "probability": 0.9980825185775757
+        },
+        {
+          "word": " into",
+          "start": 4.6,
+          "end": 5.0,
+          "probability": 0.9723272919654846
+        },
+        {
+          "word": " their",
+          "start": 5.0,
+          "end": 5.2,
+          "probability": 0.9970996379852295
+        },
+        {
+          "word": " union.",
+          "start": 5.2,
+          "end": 5.54,
+          "probability": 0.9899150133132935
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5.72,
+      "end": 6.06,
+      "text": " The prevailing...",
+      "tokens": [
+        50647,
+        383,
+        26602,
+        986,
+        50672
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3066738880041874,
+      "compression_ratio": 1.3153153153153154,
+      "no_speech_prob": 0.02553614415228367,
+      "words": [
+        {
+          "word": " The",
+          "start": 5.72,
+          "end": 5.74,
+          "probability": 0.9095048904418945
+        },
+        {
+          "word": " prevailing...",
+          "start": 5.74,
+          "end": 6.06,
+          "probability": 0.3036920949816704
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,375 @@
+{
+  "sample_id": "-AUZQgSxyPQ$_$2",
+  "fingerprint": "525316a1e46fbf4aeab5f72c5db8460eb66975861535a9dcbb921660b30d1bfd",
+  "audio_sha256": "918046343bdbd9c4b6100272f15cf7af62566651ec3a39cbd51346eaf85d6b4d",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.8840912089217454,
+  "text": " The perfect soul-made to the claricynic spot therapy brush, this gentle pH-balanced and hydrating exfoliant contains jojoba and achi fruit oils with bamboo and prickly bear extracts. These deliver intense healing, while smooth granules buff away dead dry skin cells.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.92,
+      "text": " The perfect soul-made to the claricynic spot therapy brush, this gentle pH-balanced and",
+      "tokens": [
+        50363,
+        383,
+        2818,
+        5848,
+        12,
+        9727,
+        284,
+        262,
+        10212,
+        291,
+        2047,
+        291,
+        4136,
+        9102,
+        14093,
+        11,
+        428,
+        10296,
+        22918,
+        12,
+        27753,
+        290,
+        50705
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39098839261638585,
+      "compression_ratio": 1.4224598930481283,
+      "no_speech_prob": 0.010612490586936474,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.7736870050430298
+        },
+        {
+          "word": " perfect",
+          "start": 0.66,
+          "end": 1.08,
+          "probability": 0.9702220559120178
+        },
+        {
+          "word": " soul",
+          "start": 1.08,
+          "end": 1.36,
+          "probability": 0.7895768880844116
+        },
+        {
+          "word": "-made",
+          "start": 1.36,
+          "end": 1.54,
+          "probability": 0.5742738097906113
+        },
+        {
+          "word": " to",
+          "start": 1.54,
+          "end": 1.74,
+          "probability": 0.9220961928367615
+        },
+        {
+          "word": " the",
+          "start": 1.74,
+          "end": 1.94,
+          "probability": 0.9378777146339417
+        },
+        {
+          "word": " claricynic",
+          "start": 1.94,
+          "end": 2.58,
+          "probability": 0.45055463537573814
+        },
+        {
+          "word": " spot",
+          "start": 2.58,
+          "end": 3.4,
+          "probability": 0.6652432680130005
+        },
+        {
+          "word": " therapy",
+          "start": 3.4,
+          "end": 3.92,
+          "probability": 0.9269242882728577
+        },
+        {
+          "word": " brush,",
+          "start": 3.92,
+          "end": 4.5,
+          "probability": 0.9920257925987244
+        },
+        {
+          "word": " this",
+          "start": 5.08,
+          "end": 5.16,
+          "probability": 0.9376952648162842
+        },
+        {
+          "word": " gentle",
+          "start": 5.16,
+          "end": 5.6,
+          "probability": 0.9709572196006775
+        },
+        {
+          "word": " pH",
+          "start": 5.6,
+          "end": 6.2,
+          "probability": 0.8971013426780701
+        },
+        {
+          "word": "-balanced",
+          "start": 6.2,
+          "end": 6.54,
+          "probability": 0.797327995300293
+        },
+        {
+          "word": " and",
+          "start": 6.54,
+          "end": 6.92,
+          "probability": 0.9780725240707397
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.92,
+      "end": 15.22,
+      "text": " hydrating exfoliant contains jojoba and achi fruit oils with bamboo and prickly bear extracts.",
+      "tokens": [
+        50705,
+        2537,
+        7109,
+        803,
+        409,
+        9062,
+        3014,
+        4909,
+        2525,
+        73,
+        19981,
+        290,
+        257,
+        11072,
+        8234,
+        20629,
+        351,
+        37252,
+        290,
+        41409,
+        306,
+        6842,
+        32139,
+        13,
+        51155
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39098839261638585,
+      "compression_ratio": 1.4224598930481283,
+      "no_speech_prob": 0.010612490586936474,
+      "words": [
+        {
+          "word": " hydrating",
+          "start": 6.92,
+          "end": 7.44,
+          "probability": 0.9797021150588989
+        },
+        {
+          "word": " exfoliant",
+          "start": 7.44,
+          "end": 8.32,
+          "probability": 0.9842860102653503
+        },
+        {
+          "word": " contains",
+          "start": 8.32,
+          "end": 9.2,
+          "probability": 0.6505478024482727
+        },
+        {
+          "word": " jojoba",
+          "start": 9.2,
+          "end": 9.84,
+          "probability": 0.7971900304158529
+        },
+        {
+          "word": " and",
+          "start": 9.84,
+          "end": 10.44,
+          "probability": 0.9059431552886963
+        },
+        {
+          "word": " achi",
+          "start": 10.44,
+          "end": 10.88,
+          "probability": 0.2679017297923565
+        },
+        {
+          "word": " fruit",
+          "start": 10.88,
+          "end": 11.28,
+          "probability": 0.9596682786941528
+        },
+        {
+          "word": " oils",
+          "start": 11.28,
+          "end": 11.78,
+          "probability": 0.7177765965461731
+        },
+        {
+          "word": " with",
+          "start": 11.78,
+          "end": 12.58,
+          "probability": 0.4696924090385437
+        },
+        {
+          "word": " bamboo",
+          "start": 12.58,
+          "end": 13.1,
+          "probability": 0.9575769901275635
+        },
+        {
+          "word": " and",
+          "start": 13.1,
+          "end": 13.78,
+          "probability": 0.985103189945221
+        },
+        {
+          "word": " prickly",
+          "start": 13.78,
+          "end": 14.14,
+          "probability": 0.9687660932540894
+        },
+        {
+          "word": " bear",
+          "start": 14.14,
+          "end": 14.4,
+          "probability": 0.7461952567100525
+        },
+        {
+          "word": " extracts.",
+          "start": 14.4,
+          "end": 15.22,
+          "probability": 0.9744584560394287
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 15.54,
+      "end": 21.74,
+      "text": " These deliver intense healing, while smooth granules buff away dead dry skin cells.",
+      "tokens": [
+        51155,
+        2312,
+        5203,
+        8157,
+        11516,
+        11,
+        981,
+        7209,
+        19468,
+        5028,
+        6940,
+        1497,
+        2636,
+        5894,
+        4168,
+        4778,
+        13,
+        51455
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39098839261638585,
+      "compression_ratio": 1.4224598930481283,
+      "no_speech_prob": 0.010612490586936474,
+      "words": [
+        {
+          "word": " These",
+          "start": 15.54,
+          "end": 15.88,
+          "probability": 0.9814638495445251
+        },
+        {
+          "word": " deliver",
+          "start": 15.88,
+          "end": 16.26,
+          "probability": 0.9852286577224731
+        },
+        {
+          "word": " intense",
+          "start": 16.26,
+          "end": 16.9,
+          "probability": 0.998744010925293
+        },
+        {
+          "word": " healing,",
+          "start": 16.9,
+          "end": 17.42,
+          "probability": 0.9921097159385681
+        },
+        {
+          "word": " while",
+          "start": 17.86,
+          "end": 18.18,
+          "probability": 0.9808096289634705
+        },
+        {
+          "word": " smooth",
+          "start": 18.18,
+          "end": 18.42,
+          "probability": 0.989151120185852
+        },
+        {
+          "word": " granules",
+          "start": 18.42,
+          "end": 18.98,
+          "probability": 0.9959609508514404
+        },
+        {
+          "word": " buff",
+          "start": 18.98,
+          "end": 19.24,
+          "probability": 0.9117316603660583
+        },
+        {
+          "word": " away",
+          "start": 19.24,
+          "end": 19.8,
+          "probability": 0.9866920113563538
+        },
+        {
+          "word": " dead",
+          "start": 19.8,
+          "end": 20.4,
+          "probability": 0.9136477112770081
+        },
+        {
+          "word": " dry",
+          "start": 20.4,
+          "end": 21.12,
+          "probability": 0.6409034729003906
+        },
+        {
+          "word": " skin",
+          "start": 21.12,
+          "end": 21.42,
+          "probability": 0.9985643029212952
+        },
+        {
+          "word": " cells.",
+          "start": 21.42,
+          "end": 21.74,
+          "probability": 0.9608372449874878
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,68 @@
+{
+  "sample_id": "-HwX2H8Z4hY$_$2",
+  "fingerprint": "c1de80ed7b5712aa425b724ec064f22888fdbac6c4a2209bd753acf304dd397a",
+  "audio_sha256": "5c1a69ebc28a0f2d3efbe5c119d7ded6d0d3bda09f710194b9d1c9ac63276ea2",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.5156960831955075,
+  "text": " mediocrity. Look at the record.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.7800000000000005,
+      "end": 3.32,
+      "text": " mediocrity. Look at the record.",
+      "tokens": [
+        50363,
+        16957,
+        1696,
+        414,
+        13,
+        6803,
+        379,
+        262,
+        1700,
+        13,
+        50629
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32993849118550617,
+      "compression_ratio": 0.7948717948717948,
+      "no_speech_prob": 0.04296756535768509,
+      "words": [
+        {
+          "word": " mediocrity.",
+          "start": 0.7800000000000005,
+          "end": 1.3,
+          "probability": 0.8681070605913798
+        },
+        {
+          "word": " Look",
+          "start": 2.6,
+          "end": 2.86,
+          "probability": 0.9156304597854614
+        },
+        {
+          "word": " at",
+          "start": 2.86,
+          "end": 2.98,
+          "probability": 0.9980795383453369
+        },
+        {
+          "word": " the",
+          "start": 2.98,
+          "end": 3.1,
+          "probability": 0.9970812201499939
+        },
+        {
+          "word": " record.",
+          "start": 3.1,
+          "end": 3.32,
+          "probability": 0.9927093982696533
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

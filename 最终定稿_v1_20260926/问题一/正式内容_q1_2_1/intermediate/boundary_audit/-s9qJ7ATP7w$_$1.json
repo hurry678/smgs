@@ -1,0 +1,133 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$1",
+  "fingerprint": "b7a603c00dc2b426628c521cb67f8d24736b87918c3858e2faa2e17c0fb005f0",
+  "audio_sha256": "fc2758c68e196578138d656645b0b15f94b7d5e8df0d7856abfe74930f6c414d",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7953514999244362,
+  "text": " The hardest thing in life to learn is to lose. Winning's easy.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.76,
+      "end": 3.68,
+      "text": " The hardest thing in life to learn is to lose.",
+      "tokens": [
+        50363,
+        383,
+        17612,
+        1517,
+        287,
+        1204,
+        284,
+        2193,
+        318,
+        284,
+        4425,
+        13,
+        50563
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.264967155456543,
+      "compression_ratio": 0.9538461538461539,
+      "no_speech_prob": 0.017905768007040024,
+      "words": [
+        {
+          "word": " The",
+          "start": 0.76,
+          "end": 1.24,
+          "probability": 0.6925054788589478
+        },
+        {
+          "word": " hardest",
+          "start": 1.24,
+          "end": 1.72,
+          "probability": 0.9855306148529053
+        },
+        {
+          "word": " thing",
+          "start": 1.72,
+          "end": 1.96,
+          "probability": 0.9986973404884338
+        },
+        {
+          "word": " in",
+          "start": 1.96,
+          "end": 1.96,
+          "probability": 0.959427535533905
+        },
+        {
+          "word": " life",
+          "start": 1.96,
+          "end": 2.14,
+          "probability": 0.9992474317550659
+        },
+        {
+          "word": " to",
+          "start": 2.14,
+          "end": 2.32,
+          "probability": 0.9829944372177124
+        },
+        {
+          "word": " learn",
+          "start": 2.32,
+          "end": 2.58,
+          "probability": 0.9964936375617981
+        },
+        {
+          "word": " is",
+          "start": 2.58,
+          "end": 3.24,
+          "probability": 0.9466454982757568
+        },
+        {
+          "word": " to",
+          "start": 3.24,
+          "end": 3.4,
+          "probability": 0.996058464050293
+        },
+        {
+          "word": " lose.",
+          "start": 3.4,
+          "end": 3.68,
+          "probability": 0.9939216375350952
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.98,
+      "end": 4.4,
+      "text": " Winning's easy.",
+      "tokens": [
+        50563,
+        40983,
+        338,
+        2562,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.264967155456543,
+      "compression_ratio": 0.9538461538461539,
+      "no_speech_prob": 0.017905768007040024,
+      "words": [
+        {
+          "word": " Winning's",
+          "start": 3.98,
+          "end": 4.18,
+          "probability": 0.739062488079071
+        },
+        {
+          "word": " easy.",
+          "start": 4.18,
+          "end": 4.4,
+          "probability": 0.9969636797904968
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

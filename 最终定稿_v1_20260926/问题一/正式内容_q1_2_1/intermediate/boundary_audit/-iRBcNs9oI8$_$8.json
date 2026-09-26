@@ -1,0 +1,198 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$8",
+  "fingerprint": "32b5c8b203303541b8ac29da1defaa0a5e6f44c18d3c9e45c6ccd9b8f2ba68b9",
+  "audio_sha256": "838569ab9436267c42bc7186ad5592169f05847d307e27f3452701f64f1de356",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9909325840417296,
+  "text": " decide to ask out that special someone. So what is the secret I'm telling you about? Well, it is the secret...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.6,
+      "text": " decide to ask out that special someone. So what is the secret I'm telling you",
+      "tokens": [
+        50363,
+        5409,
+        284,
+        1265,
+        503,
+        326,
+        2041,
+        2130,
+        13,
+        1406,
+        644,
+        318,
+        262,
+        3200,
+        314,
+        1101,
+        5149,
+        345,
+        50637
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27209752605807397,
+      "compression_ratio": 1.2087912087912087,
+      "no_speech_prob": 0.012231715023517609,
+      "words": [
+        {
+          "word": " decide",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.3007667064666748
+        },
+        {
+          "word": " to",
+          "start": 0.62,
+          "end": 1.16,
+          "probability": 0.9976620674133301
+        },
+        {
+          "word": " ask",
+          "start": 1.16,
+          "end": 1.4,
+          "probability": 0.997077465057373
+        },
+        {
+          "word": " out",
+          "start": 1.4,
+          "end": 1.74,
+          "probability": 0.9955348968505859
+        },
+        {
+          "word": " that",
+          "start": 1.74,
+          "end": 2.04,
+          "probability": 0.9815112948417664
+        },
+        {
+          "word": " special",
+          "start": 2.04,
+          "end": 2.4,
+          "probability": 0.9898324012756348
+        },
+        {
+          "word": " someone.",
+          "start": 2.4,
+          "end": 2.86,
+          "probability": 0.9857038855552673
+        },
+        {
+          "word": " So",
+          "start": 3.82,
+          "end": 4.1,
+          "probability": 0.9645996689796448
+        },
+        {
+          "word": " what",
+          "start": 4.1,
+          "end": 4.22,
+          "probability": 0.8590075969696045
+        },
+        {
+          "word": " is",
+          "start": 4.22,
+          "end": 4.36,
+          "probability": 0.9979198575019836
+        },
+        {
+          "word": " the",
+          "start": 4.36,
+          "end": 4.46,
+          "probability": 0.9276779890060425
+        },
+        {
+          "word": " secret",
+          "start": 4.46,
+          "end": 4.74,
+          "probability": 0.9978566765785217
+        },
+        {
+          "word": " I'm",
+          "start": 4.74,
+          "end": 5.04,
+          "probability": 0.9819349646568298
+        },
+        {
+          "word": " telling",
+          "start": 5.04,
+          "end": 5.24,
+          "probability": 0.9989880919456482
+        },
+        {
+          "word": " you",
+          "start": 5.24,
+          "end": 5.6,
+          "probability": 0.9992731213569641
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.6,
+      "end": 8.0,
+      "text": " about? Well, it is the secret...",
+      "tokens": [
+        50637,
+        546,
+        30,
+        3894,
+        11,
+        340,
+        318,
+        262,
+        3200,
+        986,
+        50861
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.27209752605807397,
+      "compression_ratio": 1.2087912087912087,
+      "no_speech_prob": 0.012231715023517609,
+      "words": [
+        {
+          "word": " about?",
+          "start": 5.6,
+          "end": 5.98,
+          "probability": 0.996687114238739
+        },
+        {
+          "word": " Well,",
+          "start": 6.5,
+          "end": 6.72,
+          "probability": 0.9852712154388428
+        },
+        {
+          "word": " it",
+          "start": 7.2,
+          "end": 7.28,
+          "probability": 0.993552565574646
+        },
+        {
+          "word": " is",
+          "start": 7.28,
+          "end": 7.5,
+          "probability": 0.9978467226028442
+        },
+        {
+          "word": " the",
+          "start": 7.5,
+          "end": 7.7,
+          "probability": 0.9907194972038269
+        },
+        {
+          "word": " secret...",
+          "start": 7.7,
+          "end": 8.0,
+          "probability": 0.6122895777225494
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

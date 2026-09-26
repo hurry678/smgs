@@ -1,0 +1,131 @@
+{
+  "sample_id": "-mqbVkbCndg$_$0",
+  "fingerprint": "570ff07e3ae486f3da64eb1fdf610383dd8c9567d394c2d8b4c38e635a22e41e",
+  "audio_sha256": "76518c0230fdcdf3e5136c2d54dce72c956199dfb15084cd0a1088305c33f3d2",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7106827918905765,
+  "text": " How, at a particular moment in time, our moment in time, are they limited?",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.76,
+      "text": " How, at a particular moment in time, our moment in time, are they limited?",
+      "tokens": [
+        50363,
+        1374,
+        11,
+        379,
+        257,
+        1948,
+        2589,
+        287,
+        640,
+        11,
+        674,
+        2589,
+        287,
+        640,
+        11,
+        389,
+        484,
+        3614,
+        30,
+        50663
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.23262923104422434,
+      "compression_ratio": 1.121212121212121,
+      "no_speech_prob": 0.0006130497204139829,
+      "words": [
+        {
+          "word": " How,",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.9042859673500061
+        },
+        {
+          "word": " at",
+          "start": 0.54,
+          "end": 0.96,
+          "probability": 0.9673519134521484
+        },
+        {
+          "word": " a",
+          "start": 0.96,
+          "end": 1.1,
+          "probability": 0.995769739151001
+        },
+        {
+          "word": " particular",
+          "start": 1.1,
+          "end": 1.54,
+          "probability": 0.998047947883606
+        },
+        {
+          "word": " moment",
+          "start": 1.54,
+          "end": 1.92,
+          "probability": 0.9966564178466797
+        },
+        {
+          "word": " in",
+          "start": 1.92,
+          "end": 2.2,
+          "probability": 0.996317982673645
+        },
+        {
+          "word": " time,",
+          "start": 2.2,
+          "end": 2.56,
+          "probability": 0.9979519248008728
+        },
+        {
+          "word": " our",
+          "start": 2.68,
+          "end": 2.94,
+          "probability": 0.8248453736305237
+        },
+        {
+          "word": " moment",
+          "start": 2.94,
+          "end": 3.3,
+          "probability": 0.9300433397293091
+        },
+        {
+          "word": " in",
+          "start": 3.3,
+          "end": 3.66,
+          "probability": 0.993447482585907
+        },
+        {
+          "word": " time,",
+          "start": 3.66,
+          "end": 4.04,
+          "probability": 0.9991744160652161
+        },
+        {
+          "word": " are",
+          "start": 4.6,
+          "end": 4.6,
+          "probability": 0.9946414232254028
+        },
+        {
+          "word": " they",
+          "start": 4.6,
+          "end": 5.2,
+          "probability": 0.9987421631813049
+        },
+        {
+          "word": " limited?",
+          "start": 5.2,
+          "end": 5.76,
+          "probability": 0.9912741780281067
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

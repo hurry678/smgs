@@ -1,0 +1,834 @@
+{
+  "sample_id": "-t217m2on-s$_$7",
+  "fingerprint": "ed5293eaec6b971c9edc24fc49c639481397e090ad0b393d307a7f43b44eba2a",
+  "audio_sha256": "630ff5e98e2ea730d7b65df13318d2adc8692e0354f7f83a59b6c8fdd208f95c",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 4.649800917133689,
+  "text": " If you find that your ears consistently do this and you can't pop them often, you'll definitely need to see a physician regarding those things. It could be something more of a nasal infection or a sinus infection that he would need to with. 8",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.12,
+      "text": " If you find that your ears consistently do this and you can't pop them often, you'll",
+      "tokens": [
+        50363,
+        1002,
+        345,
+        1064,
+        326,
+        534,
+        11368,
+        9835,
+        466,
+        428,
+        290,
+        345,
+        460,
+        470,
+        1461,
+        606,
+        1690,
+        11,
+        345,
+        1183,
+        50713
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667728355952672,
+      "compression_ratio": 1.5096774193548388,
+      "no_speech_prob": 0.006853482220321894,
+      "words": [
+        {
+          "word": " If",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.8355622291564941
+        },
+        {
+          "word": " you",
+          "start": 0.68,
+          "end": 0.84,
+          "probability": 0.9974092841148376
+        },
+        {
+          "word": " find",
+          "start": 0.84,
+          "end": 1.12,
+          "probability": 0.9961798191070557
+        },
+        {
+          "word": " that",
+          "start": 1.12,
+          "end": 1.46,
+          "probability": 0.9805189371109009
+        },
+        {
+          "word": " your",
+          "start": 1.46,
+          "end": 1.54,
+          "probability": 0.9707094430923462
+        },
+        {
+          "word": " ears",
+          "start": 1.54,
+          "end": 2.42,
+          "probability": 0.9980664849281311
+        },
+        {
+          "word": " consistently",
+          "start": 2.42,
+          "end": 3.76,
+          "probability": 0.13907307386398315
+        },
+        {
+          "word": " do",
+          "start": 3.76,
+          "end": 4.4,
+          "probability": 0.984148383140564
+        },
+        {
+          "word": " this",
+          "start": 4.4,
+          "end": 4.72,
+          "probability": 0.9961771965026855
+        },
+        {
+          "word": " and",
+          "start": 4.72,
+          "end": 4.88,
+          "probability": 0.8404117822647095
+        },
+        {
+          "word": " you",
+          "start": 4.88,
+          "end": 5.04,
+          "probability": 0.9776152968406677
+        },
+        {
+          "word": " can't",
+          "start": 5.04,
+          "end": 5.58,
+          "probability": 0.9873178899288177
+        },
+        {
+          "word": " pop",
+          "start": 5.58,
+          "end": 5.74,
+          "probability": 0.9861191511154175
+        },
+        {
+          "word": " them",
+          "start": 5.74,
+          "end": 6.12,
+          "probability": 0.9952149391174316
+        },
+        {
+          "word": " often,",
+          "start": 6.12,
+          "end": 6.54,
+          "probability": 0.6572999358177185
+        },
+        {
+          "word": " you'll",
+          "start": 7.12,
+          "end": 7.12,
+          "probability": 0.8166021406650543
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.12,
+      "end": 10.6,
+      "text": " definitely need to see a physician regarding those things.",
+      "tokens": [
+        50713,
+        4753,
+        761,
+        284,
+        766,
+        257,
+        14325,
+        5115,
+        883,
+        1243,
+        13,
+        50909
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667728355952672,
+      "compression_ratio": 1.5096774193548388,
+      "no_speech_prob": 0.006853482220321894,
+      "words": [
+        {
+          "word": " definitely",
+          "start": 7.12,
+          "end": 7.34,
+          "probability": 0.9832856059074402
+        },
+        {
+          "word": " need",
+          "start": 7.34,
+          "end": 7.86,
+          "probability": 0.8981340527534485
+        },
+        {
+          "word": " to",
+          "start": 7.86,
+          "end": 8.04,
+          "probability": 0.9980302453041077
+        },
+        {
+          "word": " see",
+          "start": 8.04,
+          "end": 8.22,
+          "probability": 0.9915764927864075
+        },
+        {
+          "word": " a",
+          "start": 8.22,
+          "end": 8.3,
+          "probability": 0.992668092250824
+        },
+        {
+          "word": " physician",
+          "start": 8.3,
+          "end": 9.0,
+          "probability": 0.9979649782180786
+        },
+        {
+          "word": " regarding",
+          "start": 9.0,
+          "end": 9.78,
+          "probability": 0.9815627336502075
+        },
+        {
+          "word": " those",
+          "start": 9.78,
+          "end": 10.18,
+          "probability": 0.9888654351234436
+        },
+        {
+          "word": " things.",
+          "start": 10.18,
+          "end": 10.6,
+          "probability": 0.9983141422271729
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 10.86,
+      "end": 16.0,
+      "text": " It could be something more of a nasal infection or a sinus infection that he would need to",
+      "tokens": [
+        50909,
+        632,
+        714,
+        307,
+        1223,
+        517,
+        286,
+        257,
+        40829,
+        10280,
+        393,
+        257,
+        7813,
+        385,
+        10280,
+        326,
+        339,
+        561,
+        761,
+        284,
+        51163
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20667728355952672,
+      "compression_ratio": 1.5096774193548388,
+      "no_speech_prob": 0.006853482220321894,
+      "words": [
+        {
+          "word": " It",
+          "start": 10.86,
+          "end": 10.96,
+          "probability": 0.9900268316268921
+        },
+        {
+          "word": " could",
+          "start": 10.96,
+          "end": 11.14,
+          "probability": 0.9971338510513306
+        },
+        {
+          "word": " be",
+          "start": 11.14,
+          "end": 11.36,
+          "probability": 0.9978072047233582
+        },
+        {
+          "word": " something",
+          "start": 11.36,
+          "end": 11.68,
+          "probability": 0.9923194050788879
+        },
+        {
+          "word": " more",
+          "start": 11.68,
+          "end": 12.04,
+          "probability": 0.9487821459770203
+        },
+        {
+          "word": " of",
+          "start": 12.04,
+          "end": 12.18,
+          "probability": 0.9956755042076111
+        },
+        {
+          "word": " a",
+          "start": 12.18,
+          "end": 12.18,
+          "probability": 0.9569881558418274
+        },
+        {
+          "word": " nasal",
+          "start": 12.18,
+          "end": 12.44,
+          "probability": 0.9933158755302429
+        },
+        {
+          "word": " infection",
+          "start": 12.44,
+          "end": 13.08,
+          "probability": 0.9956108927726746
+        },
+        {
+          "word": " or",
+          "start": 13.08,
+          "end": 13.4,
+          "probability": 0.8751732110977173
+        },
+        {
+          "word": " a",
+          "start": 13.4,
+          "end": 13.66,
+          "probability": 0.9412104487419128
+        },
+        {
+          "word": " sinus",
+          "start": 13.66,
+          "end": 13.96,
+          "probability": 0.9836363196372986
+        },
+        {
+          "word": " infection",
+          "start": 13.96,
+          "end": 14.52,
+          "probability": 0.9970598816871643
+        },
+        {
+          "word": " that",
+          "start": 14.52,
+          "end": 15.26,
+          "probability": 0.9240559935569763
+        },
+        {
+          "word": " he",
+          "start": 15.26,
+          "end": 15.52,
+          "probability": 0.9976620674133301
+        },
+        {
+          "word": " would",
+          "start": 15.52,
+          "end": 15.78,
+          "probability": 0.9960518479347229
+        },
+        {
+          "word": " need",
+          "start": 15.78,
+          "end": 15.94,
+          "probability": 0.9929619431495667
+        },
+        {
+          "word": " to",
+          "start": 15.94,
+          "end": 16.259999999999998,
+          "probability": 0.9989131689071655
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 1626,
+      "start": 16.26,
+      "end": 16.42,
+      "text": " with.",
+      "tokens": [
+        50363,
+        351,
+        13,
+        50413
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": [
+        {
+          "word": " with.",
+          "start": 16.26,
+          "end": 16.42,
+          "probability": 0.23012082278728485
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 1626,
+      "start": 16.7,
+      "end": 17.0,
+      "text": " 8",
+      "tokens": [
+        50413,
+        807,
+        50463
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": [
+        {
+          "word": " 8",
+          "start": 16.7,
+          "end": 17.0,
+          "probability": 0.004457656294107437
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 6,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 7,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 8,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 9,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 10,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 11,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 12,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 13,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 14,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 15,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 16,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 17,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 18,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 19,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 20,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 21,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 22,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 23,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 24,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 25,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 26,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 27,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 28,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 29,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 30,
+      "seek": 1626,
+      "start": 17.0,
+      "end": 17.0,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.36047372050669,
+      "compression_ratio": 3.4705882352941178,
+      "no_speech_prob": 0.24189017713069916,
+      "words": []
+    },
+    {
+      "id": 31,
+      "seek": 1700,
+      "start": 16.98,
+      "end": 16.98,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5298751354217529,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.6922406554222107,
+      "words": []
+    },
+    {
+      "id": 32,
+      "seek": 1700,
+      "start": 16.98,
+      "end": 16.98,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5298751354217529,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.6922406554222107,
+      "words": []
+    },
+    {
+      "id": 33,
+      "seek": 1700,
+      "start": 16.98,
+      "end": 16.98,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5298751354217529,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.6922406554222107,
+      "words": []
+    },
+    {
+      "id": 34,
+      "seek": 1700,
+      "start": 16.98,
+      "end": 16.98,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5298751354217529,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.6922406554222107,
+      "words": []
+    },
+    {
+      "id": 35,
+      "seek": 1700,
+      "start": 16.98,
+      "end": 16.98,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5298751354217529,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.6922406554222107,
+      "words": []
+    },
+    {
+      "id": 36,
+      "seek": 1700,
+      "start": 16.98,
+      "end": 16.98,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.5298751354217529,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.6922406554222107,
+      "words": []
+    }
+  ],
+  "language": "en"
+}

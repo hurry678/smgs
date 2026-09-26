@@ -1,0 +1,205 @@
+{
+  "sample_id": "-s9qJ7ATP7w$_$0",
+  "fingerprint": "b2e1f68d4da2c4359ead7f1090c934c6e4ffd57f6ae3f60d39ed8f6ec61c71c6",
+  "audio_sha256": "d19a1ec1df9a975056944549d99165684484726b915ecd8ae0bd986b423fd0fd",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.1666098749265075,
+  "text": " They have doubt, they have fear, they're losing a Ferrari race or they're losing a race and then they just give up.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.32,
+      "text": " They have doubt, they have fear, they're losing a Ferrari race or they're losing a race and",
+      "tokens": [
+        50363,
+        1119,
+        423,
+        4719,
+        11,
+        484,
+        423,
+        3252,
+        11,
+        484,
+        821,
+        6078,
+        257,
+        23502,
+        3234,
+        393,
+        484,
+        821,
+        6078,
+        257,
+        3234,
+        290,
+        50627
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3172963559627533,
+      "compression_ratio": 1.3529411764705883,
+      "no_speech_prob": 0.005930593237280846,
+      "words": [
+        {
+          "word": " They",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.5423673391342163
+        },
+        {
+          "word": " have",
+          "start": 0.14,
+          "end": 0.34,
+          "probability": 0.9021685719490051
+        },
+        {
+          "word": " doubt,",
+          "start": 0.34,
+          "end": 0.54,
+          "probability": 0.8363491892814636
+        },
+        {
+          "word": " they",
+          "start": 0.82,
+          "end": 0.82,
+          "probability": 0.9752054214477539
+        },
+        {
+          "word": " have",
+          "start": 0.82,
+          "end": 0.94,
+          "probability": 0.9930537343025208
+        },
+        {
+          "word": " fear,",
+          "start": 0.94,
+          "end": 1.42,
+          "probability": 0.9994152784347534
+        },
+        {
+          "word": " they're",
+          "start": 1.94,
+          "end": 1.94,
+          "probability": 0.7470209896564484
+        },
+        {
+          "word": " losing",
+          "start": 1.94,
+          "end": 2.16,
+          "probability": 0.9856816530227661
+        },
+        {
+          "word": " a",
+          "start": 2.16,
+          "end": 2.44,
+          "probability": 0.9614844918251038
+        },
+        {
+          "word": " Ferrari",
+          "start": 2.44,
+          "end": 2.72,
+          "probability": 0.9947534799575806
+        },
+        {
+          "word": " race",
+          "start": 2.72,
+          "end": 3.1,
+          "probability": 0.9810419082641602
+        },
+        {
+          "word": " or",
+          "start": 3.1,
+          "end": 3.28,
+          "probability": 0.7198578119277954
+        },
+        {
+          "word": " they're",
+          "start": 3.28,
+          "end": 3.44,
+          "probability": 0.8805152475833893
+        },
+        {
+          "word": " losing",
+          "start": 3.44,
+          "end": 3.8,
+          "probability": 0.9888184666633606
+        },
+        {
+          "word": " a",
+          "start": 3.8,
+          "end": 4.02,
+          "probability": 0.866346001625061
+        },
+        {
+          "word": " race",
+          "start": 4.02,
+          "end": 4.84,
+          "probability": 0.9887171983718872
+        },
+        {
+          "word": " and",
+          "start": 4.84,
+          "end": 5.32,
+          "probability": 0.5860483050346375
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.32,
+      "end": 6.5,
+      "text": " then they just give up.",
+      "tokens": [
+        50627,
+        788,
+        484,
+        655,
+        1577,
+        510,
+        13,
+        50673
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3172963559627533,
+      "compression_ratio": 1.3529411764705883,
+      "no_speech_prob": 0.005930593237280846,
+      "words": [
+        {
+          "word": " then",
+          "start": 5.32,
+          "end": 5.4,
+          "probability": 0.9637295007705688
+        },
+        {
+          "word": " they",
+          "start": 5.4,
+          "end": 5.56,
+          "probability": 0.9918151497840881
+        },
+        {
+          "word": " just",
+          "start": 5.56,
+          "end": 5.78,
+          "probability": 0.991928219795227
+        },
+        {
+          "word": " give",
+          "start": 5.78,
+          "end": 5.98,
+          "probability": 0.991635799407959
+        },
+        {
+          "word": " up.",
+          "start": 5.98,
+          "end": 6.5,
+          "probability": 0.9984069466590881
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

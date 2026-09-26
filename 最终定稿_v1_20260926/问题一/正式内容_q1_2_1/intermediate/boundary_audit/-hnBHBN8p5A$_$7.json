@@ -1,0 +1,144 @@
+{
+  "sample_id": "-hnBHBN8p5A$_$7",
+  "fingerprint": "236a616d1d38bbb5f48c5bf8f11be347130f527541d9ade34bffb794a556dd4f",
+  "audio_sha256": "9f6ad78972c6794787c7f5eedf646e9a7219d00e5dff9b032260ad13388d7d27",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7533350840676576,
+  "text": " the majority of an entire nation to believe and trust his or her words. Isn't that...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.28,
+      "text": " the majority of an entire nation to believe and trust his or her words. Isn't that...",
+      "tokens": [
+        50363,
+        262,
+        3741,
+        286,
+        281,
+        2104,
+        3277,
+        284,
+        1975,
+        290,
+        3774,
+        465,
+        393,
+        607,
+        2456,
+        13,
+        25110,
+        470,
+        326,
+        986,
+        50723
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3052857355637984,
+      "compression_ratio": 1.103896103896104,
+      "no_speech_prob": 0.02547738328576088,
+      "words": [
+        {
+          "word": " the",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.5326207876205444
+        },
+        {
+          "word": " majority",
+          "start": 0.2,
+          "end": 0.78,
+          "probability": 0.9957247972488403
+        },
+        {
+          "word": " of",
+          "start": 0.78,
+          "end": 1.1,
+          "probability": 0.998214602470398
+        },
+        {
+          "word": " an",
+          "start": 1.1,
+          "end": 1.22,
+          "probability": 0.9575903415679932
+        },
+        {
+          "word": " entire",
+          "start": 1.22,
+          "end": 1.8,
+          "probability": 0.9935226440429688
+        },
+        {
+          "word": " nation",
+          "start": 1.8,
+          "end": 2.46,
+          "probability": 0.9907611012458801
+        },
+        {
+          "word": " to",
+          "start": 2.46,
+          "end": 3.74,
+          "probability": 0.9359562397003174
+        },
+        {
+          "word": " believe",
+          "start": 3.74,
+          "end": 4.06,
+          "probability": 0.996639609336853
+        },
+        {
+          "word": " and",
+          "start": 4.06,
+          "end": 4.42,
+          "probability": 0.9509585499763489
+        },
+        {
+          "word": " trust",
+          "start": 4.42,
+          "end": 4.78,
+          "probability": 0.9986146688461304
+        },
+        {
+          "word": " his",
+          "start": 4.78,
+          "end": 5.18,
+          "probability": 0.8430109620094299
+        },
+        {
+          "word": " or",
+          "start": 5.18,
+          "end": 5.34,
+          "probability": 0.9874637126922607
+        },
+        {
+          "word": " her",
+          "start": 5.34,
+          "end": 5.58,
+          "probability": 0.9931532144546509
+        },
+        {
+          "word": " words.",
+          "start": 5.58,
+          "end": 6.14,
+          "probability": 0.9951506853103638
+        },
+        {
+          "word": " Isn't",
+          "start": 6.42,
+          "end": 7.06,
+          "probability": 0.9813323318958282
+        },
+        {
+          "word": " that...",
+          "start": 7.06,
+          "end": 7.28,
+          "probability": 0.5889246463775635
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

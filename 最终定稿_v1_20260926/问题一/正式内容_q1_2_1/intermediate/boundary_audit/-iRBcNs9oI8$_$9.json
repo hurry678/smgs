@@ -1,0 +1,51 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$9",
+  "fingerprint": "865ead83626f2bc7eea4099ba73bf0b2282432744ab3cb825f9b23b5ced3037b",
+  "audio_sha256": "1c715f747c36d6cda750d0e3afb89ec84f13393eedcea8d4aedc7c29544f685e",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.4712562500499189,
+  "text": " of power pose.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.46,
+      "text": " of power pose.",
+      "tokens": [
+        50363,
+        286,
+        1176,
+        12705,
+        13,
+        50509
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5731217520577567,
+      "compression_ratio": 0.7,
+      "no_speech_prob": 0.0026595003437250853,
+      "words": [
+        {
+          "word": " of",
+          "start": 0.0,
+          "end": 1.48,
+          "probability": 0.6486117839813232
+        },
+        {
+          "word": " power",
+          "start": 1.48,
+          "end": 1.76,
+          "probability": 0.5898462533950806
+        },
+        {
+          "word": " pose.",
+          "start": 1.76,
+          "end": 2.46,
+          "probability": 0.9176138043403625
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

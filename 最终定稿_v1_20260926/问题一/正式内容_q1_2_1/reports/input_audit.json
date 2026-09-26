@@ -1,0 +1,24 @@
+{
+  "samples": 100,
+  "video_bytes": 103613398,
+  "source_copies_hash_verified": 101,
+  "train_overlap": 11,
+  "total_duration_s": 787.4980179999997,
+  "duration_min_s": 2.257,
+  "duration_max_s": 29.288021,
+  "pilots": [
+    {
+      "sample_id": "-wny0OAz3g8$_$0",
+      "duration_s": 3.333333
+    },
+    {
+      "sample_id": "-HwX2H8Z4hY$_$9",
+      "duration_s": 7.733984
+    },
+    {
+      "sample_id": "-a55Q6RWvTA$_$3",
+      "duration_s": 22.153971
+    }
+  ],
+  "labels_policy": "Original spreadsheet copied unchanged; labels excluded from extraction manifest."
+}

@@ -1,0 +1,220 @@
+{
+  "sample_id": "-UuX1xuaiiE$_$1",
+  "fingerprint": "374ce4688c60ccaba85d7d33555d618498636e9eb1ddc3b56453ccc2c88d4c8a",
+  "audio_sha256": "5eb87169426d6eea445c2ed3f83279e25eef4b98b05cde7bb44c010aaf6e1487",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.0258549579884857,
+  "text": " And all of them are really being able to explore these different areas in depth in a way that really wasn't available before the center was here.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 9.74,
+      "text": " And all of them are really being able to explore these different areas in depth in a way that really wasn't available before the center was here.",
+      "tokens": [
+        50363,
+        843,
+        477,
+        286,
+        606,
+        389,
+        1107,
+        852,
+        1498,
+        284,
+        7301,
+        777,
+        1180,
+        3006,
+        287,
+        6795,
+        287,
+        257,
+        835,
+        326,
+        1107,
+        2492,
+        470,
+        1695,
+        878,
+        262,
+        3641,
+        373,
+        994,
+        13,
+        50863
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.241774320602417,
+      "compression_ratio": 1.3425925925925926,
+      "no_speech_prob": 0.012470023706555367,
+      "words": [
+        {
+          "word": " And",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.30066248774528503
+        },
+        {
+          "word": " all",
+          "start": 0.58,
+          "end": 0.82,
+          "probability": 0.9599794745445251
+        },
+        {
+          "word": " of",
+          "start": 0.82,
+          "end": 0.9,
+          "probability": 0.9980265498161316
+        },
+        {
+          "word": " them",
+          "start": 0.9,
+          "end": 1.12,
+          "probability": 0.9966828227043152
+        },
+        {
+          "word": " are",
+          "start": 1.12,
+          "end": 1.34,
+          "probability": 0.9947254061698914
+        },
+        {
+          "word": " really",
+          "start": 1.34,
+          "end": 1.62,
+          "probability": 0.9795998334884644
+        },
+        {
+          "word": " being",
+          "start": 1.62,
+          "end": 1.86,
+          "probability": 0.672950267791748
+        },
+        {
+          "word": " able",
+          "start": 1.86,
+          "end": 2.7,
+          "probability": 0.9970090985298157
+        },
+        {
+          "word": " to",
+          "start": 2.7,
+          "end": 2.92,
+          "probability": 0.9965781569480896
+        },
+        {
+          "word": " explore",
+          "start": 2.92,
+          "end": 3.5,
+          "probability": 0.9992539286613464
+        },
+        {
+          "word": " these",
+          "start": 3.5,
+          "end": 4.26,
+          "probability": 0.9889863729476929
+        },
+        {
+          "word": " different",
+          "start": 4.26,
+          "end": 4.76,
+          "probability": 0.9969402551651001
+        },
+        {
+          "word": " areas",
+          "start": 4.76,
+          "end": 5.22,
+          "probability": 0.9986078143119812
+        },
+        {
+          "word": " in",
+          "start": 5.22,
+          "end": 5.62,
+          "probability": 0.9523760080337524
+        },
+        {
+          "word": " depth",
+          "start": 5.62,
+          "end": 6.4,
+          "probability": 0.8758482933044434
+        },
+        {
+          "word": " in",
+          "start": 6.4,
+          "end": 6.7,
+          "probability": 0.8392530083656311
+        },
+        {
+          "word": " a",
+          "start": 6.7,
+          "end": 6.7,
+          "probability": 0.9958194494247437
+        },
+        {
+          "word": " way",
+          "start": 6.7,
+          "end": 6.96,
+          "probability": 0.9992786049842834
+        },
+        {
+          "word": " that",
+          "start": 6.96,
+          "end": 7.18,
+          "probability": 0.9952587485313416
+        },
+        {
+          "word": " really",
+          "start": 7.18,
+          "end": 7.5,
+          "probability": 0.945418119430542
+        },
+        {
+          "word": " wasn't",
+          "start": 7.5,
+          "end": 7.84,
+          "probability": 0.993855744600296
+        },
+        {
+          "word": " available",
+          "start": 7.84,
+          "end": 8.22,
+          "probability": 0.9984285235404968
+        },
+        {
+          "word": " before",
+          "start": 8.22,
+          "end": 8.64,
+          "probability": 0.9955287575721741
+        },
+        {
+          "word": " the",
+          "start": 8.64,
+          "end": 8.82,
+          "probability": 0.9937586784362793
+        },
+        {
+          "word": " center",
+          "start": 8.82,
+          "end": 9.12,
+          "probability": 0.7953233122825623
+        },
+        {
+          "word": " was",
+          "start": 9.12,
+          "end": 9.36,
+          "probability": 0.9971433281898499
+        },
+        {
+          "word": " here.",
+          "start": 9.36,
+          "end": 9.74,
+          "probability": 0.9981824159622192
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

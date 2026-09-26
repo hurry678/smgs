@@ -1,0 +1,36 @@
+{
+  "sample_id": "-ri04Z7vwnc$_$0",
+  "fingerprint": "f54029f7c6bcf62a78095a5fca60a9688068f8ca466e69902d7dfcbcece3383a",
+  "audio_sha256": "88066a6b0dad13310d73815a86f6b71275b1bf7a3d8ec9871f3c48752edd3000",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.4678963329643011,
+  "text": " You",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 0.46,
+      "text": " You",
+      "tokens": [
+        50363,
+        921,
+        50463
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9177226424217224,
+      "compression_ratio": 0.2727272727272727,
+      "no_speech_prob": 0.8640716671943665,
+      "words": [
+        {
+          "word": " You",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.028017288073897362
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

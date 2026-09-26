@@ -1,0 +1,169 @@
+{
+  "sample_id": "-aqamKhZ1Ec$_$0",
+  "fingerprint": "48b3973f909ba4b824ab845afcbec1dfba6d8f8fb56e444ca83a4cb7a1cee84d",
+  "audio_sha256": "16011a14966c4ae0774d0b3effce13231c3d82a52a33094c94d9effba3330589",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7659020840656012,
+  "text": " In 2008 there were very serious tribal warfare in Kenya and even as the following a disputed election and even",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 10.86,
+      "text": " In 2008 there were very serious tribal warfare in Kenya and even as the following a disputed election and even",
+      "tokens": [
+        50363,
+        554,
+        3648,
+        612,
+        547,
+        845,
+        2726,
+        17054,
+        15611,
+        287,
+        21506,
+        290,
+        772,
+        355,
+        262,
+        1708,
+        257,
+        21941,
+        3071,
+        290,
+        772,
+        50907
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39809413578199304,
+      "compression_ratio": 1.1827956989247312,
+      "no_speech_prob": 0.0632612556219101,
+      "words": [
+        {
+          "word": " In",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.6058193445205688
+        },
+        {
+          "word": " 2008",
+          "start": 0.42,
+          "end": 2.66,
+          "probability": 0.9896073937416077
+        },
+        {
+          "word": " there",
+          "start": 2.66,
+          "end": 3.0,
+          "probability": 0.4504537880420685
+        },
+        {
+          "word": " were",
+          "start": 3.0,
+          "end": 3.2,
+          "probability": 0.8424760103225708
+        },
+        {
+          "word": " very",
+          "start": 3.2,
+          "end": 3.5,
+          "probability": 0.91504967212677
+        },
+        {
+          "word": " serious",
+          "start": 3.5,
+          "end": 4.18,
+          "probability": 0.9978830218315125
+        },
+        {
+          "word": " tribal",
+          "start": 4.18,
+          "end": 4.58,
+          "probability": 0.9695427417755127
+        },
+        {
+          "word": " warfare",
+          "start": 4.58,
+          "end": 5.12,
+          "probability": 0.998754620552063
+        },
+        {
+          "word": " in",
+          "start": 5.12,
+          "end": 5.58,
+          "probability": 0.9868687987327576
+        },
+        {
+          "word": " Kenya",
+          "start": 5.58,
+          "end": 6.32,
+          "probability": 0.9749746918678284
+        },
+        {
+          "word": " and",
+          "start": 6.32,
+          "end": 7.54,
+          "probability": 0.6485225558280945
+        },
+        {
+          "word": " even",
+          "start": 7.54,
+          "end": 7.88,
+          "probability": 0.9239116907119751
+        },
+        {
+          "word": " as",
+          "start": 7.88,
+          "end": 8.18,
+          "probability": 0.9605985879898071
+        },
+        {
+          "word": " the",
+          "start": 8.18,
+          "end": 8.22,
+          "probability": 0.9047660231590271
+        },
+        {
+          "word": " following",
+          "start": 8.22,
+          "end": 9.28,
+          "probability": 0.6679941415786743
+        },
+        {
+          "word": " a",
+          "start": 9.28,
+          "end": 9.48,
+          "probability": 0.14093992114067078
+        },
+        {
+          "word": " disputed",
+          "start": 9.48,
+          "end": 9.9,
+          "probability": 0.9920296669006348
+        },
+        {
+          "word": " election",
+          "start": 9.9,
+          "end": 10.38,
+          "probability": 0.9628066420555115
+        },
+        {
+          "word": " and",
+          "start": 10.38,
+          "end": 10.72,
+          "probability": 0.33849036693573
+        },
+        {
+          "word": " even",
+          "start": 10.72,
+          "end": 10.86,
+          "probability": 0.9881729483604431
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,530 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$6",
+  "fingerprint": "2e510c70248dad018e365a697e42d63843c08cbc979a7e0e76662408d90c5aae",
+  "audio_sha256": "479ca5aae88263ebdf986192e606bddf50a5dbc9de9d58a6a2fe8781be0c6c92",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 7.680545415962115,
+  "text": " I am not going to say that I am not going to say that I am not going to say that I am going to say that I am not going to say that I am not going to say that I am not going",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.78,
+      "text": " I am not going to say that I am not going to say that I am not going to say that I am",
+      "tokens": [
+        50363,
+        314,
+        716,
+        407,
+        1016,
+        284,
+        910,
+        326,
+        314,
+        716,
+        407,
+        1016,
+        284,
+        910,
+        326,
+        314,
+        716,
+        407,
+        1016,
+        284,
+        910,
+        326,
+        314,
+        716,
+        50663
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20582678900824652,
+      "compression_ratio": 16.74468085106383,
+      "no_speech_prob": 0.24925440549850464,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.04123793542385101
+        },
+        {
+          "word": " am",
+          "start": 0.68,
+          "end": 0.88,
+          "probability": 0.0939522534608841
+        },
+        {
+          "word": " not",
+          "start": 0.88,
+          "end": 0.88,
+          "probability": 0.16864368319511414
+        },
+        {
+          "word": " going",
+          "start": 0.88,
+          "end": 0.92,
+          "probability": 0.08536029607057571
+        },
+        {
+          "word": " to",
+          "start": 0.92,
+          "end": 1.54,
+          "probability": 0.9644438028335571
+        },
+        {
+          "word": " say",
+          "start": 1.54,
+          "end": 1.72,
+          "probability": 0.14123843610286713
+        },
+        {
+          "word": " that",
+          "start": 1.72,
+          "end": 2.34,
+          "probability": 0.3327970504760742
+        },
+        {
+          "word": " I",
+          "start": 2.34,
+          "end": 2.34,
+          "probability": 0.10393435508012772
+        },
+        {
+          "word": " am",
+          "start": 2.34,
+          "end": 2.36,
+          "probability": 0.5753636956214905
+        },
+        {
+          "word": " not",
+          "start": 2.36,
+          "end": 2.74,
+          "probability": 0.1343633085489273
+        },
+        {
+          "word": " going",
+          "start": 2.74,
+          "end": 2.74,
+          "probability": 0.6940885782241821
+        },
+        {
+          "word": " to",
+          "start": 2.74,
+          "end": 2.74,
+          "probability": 0.9722874164581299
+        },
+        {
+          "word": " say",
+          "start": 2.74,
+          "end": 2.74,
+          "probability": 0.2108728140592575
+        },
+        {
+          "word": " that",
+          "start": 2.74,
+          "end": 2.74,
+          "probability": 0.675855815410614
+        },
+        {
+          "word": " I",
+          "start": 2.74,
+          "end": 2.74,
+          "probability": 0.6076982021331787
+        },
+        {
+          "word": " am",
+          "start": 2.74,
+          "end": 3.62,
+          "probability": 0.8341859579086304
+        },
+        {
+          "word": " not",
+          "start": 3.62,
+          "end": 3.78,
+          "probability": 0.37621188163757324
+        },
+        {
+          "word": " going",
+          "start": 3.78,
+          "end": 4.28,
+          "probability": 0.8004463911056519
+        },
+        {
+          "word": " to",
+          "start": 4.28,
+          "end": 4.28,
+          "probability": 0.9847495555877686
+        },
+        {
+          "word": " say",
+          "start": 4.28,
+          "end": 4.28,
+          "probability": 0.6816664934158325
+        },
+        {
+          "word": " that",
+          "start": 4.28,
+          "end": 4.44,
+          "probability": 0.8581027984619141
+        },
+        {
+          "word": " I",
+          "start": 4.44,
+          "end": 5.64,
+          "probability": 0.9037835597991943
+        },
+        {
+          "word": " am",
+          "start": 5.64,
+          "end": 5.78,
+          "probability": 0.9079486131668091
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.78,
+      "end": 11.22,
+      "text": " going to say that I am not going to say that I am not going to say that I am not going",
+      "tokens": [
+        50663,
+        1016,
+        284,
+        910,
+        326,
+        314,
+        716,
+        407,
+        1016,
+        284,
+        910,
+        326,
+        314,
+        716,
+        407,
+        1016,
+        284,
+        910,
+        326,
+        314,
+        716,
+        407,
+        1016,
+        50713
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.20582678900824652,
+      "compression_ratio": 16.74468085106383,
+      "no_speech_prob": 0.24925440549850464,
+      "words": [
+        {
+          "word": " going",
+          "start": 5.78,
+          "end": 5.78,
+          "probability": 0.2859629690647125
+        },
+        {
+          "word": " to",
+          "start": 5.78,
+          "end": 6.98,
+          "probability": 0.9924582242965698
+        },
+        {
+          "word": " say",
+          "start": 6.98,
+          "end": 6.98,
+          "probability": 0.7759779095649719
+        },
+        {
+          "word": " that",
+          "start": 6.98,
+          "end": 7.08,
+          "probability": 0.9069330096244812
+        },
+        {
+          "word": " I",
+          "start": 7.08,
+          "end": 7.08,
+          "probability": 0.9442816376686096
+        },
+        {
+          "word": " am",
+          "start": 7.08,
+          "end": 7.14,
+          "probability": 0.9200897216796875
+        },
+        {
+          "word": " not",
+          "start": 7.14,
+          "end": 7.22,
+          "probability": 0.5318602919578552
+        },
+        {
+          "word": " going",
+          "start": 7.22,
+          "end": 9.48,
+          "probability": 0.8926869630813599
+        },
+        {
+          "word": " to",
+          "start": 9.48,
+          "end": 9.6,
+          "probability": 0.9922447800636292
+        },
+        {
+          "word": " say",
+          "start": 9.6,
+          "end": 9.6,
+          "probability": 0.9100584983825684
+        },
+        {
+          "word": " that",
+          "start": 9.6,
+          "end": 9.6,
+          "probability": 0.9171211123466492
+        },
+        {
+          "word": " I",
+          "start": 9.6,
+          "end": 9.6,
+          "probability": 0.9527487754821777
+        },
+        {
+          "word": " am",
+          "start": 9.6,
+          "end": 9.6,
+          "probability": 0.9391136169433594
+        },
+        {
+          "word": " not",
+          "start": 9.6,
+          "end": 9.94,
+          "probability": 0.5920320153236389
+        },
+        {
+          "word": " going",
+          "start": 9.94,
+          "end": 10.1,
+          "probability": 0.9082815647125244
+        },
+        {
+          "word": " to",
+          "start": 10.1,
+          "end": 10.32,
+          "probability": 0.9929206967353821
+        },
+        {
+          "word": " say",
+          "start": 10.32,
+          "end": 10.94,
+          "probability": 0.9495232701301575
+        },
+        {
+          "word": " that",
+          "start": 10.94,
+          "end": 10.94,
+          "probability": 0.9317030310630798
+        },
+        {
+          "word": " I",
+          "start": 10.94,
+          "end": 10.94,
+          "probability": 0.9553965330123901
+        },
+        {
+          "word": " am",
+          "start": 10.94,
+          "end": 11.22,
+          "probability": 0.9514737129211426
+        },
+        {
+          "word": " not",
+          "start": 11.22,
+          "end": 11.22,
+          "probability": 0.6832014322280884
+        },
+        {
+          "word": " going",
+          "start": 11.22,
+          "end": 11.22,
+          "probability": 0.9402438402175903
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 11.22,
+      "end": 11.22,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.20582678900824652,
+      "compression_ratio": 16.74468085106383,
+      "no_speech_prob": 0.24925440549850464,
+      "words": []
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 11.22,
+      "end": 11.22,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.20582678900824652,
+      "compression_ratio": 16.74468085106383,
+      "no_speech_prob": 0.24925440549850464,
+      "words": []
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 11.22,
+      "end": 11.22,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.20582678900824652,
+      "compression_ratio": 16.74468085106383,
+      "no_speech_prob": 0.24925440549850464,
+      "words": []
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 11.22,
+      "end": 11.22,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.20582678900824652,
+      "compression_ratio": 16.74468085106383,
+      "no_speech_prob": 0.24925440549850464,
+      "words": []
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 11.22,
+      "end": 11.22,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.20582678900824652,
+      "compression_ratio": 16.74468085106383,
+      "no_speech_prob": 0.24925440549850464,
+      "words": []
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 11.22,
+      "end": 11.22,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.20582678900824652,
+      "compression_ratio": 16.74468085106383,
+      "no_speech_prob": 0.24925440549850464,
+      "words": []
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 11.22,
+      "end": 11.22,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.20582678900824652,
+      "compression_ratio": 16.74468085106383,
+      "no_speech_prob": 0.24925440549850464,
+      "words": []
+    },
+    {
+      "id": 9,
+      "seek": 1122,
+      "start": 11.2,
+      "end": 11.2,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.544396448135376,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7013269662857056,
+      "words": []
+    },
+    {
+      "id": 10,
+      "seek": 1122,
+      "start": 11.2,
+      "end": 11.2,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.544396448135376,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7013269662857056,
+      "words": []
+    },
+    {
+      "id": 11,
+      "seek": 1122,
+      "start": 11.2,
+      "end": 11.2,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.544396448135376,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7013269662857056,
+      "words": []
+    },
+    {
+      "id": 12,
+      "seek": 1122,
+      "start": 11.2,
+      "end": 11.2,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.544396448135376,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7013269662857056,
+      "words": []
+    },
+    {
+      "id": 13,
+      "seek": 1122,
+      "start": 11.2,
+      "end": 11.2,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.544396448135376,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7013269662857056,
+      "words": []
+    },
+    {
+      "id": 14,
+      "seek": 1122,
+      "start": 11.2,
+      "end": 11.2,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.544396448135376,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.7013269662857056,
+      "words": []
+    }
+  ],
+  "language": "en"
+}

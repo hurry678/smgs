@@ -1,0 +1,812 @@
+{
+  "sample_id": "-571d8cVauQ$_$5",
+  "fingerprint": "e4f9f05d65c38c49c7db0fb446d797db557d9f61fc43d058b250e8218bb1cc06",
+  "audio_sha256": "b5c4c3c5b7d405714845406c1b300d1c7ab20256249c19c75d9926e278c38375",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 9.223198916995898,
+  "text": " So, very important to go out to the locations, walk around, talk with the owners if you can, tell them what you're doing, build a little excitement, put a little glitz on there, and let everybody know this is a very valuable spot. This is going to be a good one.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.2,
+      "text": " So, very important to go out to the locations, walk around, talk with the owners if you can,",
+      "tokens": [
+        50363,
+        1406,
+        11,
+        845,
+        1593,
+        284,
+        467,
+        503,
+        284,
+        262,
+        7064,
+        11,
+        2513,
+        1088,
+        11,
+        1561,
+        351,
+        262,
+        4393,
+        611,
+        345,
+        460,
+        11,
+        50693
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.18794484998359054,
+      "compression_ratio": 1.464968152866242,
+      "no_speech_prob": 0.057437967509031296,
+      "words": [
+        {
+          "word": " So,",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.3816990554332733
+        },
+        {
+          "word": " very",
+          "start": 0.76,
+          "end": 0.94,
+          "probability": 0.7539367079734802
+        },
+        {
+          "word": " important",
+          "start": 0.94,
+          "end": 1.32,
+          "probability": 0.9953248500823975
+        },
+        {
+          "word": " to",
+          "start": 1.32,
+          "end": 1.62,
+          "probability": 0.9885578155517578
+        },
+        {
+          "word": " go",
+          "start": 1.62,
+          "end": 1.76,
+          "probability": 0.994852602481842
+        },
+        {
+          "word": " out",
+          "start": 1.76,
+          "end": 2.18,
+          "probability": 0.9964603781700134
+        },
+        {
+          "word": " to",
+          "start": 2.18,
+          "end": 2.6,
+          "probability": 0.976809561252594
+        },
+        {
+          "word": " the",
+          "start": 2.6,
+          "end": 2.76,
+          "probability": 0.9898179173469543
+        },
+        {
+          "word": " locations,",
+          "start": 2.76,
+          "end": 3.38,
+          "probability": 0.9598444700241089
+        },
+        {
+          "word": " walk",
+          "start": 4.02,
+          "end": 4.02,
+          "probability": 0.9919934272766113
+        },
+        {
+          "word": " around,",
+          "start": 4.02,
+          "end": 4.5,
+          "probability": 0.9980177879333496
+        },
+        {
+          "word": " talk",
+          "start": 4.86,
+          "end": 4.92,
+          "probability": 0.9868588447570801
+        },
+        {
+          "word": " with",
+          "start": 4.92,
+          "end": 5.1,
+          "probability": 0.972493588924408
+        },
+        {
+          "word": " the",
+          "start": 5.1,
+          "end": 5.28,
+          "probability": 0.9830644726753235
+        },
+        {
+          "word": " owners",
+          "start": 5.28,
+          "end": 5.52,
+          "probability": 0.990649402141571
+        },
+        {
+          "word": " if",
+          "start": 5.52,
+          "end": 5.74,
+          "probability": 0.8244669437408447
+        },
+        {
+          "word": " you",
+          "start": 5.74,
+          "end": 5.88,
+          "probability": 0.9981263279914856
+        },
+        {
+          "word": " can,",
+          "start": 5.88,
+          "end": 6.2,
+          "probability": 0.9967807531356812
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.62,
+      "end": 11.38,
+      "text": " tell them what you're doing, build a little excitement, put a little glitz on there, and",
+      "tokens": [
+        50693,
+        1560,
+        606,
+        644,
+        345,
+        821,
+        1804,
+        11,
+        1382,
+        257,
+        1310,
+        14067,
+        11,
+        1234,
+        257,
+        1310,
+        1278,
+        4224,
+        319,
+        612,
+        11,
+        290,
+        50935
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.18794484998359054,
+      "compression_ratio": 1.464968152866242,
+      "no_speech_prob": 0.057437967509031296,
+      "words": [
+        {
+          "word": " tell",
+          "start": 6.62,
+          "end": 6.62,
+          "probability": 0.9875717163085938
+        },
+        {
+          "word": " them",
+          "start": 6.62,
+          "end": 6.84,
+          "probability": 0.9965519905090332
+        },
+        {
+          "word": " what",
+          "start": 6.84,
+          "end": 7.0,
+          "probability": 0.9968851208686829
+        },
+        {
+          "word": " you're",
+          "start": 7.0,
+          "end": 7.12,
+          "probability": 0.9482086896896362
+        },
+        {
+          "word": " doing,",
+          "start": 7.12,
+          "end": 7.4,
+          "probability": 0.9985266923904419
+        },
+        {
+          "word": " build",
+          "start": 7.86,
+          "end": 7.86,
+          "probability": 0.9195638298988342
+        },
+        {
+          "word": " a",
+          "start": 7.86,
+          "end": 8.02,
+          "probability": 0.9954506754875183
+        },
+        {
+          "word": " little",
+          "start": 8.02,
+          "end": 8.24,
+          "probability": 0.9957605004310608
+        },
+        {
+          "word": " excitement,",
+          "start": 8.24,
+          "end": 8.74,
+          "probability": 0.9839690923690796
+        },
+        {
+          "word": " put",
+          "start": 9.46,
+          "end": 9.6,
+          "probability": 0.9882053136825562
+        },
+        {
+          "word": " a",
+          "start": 9.6,
+          "end": 9.6,
+          "probability": 0.9577350616455078
+        },
+        {
+          "word": " little",
+          "start": 9.6,
+          "end": 9.92,
+          "probability": 0.9974561333656311
+        },
+        {
+          "word": " glitz",
+          "start": 9.92,
+          "end": 10.12,
+          "probability": 0.8860665857791901
+        },
+        {
+          "word": " on",
+          "start": 10.12,
+          "end": 10.36,
+          "probability": 0.9950413107872009
+        },
+        {
+          "word": " there,",
+          "start": 10.36,
+          "end": 10.74,
+          "probability": 0.994073212146759
+        },
+        {
+          "word": " and",
+          "start": 11.24,
+          "end": 11.38,
+          "probability": 0.9848633408546448
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 11.38,
+      "end": 14.54,
+      "text": " let everybody know this is a very valuable spot.",
+      "tokens": [
+        50935,
+        1309,
+        7288,
+        760,
+        428,
+        318,
+        257,
+        845,
+        8119,
+        4136,
+        13,
+        51101
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.18794484998359054,
+      "compression_ratio": 1.464968152866242,
+      "no_speech_prob": 0.057437967509031296,
+      "words": [
+        {
+          "word": " let",
+          "start": 11.38,
+          "end": 11.66,
+          "probability": 0.9945350885391235
+        },
+        {
+          "word": " everybody",
+          "start": 11.66,
+          "end": 12.02,
+          "probability": 0.9836738109588623
+        },
+        {
+          "word": " know",
+          "start": 12.02,
+          "end": 12.32,
+          "probability": 0.9993245601654053
+        },
+        {
+          "word": " this",
+          "start": 12.32,
+          "end": 12.92,
+          "probability": 0.6194847822189331
+        },
+        {
+          "word": " is",
+          "start": 12.92,
+          "end": 13.12,
+          "probability": 0.9951377511024475
+        },
+        {
+          "word": " a",
+          "start": 13.12,
+          "end": 13.34,
+          "probability": 0.9976047277450562
+        },
+        {
+          "word": " very",
+          "start": 13.34,
+          "end": 13.52,
+          "probability": 0.9924748539924622
+        },
+        {
+          "word": " valuable",
+          "start": 13.52,
+          "end": 14.08,
+          "probability": 0.9969898462295532
+        },
+        {
+          "word": " spot.",
+          "start": 14.08,
+          "end": 14.54,
+          "probability": 0.9988810420036316
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 1454,
+      "start": 14.54,
+      "end": 15.08,
+      "text": " This is going to be a good one.",
+      "tokens": [
+        50363,
+        770,
+        318,
+        1016,
+        284,
+        307,
+        257,
+        922,
+        530,
+        13,
+        50413
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": [
+        {
+          "word": " This",
+          "start": 14.54,
+          "end": 14.8,
+          "probability": 0.3860626518726349
+        },
+        {
+          "word": " is",
+          "start": 14.8,
+          "end": 15.0,
+          "probability": 0.9902376532554626
+        },
+        {
+          "word": " going",
+          "start": 15.0,
+          "end": 15.08,
+          "probability": 0.1703004539012909
+        },
+        {
+          "word": " to",
+          "start": 15.08,
+          "end": 15.08,
+          "probability": 0.7577943205833435
+        },
+        {
+          "word": " be",
+          "start": 15.08,
+          "end": 15.08,
+          "probability": 0.4714038074016571
+        },
+        {
+          "word": " a",
+          "start": 15.08,
+          "end": 15.08,
+          "probability": 0.21919700503349304
+        },
+        {
+          "word": " good",
+          "start": 15.08,
+          "end": 15.08,
+          "probability": 0.07890255004167557
+        },
+        {
+          "word": " one.",
+          "start": 15.08,
+          "end": 15.08,
+          "probability": 0.08786094933748245
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 5,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 6,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 7,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 8,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 9,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 10,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 11,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 12,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 13,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 14,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 15,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 16,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 17,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 18,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 19,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 20,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 21,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 22,
+      "seek": 1454,
+      "start": 15.08,
+      "end": 15.08,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.12696841769748263,
+      "compression_ratio": 14.840909090909092,
+      "no_speech_prob": 0.16963833570480347,
+      "words": []
+    },
+    {
+      "id": 23,
+      "seek": 1508,
+      "start": 15.06,
+      "end": 15.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3845333230906519,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.668374240398407,
+      "words": []
+    },
+    {
+      "id": 24,
+      "seek": 1508,
+      "start": 15.06,
+      "end": 15.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3845333230906519,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.668374240398407,
+      "words": []
+    },
+    {
+      "id": 25,
+      "seek": 1508,
+      "start": 15.06,
+      "end": 15.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3845333230906519,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.668374240398407,
+      "words": []
+    },
+    {
+      "id": 26,
+      "seek": 1508,
+      "start": 15.06,
+      "end": 15.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3845333230906519,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.668374240398407,
+      "words": []
+    },
+    {
+      "id": 27,
+      "seek": 1508,
+      "start": 15.06,
+      "end": 15.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3845333230906519,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.668374240398407,
+      "words": []
+    },
+    {
+      "id": 28,
+      "seek": 1508,
+      "start": 15.06,
+      "end": 15.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3845333230906519,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.668374240398407,
+      "words": []
+    },
+    {
+      "id": 29,
+      "seek": 1508,
+      "start": 15.06,
+      "end": 15.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3845333230906519,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.668374240398407,
+      "words": []
+    },
+    {
+      "id": 30,
+      "seek": 1508,
+      "start": 15.06,
+      "end": 15.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3845333230906519,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.668374240398407,
+      "words": []
+    },
+    {
+      "id": 31,
+      "seek": 1508,
+      "start": 15.06,
+      "end": 15.06,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.3845333230906519,
+      "compression_ratio": 1.4166666666666667,
+      "no_speech_prob": 0.668374240398407,
+      "words": []
+    }
+  ],
+  "language": "en"
+}

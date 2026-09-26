@@ -1,0 +1,118 @@
+{
+  "sample_id": "-9y-fZ3swSY$_$4",
+  "fingerprint": "648d5c99d8a0007d0e6a6277def9b2bdcce7ae0793691169e46b3bea393b1817",
+  "audio_sha256": "7163eccff0f7150f35e2e7ad59bd44ef4c9dd25341a01fab0c48413d01ca3bb7",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7174714999273419,
+  "text": " I've seen this in the U.S. or in the U.S.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.52,
+      "text": " I've seen this in the U.S. or in the U.S.",
+      "tokens": [
+        50363,
+        314,
+        1053,
+        1775,
+        428,
+        287,
+        262,
+        471,
+        13,
+        50,
+        13,
+        393,
+        287,
+        262,
+        471,
+        13,
+        50,
+        13,
+        50497
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2778712272644043,
+      "compression_ratio": 1.1388888888888888,
+      "no_speech_prob": 0.007056271191686392,
+      "words": [
+        {
+          "word": " I've",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.9252133071422577
+        },
+        {
+          "word": " seen",
+          "start": 0.52,
+          "end": 0.76,
+          "probability": 0.9976310729980469
+        },
+        {
+          "word": " this",
+          "start": 0.76,
+          "end": 1.04,
+          "probability": 0.9930566549301147
+        },
+        {
+          "word": " in",
+          "start": 1.04,
+          "end": 1.18,
+          "probability": 0.9879453182220459
+        },
+        {
+          "word": " the",
+          "start": 1.18,
+          "end": 1.36,
+          "probability": 0.619867205619812
+        },
+        {
+          "word": " U",
+          "start": 1.36,
+          "end": 1.36,
+          "probability": 0.2679515779018402
+        },
+        {
+          "word": ".S.",
+          "start": 1.36,
+          "end": 1.5,
+          "probability": 0.9900315701961517
+        },
+        {
+          "word": " or",
+          "start": 1.84,
+          "end": 1.92,
+          "probability": 0.8706918358802795
+        },
+        {
+          "word": " in",
+          "start": 1.92,
+          "end": 2.1,
+          "probability": 0.948674201965332
+        },
+        {
+          "word": " the",
+          "start": 2.1,
+          "end": 2.18,
+          "probability": 0.9827180504798889
+        },
+        {
+          "word": " U",
+          "start": 2.18,
+          "end": 2.36,
+          "probability": 0.9473920464515686
+        },
+        {
+          "word": ".S.",
+          "start": 2.36,
+          "end": 2.52,
+          "probability": 0.9989722073078156
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

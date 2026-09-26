@@ -1,0 +1,197 @@
+{
+  "sample_id": "-wny0OAz3g8$_$9",
+  "fingerprint": "181549079f8f4e4c22b55882f3b8a41be2d8dbfdf1680a724420a4dec6c525e1",
+  "audio_sha256": "ea0bfb18485ea9b3350112494f2802c9300059e7c24095d55269077af20a8817",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9643495830241591,
+  "text": " Wilson. He explores why black and white Americans tend to have such different outcomes in terms of income, education, and more.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.92,
+      "text": " Wilson. He explores why black and white Americans tend to have such different outcomes in terms",
+      "tokens": [
+        50363,
+        8127,
+        13,
+        679,
+        25409,
+        1521,
+        2042,
+        290,
+        2330,
+        3399,
+        4327,
+        284,
+        423,
+        884,
+        1180,
+        10906,
+        287,
+        2846,
+        50561
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2318573474884033,
+      "compression_ratio": 1.165137614678899,
+      "no_speech_prob": 0.023536302149295807,
+      "words": [
+        {
+          "word": " Wilson.",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.8727265000343323
+        },
+        {
+          "word": " He",
+          "start": 0.56,
+          "end": 0.64,
+          "probability": 0.9807462692260742
+        },
+        {
+          "word": " explores",
+          "start": 0.64,
+          "end": 0.94,
+          "probability": 0.9872953295707703
+        },
+        {
+          "word": " why",
+          "start": 0.94,
+          "end": 1.2,
+          "probability": 0.980074405670166
+        },
+        {
+          "word": " black",
+          "start": 1.2,
+          "end": 1.34,
+          "probability": 0.6037383675575256
+        },
+        {
+          "word": " and",
+          "start": 1.34,
+          "end": 1.46,
+          "probability": 0.9376283288002014
+        },
+        {
+          "word": " white",
+          "start": 1.46,
+          "end": 1.6,
+          "probability": 0.9988810420036316
+        },
+        {
+          "word": " Americans",
+          "start": 1.6,
+          "end": 2.0,
+          "probability": 0.9683753848075867
+        },
+        {
+          "word": " tend",
+          "start": 2.0,
+          "end": 2.24,
+          "probability": 0.9899711608886719
+        },
+        {
+          "word": " to",
+          "start": 2.24,
+          "end": 2.4,
+          "probability": 0.9976698756217957
+        },
+        {
+          "word": " have",
+          "start": 2.4,
+          "end": 2.52,
+          "probability": 0.9983664155006409
+        },
+        {
+          "word": " such",
+          "start": 2.52,
+          "end": 2.74,
+          "probability": 0.9864647388458252
+        },
+        {
+          "word": " different",
+          "start": 2.74,
+          "end": 3.2,
+          "probability": 0.9857514500617981
+        },
+        {
+          "word": " outcomes",
+          "start": 3.2,
+          "end": 3.54,
+          "probability": 0.9973670840263367
+        },
+        {
+          "word": " in",
+          "start": 3.54,
+          "end": 3.78,
+          "probability": 0.8867226243019104
+        },
+        {
+          "word": " terms",
+          "start": 3.78,
+          "end": 3.92,
+          "probability": 0.9970434308052063
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.92,
+      "end": 5.5,
+      "text": " of income, education, and more.",
+      "tokens": [
+        50561,
+        286,
+        3739,
+        11,
+        3707,
+        11,
+        290,
+        517,
+        13,
+        50653
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2318573474884033,
+      "compression_ratio": 1.165137614678899,
+      "no_speech_prob": 0.023536302149295807,
+      "words": [
+        {
+          "word": " of",
+          "start": 3.92,
+          "end": 4.14,
+          "probability": 0.997488260269165
+        },
+        {
+          "word": " income,",
+          "start": 4.14,
+          "end": 4.42,
+          "probability": 0.9952099919319153
+        },
+        {
+          "word": " education,",
+          "start": 4.62,
+          "end": 4.96,
+          "probability": 0.9983174800872803
+        },
+        {
+          "word": " and",
+          "start": 5.26,
+          "end": 5.26,
+          "probability": 0.9918379187583923
+        },
+        {
+          "word": " more.",
+          "start": 5.26,
+          "end": 5.5,
+          "probability": 0.998908281326294
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

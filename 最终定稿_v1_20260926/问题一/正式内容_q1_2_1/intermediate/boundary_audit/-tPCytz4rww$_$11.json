@@ -1,0 +1,1519 @@
+{
+  "sample_id": "-tPCytz4rww$_$11",
+  "fingerprint": "50772f5456d776a0bd4a28d4841bd4415a5375236989f2c20689096442c706ea",
+  "audio_sha256": "4ee53f2fb87b23af9493583a075ff4d87918087d31b215c1a5fe62d9c67dda8a",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 6.0574823340866715,
+  "text": " make sure that you're using comps that are no larger than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.34,
+      "text": " make sure that you're using comps that are no larger than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,200 square feet no less than 1,",
+      "tokens": [
+        50363,
+        787,
+        1654,
+        326,
+        345,
+        821,
+        1262,
+        552,
+        82,
+        326,
+        389,
+        645,
+        4025,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11,
+        2167,
+        6616,
+        3625,
+        645,
+        1342,
+        621,
+        352,
+        11
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.06691325293646919,
+      "compression_ratio": 10.188235294117646,
+      "no_speech_prob": 0.07243959605693817,
+      "words": [
+        {
+          "word": " make",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.36450380086898804
+        },
+        {
+          "word": " sure",
+          "start": 0.62,
+          "end": 0.86,
+          "probability": 0.9983069896697998
+        },
+        {
+          "word": " that",
+          "start": 0.86,
+          "end": 1.08,
+          "probability": 0.9399921894073486
+        },
+        {
+          "word": " you're",
+          "start": 1.08,
+          "end": 1.18,
+          "probability": 0.9400666654109955
+        },
+        {
+          "word": " using",
+          "start": 1.18,
+          "end": 1.56,
+          "probability": 0.9975801706314087
+        },
+        {
+          "word": " comps",
+          "start": 1.56,
+          "end": 2.08,
+          "probability": 0.8281435072422028
+        },
+        {
+          "word": " that",
+          "start": 2.08,
+          "end": 2.08,
+          "probability": 0.9873479604721069
+        },
+        {
+          "word": " are",
+          "start": 2.08,
+          "end": 2.2,
+          "probability": 0.9887877106666565
+        },
+        {
+          "word": " no",
+          "start": 2.2,
+          "end": 2.32,
+          "probability": 0.9908581376075745
+        },
+        {
+          "word": " larger",
+          "start": 2.32,
+          "end": 2.94,
+          "probability": 0.9847590327262878
+        },
+        {
+          "word": " than",
+          "start": 2.94,
+          "end": 3.88,
+          "probability": 0.8644230961799622
+        },
+        {
+          "word": " 1",
+          "start": 3.88,
+          "end": 4.02,
+          "probability": 0.3809657394886017
+        },
+        {
+          "word": ",200",
+          "start": 4.02,
+          "end": 4.34,
+          "probability": 0.9935703575611115
+        },
+        {
+          "word": " square",
+          "start": 4.34,
+          "end": 4.58,
+          "probability": 0.9915080070495605
+        },
+        {
+          "word": " feet",
+          "start": 4.58,
+          "end": 4.9,
+          "probability": 0.9936916828155518
+        },
+        {
+          "word": " no",
+          "start": 4.9,
+          "end": 5.1,
+          "probability": 0.3474062979221344
+        },
+        {
+          "word": " less",
+          "start": 5.1,
+          "end": 5.28,
+          "probability": 0.9981178045272827
+        },
+        {
+          "word": " than",
+          "start": 5.28,
+          "end": 5.34,
+          "probability": 0.6283369660377502
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.6035404801368713
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.4117521494626999
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9686254262924194
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9755117297172546
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.37422916293144226
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9855399131774902
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.7242860794067383
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.938072144985199
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.7605777978897095
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9821377992630005
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9895311594009399
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.6698676347732544
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9718986749649048
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.8292142748832703
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.972375214099884
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.905479371547699
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9912629127502441
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9935581088066101
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.8983962535858154
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9740346074104309
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9198887348175049
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9813567399978638
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9538363516330719
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9932291507720947
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9954782128334045
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.952576756477356
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9767704606056213
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9407129287719727
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9828553795814514
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.966899037361145
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.99443519115448
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9964112639427185
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9698308110237122
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9787918329238892
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.962835967540741
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9856212735176086
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9746428728103638
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9946398138999939
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9969360828399658
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9797633290290833
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9815922379493713
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9750542044639587
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9871371984481812
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9790666401386261
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9947457313537598
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.997477114200592
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9817055463790894
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9811630845069885
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9792823195457458
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9884202480316162
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.981462836265564
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9953346848487854
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9977760910987854
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9845016598701477
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9850326776504517
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.984803318977356
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9893375635147095
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9833905696868896
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9953342080116272
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9978147745132446
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9848951697349548
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9849132895469666
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9884372353553772
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9906320571899414
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9845881462097168
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9951521158218384
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9981050491333008
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9855933785438538
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.986912727355957
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9901254177093506
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.991215705871582
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9849282503128052
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9946174025535583
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9980229139328003
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9866710305213928
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.987133800983429
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9904621243476868
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9914581179618835
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9857482612133026
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9956306219100952
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9983483552932739
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.986741840839386
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9879921078681946
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9907770156860352
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9915594458580017
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9863274097442627
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9957985281944275
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9984875917434692
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9867774844169617
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9902158975601196
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9927167296409607
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9920082092285156
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9867933690547943
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9960456490516663
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9986228942871094
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9865120649337769
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9895435571670532
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.993190348148346
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9922024011611938
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9873504936695099
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9959821701049805
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.998748779296875
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9876669645309448
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9905318021774292
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9934367537498474
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9919740557670593
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9876895546913147
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9960423707962036
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.998683512210846
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9875233769416809
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9901843070983887
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.993787944316864
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.991904079914093
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9881410598754883
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9966158270835876
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9988644123077393
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9877459406852722
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9896188378334045
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.993727445602417
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9915786981582642
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9879381358623505
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9967491626739502
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9988663196563721
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9874939322471619
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9912315011024475
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9951508045196533
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9918317198753357
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9887614250183105
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9968605041503906
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9990059733390808
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9887258410453796
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9909226298332214
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9951606392860413
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9918962121009827
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9884156584739685
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.996376097202301
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9988107681274414
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9898870587348938
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9896993041038513
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.994415283203125
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9915800094604492
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9891104698181152
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9968044757843018
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9989981055259705
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9896109104156494
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9907848834991455
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.995088517665863
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9917703866958618
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9889377653598785
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9969101548194885
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9989984631538391
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.98896723985672
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9914038181304932
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9955776929855347
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9916411638259888
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9886213541030884
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.996417760848999
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9989184141159058
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9894870519638062
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9903440475463867
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9957820177078247
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9914809465408325
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9888119101524353
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9962570667266846
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9988487958908081
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9907563328742981
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.990404486656189
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9957993626594543
+        },
+        {
+          "word": " 1",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9918010830879211
+        },
+        {
+          "word": ",200",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9890488386154175
+        },
+        {
+          "word": " square",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9968829154968262
+        },
+        {
+          "word": " feet",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9987902045249939
+        },
+        {
+          "word": " no",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9896290898323059
+        },
+        {
+          "word": " less",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9903929829597473
+        },
+        {
+          "word": " than",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9960070252418518
+        },
+        {
+          "word": " 1,",
+          "start": 5.34,
+          "end": 5.34,
+          "probability": 0.9915425777435303
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 534,
+      "start": 5.32,
+      "end": 5.32,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.43960967430701625,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 0.7000695466995239,
+      "words": []
+    },
+    {
+      "id": 2,
+      "seek": 534,
+      "start": 5.32,
+      "end": 5.32,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.43960967430701625,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 0.7000695466995239,
+      "words": []
+    },
+    {
+      "id": 3,
+      "seek": 534,
+      "start": 5.32,
+      "end": 5.32,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.43960967430701625,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 0.7000695466995239,
+      "words": []
+    },
+    {
+      "id": 4,
+      "seek": 534,
+      "start": 5.32,
+      "end": 5.32,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.43960967430701625,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 0.7000695466995239,
+      "words": []
+    },
+    {
+      "id": 5,
+      "seek": 534,
+      "start": 5.32,
+      "end": 5.32,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.43960967430701625,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 0.7000695466995239,
+      "words": []
+    },
+    {
+      "id": 6,
+      "seek": 534,
+      "start": 5.32,
+      "end": 5.32,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.43960967430701625,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 0.7000695466995239,
+      "words": []
+    },
+    {
+      "id": 7,
+      "seek": 534,
+      "start": 5.32,
+      "end": 5.32,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.43960967430701625,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 0.7000695466995239,
+      "words": []
+    },
+    {
+      "id": 8,
+      "seek": 534,
+      "start": 5.32,
+      "end": 5.32,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.43960967430701625,
+      "compression_ratio": 1.25,
+      "no_speech_prob": 0.7000695466995239,
+      "words": []
+    }
+  ],
+  "language": "en"
+}

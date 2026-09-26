@@ -1,0 +1,193 @@
+{
+  "sample_id": "-UuX1xuaiiE$_$6",
+  "fingerprint": "6d419fdb84a2e2adbcbca7c4b44074002163907e1e98bd7ea444f2b1933bffc2",
+  "audio_sha256": "968d9b21362b4a92222c3295fe17c7854aa395f7f31999c2197a923708941a8d",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.8830212091561407,
+  "text": " I ended up going to work for the U.S. government as an intelligence analyst specializing in war crimes and human rights issues.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.34,
+      "text": " I ended up going to work for the U.S. government as an intelligence analyst specializing in war crimes and human rights issues.",
+      "tokens": [
+        50363,
+        314,
+        4444,
+        510,
+        1016,
+        284,
+        670,
+        329,
+        262,
+        471,
+        13,
+        50,
+        13,
+        1230,
+        355,
+        281,
+        4430,
+        12499,
+        40847,
+        287,
+        1175,
+        6741,
+        290,
+        1692,
+        2489,
+        2428,
+        13,
+        50713
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.18693680598818022,
+      "compression_ratio": 1.1981132075471699,
+      "no_speech_prob": 0.0066888658329844475,
+      "words": [
+        {
+          "word": " I",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.8972582221031189
+        },
+        {
+          "word": " ended",
+          "start": 0.62,
+          "end": 0.78,
+          "probability": 0.9943879246711731
+        },
+        {
+          "word": " up",
+          "start": 0.78,
+          "end": 0.94,
+          "probability": 0.9967333078384399
+        },
+        {
+          "word": " going",
+          "start": 0.94,
+          "end": 1.08,
+          "probability": 0.9883602857589722
+        },
+        {
+          "word": " to",
+          "start": 1.08,
+          "end": 1.28,
+          "probability": 0.9959956407546997
+        },
+        {
+          "word": " work",
+          "start": 1.28,
+          "end": 1.46,
+          "probability": 0.9993440508842468
+        },
+        {
+          "word": " for",
+          "start": 1.46,
+          "end": 1.76,
+          "probability": 0.9889693260192871
+        },
+        {
+          "word": " the",
+          "start": 1.76,
+          "end": 1.98,
+          "probability": 0.9962862730026245
+        },
+        {
+          "word": " U",
+          "start": 1.98,
+          "end": 2.1,
+          "probability": 0.41026800870895386
+        },
+        {
+          "word": ".S.",
+          "start": 2.1,
+          "end": 2.32,
+          "probability": 0.9947792589664459
+        },
+        {
+          "word": " government",
+          "start": 2.58,
+          "end": 2.58,
+          "probability": 0.8238433599472046
+        },
+        {
+          "word": " as",
+          "start": 2.58,
+          "end": 3.0,
+          "probability": 0.9632424712181091
+        },
+        {
+          "word": " an",
+          "start": 3.0,
+          "end": 3.08,
+          "probability": 0.9151384234428406
+        },
+        {
+          "word": " intelligence",
+          "start": 3.08,
+          "end": 3.44,
+          "probability": 0.9840354323387146
+        },
+        {
+          "word": " analyst",
+          "start": 3.44,
+          "end": 4.1,
+          "probability": 0.993127703666687
+        },
+        {
+          "word": " specializing",
+          "start": 4.1,
+          "end": 5.52,
+          "probability": 0.9002305269241333
+        },
+        {
+          "word": " in",
+          "start": 5.52,
+          "end": 5.96,
+          "probability": 0.9971569776535034
+        },
+        {
+          "word": " war",
+          "start": 5.96,
+          "end": 6.02,
+          "probability": 0.9895597696304321
+        },
+        {
+          "word": " crimes",
+          "start": 6.02,
+          "end": 6.38,
+          "probability": 0.9988595247268677
+        },
+        {
+          "word": " and",
+          "start": 6.38,
+          "end": 6.54,
+          "probability": 0.9610685706138611
+        },
+        {
+          "word": " human",
+          "start": 6.54,
+          "end": 6.64,
+          "probability": 0.9950527548789978
+        },
+        {
+          "word": " rights",
+          "start": 6.64,
+          "end": 6.9,
+          "probability": 0.9993108510971069
+        },
+        {
+          "word": " issues.",
+          "start": 6.9,
+          "end": 7.34,
+          "probability": 0.998999297618866
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

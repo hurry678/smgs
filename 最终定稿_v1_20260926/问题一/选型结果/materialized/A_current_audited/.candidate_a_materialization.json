@@ -1,0 +1,15 @@
+{
+  "archive": "/data2/hy/cts/e_problem/ds/q1_comparison_extension/candidates/A_current_audited_q1_2_1.zip",
+  "archive_sha256": "653dc1e5e5fe6b1b67720f6afdad705331a996d5f0f284f473a750d0b2935058",
+  "candidate_id": "A_current_audited",
+  "schema_version": "q1-2.1",
+  "acceptance_policy": "q1-acceptance-4",
+  "counts": {
+    "features": 100,
+    "alignment": 100,
+    "audit": 100,
+    "validation": 100
+  },
+  "strict_release_passed": true,
+  "feature_hashes_verified": 100
+}

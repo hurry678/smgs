@@ -1,0 +1,240 @@
+{
+  "sample_id": "-tPCytz4rww$_$12",
+  "fingerprint": "1d486d31f8993996e0d987af75d8ab08fc8345c1e268a7c0dcc127d308f9ba20",
+  "audio_sha256": "7dfac1824ff4a9c267eebe1066e6ae8797cf9ebc3d7b4ef6fa242e99bf3b0b8b",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.1190130840986967,
+  "text": " square feet, no less than 800 square feet, they're going to be similar with bedrooms and bathrooms as well, and hopefully the complexes have similar amenities, meaning",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.2,
+      "text": " square feet, no less than 800 square feet, they're going to be similar with bedrooms",
+      "tokens": [
+        50363,
+        6616,
+        3625,
+        11,
+        645,
+        1342,
+        621,
+        10460,
+        6616,
+        3625,
+        11,
+        484,
+        821,
+        1016,
+        284,
+        307,
+        2092,
+        351,
+        38529,
+        50675
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3631234813380886,
+      "compression_ratio": 1.3916666666666666,
+      "no_speech_prob": 0.022372879087924957,
+      "words": [
+        {
+          "word": " square",
+          "start": 0.0,
+          "end": 0.18,
+          "probability": 0.8457565903663635
+        },
+        {
+          "word": " feet,",
+          "start": 0.18,
+          "end": 0.5,
+          "probability": 0.9912371635437012
+        },
+        {
+          "word": " no",
+          "start": 0.56,
+          "end": 0.64,
+          "probability": 0.9681145548820496
+        },
+        {
+          "word": " less",
+          "start": 0.64,
+          "end": 0.98,
+          "probability": 0.996733546257019
+        },
+        {
+          "word": " than",
+          "start": 0.98,
+          "end": 1.22,
+          "probability": 0.9848825335502625
+        },
+        {
+          "word": " 800",
+          "start": 1.22,
+          "end": 1.68,
+          "probability": 0.9251563549041748
+        },
+        {
+          "word": " square",
+          "start": 1.68,
+          "end": 1.94,
+          "probability": 0.9814934730529785
+        },
+        {
+          "word": " feet,",
+          "start": 1.94,
+          "end": 2.46,
+          "probability": 0.9983094930648804
+        },
+        {
+          "word": " they're",
+          "start": 2.62,
+          "end": 2.82,
+          "probability": 0.5966640263795853
+        },
+        {
+          "word": " going",
+          "start": 2.82,
+          "end": 2.82,
+          "probability": 0.6854830384254456
+        },
+        {
+          "word": " to",
+          "start": 2.82,
+          "end": 2.82,
+          "probability": 0.9947624802589417
+        },
+        {
+          "word": " be",
+          "start": 2.82,
+          "end": 3.0,
+          "probability": 0.9949966669082642
+        },
+        {
+          "word": " similar",
+          "start": 3.0,
+          "end": 3.7,
+          "probability": 0.9863104820251465
+        },
+        {
+          "word": " with",
+          "start": 3.7,
+          "end": 5.66,
+          "probability": 0.43307095766067505
+        },
+        {
+          "word": " bedrooms",
+          "start": 5.66,
+          "end": 6.2,
+          "probability": 0.979712963104248
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.2,
+      "end": 11.62,
+      "text": " and bathrooms as well, and hopefully the complexes have similar amenities, meaning",
+      "tokens": [
+        50675,
+        290,
+        32601,
+        355,
+        880,
+        11,
+        290,
+        11481,
+        262,
+        42665,
+        423,
+        2092,
+        35468,
+        11,
+        3616,
+        50949
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3631234813380886,
+      "compression_ratio": 1.3916666666666666,
+      "no_speech_prob": 0.022372879087924957,
+      "words": [
+        {
+          "word": " and",
+          "start": 6.2,
+          "end": 6.4,
+          "probability": 0.9797528982162476
+        },
+        {
+          "word": " bathrooms",
+          "start": 6.4,
+          "end": 6.82,
+          "probability": 0.9883208870887756
+        },
+        {
+          "word": " as",
+          "start": 6.82,
+          "end": 7.12,
+          "probability": 0.9477996826171875
+        },
+        {
+          "word": " well,",
+          "start": 7.12,
+          "end": 7.56,
+          "probability": 0.9990255832672119
+        },
+        {
+          "word": " and",
+          "start": 8.16,
+          "end": 8.16,
+          "probability": 0.9546828269958496
+        },
+        {
+          "word": " hopefully",
+          "start": 8.16,
+          "end": 8.68,
+          "probability": 0.9807290434837341
+        },
+        {
+          "word": " the",
+          "start": 8.68,
+          "end": 9.26,
+          "probability": 0.9240522980690002
+        },
+        {
+          "word": " complexes",
+          "start": 9.26,
+          "end": 9.8,
+          "probability": 0.9577447772026062
+        },
+        {
+          "word": " have",
+          "start": 9.8,
+          "end": 10.12,
+          "probability": 0.9500730037689209
+        },
+        {
+          "word": " similar",
+          "start": 10.12,
+          "end": 10.48,
+          "probability": 0.9874507188796997
+        },
+        {
+          "word": " amenities,",
+          "start": 10.48,
+          "end": 11.14,
+          "probability": 0.9883201122283936
+        },
+        {
+          "word": " meaning",
+          "start": 11.54,
+          "end": 11.62,
+          "probability": 0.9473937749862671
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,1151 @@
+{
+  "sample_id": "-yRb-Jum7EQ$_$5",
+  "fingerprint": "1babccfbe3f568bffe4a805127a98fcc410178b5e5498beca047591de414f309",
+  "audio_sha256": "5adffe37218c6f9a8a1136e32e21a4964c5011a8d430188af94f2ab62390fc31",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 7.2060623748693615,
+  "text": " It's not only a good one, it's not a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 13.02,
+      "text": " It's not only a good one, it's not a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good one, it's a good",
+      "tokens": [
+        50363,
+        632,
+        338,
+        407,
+        691,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        407,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922,
+        530,
+        11,
+        340,
+        338,
+        257,
+        922
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16622943454318576,
+      "compression_ratio": 14.454545454545455,
+      "no_speech_prob": 0.43790674209594727,
+      "words": [
+        {
+          "word": " It's",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.24234315566718578
+        },
+        {
+          "word": " not",
+          "start": 0.24,
+          "end": 0.36,
+          "probability": 0.1413620114326477
+        },
+        {
+          "word": " only",
+          "start": 0.36,
+          "end": 0.54,
+          "probability": 0.22959792613983154
+        },
+        {
+          "word": " a",
+          "start": 0.54,
+          "end": 0.78,
+          "probability": 0.2350374013185501
+        },
+        {
+          "word": " good",
+          "start": 0.78,
+          "end": 1.12,
+          "probability": 0.5656431317329407
+        },
+        {
+          "word": " one,",
+          "start": 1.12,
+          "end": 1.5,
+          "probability": 0.133854940533638
+        },
+        {
+          "word": " it's",
+          "start": 2.72,
+          "end": 2.96,
+          "probability": 0.48268502205610275
+        },
+        {
+          "word": " not",
+          "start": 2.96,
+          "end": 3.16,
+          "probability": 0.15647616982460022
+        },
+        {
+          "word": " a",
+          "start": 3.16,
+          "end": 3.22,
+          "probability": 0.2472015917301178
+        },
+        {
+          "word": " good",
+          "start": 3.22,
+          "end": 3.4,
+          "probability": 0.313748300075531
+        },
+        {
+          "word": " one,",
+          "start": 3.4,
+          "end": 3.56,
+          "probability": 0.6018640398979187
+        },
+        {
+          "word": " it's",
+          "start": 3.66,
+          "end": 3.9,
+          "probability": 0.5870502442121506
+        },
+        {
+          "word": " a",
+          "start": 3.9,
+          "end": 3.92,
+          "probability": 0.4124377965927124
+        },
+        {
+          "word": " good",
+          "start": 3.92,
+          "end": 3.92,
+          "probability": 0.503996729850769
+        },
+        {
+          "word": " one,",
+          "start": 3.92,
+          "end": 4.56,
+          "probability": 0.8239030241966248
+        },
+        {
+          "word": " it's",
+          "start": 4.56,
+          "end": 4.86,
+          "probability": 0.7111091166734695
+        },
+        {
+          "word": " a",
+          "start": 4.86,
+          "end": 4.86,
+          "probability": 0.613537609577179
+        },
+        {
+          "word": " good",
+          "start": 4.86,
+          "end": 4.86,
+          "probability": 0.6964898109436035
+        },
+        {
+          "word": " one,",
+          "start": 4.86,
+          "end": 4.86,
+          "probability": 0.8935558199882507
+        },
+        {
+          "word": " it's",
+          "start": 4.86,
+          "end": 6.4,
+          "probability": 0.8256714046001434
+        },
+        {
+          "word": " a",
+          "start": 6.4,
+          "end": 6.4,
+          "probability": 0.8195061087608337
+        },
+        {
+          "word": " good",
+          "start": 6.4,
+          "end": 6.4,
+          "probability": 0.8359018564224243
+        },
+        {
+          "word": " one,",
+          "start": 6.4,
+          "end": 6.86,
+          "probability": 0.9389404058456421
+        },
+        {
+          "word": " it's",
+          "start": 7.2,
+          "end": 7.38,
+          "probability": 0.8892746567726135
+        },
+        {
+          "word": " a",
+          "start": 7.38,
+          "end": 7.38,
+          "probability": 0.8845500946044922
+        },
+        {
+          "word": " good",
+          "start": 7.38,
+          "end": 7.38,
+          "probability": 0.8843553066253662
+        },
+        {
+          "word": " one,",
+          "start": 7.38,
+          "end": 7.38,
+          "probability": 0.957923412322998
+        },
+        {
+          "word": " it's",
+          "start": 7.38,
+          "end": 8.24,
+          "probability": 0.9248962700366974
+        },
+        {
+          "word": " a",
+          "start": 8.24,
+          "end": 8.44,
+          "probability": 0.9349605441093445
+        },
+        {
+          "word": " good",
+          "start": 8.44,
+          "end": 8.58,
+          "probability": 0.9115577340126038
+        },
+        {
+          "word": " one,",
+          "start": 8.58,
+          "end": 9.36,
+          "probability": 0.9681193232536316
+        },
+        {
+          "word": " it's",
+          "start": 9.36,
+          "end": 9.54,
+          "probability": 0.9417539536952972
+        },
+        {
+          "word": " a",
+          "start": 9.54,
+          "end": 9.54,
+          "probability": 0.9574770927429199
+        },
+        {
+          "word": " good",
+          "start": 9.54,
+          "end": 10.24,
+          "probability": 0.9285560846328735
+        },
+        {
+          "word": " one,",
+          "start": 10.24,
+          "end": 10.68,
+          "probability": 0.9761404991149902
+        },
+        {
+          "word": " it's",
+          "start": 10.68,
+          "end": 11.26,
+          "probability": 0.9523652791976929
+        },
+        {
+          "word": " a",
+          "start": 11.26,
+          "end": 11.26,
+          "probability": 0.9631734490394592
+        },
+        {
+          "word": " good",
+          "start": 11.26,
+          "end": 11.38,
+          "probability": 0.936776340007782
+        },
+        {
+          "word": " one,",
+          "start": 11.38,
+          "end": 11.92,
+          "probability": 0.9762998819351196
+        },
+        {
+          "word": " it's",
+          "start": 11.92,
+          "end": 11.92,
+          "probability": 0.9587230384349823
+        },
+        {
+          "word": " a",
+          "start": 11.92,
+          "end": 11.92,
+          "probability": 0.9740384221076965
+        },
+        {
+          "word": " good",
+          "start": 11.92,
+          "end": 11.92,
+          "probability": 0.9499323964118958
+        },
+        {
+          "word": " one,",
+          "start": 11.92,
+          "end": 11.92,
+          "probability": 0.9808818101882935
+        },
+        {
+          "word": " it's",
+          "start": 11.92,
+          "end": 12.88,
+          "probability": 0.965466171503067
+        },
+        {
+          "word": " a",
+          "start": 12.88,
+          "end": 12.88,
+          "probability": 0.9780492186546326
+        },
+        {
+          "word": " good",
+          "start": 12.88,
+          "end": 12.88,
+          "probability": 0.9539663791656494
+        },
+        {
+          "word": " one,",
+          "start": 12.88,
+          "end": 12.88,
+          "probability": 0.9804655313491821
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9679873585700989
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9841343760490417
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9642527103424072
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9818664193153381
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9695776104927063
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9853561520576477
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9725098013877869
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9830657243728638
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9721834361553192
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9890202879905701
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9780834317207336
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9835266470909119
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9739655554294586
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9908304214477539
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9818244576454163
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9855722784996033
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9766482710838318
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.990514874458313
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9832830429077148
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9853670597076416
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9771093428134918
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9922999143600464
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9856171011924744
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9855943322181702
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9787348806858063
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9926264882087708
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9874655604362488
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9855135083198547
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9793262183666229
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9934793710708618
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9887480735778809
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9849227666854858
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9800844788551331
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9928754568099976
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9891848564147949
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9842467308044434
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9814353585243225
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9937518239021301
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9898459911346436
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9835323095321655
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9814464449882507
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9939699172973633
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9906264543533325
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.982589602470398
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9819488227367401
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9943952560424805
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9913637638092041
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9816044569015503
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9822496473789215
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9946187734603882
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9920349717140198
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9811521768569946
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.98277947306633
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9946718811988831
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9922482967376709
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9800025224685669
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9826124906539917
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9943773150444031
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9925057291984558
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9791683554649353
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9835648238658905
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9945191740989685
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9927812218666077
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9780582189559937
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9836959838867188
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9950213432312012
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9931923747062683
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9774801135063171
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.984349936246872
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9954267144203186
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.99363774061203
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9763873815536499
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9848701655864716
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.995121419429779
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9939804077148438
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9764275550842285
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9850219488143921
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9954076409339905
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9941872358322144
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9746383428573608
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9858711659908295
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.995446503162384
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9943251013755798
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9736009240150452
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9849041402339935
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9955494403839111
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9946715235710144
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9717528820037842
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9855769574642181
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9956977367401123
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9947184324264526
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9714300036430359
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9857903718948364
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9955915212631226
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9948354959487915
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9713654518127441
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9850199818611145
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9946256279945374
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9947007894515991
+        },
+        {
+          "word": " one,",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9681131839752197
+        },
+        {
+          "word": " it's",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9843929708003998
+        },
+        {
+          "word": " a",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9953247308731079
+        },
+        {
+          "word": " good",
+          "start": 13.02,
+          "end": 13.02,
+          "probability": 0.9953641891479492
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

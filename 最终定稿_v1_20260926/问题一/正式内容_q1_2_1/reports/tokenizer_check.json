@@ -1,0 +1,41 @@
+{
+  "model": "google/bert_uncased_L-2_H-128_A-2",
+  "vocab_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "vocab_size": 30522,
+  "special_ids": {
+    "pad": 0,
+    "unk": 100,
+    "cls": 101,
+    "sep": 102,
+    "mask": 103
+  },
+  "scope": "train/valid text and text_bert only; no labels, model selection or test evaluation",
+  "splits": {
+    "train": {
+      "samples": 3395,
+      "exact_matches": 3395,
+      "exact_match_rate": 1.0,
+      "all_values_finite_integer": true,
+      "all_ids_in_vocab": true,
+      "encoding_seconds": 0.1310518328100443,
+      "mismatches": []
+    },
+    "valid": {
+      "samples": 728,
+      "exact_matches": 728,
+      "exact_match_rate": 1.0,
+      "all_values_finite_integer": true,
+      "all_ids_in_vocab": true,
+      "encoding_seconds": 0.03286216710694134,
+      "mismatches": []
+    }
+  },
+  "encoder": {
+    "dimension": 128,
+    "parameters": 4385920,
+    "finite": true,
+    "repeat_max_abs_error": 0.0,
+    "stored_weights_bytes": 17739144
+  },
+  "compatible": true
+}

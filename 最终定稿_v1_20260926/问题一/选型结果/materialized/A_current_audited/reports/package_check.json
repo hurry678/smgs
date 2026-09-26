@@ -1,0 +1,22 @@
+{
+  "archive": "submission/第一问交付包.zip",
+  "bytes": 24015744,
+  "decimal_mb": 24.015744,
+  "sha256": "37091d6e957c704afcf56703f8050025951b8881eef2a3e2aaccf7a6b1295d5c",
+  "within_50000000_bytes": true,
+  "files": 300,
+  "feature_records_read_back": 100,
+  "zip_crc_passed": true,
+  "mapping_coverage_passed": true,
+  "anonymity_path_scan_passed": true,
+  "included_bert_weights": true,
+  "includes_raw_video_or_environment": false,
+  "includes_selected_source_audio_copies": true,
+  "includes_asr_audit_weights": false,
+  "mode": "strict_release",
+  "strict_release_ready": true,
+  "automatically_accepted_samples": 100,
+  "audio_missing_samples": 2,
+  "verified_source_exception_samples": 0,
+  "scope": "Q1 package only; final Q1/Q2/Q3 combined archive must be measured separately."
+}

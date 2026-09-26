@@ -1,0 +1,225 @@
+{
+  "sample_id": "-9y-fZ3swSY$_$0",
+  "fingerprint": "04fa3930b974a42fcdbd77bc940721e6b00cd194900e1679a386239c22daab1e",
+  "audio_sha256": "805d756180212273bd35813e6d40badf6dbfba30d6ed75b9415ef5811f61bbb8",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.0364882911089808,
+  "text": " you can say hey you know what I really like baby's kid they're so soft they don't have any hair on their face it's so",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.72,
+      "text": " you can say hey you know what I really like baby's kid they're so soft they",
+      "tokens": [
+        50363,
+        345,
+        460,
+        910,
+        17207,
+        345,
+        760,
+        644,
+        314,
+        1107,
+        588,
+        5156,
+        338,
+        5141,
+        484,
+        821,
+        523,
+        2705,
+        484,
+        50599
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2957628474516027,
+      "compression_ratio": 1.21875,
+      "no_speech_prob": 0.003525584703311324,
+      "words": [
+        {
+          "word": " you",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.1736149787902832
+        },
+        {
+          "word": " can",
+          "start": 0.2,
+          "end": 0.38,
+          "probability": 0.9337736368179321
+        },
+        {
+          "word": " say",
+          "start": 0.38,
+          "end": 0.66,
+          "probability": 0.9711887836456299
+        },
+        {
+          "word": " hey",
+          "start": 0.66,
+          "end": 1.5,
+          "probability": 0.39159271121025085
+        },
+        {
+          "word": " you",
+          "start": 1.5,
+          "end": 1.56,
+          "probability": 0.6954349279403687
+        },
+        {
+          "word": " know",
+          "start": 1.56,
+          "end": 1.66,
+          "probability": 0.9897753000259399
+        },
+        {
+          "word": " what",
+          "start": 1.66,
+          "end": 1.9,
+          "probability": 0.9857357144355774
+        },
+        {
+          "word": " I",
+          "start": 1.9,
+          "end": 1.96,
+          "probability": 0.5542383790016174
+        },
+        {
+          "word": " really",
+          "start": 1.96,
+          "end": 2.26,
+          "probability": 0.9983211159706116
+        },
+        {
+          "word": " like",
+          "start": 2.26,
+          "end": 2.78,
+          "probability": 0.996282160282135
+        },
+        {
+          "word": " baby's",
+          "start": 2.78,
+          "end": 3.5,
+          "probability": 0.683040201663971
+        },
+        {
+          "word": " kid",
+          "start": 3.5,
+          "end": 3.66,
+          "probability": 0.8486867547035217
+        },
+        {
+          "word": " they're",
+          "start": 3.66,
+          "end": 3.82,
+          "probability": 0.7968778908252716
+        },
+        {
+          "word": " so",
+          "start": 3.82,
+          "end": 4.06,
+          "probability": 0.9985779523849487
+        },
+        {
+          "word": " soft",
+          "start": 4.06,
+          "end": 4.6,
+          "probability": 0.9985186457633972
+        },
+        {
+          "word": " they",
+          "start": 4.6,
+          "end": 4.72,
+          "probability": 0.9295212626457214
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4.72,
+      "end": 6.68,
+      "text": " don't have any hair on their face it's so",
+      "tokens": [
+        50599,
+        836,
+        470,
+        423,
+        597,
+        4190,
+        319,
+        511,
+        1986,
+        340,
+        338,
+        523,
+        50793
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2957628474516027,
+      "compression_ratio": 1.21875,
+      "no_speech_prob": 0.003525584703311324,
+      "words": [
+        {
+          "word": " don't",
+          "start": 4.72,
+          "end": 4.94,
+          "probability": 0.999257504940033
+        },
+        {
+          "word": " have",
+          "start": 4.94,
+          "end": 5.26,
+          "probability": 0.9996756315231323
+        },
+        {
+          "word": " any",
+          "start": 5.26,
+          "end": 5.46,
+          "probability": 0.998224675655365
+        },
+        {
+          "word": " hair",
+          "start": 5.46,
+          "end": 5.72,
+          "probability": 0.9991514682769775
+        },
+        {
+          "word": " on",
+          "start": 5.72,
+          "end": 5.82,
+          "probability": 0.9795589447021484
+        },
+        {
+          "word": " their",
+          "start": 5.82,
+          "end": 5.96,
+          "probability": 0.7627363801002502
+        },
+        {
+          "word": " face",
+          "start": 5.96,
+          "end": 6.24,
+          "probability": 0.9871249794960022
+        },
+        {
+          "word": " it's",
+          "start": 6.24,
+          "end": 6.46,
+          "probability": 0.9412392675876617
+        },
+        {
+          "word": " so",
+          "start": 6.46,
+          "end": 6.68,
+          "probability": 0.9867606163024902
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

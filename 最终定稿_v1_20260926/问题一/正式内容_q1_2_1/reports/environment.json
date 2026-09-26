@@ -1,0 +1,26 @@
+{
+  "python": "3.11.16",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "1.26.4",
+    "torch": "2.8.0",
+    "torchaudio": "2.8.0",
+    "transformers": "4.57.6",
+    "librosa": "0.11.0",
+    "mediapipe": "0.10.21",
+    "stable-ts": "2.19.1",
+    "openai-whisper": "20250625",
+    "opencv-contrib-python": "4.11.0.86",
+    "soundfile": "0.14.0",
+    "numba": "0.67.0",
+    "silero-vad": "6.2.2",
+    "onnxruntime": "1.23.2"
+  },
+  "device_used": "cpu",
+  "mps_available": true,
+  "torch_threads": 4,
+  "ffmpeg": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffprobe": "ffprobe version 9.0.1 Copyright (c) 2007-2026 the FFmpeg developers",
+  "config_sha256": "a847bf7e57e182da7c9759be93995816e2d94f90828ee7c241d91adde2872619"
+}

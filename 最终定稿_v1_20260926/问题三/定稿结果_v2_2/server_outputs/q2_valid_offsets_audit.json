@@ -1,0 +1,17 @@
+{
+  "scope": "q2",
+  "tokenizer_dir": "all-MiniLM-L6-v2",
+  "tokenizer_class": "BertTokenizerFast",
+  "q2_data": "q2_data.npz",
+  "attachment4": null,
+  "splits": {
+    "valid": {
+      "n": 728,
+      "tokenizer_match_count": 728,
+      "tokenizer_match_rate": 1.0,
+      "errors": []
+    }
+  },
+  "errors": [],
+  "status": "PASS"
+}

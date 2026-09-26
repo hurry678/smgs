@@ -1,0 +1,175 @@
+{
+  "sample_id": "-I_e4mIh0yE$_$1",
+  "fingerprint": "5c63810b88da92a07495b7a9fce46a62bd24579f0dc39bbb70d11a27c8e1238f",
+  "audio_sha256": "2de56e6ce51e8dbb7f0b9254d8b500a70d5493f3dd214b8fd89216578df03aed",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.2171820420771837,
+  "text": " In the United States, we don't punish failure to the degree to which failure is punished in Europe.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.92,
+      "text": " In the United States, we don't punish failure to the degree to which failure is punished",
+      "tokens": [
+        50363,
+        554,
+        262,
+        1578,
+        1829,
+        11,
+        356,
+        836,
+        470,
+        6878,
+        5287,
+        284,
+        262,
+        4922,
+        284,
+        543,
+        5287,
+        318,
+        16851,
+        50669
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29198362277104306,
+      "compression_ratio": 1.1511627906976745,
+      "no_speech_prob": 0.1666947454214096,
+      "words": [
+        {
+          "word": " In",
+          "start": 0.0,
+          "end": 0.86,
+          "probability": 0.31477344036102295
+        },
+        {
+          "word": " the",
+          "start": 0.86,
+          "end": 0.98,
+          "probability": 0.9787527322769165
+        },
+        {
+          "word": " United",
+          "start": 0.98,
+          "end": 1.22,
+          "probability": 0.943716824054718
+        },
+        {
+          "word": " States,",
+          "start": 1.22,
+          "end": 1.6,
+          "probability": 0.9973995685577393
+        },
+        {
+          "word": " we",
+          "start": 1.7,
+          "end": 1.74,
+          "probability": 0.9963269829750061
+        },
+        {
+          "word": " don't",
+          "start": 1.74,
+          "end": 2.18,
+          "probability": 0.977228045463562
+        },
+        {
+          "word": " punish",
+          "start": 2.18,
+          "end": 2.54,
+          "probability": 0.9971600770950317
+        },
+        {
+          "word": " failure",
+          "start": 2.54,
+          "end": 3.08,
+          "probability": 0.9917444586753845
+        },
+        {
+          "word": " to",
+          "start": 3.08,
+          "end": 3.7,
+          "probability": 0.7765247821807861
+        },
+        {
+          "word": " the",
+          "start": 3.7,
+          "end": 3.76,
+          "probability": 0.9968761205673218
+        },
+        {
+          "word": " degree",
+          "start": 3.76,
+          "end": 4.12,
+          "probability": 0.997711181640625
+        },
+        {
+          "word": " to",
+          "start": 4.12,
+          "end": 4.32,
+          "probability": 0.9070600271224976
+        },
+        {
+          "word": " which",
+          "start": 4.32,
+          "end": 4.8,
+          "probability": 0.9984723925590515
+        },
+        {
+          "word": " failure",
+          "start": 4.8,
+          "end": 5.24,
+          "probability": 0.9900924563407898
+        },
+        {
+          "word": " is",
+          "start": 5.24,
+          "end": 5.52,
+          "probability": 0.9905645847320557
+        },
+        {
+          "word": " punished",
+          "start": 5.52,
+          "end": 5.92,
+          "probability": 0.9930840730667114
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.92,
+      "end": 6.78,
+      "text": " in Europe.",
+      "tokens": [
+        50669,
+        287,
+        2031,
+        13,
+        50731
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29198362277104306,
+      "compression_ratio": 1.1511627906976745,
+      "no_speech_prob": 0.1666947454214096,
+      "words": [
+        {
+          "word": " in",
+          "start": 5.92,
+          "end": 6.48,
+          "probability": 0.9808774590492249
+        },
+        {
+          "word": " Europe.",
+          "start": 6.48,
+          "end": 6.78,
+          "probability": 0.9961698651313782
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

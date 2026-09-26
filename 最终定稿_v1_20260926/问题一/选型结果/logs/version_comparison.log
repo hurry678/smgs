@@ -1,0 +1,72 @@
+{
+  "comparison_schema": "q1-version-comparison-1",
+  "source_hash_match_count": 100,
+  "text_match_count": 100,
+  "shared_phrase_count": 273,
+  "shared_endpoint_count": 546,
+  "shared_sample_count": 78,
+  "shared_video_group_count": 31,
+  "current_asr_endpoint_difference_s": {
+    "count": 546,
+    "mean": 0.22149897586446674,
+    "median": 0.10000008583068865,
+    "p90": 0.5472185572204591,
+    "maximum": 2.5199998664855956,
+    "fraction_le_0_25": 0.717948717948718,
+    "fraction_le_0_50": 0.8571428571428571
+  },
+  "git_asr_endpoint_difference_s": {
+    "count": 546,
+    "mean": 0.38727106476741613,
+    "median": 0.31000019073486307,
+    "p90": 0.8300000000000001,
+    "maximum": 1.9600000953674317,
+    "fraction_le_0_25": 0.4084249084249084,
+    "fraction_le_0_50": 0.7289377289377289
+  },
+  "current_endpoint_wins": 358,
+  "ties": 17,
+  "git_endpoint_wins": 171,
+  "git_minus_current_mean_difference_s": 0.1657720889029494,
+  "video_cluster_bootstrap_95pct": [
+    0.11590339925673407,
+    0.21828328458426186
+  ],
+  "human_ground_truth_used": false,
+  "interpretation": "Independent audio-only ASR model agreement on an exact-lexical-match subset; not human boundary accuracy.",
+  "special_cases": [
+    {
+      "sample_id": "-NFrJFQijFE$_$1",
+      "shared_endpoints": 0,
+      "current_mean_difference_s": null,
+      "git_mean_difference_s": null,
+      "current_speech_alignment_available": false,
+      "current_digitally_silent": false,
+      "git_words": 16,
+      "git_fallback_words": 0,
+      "git_audio_valid_words": 16
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$1",
+      "shared_endpoints": 0,
+      "current_mean_difference_s": null,
+      "git_mean_difference_s": null,
+      "current_speech_alignment_available": false,
+      "current_digitally_silent": true,
+      "git_words": 13,
+      "git_fallback_words": 13,
+      "git_audio_valid_words": 0
+    },
+    {
+      "sample_id": "-mJ2ud6oKI8$_$2",
+      "shared_endpoints": 0,
+      "current_mean_difference_s": null,
+      "git_mean_difference_s": null,
+      "current_speech_alignment_available": false,
+      "current_digitally_silent": true,
+      "git_words": 11,
+      "git_fallback_words": 11,
+      "git_audio_valid_words": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "sample_id": "-mJ2ud6oKI8$_$1",
+    "verified": true,
+    "type": "original_digital_silence",
+    "source_sha256": "c8e3acb4ca08679796c4c8cdfcd8c2b3cffc0465015efaffa1eccdb55ff4f45b",
+    "decoded_scalar_samples": 534008,
+    "nonzero_scalar_samples": 0,
+    "channel_counts": [
+      2
+    ],
+    "decoder": "PyAV 16.1.0",
+    "native_features_preserved": true
+  },
+  {
+    "sample_id": "-mJ2ud6oKI8$_$2",
+    "verified": true,
+    "type": "original_digital_silence",
+    "source_sha256": "c41790f8b75f886bd1f5d6d72cbab1985306d0b715e5ae47203f3d0c8a3e7b28",
+    "decoded_scalar_samples": 502888,
+    "nonzero_scalar_samples": 0,
+    "channel_counts": [
+      2
+    ],
+    "decoder": "PyAV 16.1.0",
+    "native_features_preserved": true
+  }
+]

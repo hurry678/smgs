@@ -1,0 +1,158 @@
+{
+  "sample_id": "-UacrmKiTn4$_$10",
+  "fingerprint": "a79a7ea6a2346cd4cca4cfbd107e4a27d689bd9b857684575c2f23cc636fb3cd",
+  "audio_sha256": "bcbd243ad4ac2180dda15d1add604eef8f15d683a75d5678f30e8558aca0aba9",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9963629578705877,
+  "text": " because if they are not in any way held accountable for reading the material, they won't do it.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.8,
+      "text": " because if they are not in any way held accountable for reading the material, they won't do it.",
+      "tokens": [
+        50363,
+        780,
+        611,
+        484,
+        389,
+        407,
+        287,
+        597,
+        835,
+        2714,
+        16689,
+        329,
+        3555,
+        262,
+        2587,
+        11,
+        484,
+        1839,
+        470,
+        466,
+        340,
+        13,
+        50713
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.25735026597976685,
+      "compression_ratio": 1.144578313253012,
+      "no_speech_prob": 0.009691704995930195,
+      "words": [
+        {
+          "word": " because",
+          "start": 0.0,
+          "end": 0.74,
+          "probability": 0.07488546520471573
+        },
+        {
+          "word": " if",
+          "start": 0.74,
+          "end": 0.94,
+          "probability": 0.9585222601890564
+        },
+        {
+          "word": " they",
+          "start": 0.94,
+          "end": 1.16,
+          "probability": 0.9918360114097595
+        },
+        {
+          "word": " are",
+          "start": 1.16,
+          "end": 1.3,
+          "probability": 0.9398629069328308
+        },
+        {
+          "word": " not",
+          "start": 1.3,
+          "end": 1.72,
+          "probability": 0.9978377223014832
+        },
+        {
+          "word": " in",
+          "start": 1.72,
+          "end": 2.26,
+          "probability": 0.8597606420516968
+        },
+        {
+          "word": " any",
+          "start": 2.26,
+          "end": 2.62,
+          "probability": 0.9651418924331665
+        },
+        {
+          "word": " way",
+          "start": 2.62,
+          "end": 2.88,
+          "probability": 0.997488260269165
+        },
+        {
+          "word": " held",
+          "start": 2.88,
+          "end": 3.1,
+          "probability": 0.9657919406890869
+        },
+        {
+          "word": " accountable",
+          "start": 3.1,
+          "end": 3.74,
+          "probability": 0.9972750544548035
+        },
+        {
+          "word": " for",
+          "start": 3.74,
+          "end": 4.24,
+          "probability": 0.9934172630310059
+        },
+        {
+          "word": " reading",
+          "start": 4.24,
+          "end": 4.52,
+          "probability": 0.9931094646453857
+        },
+        {
+          "word": " the",
+          "start": 4.52,
+          "end": 4.7,
+          "probability": 0.9803275465965271
+        },
+        {
+          "word": " material,",
+          "start": 4.7,
+          "end": 5.28,
+          "probability": 0.9966140389442444
+        },
+        {
+          "word": " they",
+          "start": 5.76,
+          "end": 6.06,
+          "probability": 0.9916014075279236
+        },
+        {
+          "word": " won't",
+          "start": 6.06,
+          "end": 6.36,
+          "probability": 0.9926013946533203
+        },
+        {
+          "word": " do",
+          "start": 6.36,
+          "end": 6.56,
+          "probability": 0.9992340803146362
+        },
+        {
+          "word": " it.",
+          "start": 6.56,
+          "end": 6.8,
+          "probability": 0.9985166192054749
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

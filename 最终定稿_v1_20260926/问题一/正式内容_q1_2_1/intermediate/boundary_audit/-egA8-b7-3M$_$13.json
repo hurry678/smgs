@@ -1,0 +1,109 @@
+{
+  "sample_id": "-egA8-b7-3M$_$13",
+  "fingerprint": "9c306d7866ba00ca6b742d1d76ea206d5ca412942e0bb2d792c1554acd5bcb81",
+  "audio_sha256": "aa50c54eef9b34ef39cce1826207d5f725a0aeeda8737d46a1a3189dd76a0719",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.6250067499931902,
+  "text": " What are you doing that's different? They always want an answer.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.48,
+      "text": " What are you doing that's different? They always want an answer.",
+      "tokens": [
+        50363,
+        1867,
+        389,
+        345,
+        1804,
+        326,
+        338,
+        1180,
+        30,
+        1119,
+        1464,
+        765,
+        281,
+        3280,
+        13,
+        50563
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26742276023415956,
+      "compression_ratio": 0.9411764705882353,
+      "no_speech_prob": 0.0060228705406188965,
+      "words": [
+        {
+          "word": " What",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.6989389657974243
+        },
+        {
+          "word": " are",
+          "start": 0.68,
+          "end": 0.8,
+          "probability": 0.9784441590309143
+        },
+        {
+          "word": " you",
+          "start": 0.8,
+          "end": 0.82,
+          "probability": 0.9949185252189636
+        },
+        {
+          "word": " doing",
+          "start": 0.82,
+          "end": 1.1,
+          "probability": 0.9972098469734192
+        },
+        {
+          "word": " that's",
+          "start": 1.1,
+          "end": 1.42,
+          "probability": 0.9396256804466248
+        },
+        {
+          "word": " different?",
+          "start": 1.42,
+          "end": 1.78,
+          "probability": 0.997732400894165
+        },
+        {
+          "word": " They",
+          "start": 2.5,
+          "end": 2.5,
+          "probability": 0.9708616733551025
+        },
+        {
+          "word": " always",
+          "start": 2.5,
+          "end": 2.72,
+          "probability": 0.9953733086585999
+        },
+        {
+          "word": " want",
+          "start": 2.72,
+          "end": 2.98,
+          "probability": 0.9531314373016357
+        },
+        {
+          "word": " an",
+          "start": 2.98,
+          "end": 3.14,
+          "probability": 0.9925816059112549
+        },
+        {
+          "word": " answer.",
+          "start": 3.14,
+          "end": 3.48,
+          "probability": 0.9982106685638428
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

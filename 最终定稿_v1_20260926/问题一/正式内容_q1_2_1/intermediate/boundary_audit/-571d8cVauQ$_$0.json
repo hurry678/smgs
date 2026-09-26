@@ -1,0 +1,121 @@
+{
+  "sample_id": "-571d8cVauQ$_$0",
+  "fingerprint": "ddc21ecc844e9cabc967c9b03554128ef6573914aad850a9942425a95d394292",
+  "audio_sha256": "20e04c1ed11777b83173bc58bb0f2008f50f874aa02321af4a0f70a85c7c6154",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7684855838306248,
+  "text": " This is Rhett Riger, White Caspian Studios, on behalf of Expert Village.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.6999999999999995,
+      "end": 4.42,
+      "text": " This is Rhett Riger, White Caspian Studios, on behalf of Expert Village.",
+      "tokens": [
+        50363,
+        770,
+        318,
+        371,
+        17442,
+        371,
+        8254,
+        11,
+        2635,
+        327,
+        5126,
+        666,
+        13799,
+        11,
+        319,
+        8378,
+        286,
+        1475,
+        11766,
+        14812,
+        13,
+        50613
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3921882795250934,
+      "compression_ratio": 0.9473684210526315,
+      "no_speech_prob": 0.03325185924768448,
+      "words": [
+        {
+          "word": " This",
+          "start": 0.6999999999999995,
+          "end": 1.22,
+          "probability": 0.8912344574928284
+        },
+        {
+          "word": " is",
+          "start": 1.22,
+          "end": 1.4,
+          "probability": 0.9955199956893921
+        },
+        {
+          "word": " Rhett",
+          "start": 1.4,
+          "end": 1.56,
+          "probability": 0.8178364038467407
+        },
+        {
+          "word": " Riger,",
+          "start": 1.56,
+          "end": 1.84,
+          "probability": 0.5256426632404327
+        },
+        {
+          "word": " White",
+          "start": 2.04,
+          "end": 2.08,
+          "probability": 0.8421822786331177
+        },
+        {
+          "word": " Caspian",
+          "start": 2.08,
+          "end": 2.58,
+          "probability": 0.7854937116305033
+        },
+        {
+          "word": " Studios,",
+          "start": 2.58,
+          "end": 2.94,
+          "probability": 0.91045081615448
+        },
+        {
+          "word": " on",
+          "start": 3.2,
+          "end": 3.22,
+          "probability": 0.9875974059104919
+        },
+        {
+          "word": " behalf",
+          "start": 3.22,
+          "end": 3.48,
+          "probability": 0.9979977011680603
+        },
+        {
+          "word": " of",
+          "start": 3.48,
+          "end": 3.68,
+          "probability": 0.9984667897224426
+        },
+        {
+          "word": " Expert",
+          "start": 3.68,
+          "end": 4.02,
+          "probability": 0.4609519839286804
+        },
+        {
+          "word": " Village.",
+          "start": 4.02,
+          "end": 4.42,
+          "probability": 0.9934739470481873
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

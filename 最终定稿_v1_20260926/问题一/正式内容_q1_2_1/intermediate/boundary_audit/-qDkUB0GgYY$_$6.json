@@ -1,0 +1,171 @@
+{
+  "sample_id": "-qDkUB0GgYY$_$6",
+  "fingerprint": "9880b19c158dca9a45baa7e42860f7be67d87880a3639f0021c5a14210a4ab59",
+  "audio_sha256": "968eca042d1e9efa606887565c250d7e0a95b6df5f1a5acab281aaece468c2f7",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.9073936250060797,
+  "text": " with us. We always love to hear what you have to say and like and share this video as well.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.22,
+      "text": " with us. We always love to hear what you have to say and like and share this video as well.",
+      "tokens": [
+        50363,
+        351,
+        514,
+        13,
+        775,
+        1464,
+        1842,
+        284,
+        3285,
+        644,
+        345,
+        423,
+        284,
+        910,
+        290,
+        588,
+        290,
+        2648,
+        428,
+        2008,
+        355,
+        880,
+        13,
+        50571
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3194929313659668,
+      "compression_ratio": 1.1666666666666667,
+      "no_speech_prob": 0.1540534943342209,
+      "words": [
+        {
+          "word": " with",
+          "start": 0.0,
+          "end": 0.18,
+          "probability": 0.1988198310136795
+        },
+        {
+          "word": " us.",
+          "start": 0.18,
+          "end": 0.5,
+          "probability": 0.9725584983825684
+        },
+        {
+          "word": " We",
+          "start": 0.6,
+          "end": 0.6,
+          "probability": 0.9844624996185303
+        },
+        {
+          "word": " always",
+          "start": 0.6,
+          "end": 0.86,
+          "probability": 0.9781092405319214
+        },
+        {
+          "word": " love",
+          "start": 0.86,
+          "end": 1.14,
+          "probability": 0.9729906916618347
+        },
+        {
+          "word": " to",
+          "start": 1.14,
+          "end": 1.28,
+          "probability": 0.9916513562202454
+        },
+        {
+          "word": " hear",
+          "start": 1.28,
+          "end": 1.42,
+          "probability": 0.996242880821228
+        },
+        {
+          "word": " what",
+          "start": 1.42,
+          "end": 1.56,
+          "probability": 0.9925467371940613
+        },
+        {
+          "word": " you",
+          "start": 1.56,
+          "end": 1.66,
+          "probability": 0.997171938419342
+        },
+        {
+          "word": " have",
+          "start": 1.66,
+          "end": 1.78,
+          "probability": 0.9938452839851379
+        },
+        {
+          "word": " to",
+          "start": 1.78,
+          "end": 1.96,
+          "probability": 0.9920580983161926
+        },
+        {
+          "word": " say",
+          "start": 1.96,
+          "end": 2.22,
+          "probability": 0.9988551139831543
+        },
+        {
+          "word": " and",
+          "start": 2.22,
+          "end": 2.76,
+          "probability": 0.6853733658790588
+        },
+        {
+          "word": " like",
+          "start": 2.76,
+          "end": 2.94,
+          "probability": 0.9554564952850342
+        },
+        {
+          "word": " and",
+          "start": 2.94,
+          "end": 3.04,
+          "probability": 0.9792975783348083
+        },
+        {
+          "word": " share",
+          "start": 3.04,
+          "end": 3.16,
+          "probability": 0.980340301990509
+        },
+        {
+          "word": " this",
+          "start": 3.16,
+          "end": 3.32,
+          "probability": 0.9651352167129517
+        },
+        {
+          "word": " video",
+          "start": 3.32,
+          "end": 3.52,
+          "probability": 0.9936313033103943
+        },
+        {
+          "word": " as",
+          "start": 3.52,
+          "end": 3.82,
+          "probability": 0.9844228625297546
+        },
+        {
+          "word": " well.",
+          "start": 3.82,
+          "end": 4.22,
+          "probability": 0.9979950189590454
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

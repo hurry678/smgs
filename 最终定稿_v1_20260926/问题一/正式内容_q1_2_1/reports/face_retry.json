@@ -1,0 +1,12 @@
+{
+  "sample_id": "-iRBcNs9oI8$_$3",
+  "before_face_valid_rate": 0.0,
+  "after_face_valid_rate": 1.0,
+  "frames_recovered_by_crop": 28,
+  "sampled_frames": 28,
+  "elapsed_s": 2.557609499897808,
+  "same_model_thresholds": true,
+  "fixed_crop_fraction": 0.6,
+  "crop_count": 5,
+  "label_use": false
+}

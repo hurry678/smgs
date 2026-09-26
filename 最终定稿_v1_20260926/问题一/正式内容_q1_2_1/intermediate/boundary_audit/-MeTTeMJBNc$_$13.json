@@ -1,0 +1,136 @@
+{
+  "sample_id": "-MeTTeMJBNc$_$13",
+  "fingerprint": "47713beab8480d06ce2cd46ee01abbbdbc5c55cd58d3973fccfdce65975d9e66",
+  "audio_sha256": "2cc0c989e87741f40d83450b1d42692ccaac1d40d0966dac39d60549bb61f41d",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.8598214169032872,
+  "text": " it is, just needs to be a simple statement and then you present the gift.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.88,
+      "text": " it is, just needs to be a simple statement and then you present the gift.",
+      "tokens": [
+        50363,
+        340,
+        318,
+        11,
+        655,
+        2476,
+        284,
+        307,
+        257,
+        2829,
+        2643,
+        290,
+        788,
+        345,
+        1944,
+        262,
+        6979,
+        13,
+        50599
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.32810254096984864,
+      "compression_ratio": 1.0579710144927537,
+      "no_speech_prob": 0.012094825506210327,
+      "words": [
+        {
+          "word": " it",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.4885575771331787
+        },
+        {
+          "word": " is,",
+          "start": 0.22,
+          "end": 1.08,
+          "probability": 0.9891114830970764
+        },
+        {
+          "word": " just",
+          "start": 1.32,
+          "end": 1.32,
+          "probability": 0.8233014941215515
+        },
+        {
+          "word": " needs",
+          "start": 1.32,
+          "end": 1.62,
+          "probability": 0.8261350393295288
+        },
+        {
+          "word": " to",
+          "start": 1.62,
+          "end": 1.84,
+          "probability": 0.9990436434745789
+        },
+        {
+          "word": " be",
+          "start": 1.84,
+          "end": 1.96,
+          "probability": 0.9993032217025757
+        },
+        {
+          "word": " a",
+          "start": 1.96,
+          "end": 2.16,
+          "probability": 0.9959086179733276
+        },
+        {
+          "word": " simple",
+          "start": 2.16,
+          "end": 2.5,
+          "probability": 0.9987670183181763
+        },
+        {
+          "word": " statement",
+          "start": 2.5,
+          "end": 3.12,
+          "probability": 0.996431827545166
+        },
+        {
+          "word": " and",
+          "start": 3.12,
+          "end": 3.72,
+          "probability": 0.696968138217926
+        },
+        {
+          "word": " then",
+          "start": 3.72,
+          "end": 3.86,
+          "probability": 0.9882014393806458
+        },
+        {
+          "word": " you",
+          "start": 3.86,
+          "end": 3.96,
+          "probability": 0.9943166375160217
+        },
+        {
+          "word": " present",
+          "start": 3.96,
+          "end": 4.22,
+          "probability": 0.9967240691184998
+        },
+        {
+          "word": " the",
+          "start": 4.22,
+          "end": 4.54,
+          "probability": 0.9965588450431824
+        },
+        {
+          "word": " gift.",
+          "start": 4.54,
+          "end": 4.88,
+          "probability": 0.979935884475708
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,17 @@
+{
+  "trigger": "Non-silent audio but default forced alignment changes transcript or yields no valid interval",
+  "maximum_retries": 1,
+  "same_model": "tiny.en",
+  "options": {
+    "presplit": false,
+    "max_word_dur": null,
+    "word_dur_factor": null,
+    "nonspeech_skip": null,
+    "fast_mode": true,
+    "suppress_silence": true,
+    "regroup": false,
+    "remove_instant_words": false,
+    "stream": false
+  },
+  "if_still_invalid": "Retain failed raw result and require original-material review; never interpolate word times."
+}

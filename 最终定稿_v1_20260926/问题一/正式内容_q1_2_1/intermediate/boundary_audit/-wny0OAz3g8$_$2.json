@@ -1,0 +1,266 @@
+{
+  "sample_id": "-wny0OAz3g8$_$2",
+  "fingerprint": "13106a31aedc7df72e8356f9f43a6106cfdf87556c6df2fd6cfb4e80642c37d8",
+  "audio_sha256": "192aa030a7c12dd5073ea8bceffd0ad2b5ef0ebdd2b1db4c0801cece013c24c7",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.22066441597417,
+  "text": " service were. And because they couldn't get these jobs, black communities had more men out of work, higher rates of poverty, and more criminal behavior. Which then allows...",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.1,
+      "text": " service were. And because they couldn't get these jobs, black communities had more",
+      "tokens": [
+        50363,
+        2139,
+        547,
+        13,
+        843,
+        780,
+        484,
+        3521,
+        470,
+        651,
+        777,
+        3946,
+        11,
+        2042,
+        5348,
+        550,
+        517,
+        50517
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3285101935977027,
+      "compression_ratio": 1.291044776119403,
+      "no_speech_prob": 0.017497621476650238,
+      "words": [
+        {
+          "word": " service",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.7721693515777588
+        },
+        {
+          "word": " were.",
+          "start": 0.3,
+          "end": 0.48,
+          "probability": 0.4500638246536255
+        },
+        {
+          "word": " And",
+          "start": 0.56,
+          "end": 0.62,
+          "probability": 0.9791638255119324
+        },
+        {
+          "word": " because",
+          "start": 0.62,
+          "end": 0.9,
+          "probability": 0.976341962814331
+        },
+        {
+          "word": " they",
+          "start": 0.9,
+          "end": 1.1,
+          "probability": 0.9977582097053528
+        },
+        {
+          "word": " couldn't",
+          "start": 1.1,
+          "end": 1.34,
+          "probability": 0.9939359128475189
+        },
+        {
+          "word": " get",
+          "start": 1.34,
+          "end": 1.44,
+          "probability": 0.9969419836997986
+        },
+        {
+          "word": " these",
+          "start": 1.44,
+          "end": 1.68,
+          "probability": 0.9950180053710938
+        },
+        {
+          "word": " jobs,",
+          "start": 1.68,
+          "end": 2.04,
+          "probability": 0.9988011121749878
+        },
+        {
+          "word": " black",
+          "start": 2.34,
+          "end": 2.34,
+          "probability": 0.6722052693367004
+        },
+        {
+          "word": " communities",
+          "start": 2.34,
+          "end": 2.74,
+          "probability": 0.9975346326828003
+        },
+        {
+          "word": " had",
+          "start": 2.74,
+          "end": 2.92,
+          "probability": 0.9885945320129395
+        },
+        {
+          "word": " more",
+          "start": 2.92,
+          "end": 3.1,
+          "probability": 0.9991810917854309
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.1,
+      "end": 5.98,
+      "text": " men out of work, higher rates of poverty, and more criminal behavior.",
+      "tokens": [
+        50517,
+        1450,
+        503,
+        286,
+        670,
+        11,
+        2440,
+        3965,
+        286,
+        8098,
+        11,
+        290,
+        517,
+        4301,
+        4069,
+        13,
+        50665
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3285101935977027,
+      "compression_ratio": 1.291044776119403,
+      "no_speech_prob": 0.017497621476650238,
+      "words": [
+        {
+          "word": " men",
+          "start": 3.1,
+          "end": 3.28,
+          "probability": 0.9915973544120789
+        },
+        {
+          "word": " out",
+          "start": 3.28,
+          "end": 3.4,
+          "probability": 0.9938358664512634
+        },
+        {
+          "word": " of",
+          "start": 3.4,
+          "end": 3.52,
+          "probability": 0.9611386656761169
+        },
+        {
+          "word": " work,",
+          "start": 3.52,
+          "end": 3.74,
+          "probability": 0.9981828331947327
+        },
+        {
+          "word": " higher",
+          "start": 4.04,
+          "end": 4.16,
+          "probability": 0.9903661012649536
+        },
+        {
+          "word": " rates",
+          "start": 4.16,
+          "end": 4.4,
+          "probability": 0.9980903267860413
+        },
+        {
+          "word": " of",
+          "start": 4.4,
+          "end": 4.5,
+          "probability": 0.998706579208374
+        },
+        {
+          "word": " poverty,",
+          "start": 4.5,
+          "end": 4.8,
+          "probability": 0.9998012185096741
+        },
+        {
+          "word": " and",
+          "start": 4.98,
+          "end": 5.06,
+          "probability": 0.9974076151847839
+        },
+        {
+          "word": " more",
+          "start": 5.06,
+          "end": 5.28,
+          "probability": 0.998316764831543
+        },
+        {
+          "word": " criminal",
+          "start": 5.28,
+          "end": 5.54,
+          "probability": 0.9989860653877258
+        },
+        {
+          "word": " behavior.",
+          "start": 5.54,
+          "end": 5.98,
+          "probability": 0.8893871307373047
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.08,
+      "end": 6.5,
+      "text": " Which then allows...",
+      "tokens": [
+        50665,
+        9022,
+        788,
+        3578,
+        986,
+        50690
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3285101935977027,
+      "compression_ratio": 1.291044776119403,
+      "no_speech_prob": 0.017497621476650238,
+      "words": [
+        {
+          "word": " Which",
+          "start": 6.08,
+          "end": 6.2,
+          "probability": 0.9522669315338135
+        },
+        {
+          "word": " then",
+          "start": 6.2,
+          "end": 6.42,
+          "probability": 0.9650941491127014
+        },
+        {
+          "word": " allows...",
+          "start": 6.42,
+          "end": 6.5,
+          "probability": 0.12071476876735687
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

@@ -1,0 +1,245 @@
+{
+  "sample_id": "-dxfTGcXJoc$_$6",
+  "fingerprint": "6c22d4af832d5d4c8238f0263fb0ef42d0104ac7b31db45220147f4b19a03a7b",
+  "audio_sha256": "7dbb358f99cef47bd3bd0376ae73a0797b09f32e3af25b85d2065d055b0a5e62",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 1.00387170817703,
+  "text": " Kentucky's participation at the annual Bio International Convention is the primary means by which our high-tech companies and institutions can reach out to the global scientific community.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 6.18,
+      "text": " Kentucky's participation at the annual Bio International Convention is the primary means",
+      "tokens": [
+        50363,
+        11867,
+        338,
+        10270,
+        379,
+        262,
+        5079,
+        16024,
+        4037,
+        11680,
+        318,
+        262,
+        4165,
+        1724,
+        50671
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26113547219170463,
+      "compression_ratio": 1.3722627737226278,
+      "no_speech_prob": 0.011021162383258343,
+      "words": [
+        {
+          "word": " Kentucky's",
+          "start": 0.0,
+          "end": 1.02,
+          "probability": 0.940214067697525
+        },
+        {
+          "word": " participation",
+          "start": 1.02,
+          "end": 1.7,
+          "probability": 0.9985313415527344
+        },
+        {
+          "word": " at",
+          "start": 1.7,
+          "end": 2.02,
+          "probability": 0.9933506846427917
+        },
+        {
+          "word": " the",
+          "start": 2.02,
+          "end": 2.3,
+          "probability": 0.9956306219100952
+        },
+        {
+          "word": " annual",
+          "start": 2.3,
+          "end": 2.64,
+          "probability": 0.79958176612854
+        },
+        {
+          "word": " Bio",
+          "start": 2.64,
+          "end": 3.1,
+          "probability": 0.5029327869415283
+        },
+        {
+          "word": " International",
+          "start": 3.1,
+          "end": 3.66,
+          "probability": 0.479874849319458
+        },
+        {
+          "word": " Convention",
+          "start": 3.66,
+          "end": 4.28,
+          "probability": 0.9293842911720276
+        },
+        {
+          "word": " is",
+          "start": 4.28,
+          "end": 4.92,
+          "probability": 0.9683425426483154
+        },
+        {
+          "word": " the",
+          "start": 4.92,
+          "end": 5.22,
+          "probability": 0.996405839920044
+        },
+        {
+          "word": " primary",
+          "start": 5.22,
+          "end": 5.56,
+          "probability": 0.9989410042762756
+        },
+        {
+          "word": " means",
+          "start": 5.56,
+          "end": 6.18,
+          "probability": 0.9987518787384033
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6.18,
+      "end": 12.02,
+      "text": " by which our high-tech companies and institutions can reach out to the global scientific community.",
+      "tokens": [
+        50671,
+        416,
+        543,
+        674,
+        1029,
+        12,
+        13670,
+        2706,
+        290,
+        6712,
+        460,
+        3151,
+        503,
+        284,
+        262,
+        3298,
+        5654,
+        2055,
+        13,
+        50967
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26113547219170463,
+      "compression_ratio": 1.3722627737226278,
+      "no_speech_prob": 0.011021162383258343,
+      "words": [
+        {
+          "word": " by",
+          "start": 6.18,
+          "end": 6.38,
+          "probability": 0.9953546524047852
+        },
+        {
+          "word": " which",
+          "start": 6.38,
+          "end": 6.82,
+          "probability": 0.9991348385810852
+        },
+        {
+          "word": " our",
+          "start": 6.82,
+          "end": 7.2,
+          "probability": 0.9978780746459961
+        },
+        {
+          "word": " high",
+          "start": 7.2,
+          "end": 7.48,
+          "probability": 0.9627721905708313
+        },
+        {
+          "word": "-tech",
+          "start": 7.48,
+          "end": 7.68,
+          "probability": 0.8560149073600769
+        },
+        {
+          "word": " companies",
+          "start": 7.68,
+          "end": 8.12,
+          "probability": 0.9968476891517639
+        },
+        {
+          "word": " and",
+          "start": 8.12,
+          "end": 8.4,
+          "probability": 0.9963043928146362
+        },
+        {
+          "word": " institutions",
+          "start": 8.4,
+          "end": 9.14,
+          "probability": 0.9913569688796997
+        },
+        {
+          "word": " can",
+          "start": 9.14,
+          "end": 9.54,
+          "probability": 0.994026780128479
+        },
+        {
+          "word": " reach",
+          "start": 9.54,
+          "end": 9.82,
+          "probability": 0.999576985836029
+        },
+        {
+          "word": " out",
+          "start": 9.82,
+          "end": 10.16,
+          "probability": 0.9988635778427124
+        },
+        {
+          "word": " to",
+          "start": 10.16,
+          "end": 10.4,
+          "probability": 0.9966183304786682
+        },
+        {
+          "word": " the",
+          "start": 10.4,
+          "end": 10.52,
+          "probability": 0.9984773993492126
+        },
+        {
+          "word": " global",
+          "start": 10.52,
+          "end": 10.88,
+          "probability": 0.9903860092163086
+        },
+        {
+          "word": " scientific",
+          "start": 10.88,
+          "end": 11.44,
+          "probability": 0.9864863157272339
+        },
+        {
+          "word": " community.",
+          "start": 11.44,
+          "end": 12.02,
+          "probability": 0.9993807077407837
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

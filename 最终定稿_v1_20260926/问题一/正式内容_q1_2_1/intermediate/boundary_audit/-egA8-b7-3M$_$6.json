@@ -1,0 +1,115 @@
+{
+  "sample_id": "-egA8-b7-3M$_$6",
+  "fingerprint": "5ede1e7591f9eb290e486f4b2845e3a71c392c67560f7fd01671425e20c904b3",
+  "audio_sha256": "ba849a4e58954e345c16691bfb66369c243708af8ec463f33bea4722b9d9f308",
+  "model_sha256": "25a8566e1d0c1e2231d1c762132cd20e0f96a85d16145c3a00adf5d1ac670ead",
+  "status": "decoded_without_transcript_prompt",
+  "seconds": 0.7791530420072377,
+  "text": " First, exhibiting is a wonderful opportunity to network with other legal vendors.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.26,
+      "text": " First, exhibiting is a wonderful opportunity to network with other legal vendors.",
+      "tokens": [
+        50363,
+        3274,
+        11,
+        46017,
+        318,
+        257,
+        7932,
+        3663,
+        284,
+        3127,
+        351,
+        584,
+        2742,
+        17192,
+        13,
+        50643
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3044845356660731,
+      "compression_ratio": 1.0657894736842106,
+      "no_speech_prob": 0.0033492357470095158,
+      "words": [
+        {
+          "word": " First,",
+          "start": 0.0,
+          "end": 0.88,
+          "probability": 0.8784550428390503
+        },
+        {
+          "word": " exhibiting",
+          "start": 1.26,
+          "end": 1.42,
+          "probability": 0.9892126321792603
+        },
+        {
+          "word": " is",
+          "start": 1.42,
+          "end": 1.76,
+          "probability": 0.834709882736206
+        },
+        {
+          "word": " a",
+          "start": 1.76,
+          "end": 1.96,
+          "probability": 0.996776282787323
+        },
+        {
+          "word": " wonderful",
+          "start": 1.96,
+          "end": 2.38,
+          "probability": 0.9977046847343445
+        },
+        {
+          "word": " opportunity",
+          "start": 2.38,
+          "end": 3.12,
+          "probability": 0.998768150806427
+        },
+        {
+          "word": " to",
+          "start": 3.12,
+          "end": 3.48,
+          "probability": 0.9959167838096619
+        },
+        {
+          "word": " network",
+          "start": 3.48,
+          "end": 3.8,
+          "probability": 0.9914173483848572
+        },
+        {
+          "word": " with",
+          "start": 3.8,
+          "end": 4.24,
+          "probability": 0.9984679818153381
+        },
+        {
+          "word": " other",
+          "start": 4.24,
+          "end": 4.46,
+          "probability": 0.9972538352012634
+        },
+        {
+          "word": " legal",
+          "start": 4.46,
+          "end": 4.86,
+          "probability": 0.9611462950706482
+        },
+        {
+          "word": " vendors.",
+          "start": 4.86,
+          "end": 5.26,
+          "probability": 0.7539659142494202
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}
