@@ -8,12 +8,15 @@ OLD=/data2/hy/q3_runs/q3_explainability_v2_20260925
 RUN=/data2/hy/q3_runs/q3_explainability_v2_2_20260926
 PY=/data2/hy/anaconda3/envs/secgpt-vllm/bin/python
 DEVICE=cuda:2
+: "${Q3_RUN_ID:?Set Q3_RUN_ID once and pass the same value to both runner scripts}"
 RAW="/data2/hy/test_5/E题/E题数据/E题数据/附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件"
 MFA="$OLD/.mfa/bin/mfa"
 MFA_DICT="$OLD/resources/mfa/english_mfa_dictionary_v3.1.0.dict"
 MFA_ACOUSTIC="$OLD/resources/mfa/english_mfa_acoustic_v3.1.0.zip"
 MFA_G2P="$OLD/resources/mfa/english_us_mfa_g2p_v3.0.0.zip"
 export PYTHONPATH="$OLD/python_deps"
+VALIDATION_ROOT="$RUN/validation_runs/$Q3_RUN_ID"
+VALIDATION_STATUS="$RUN/logs/validation_status_$Q3_RUN_ID.json"
 
 mkdir -p "$RUN/logs" "$RUN/attachment4_data" "$RUN/final_attachment4" "$RUN/submission"
 
@@ -42,28 +45,35 @@ CHECKPOINTS=(
 
 echo "WAIT validation $(date -Is)"
 deadline=$(( $(date +%s) + 21600 ))
-while [ ! -f "$RUN/logs/validation.exit_code" ]; do
+while [ ! -f "$VALIDATION_STATUS" ]; do
   if [ "$(date +%s)" -ge "$deadline" ]; then
-    echo "TIMEOUT waiting for validation.exit_code"
+    echo "TIMEOUT waiting for $VALIDATION_STATUS"
     exit 124
   fi
   sleep 20
 done
-validation_rc=$(tr -d '[:space:]' < "$RUN/logs/validation.exit_code")
-if [ "$validation_rc" != "0" ]; then
-  echo "validation failed rc=$validation_rc"
-  exit 1
-fi
+"$PY" - "$VALIDATION_STATUS" "$Q3_RUN_ID" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+status = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+if status.get("run_id") != sys.argv[2]:
+    raise SystemExit("validation status run_id mismatch")
+if int(status.get("exit_code", -1)) != 0:
+    raise SystemExit(f"validation failed: {status}")
+print(status)
+PY
 for w in 3 5 10; do
-  test -s "$RUN/validation/w$w/q3_validation_report.json"
+  test -s "$VALIDATION_ROOT/w$w/q3_validation_report.json"
 done
 echo "validation complete $(date -Is)"
 
 echo "START freeze parameters $(date -Is)"
 "$PY" "$EXT/scripts/q3_select_freeze_v2.py" \
-  --report "3=$RUN/validation/w3/q3_validation_report.json" \
-  --report "5=$RUN/validation/w5/q3_validation_report.json" \
-  --report "10=$RUN/validation/w10/q3_validation_report.json" \
+  --report "3=$VALIDATION_ROOT/w3/q3_validation_report.json" \
+  --report "5=$VALIDATION_ROOT/w5/q3_validation_report.json" \
+  --report "10=$VALIDATION_ROOT/w10/q3_validation_report.json" \
   --out "$RUN/freeze_parameters.json" \
   --expected-n 728 --fallback-window 5 \
   --point-scan-n 128 --top-k 2 --batch-size 64 --seed 2026 \
@@ -72,7 +82,7 @@ echo "START freeze parameters $(date -Is)"
   2>&1 | tee "$RUN/logs/freeze_parameters.log"
 W=$("$PY" -c 'import json,sys; print(json.load(open(sys.argv[1]))["selected_window_size"])' "$RUN/freeze_parameters.json")
 case "$W" in 3|5|10) ;; *) echo "INVALID W=$W"; exit 1;; esac
-SELECTED_REPORT="$RUN/validation/w$W/q3_validation_report.json"
+SELECTED_REPORT="$VALIDATION_ROOT/w$W/q3_validation_report.json"
 echo "FROZEN W=$W $(date -Is)"
 
 echo "START attachment4 preflight $(date -Is)"
